@@ -1,0 +1,62 @@
+{
+    "titel": "MACHINELEARNINGS TRE GRENAR",
+    "syfte": "Att jämföra funktionalitet, för- och nackdelar samt användningsområden för de tre huvudtyperna av maskininlärning.",
+    "grenar": [
+        {
+            "typ": "Supervised Learning (Övervakad inlärning)",
+            "beskrivning": "Modellen tränas med märkt data (facit), där vi talar om för datorn exakt vad datan föreställer (t.ex. 'detta är en katt'). [1, 2]",
+            "hur_det_fungerar": "Vi matar in data och 'taggar' den med rätt svar. Modellen lär sig att hitta sambandet mellan datan och etiketten för att kunna förutsäga resultat på ny data. [1, 3]",
+            "analogi": "Som en lärare som undervisar en elev genom att ge exempel och rätta svaren. [4]",
+            "fordelar": [
+                "Hög precision eftersom den har tydliga mål. [5]",
+                "Mätbarhet – enkelt att utvärdera mot facit. [5]",
+                "Användbart för specifika uppgifter som klassificering. [5]"
+            ],
+            "nackdelar": [
+                "Kräver stora mängder märkt data, vilket är dyrt och tidskrävande. [6]",
+                "Begränsad till det specifika område den tränats för. [6]"
+            ],
+            "exempel": [
+                "E-postfilter (spam eller ej). [5]",
+                "Bildigenkänning (katt eller hund). [3]",
+                "Ansiktsigenkänning. [5]"
+            ]
+        },
+        {
+            "typ": "Unsupervised Learning (Oövervakad inlärning)",
+            "beskrivning": "Modellen tränas på omärkt data och måste själv hitta dolda mönster och strukturer utan mänsklig vägledning. [3, 7]",
+            "hur_det_fungerar": "Vi matar in data utan att berätta vad det är. Algoritmen sorterar och grupperar datan baserat på likheter och skillnader den själv upptäcker. [3, 8]",
+            "analogi": "Som barn på en skolgård som själva grupperar sig baserat på intressen utan att en lärare säger åt dem hur de ska göra. [7]",
+            "fordelar": [
+                "Inget behov av att märka data, vilket sparar tid och pengar. [6]",
+                "Bra på att hitta dolda mönster och kluster som människor kanske missar. [6]"
+            ],
+            "nackdelar": [
+                "Lägre precision och svårare att tolka resultatet. [9]",
+                "Inget facit att kontrollera mot. [9]",
+                "Risk att den hittar irrelevanta mönster. [9]"
+            ],
+            "exempel": [
+                "Kundsegmentering (gruppera kunder efter beteende). [6]",
+                "Rekommendationssystem (t.ex. Netflix). [10]",
+                "Upptäcka anomalier (t.ex. finansiella bedrägerier). [6]"
+            ]
+        },
+        {
+            "typ": "Reinforcement Learning (Förstärkningsinlärning)",
+            "beskrivning": "Modellen lär sig genom 'trial and error' genom att interagera med en miljö och få feedback i form av belöning eller bestraffning. [11, 12]",
+            "hur_det_fungerar": "En agent utför en handling och får poäng (belöning) om det var bra, eller avdrag (straff) om det var dåligt. Målet är att maximera belöningen över tid. [11, 13]",
+            "analogi": "Som att träna en hund: den får godis (belöning) när den gör rätt trick och ignoreras eller korrigeras när den gör fel. [11, 12]",
+            "fordelar": [
+                "Kan hantera komplexa och osäkra miljöer. [14]",
+                "Lär sig av erfarenhet och kan utveckla strategier som överträffar människor (t.ex. i spel). [14, 15]"
+            ],
+            "nackdelar": null,
+            "exempel": [
+                "Avancerade spel (AlphaGo, Schack). [14, 15]",
+                "Självkörande bilar (navigera i trafik). [15, 16]",
+                "Algoritmisk handel på börsen. [17]"
+            ]
+        }
+    ]
+}

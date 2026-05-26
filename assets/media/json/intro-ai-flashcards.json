@@ -1,0 +1,274 @@
+{
+    "title": "Introduktion till AI",
+    "description": "67 interaktiva kort som täcker allt från grundläggande AI-historia till avancerad Prompt Engineering.",
+    "cards": [
+        {
+            "q": "Vem introducerade idén om att en maskin skulle kunna vara lika intelligent som en människa på 1950-talet?",
+            "a": "Alan Turing"
+        },
+        {
+            "q": "Syftet med Turingtestet är att avgöra om en maskin kan uppvisa samma _____ som en människa.",
+            "a": "intelligens"
+        },
+        {
+            "q": "Under vilken konferens år 1956 användes begreppet 'artificiell intelligens' för första gången?",
+            "a": "Dartmouth-konferensen"
+        },
+        {
+            "q": "Vilken IBM-maskin besegrade schackvärldsmästaren Gary Kasparov år 1997?",
+            "a": "Deep Blue"
+        },
+        {
+            "q": "Vad hette IBM-systemet som vann frågesporten Jeopardy! år 2011?",
+            "a": "Watson"
+        },
+        {
+            "q": "Vilket program besegrade en världsmästare i det komplexa spelet Go år 2016?",
+            "a": "Google AlphaGo"
+        },
+        {
+            "q": "Varför anses AlphaGo:s vinst i Go vara en större prestation än Deep Blues vinst i schack?",
+            "a": "Spelet Go är betydligt mer komplext än schack."
+        },
+        {
+            "q": "Vilken teknik utgjorde grunden för AlphaGo och markerade starten för den moderna AI-eran?",
+            "a": "Neurala nätverk"
+        },
+        {
+            "q": "Term/Definition: Artificiell intelligens (AI)",
+            "a": "Ett paraplybegrepp för system som kan förstå, analysera data och fatta beslut utan ständig mänsklig vägledning."
+        },
+        {
+            "q": "Vilken typ av AI är designad för att utföra en specifik uppgift, som att spela schack eller rekommendera filmer?",
+            "a": "Narrow AI (Smal AI)"
+        },
+        {
+            "q": "Vad kallas den hypotetiska AI som kan förstå och utföra vilket intellektuellt arbete som helst precis som en människa?",
+            "a": "General AI (AGI / Allmän AI)"
+        },
+        {
+            "q": "Begrepp: Super AI",
+            "a": "En hypotetisk nivå där AI överträffar mänsklig intelligens och förmåga inom alla områden."
+        },
+        {
+            "q": "Vad kallas den framtida tidpunkt då maskinintelligens möter och sedan överträffar mänsklig intelligens?",
+            "a": "Singulariteten (The Singularity)"
+        },
+        {
+            "q": "Vilken funktionsbaserad AI-kategori saknar helt minne och arbetar bara utifrån aktuella data?",
+            "a": "Reaktiva maskiner"
+        },
+        {
+            "q": "Självkörande bilar som använder sensorer för att fatta beslut i realtid är exempel på kategorin _____.",
+            "a": "Begränsat minne (Limited Memory)"
+        },
+        {
+            "q": "Vilken teoretisk AI-typ syftar på förmågan att förstå mänskliga känslor och social interaktion?",
+            "a": "Theory of Mind"
+        },
+        {
+            "q": "Vad kännetecknar 'Självmedveten AI' i jämförelse med andra AI-typer?",
+            "a": "Den har ett eget medvetande, känslor och självinsikt."
+        },
+        {
+            "q": "Hur skiljer sig AI:s minnesförmåga från människans enligt kursmaterialet?",
+            "a": "AI minns fakta och programmerad information men saknar personliga minnen och känslor."
+        },
+        {
+            "q": "I stället för traditionell kod programmeras en AI-modell med hjälp av _____.",
+            "a": "data"
+        },
+        {
+            "q": "Term/Definition: Maskininlärning (Machine Learning)",
+            "a": "En delmängd av AI som gör det möjligt för datorer att lära sig från data och fatta beslut utan att vara explicit programmerade."
+        },
+        {
+            "q": "Vad är den primära uppgiften för en algoritm inom maskininlärning?",
+            "a": "Att analysera information, identifiera mönster och förutspå ett resultat."
+        },
+        {
+            "q": "Vilken typ av inlärning kräver 'taggad' eller 'märkt' data där man talar om för modellen vad indatan föreställer?",
+            "a": "Övervakad inlärning (Supervised Learning)"
+        },
+        {
+            "q": "Nämn ett konkret exempel på användning av övervakad inlärning i vardagen.",
+            "a": "E-postfilter för skräppost (Spamfilter)"
+        },
+        {
+            "q": "Vilken metod används när en modell själv får hitta dolda mönster i omärkt data?",
+            "a": "Oövervakad inlärning (Unsupervised Learning)"
+        },
+        {
+            "q": "Klustring för kundsegmentering är ett typiskt exempel på _____.",
+            "a": "Oövervakad inlärning"
+        },
+        {
+            "q": "Vilken inlärningstyp bygger på att en agent får belöning för bra val och 'bestraffning' för dåliga?",
+            "a": "Förstärkningsinlärning (Reinforcement Learning)"
+        },
+        {
+            "q": "Inom vilket område är förstärkningsinlärning särskilt effektivt enligt källan?",
+            "a": "Spelutveckling (t.ex. AlphaGo) och algoritmisk handel."
+        },
+        {
+            "q": "Vad är en av nackdelarna med övervakad inlärning?",
+            "a": "Det kräver stora mängder märkt data, vilket är dyrt och tidskrävande."
+        },
+        {
+            "q": "Under vilket decennium gjorde maskininlärning sitt stora genombrott?",
+            "a": "2010-talet"
+        },
+        {
+            "q": "Vad kallas Jeffrey Hinton ofta, som myntade begreppet Deep Learning 2006?",
+            "a": "AI:s gudfader"
+        },
+        {
+            "q": "Term/Definition: Deep Learning (Djupinlärning)",
+            "a": "En maskininlärningsteknik som simulerar hjärnans struktur genom artificiella neurala nätverk."
+        },
+        {
+            "q": "Vad kallas de enskilda enheterna i ett artificiellt neuralt nätverk som motsvarar hjärnans neuroner?",
+            "a": "Noder"
+        },
+        {
+            "q": "Vilka är de tre huvudsakliga lagren i arkitekturen för ett artificiellt neuralt nätverk?",
+            "a": "Input layer, Hidden layer och Output layer."
+        },
+        {
+            "q": "Vilket lager i ett neuralt nätverk ansvarar för att ta emot informationen?",
+            "a": "Input layer (Ingångslager)"
+        },
+        {
+            "q": "Vad syftar ordet 'djup' (Deep) på i Deep Learning?",
+            "a": "Att nätverket har flera dolda lager (Hidden layers) mellan input och output."
+        },
+        {
+            "q": "Vilket lager i ett neuralt nätverk levererar det slutgiltiga resultatet eller beslutet?",
+            "a": "Output layer (Utgångslager)"
+        },
+        {
+            "q": "Hur lär sig ett neuralt nätverk mönster enligt exemplet med barnen och pandan?",
+            "a": "Genom att olika neuroner specialiserar sig på specifika delar och sedan kombinerar sina insikter."
+        },
+        {
+            "q": "Deep Learning kräver _____ mängder data av hög kvalitet jämfört med enklare maskininlärning.",
+            "a": "större"
+        },
+        {
+            "q": "Vad är den fundamentala skillnaden mellan prediktiva modeller och generativ AI?",
+            "a": "Prediktiva modeller analyserar och förutspår, medan generativ AI skapar helt nytt innehåll."
+        },
+        {
+            "q": "Vad innebär det att en modell är 'generativ'?",
+            "a": "Att den har förmågan att skapa nya data som liknar originaldatan, t.ex. text, bilder eller ljud."
+        },
+        {
+            "q": "Vilket verktyg gjorde generativ AI känd för allmänheten i slutet av 2022?",
+            "a": "ChatGPT"
+        },
+        {
+            "q": "Är generativ AI intelligent på samma sätt som människor enligt källan?",
+            "a": "Nej, den kombinerar bara existerande träningsdata på nya, kreativa sätt."
+        },
+        {
+            "q": "Vilken teknik används för att generera realistiska bilder från textbeskrivningar, utvecklad av OpenAI?",
+            "a": "DALL-E"
+        },
+        {
+            "q": "Vad kallas AI-drivna verktyg som GitHub Copilot som hjälper till att skriva kod?",
+            "a": "Kodningsmotorer eller verktyg för programvaruutveckling."
+        },
+        {
+            "q": "Vilka två tekniska faktorer utgör grunden för framgången hos generativ AI som ChatGPT?",
+            "a": "NLP (Natural Language Processing) och LLM (Large Language Models)."
+        },
+        {
+            "q": "Term/Definition: Natural Language Processing (NLP)",
+            "a": "Ett område inom AI som fokuserar på att datorer ska kunna tolka, förstå och generera mänskligt språk."
+        },
+        {
+            "q": "Vad står förkortningen LLM för?",
+            "a": "Large Language Model"
+        },
+        {
+            "q": "Vilken banbrytande arkitektur publicerades av Google 2017 som löste problem med minne i långa samtal?",
+            "a": "Transformers"
+        },
+        {
+            "q": "Vad kallas mekanismen i Transformers som gör att modellen kan hålla reda på kontext i långa sekvenser?",
+            "a": "Attention-mekanismen"
+        },
+        {
+            "q": "Vad är en 'token' i sammanhanget av språkmodeller?",
+            "a": "En mindre enhet av text, såsom ett ord eller ett tecken, som datorn hanterar."
+        },
+        {
+            "q": "Begrepp: Context Window",
+            "a": "Den maximala mängd tokens som en AI-modell kan hålla i minnet under en interaktion."
+        },
+        {
+            "q": "Vad är syftet med 'embeddings'?",
+            "a": "Att skapa en matematisk representation av tokens där ord med liknande betydelse placeras nära varandra."
+        },
+        {
+            "q": "Hur skiljer sig en modern LLM-chatbot från en traditionell regelbaserad chatbot?",
+            "a": "Den moderna boten förstår sammanhanget i stället för att bara matcha specifika ord."
+        },
+        {
+            "q": "Term/Definition: Prompt",
+            "a": "En instruktion eller fråga som en användare ger till en generativ AI för att få ett svar."
+        },
+        {
+            "q": "Vad kallas konsten att utforma och optimera instruktioner för att få bättre svar från AI?",
+            "a": "Prompt Engineering"
+        },
+        {
+            "q": "I ASPEECT-formeln för megaprompts, vad står 'P' för?",
+            "a": "Persona (Vilken roll AI ska spela)"
+        },
+        {
+            "q": "Vilken del i ASPEECT-formeln anger de regler eller begränsningar som AI:n ska följa?",
+            "a": "Constraints (Begränsningar)"
+        },
+        {
+            "q": "Varför är det viktigt att ge 'Examples' (exempel) i en avancerad prompt?",
+            "a": "AI är mycket bra på att lära sig mönster från konkreta exempel för att lösa komplexa uppgifter."
+        },
+        {
+            "q": "Vilken del av ASPEECT-formeln bestämmer hur det slutgiltiga resultatet ska presenteras?",
+            "a": "Template (Mall/Utformning)"
+        },
+        {
+            "q": "Vad innebär 'Black Box'-problemet inom AI-etik?",
+            "a": "Att det är svårt eller omöjligt att veta exakt hur AI har kommit fram till ett visst beslut."
+        },
+        {
+            "q": "Vad kallas det när en AI hittar på ett svar i stället för att erkänna osäkerhet?",
+            "a": "Hallucination"
+        },
+        {
+            "q": "Begrepp: Bias (Snedvridning)",
+            "a": "Fördomar eller förutfattade meningar som finns i träningsdatan och som AI:n riskerar att återskapa."
+        },
+        {
+            "q": "Vilken etisk princip handlar om att AI inte ska diskriminera baserat på kön eller etnicitet?",
+            "a": "Respekt (Rättvisa)"
+        },
+        {
+            "q": "Vem bär det slutgiltiga ansvaret för ett resultat som genererats av en AI?",
+            "a": "Användaren (Människan)"
+        },
+        {
+            "q": "Vilka två länder dominerar för närvarande utvecklingen av stora generativa AI-modeller?",
+            "a": "USA och Kina"
+        },
+        {
+            "q": "Vilken stor utmaning finns gällande miljön vid träning av stora AI-modeller?",
+            "a": "Den enorma energiförbrukningen som krävs för att driva maskinerna."
+        },
+        {
+            "q": "Varför är tillgången till avancerade datachips en flaskhals för AI-utvecklingen?",
+            "a": "Det krävs enorm datorkraft för att träna och köra de senaste generativa modellerna."
+        }
+    ]
+}

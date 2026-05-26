@@ -1,0 +1,266 @@
+{
+    "title": "Prompt Engineering Flashcards",
+    "description": "67 interaktiva kort som täcker allt från grundläggande AI-historia till avancerad Prompt Engineering.",
+    "cards": [
+        {
+            "q": "Vilka sju komponenter ingår i ASPECCT-formeln?",
+            "a": "Action, Steps, Persona, Examples, Context, Constraints och Template"
+        },
+        {
+            "q": "Vad definieras under komponenten 'Action' i ASPECCT-formeln?",
+            "a": "Den specifika åtgärden eller uppgiften som AI:n ska utföra."
+        },
+        {
+            "q": "Vilket syfte tjänar 'Steps' i en Megaprompt?",
+            "a": "Att detaljera de konkreta stegen AI:n behöver ta för att nå slutmålet."
+        },
+        {
+            "q": "Varför anger man en 'Persona' i en prompt?",
+            "a": "För att styra AI:ns ton, stil och perspektiv genom att simulera en specifik roll."
+        },
+        {
+            "q": "Vad innebär 'Context' (Sammanhang) i ASPECCT-formeln?",
+            "a": "Bakgrundsinformation och omständigheter som påverkar uppgiften."
+        },
+        {
+            "q": "Vilken del av ASPECCT-formeln definierar vad AI:n inte bör göra?",
+            "a": "Constraints (Begränsningar)."
+        },
+        {
+            "q": "Vad anger komponenten 'Template' i en Megaprompt?",
+            "a": "Det önskade formatet eller strukturen för AI:ns svar."
+        },
+        {
+            "q": "Vad är det primära syftet med Chain of Thought (CoT)?",
+            "a": "Att få AI:n att resonera stegvis för att öka precisionen i komplexa problem."
+        },
+        {
+            "q": "Inom vilka områden är Chain of Thought (CoT) särskilt värdefullt?",
+            "a": "Matematiska problem, logiska pussel och komplexa beslutsfattande uppgifter."
+        },
+        {
+            "q": "Vad är den huvudsakliga skillnaden mellan en steg-för-steg-instruktion och CoT?",
+            "a": "I CoT förklarar AI:n aktivt sitt resonemang och sin logik under processen."
+        },
+        {
+            "q": "Begrepp: Zero-Shot Prompting",
+            "a": "Definition: En prompt där AI:n får en uppgift utan några tidigare exempel."
+        },
+        {
+            "q": "Vad kännetecknar One-Shot Prompting?",
+            "a": "Användaren ger AI-modellen ett konkret exempel på önskat utförande."
+        },
+        {
+            "q": "När bör man använda Few-Shot Prompting?",
+            "a": "Vid komplicerade uppgifter som kräver en mycket specifik struktur eller stil."
+        },
+        {
+            "q": "Varför är N-Shot Prompting effektivt för AI-inlärning?",
+            "a": "Det hjälper AI:n att identifiera mönster och förstå sammanhang via exempel."
+        },
+        {
+            "q": "Vad är definitionen av Prompt Chaining?",
+            "a": "Att bryta ner en stor uppgift i flera mindre prompts som utförs sekventiellt."
+        },
+        {
+            "q": "Hur hänger de olika stegen ihop i Prompt Chaining?",
+            "a": "Svaret från en tidigare prompt används som input eller kontext i nästa steg."
+        },
+        {
+            "q": "Hur skiljer sig Prompt Chaining från CoT gällande användarinteraktion?",
+            "a": "Prompt Chaining kräver ofta att användaren ger input eller justerar mellan stegen."
+        },
+        {
+            "q": "Inom Prompt Chaining liknas metoden vid en _____ där frågor går från breda till specifika.",
+            "a": "Tratt (Funnel)"
+        },
+        {
+            "q": "Vilken teknik rekommenderas om man inte vet exakt hur en komplex uppgift ska lösas från början?",
+            "a": "Prompt Chaining."
+        },
+        {
+            "q": "Varför är 'Examples' viktiga i en Megaprompt enligt ASPECCT?",
+            "a": "De fungerar som en referenspunkt för kvaliteten och typen av svar som förväntas."
+        },
+        {
+            "q": "Hur många steg ingår i den fullständiga metodiken för bildgenerering?",
+            "a": "10 steg."
+        },
+        {
+            "q": "Vad beskrivs i steget 'Subject Description' för bildprompts?",
+            "a": "En tydlig och specifik beskrivning av bildens huvudfokus eller motiv."
+        },
+        {
+            "q": "Vad syftar steget 'Atmosphere or Mood' till vid bildskapande?",
+            "a": "Att bestämma den övergripande känslan, tiden på dagen eller vädret i bilden."
+        },
+        {
+            "q": "Varför inkluderas 'Style or Artistic Influence' i en bildprompt?",
+            "a": "För att styra bildens estetik genom referenser till konststilar eller konstnärer."
+        },
+        {
+            "q": "Vad innefattar 'Technical Parameters' i en prompt för bildgenerering?",
+            "a": "Aspekter som upplösning, bildformat och tekniska krav."
+        },
+        {
+            "q": "Vilken roll spelar 'Attributes' i beskrivningen av ett motiv för en bild?",
+            "a": "De förstärker beskrivningen genom att ge specifika detaljer och fysiska kännetecken."
+        },
+        {
+            "q": "Från vilket företag kommer bildgenereringsverktyget DALL-E?",
+            "a": "OpenAI."
+        },
+        {
+            "q": "Vilken risk finns med att inkludera en överdriven mängd detaljer i en bildprompt?",
+            "a": "Det kan begränsa algoritmens kreativitet och leda till sämre resultat."
+        },
+        {
+            "q": "Varför är det generellt svårare att generera video med AI jämfört med statiska bilder?",
+            "a": "Det kräver tidsmässig konsistens, logisk rörelse och bevarande av detaljer över tid."
+        },
+        {
+            "q": "Vilka är de två vanligaste metoderna för att skapa video med AI?",
+            "a": "Text-to-video och Image-to-video."
+        },
+        {
+            "q": "Vilken av metoderna Text-to-video och Image-to-video anses vara svårast att få perfekt idag?",
+            "a": "Text-to-video."
+        },
+        {
+            "q": "Vilket tillvägagångssätt anses ge bäst videokvalitet med nuvarande teknik?",
+            "a": "Image-to-video (att animera en befintlig högkvalitativ bild)."
+        },
+        {
+            "q": "Beskriv processen för att skapa en video via Image-to-video.",
+            "a": "Generera först en skarp bild (t.ex. i Midjourney) och använd sedan ett AI-verktyg för att animera bilden."
+        },
+        {
+            "q": "Vad används prompts till i samband med Image-to-video?",
+            "a": "För att instruera AI:n om vilken typ av rörelse eller animering som ska ske i bilden."
+        },
+        {
+            "q": "Nämn minst tre plattformar för AI-videogenerering som nämns i källmaterialet.",
+            "a": "Runway, Luma Labs, Kling och Haiper."
+        },
+        {
+            "q": "Vilket år förväntas AI-video ta stora kliv mot högre realism och längre sekvenser enligt kursen?",
+            "a": "2025."
+        },
+        {
+            "q": "Vilket inbyggt verktyg använder ChatGPT för att utföra avancerad dataanalys?",
+            "a": "Code Interpreter (även kallat Advanced Data Analysis)."
+        },
+        {
+            "q": "Vilket programmeringsspråk kör AI:n i bakgrunden vid dataanalysuppgifter?",
+            "a": "Python."
+        },
+        {
+            "q": "Vad innebär begreppet 'Black Box Testing' inom AI-fältet?",
+            "a": "Att AI-modellens interna logik och processer förblir dolda för användaren."
+        },
+        {
+            "q": "Vad är användarens enda egentliga kontrollverktyg i en 'Black Box'-miljö?",
+            "a": "Indatan (Input/Instruktionerna)."
+        },
+        {
+            "q": "Nämn en visuell output som AI:n kan generera baserat på dataanalys.",
+            "a": "Diagram (t.ex. stapel- eller linjediagram)."
+        },
+        {
+            "q": "Vilken fördel ger AI-driven dataanalys för användare utan programmeringskunskap?",
+            "a": "Möjligheten att utföra statistiska analyser utan att skriva egen kod."
+        },
+        {
+            "q": "Hur kan man använda variabler i en prompt för kundanalys?",
+            "a": "Genom att använda platshållare som [VERKSAMHET] eller [MÅLGRUPP] i texten."
+        },
+        {
+            "q": "Hur kan Prompt Chaining simulera programmeringslogik?",
+            "a": "Genom att använda variabler för att lagra tidigare svar och använda 'if-satser' via interaktiva val."
+        },
+        {
+            "q": "Vilket inbyggt verktyg använder ChatGPT för att utföra avancerad dataanalys?",
+            "a": "Code Interpreter (även kallat Advanced Data Analysis)."
+        },
+        {
+            "q": "Behöver en användare ha kunskaper i programmering för att göra avancerade dataanalyser med ChatGPT?",
+            "a": "Nej, AI:n hanterar koden via instruktioner i löpande text."
+        },
+        {
+            "q": "Vilken filtyp laddas oftast upp till ChatGPT för att påbörja en dataanalys?",
+            "a": "Excel- (.xlsx) eller CSV-filer."
+        },
+        {
+            "q": "Prompt: 'Vad är fördelningen mellan manliga och kvinnliga kunder?' Vad är syftet med denna analys i en kunddatabas?",
+            "a": "identifiera demografisk fördelning baserat på kön "
+        },
+        {
+            "q": "Prompt: 'Vilka tjänster genererar mest inkomster?' Varför är denna prompt viktig för ett företag?",
+            "a": "Den visar vilka tjänster som är populärast i antal "
+        },
+        {
+            "q": "Hur spårar AI:n kundlojalitet (återkommande kunder) i en databas utan unika kund-ID?",
+            "a": "Genom att identifiera och räkna unika e-postadresser."
+        },
+        {
+            "q": "Vilken information kan utvinnas ur kundernas postnummer i en dataanalys?",
+            "a": "Geografisk fördelning för att rikta marknadsföringsinsatser effektivt."
+        },
+        {
+            "q": "Prompt: 'Visa de 10 städerna med den billigaste maten.' Vad gör denna instruktion i datasettet 'Workation'?",
+            "a": "Den filtrerar städer baserat på levnadskostnader"
+        },
+        {
+            "q": "Hur kan AI:n rangordna städer efter klimat i ett dataset?",
+            "a": "Genom att analysera data om soltimmar och temperaturer (t.ex. Kuwait och Qatar)."
+        },
+        {
+            "q": "Vad är fördelen med att be AI:n visualisera data (t.ex. speltid per säsong)?",
+            "a": "Användaren kan välja mellan diagramtyper (stapel, linje, cirkel) för att hitta det mest lättlästa formatet."
+        },
+        {
+            "q": "Vad är 'Kaggle' i sammanhanget dataanalys?",
+            "a": "En offentlig plattform där man kan hitta och ladda ner olika datasets (databaser)."
+        },
+        {
+            "q": "Varför bör man vara kritisk mot AI:ns resultat vid subjektiva analyser som 'livskvalitet'?",
+            "a": "Eftersom parametrar för livskvalitet varierar mellan individer och AI:ns standardfilter kanske inte representerar användarens behov."
+        },
+        {
+            "q": "Liknelse: Att använda Code Interpreter för dataanalys är som att anställa en _____.",
+            "a": "Blixtsnabb statistiker som också är expert på att rita."
+        },
+        {
+            "q": "Vilken version av ChatGPT krävs vanligtvis för att använda Code Interpreter?",
+            "a": "Den betalda versionen (ChatGPT Plus)."
+        },
+        {
+            "q": "Vad är syftet med att använda variabler (t.ex. budgetgräns) i en dataanalys-prompt?",
+            "a": "För att anpassa och filtrera resultaten efter användarens specifika och personliga situation."
+        },
+        {
+            "q": "Prompt: 'Visa samtliga diagram så jag får se vilket som passar mig bäst.' Vad testar användaren här?",
+            "a": "Olika visuella format för att hitta den mest informativa presentationen"
+        },
+        {
+            "q": "Hur kan AI:n hjälpa till vid analys av en finansiell årsredovisning?",
+            "a": "Genom att extrahera nyckeltal (omsättning, vinstmarginal) och identifiera risker eller möjligheter."
+        },
+        {
+            "q": "Varför är ordningen på orden viktig vid bild- och videogenerering?",
+            "a": "Orden i början av prompten väger tyngre och är mer relevanta för AI-modellen än orden i slutet."
+        },
+        {
+            "q": "Prompt: 'Analysera frekvensen av kundernas köp.' Vilken insikt ger detta?",
+            "a": "Hur ofta kunder återkommer för att köpa tjänster eller produkter"
+        },
+        {
+            "q": "Vad är den främsta styrkan med att använda AI för dataanalys enligt materialet?",
+            "a": "Det demokratiserar avancerad analys så att alla kan lösa problem som tidigare krävde expertkunskap eller kod."
+        },
+        {
+            "q": "Hur kan AI identifiera de 'mest lönsamma kunderna' i en lista?",
+            "a": "Genom att summera totalbelopp per unik kund och sortera dem i fallande ordning."
+        }
+    ]
+}

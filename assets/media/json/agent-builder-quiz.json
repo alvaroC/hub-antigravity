@@ -1,0 +1,758 @@
+{
+    "quiz": [
+        {
+            "id": 1,
+            "category": "Modul 1: Introduktion",
+            "question": "Vad är den mest exakta definitionen av en agent i Agent Builder-kontexten?",
+            "options": {
+                "A": "En mer avancerad version av en sökmotor.",
+                "B": "En automatisk chatbot för kundtjänst.",
+                "C": "Ett digitalt ansvar som driver ett flöde enligt mål, regler och beslutspunkter.",
+                "D": "Ett skript som utför exakt samma uppgift utan anpassning."
+            },
+            "correct_answer": "C",
+            "explanation": "I kursen definieras en agent som ett digitalt ansvar som driver ett flöde enligt mål, regler och beslutspunkter, och ersätter inte verksamheten utan utför delar av den [1, 2]."
+        },
+        {
+            "id": 2,
+            "category": "Modul 1: Introduktion",
+            "question": "Vad är den huvudsakliga skillnaden mellan en AI-agent och ett traditionellt workflow?",
+            "options": {
+                "A": "Ett workflow är snabbare än en agent.",
+                "B": "En agent kan tolka situationer och fatta egna beslut inom ett ramverk, medan ett workflow saknar kontextuell förståelse.",
+                "C": "Ett workflow kräver internet, det gör inte en agent.",
+                "D": "Agenter används enbart för textgenerering."
+            },
+            "correct_answer": "B",
+            "explanation": "Till skillnad från ett workflow som följer strikta fördefinierade steg, är en agent autonom och kan tolka situationer utifrån regler och data [3, 4]."
+        },
+        {
+            "id": 3,
+            "category": "Modul 1: Introduktion",
+            "question": "Hur skiljer sig en agent från ett vanligt AI-verktyg?",
+            "options": {
+                "A": "AI-verktyg arbetar i system, medan agenter hjälper individer med enskilda uppgifter.",
+                "B": "Det finns ingen skillnad, det är bara olika namn.",
+                "C": "AI-verktyg hjälper människor, medan agenter styr processer och utför arbete utan mänsklig inblandning i varje steg.",
+                "D": "Agenter kan inte generera text, det kan bara AI-verktyg."
+            },
+            "correct_answer": "C",
+            "explanation": "AI-verktyg saknar eget ansvar och ingår inte i verksamhetslogiken, till skillnad från agenter som styr flöden och agerar autonomt [4, 5]."
+        },
+        {
+            "id": 4,
+            "category": "Modul 1: Introduktion",
+            "question": "När är det rätt att använda Agent Builder?",
+            "options": {
+                "A": "Vid helt ostrukturerade och kreativa uppgifter.",
+                "B": "När processen är återkommande, beslut följer mönster och konsekvens är viktig.",
+                "C": "När man vill ha öppna resonemang utan fasta regler.",
+                "D": "Bara för enstaka dataanalyser."
+            },
+            "correct_answer": "B",
+            "explanation": "Agent Builder är rätt lösning för regelstyrda processer där konsekvens är viktigare än kreativitet [6, 7]."
+        },
+        {
+            "id": 5,
+            "category": "Modul 1: Introduktion",
+            "question": "Vilket strukturellt problem försöker man lösa genom att gå från manuella processer till agentbaserade flöden?",
+            "options": {
+                "A": "Brist på personalens kompetens.",
+                "B": "Avsaknad av teknisk utrustning.",
+                "C": "Flaskhalsar, variation i kvalitet och beroende av enskilda personer.",
+                "D": "För höga internetkostnader."
+            },
+            "correct_answer": "C",
+            "explanation": "Manuella, regelstyrda processer skapar ofta flaskhalsar, onödiga väntetider och gör organisationen beroende av enskilda personer [7, 8]."
+        },
+        {
+            "id": 6,
+            "category": "Modul 1: Introduktion",
+            "question": "Krävs det traditionell programmering för att bygga en agent i Agent Builder?",
+            "options": {
+                "A": "Ja, man måste koda i Python.",
+                "B": "Nej, fokus ligger på processförståelse och att definiera mål, regler och flöden i naturligt språk.",
+                "C": "Ja, men bara för integrationer.",
+                "D": "Nej, systemet bygger sig självt automatiskt."
+            },
+            "correct_answer": "B",
+            "explanation": "Att bygga agenter handlar inte om kodning, utan om logisk arkitektur och processförståelse genom färdiga byggblock och instruktioner [9-11]."
+        },
+        {
+            "id": 7,
+            "category": "Modul 1: Introduktion",
+            "question": "Vad är syftet med en agents 'uppdrag'?",
+            "options": {
+                "A": "Att bestämma vilken färg gränssnittet ska ha.",
+                "B": "Att lista de anställda som ska övervaka den.",
+                "C": "Att beskriva varför agenten finns, dess ansvar och vilket mätbart resultat den ska uppnå.",
+                "D": "Att stänga av systemet vid fel."
+            },
+            "correct_answer": "C",
+            "explanation": "Uppdraget är grunden för agenten och definierar varför den finns och vilket resultat den ska leverera [12, 13]."
+        },
+        {
+            "id": 8,
+            "category": "Modul 1: Introduktion",
+            "question": "Vad definierar agentens 'regler'?",
+            "options": {
+                "A": "Agentens handlingsutrymme, vilka beslut den får fatta och när mänsklig inblandning krävs.",
+                "B": "Hur snabbt agenten måste svara.",
+                "C": "Vilket programmeringsspråk som används i bakgrunden.",
+                "D": "Endast hur databasen formateras."
+            },
+            "correct_answer": "A",
+            "explanation": "Regler begränsar och skyddar genom att definiera agentens mandat och vad den får eller inte får göra [13, 14]."
+        },
+        {
+            "id": 9,
+            "category": "Modul 1: Introduktion",
+            "question": "Vad utgörs ett 'flöde' av i en agent?",
+            "options": {
+                "A": "Datatrafiken mellan servrar.",
+                "B": "Ordningen i arbetet, bestående av steg, beslutspunkter och övergångar.",
+                "C": "En lista över godkända användare.",
+                "D": "Endast en start- och stoppknapp."
+            },
+            "correct_answer": "B",
+            "explanation": "Flödet beskriver ordningen i arbetet och gör det möjligt för agenten att hantera komplexa processer [12, 13]."
+        },
+        {
+            "id": 10,
+            "category": "Modul 1: Introduktion",
+            "question": "Vad händer vid en 'beslutspunkt' i agentens flöde?",
+            "options": {
+                "A": "Agenten stängs av.",
+                "B": "Agenten frågar alltid en människa om hjälp.",
+                "C": "Agenten utvärderar information, tillämpar regler och väljer nästa steg (om/annars).",
+                "D": "Agenten uppdaterar sitt eget kodspråk."
+            },
+            "correct_answer": "C",
+            "explanation": "Beslutspunkter är där agenten tänker logiskt (om/annars) för att styra processen vidare [13, 15]."
+        },
+        {
+            "id": 11,
+            "category": "Modul 1: Introduktion",
+            "question": "Varför är 'kontext' och 'tillstånd' viktiga för en agent?",
+            "options": {
+                "A": "För att agenten ska se bra ut rent grafiskt.",
+                "B": "För att agenten ska kunna hantera långlivade processer genom att känna till ärendets status och tidigare beslut.",
+                "C": "För att agenten ska kunna radera data.",
+                "D": "De är inte viktiga."
+            },
+            "correct_answer": "B",
+            "explanation": "Agenten arbetar alltid utifrån det nuvarande tillståndet (status, tidigare beslut) och inte bara den senaste inmatningen [13, 15, 16]."
+        },
+        {
+            "id": 12,
+            "category": "Modul 1: Introduktion",
+            "question": "Vilket av följande är ett vanligt designfel när man bygger agenter?",
+            "options": {
+                "A": "Att ge agenten för många ansvarsområden (allt-i-allo-agent).",
+                "B": "Att ha för tydliga uppdrag.",
+                "C": "Att använda naturligt språk istället för kod.",
+                "D": "Att begränsa antalet beslutspunkter."
+            },
+            "correct_answer": "A",
+            "explanation": "För många ansvarsområden leder till hög komplexitet och felmarginaler [17, 18]."
+        },
+        {
+            "id": 13,
+            "category": "Modul 1: Introduktion",
+            "question": "Vad är skillnaden mellan 'Agentläge' (Agent Mode) och 'Agent Builder'?",
+            "options": {
+                "A": "Agentläge är för företag och Agent Builder för individer.",
+                "B": "Agentläge används för tillfällig problemlösning, medan Agent Builder bygger långlivade system och processer.",
+                "C": "Det finns ingen skillnad.",
+                "D": "Agentläge kräver kodning, Agent Builder kräver det inte."
+            },
+            "correct_answer": "B",
+            "explanation": "Agentläge är för ad-hoc-användning inne i ChatGPT, medan Agent Builder bygger integrerade organisatoriska system [19-21]."
+        },
+        {
+            "id": 14,
+            "category": "Modul 1: Introduktion",
+            "question": "En agent kan förstås genom tre grundläggande steg. Vilka?",
+            "options": {
+                "A": "Starta, köra, stoppa.",
+                "B": "Ladda ner, installera, uppdatera.",
+                "C": "Perception, Resonemang/Beslut, och Handling.",
+                "D": "Koda, kompilera, distribuera."
+            },
+            "correct_answer": "C",
+            "explanation": "De tre stegen för agentens intelligens är perception (input), resonemang (transformation) och handling (output) [22-24]."
+        },
+        {
+            "id": 15,
+            "category": "Modul 1: Introduktion",
+            "question": "I agentens systemlogik, vad innebär 'Perception'?",
+            "options": {
+                "A": "Att agenten samlar in information (input) från sin omgivning.",
+                "B": "Att agenten raderar gammal data.",
+                "C": "Att agenten skapar nya verktyg.",
+                "D": "Att agenten bestämmer regler."
+            },
+            "correct_answer": "A",
+            "explanation": "Perception innebär att agenten uppfattar information och omvandlar den till data som går att arbeta med [22, 24]."
+        },
+        {
+            "id": 16,
+            "category": "Modul 1: Introduktion",
+            "question": "Vad fungerar som agentens 'hjärna'?",
+            "options": {
+                "A": "Externa databaser.",
+                "B": "System prompten.",
+                "C": "Vektordatabasen.",
+                "D": "RAG-modellen."
+            },
+            "correct_answer": "B",
+            "explanation": "System prompten är agentens hjärna som definierar beslutslogik, uppdrag och regler [23, 25]."
+        },
+        {
+            "id": 17,
+            "category": "Modul 1: Introduktion",
+            "question": "Vad fungerar som agentens 'händer'?",
+            "options": {
+                "A": "Dess förmåga att läsa text.",
+                "B": "Vektordatabasen.",
+                "C": "Verktygen den har tillgång till för att utföra handlingar.",
+                "D": "Beslutspunkterna."
+            },
+            "correct_answer": "C",
+            "explanation": "Verktygen är som agentens händer; de möjliggör faktiska handlingar i externa system [25, 26]."
+        },
+        {
+            "id": 18,
+            "category": "Modul 1: Introduktion",
+            "question": "Hur beskrivs transformationen av data i Agent Builder?",
+            "options": {
+                "A": "Det uppstår i samspelet mellan system prompt, input, verktyg och tillstånd.",
+                "B": "Det sker enbart via RAG.",
+                "C": "Det kräver manuell godkännande av varje steg.",
+                "D": "Det sker bara när systemet startas om."
+            },
+            "correct_answer": "A",
+            "explanation": "Agentens beslut och resonemang för att omvandla input till output kallas transformationslogik, styrd av system prompten och tillståndet [25-27]."
+        },
+        {
+            "id": 19,
+            "category": "Modul 1: Introduktion",
+            "question": "Istället för att skriva kod, hur arbetar du i Agent Builder?",
+            "options": {
+                "A": "Du ritar bilder av flödet.",
+                "B": "Du arbetar med färdiga byggblock för att välja, konfigurera och kombinera.",
+                "C": "Du pratar i en mikrofon.",
+                "D": "Du skriver SQL-frågor."
+            },
+            "correct_answer": "B",
+            "explanation": "Agent Builder använder byggblock där du väljer och konfigurerar logik istället för att skriva kod [10, 28, 29]."
+        },
+        {
+            "id": 20,
+            "category": "Modul 1: Introduktion",
+            "question": "Vad är Agent Builder i relation till det större 'ChatGPT Mastery Program'?",
+            "options": {
+                "A": "En fristående modul som inte tillhör programmet.",
+                "B": "Ett nav för processer, automatisering och kärnverksamhet.",
+                "C": "Ett verktyg enbart för att rita diagram.",
+                "D": "En modul som ersätter Prompt Engineering helt."
+            },
+            "correct_answer": "B",
+            "explanation": "Inom programmet fokuserar Agent Builder specifikt på flöden, processer och att automatisera kärnverksamheten [30]."
+        },
+        {
+            "id": 21,
+            "category": "Modul 3: RAG",
+            "question": "Vad står förkortningen RAG för?",
+            "options": {
+                "A": "Random Access Generation.",
+                "B": "Retrieval-Augmented Generation.",
+                "C": "Responsive AI Gateway.",
+                "D": "Reasoning And Growth."
+            },
+            "correct_answer": "B",
+            "explanation": "RAG står för Retrieval-Augmented Generation, ett arbetssätt för att hämta relevant information innan ett svar genereras [29, 31]."
+        },
+        {
+            "id": 22,
+            "category": "Modul 3: RAG",
+            "question": "Vad är det primära syftet med att använda RAG för en agent?",
+            "options": {
+                "A": "Att öka agentens genereringshastighet.",
+                "B": "Att låta agenten surfa fritt på internet.",
+                "C": "Att göra AI:n lojal mot verksamhetens egna dokument och undvika gissningar.",
+                "D": "Att sänka kostnaden för API-anrop."
+            },
+            "correct_answer": "C",
+            "explanation": "Målet är att basera svaren på företagets interna dokument (fakta) snarare än generella träningsdata, vilket gör AI:n 'lojal' [29-31]."
+        },
+        {
+            "id": 23,
+            "category": "Modul 3: RAG",
+            "question": "Vilka är de fyra grundkomponenterna i ett RAG-flöde?",
+            "options": {
+                "A": "Dokument, Chunks, Embeddings och Vektordatabas.",
+                "B": "Internet, Router, Switch och Server.",
+                "C": "System prompt, Tools, Actions och State.",
+                "D": "Input, Processing, Output och Feedback."
+            },
+            "correct_answer": "A",
+            "explanation": "Ett RAG-system bygger alltid på fyra delar: Dokument, uppdelning i Chunks, Embeddings och en Vektordatabas [32-35]."
+        },
+        {
+            "id": 24,
+            "category": "Modul 3: RAG",
+            "question": "Vad avses med 'Chunks' i ett RAG-system?",
+            "options": {
+                "A": "Felaktig data som har raderats.",
+                "B": "Hårddiskar som används för lagring.",
+                "C": "Små, hanterbara textbitar som ett dokument delas upp i.",
+                "D": "Användarnas sökfrågor."
+            },
+            "correct_answer": "C",
+            "explanation": "Istället för att behandla ett helt dokument på en gång, delas texten upp i stycken med begränsad längd (chunks) [33, 35]."
+        },
+        {
+            "id": 25,
+            "category": "Modul 3: RAG",
+            "question": "Varför delas dokument upp i chunks?",
+            "options": {
+                "A": "För att dokumenten ska ta mindre plats.",
+                "B": "För att kunna utföra sökningar på en mer specifik, begränsad nivå istället för hela dokumentet.",
+                "C": "För att det krävs enligt europeisk lag.",
+                "D": "För att förhindra att användare läser hela dokument."
+            },
+            "correct_answer": "B",
+            "explanation": "Sökningen sker på chunk-nivå vilket gör det möjligt att matcha rätt kontext mer exakt utan att ladda in ett helt dokument [33, 35]."
+        },
+        {
+            "id": 26,
+            "category": "Modul 3: RAG",
+            "question": "Vad gör 'Embeddings'?",
+            "options": {
+                "A": "Krypterar dokumenten för säkerhets skull.",
+                "B": "Översätter text till andra språk automatiskt.",
+                "C": "Skapar en matematisk representation av en text som vektorer i ett högdimensionellt rum.",
+                "D": "Komprimerar bilder för snabbare laddning."
+            },
+            "correct_answer": "C",
+            "explanation": "Embeddings omvandlar text till numeriska vektorer som fångar den semantiska betydelsen [33, 35]."
+        },
+        {
+            "id": 27,
+            "category": "Modul 3: RAG",
+            "question": "Vad fångas upp av vektorer skapade genom embeddings?",
+            "options": {
+                "A": "Endast antalet bokstäver i orden.",
+                "B": "Den semantiska betydelsen och relationerna mellan olika ord.",
+                "C": "Dokumentens skapandedatum.",
+                "D": "Författarens namn."
+            },
+            "correct_answer": "B",
+            "explanation": "Dessa vektorer fångar innebörden så att modellen kan jämföra semantisk likhet [33, 35, 36]."
+        },
+        {
+            "id": 28,
+            "category": "Modul 3: RAG",
+            "question": "I kursens exempel, varför placeras orden 'katt' och 'hund' nära varandra i en vektorrymd?",
+            "options": {
+                "A": "De stavs med lika många bokstäver.",
+                "B": "Båda börjar med en konsonant.",
+                "C": "De delar liknande egenskaper och semantisk betydelse.",
+                "D": "De är lagrade i samma chunk."
+            },
+            "correct_answer": "C",
+            "explanation": "Matematiskt placeras vektorer med liknande betydelse eller egenskaper (exempelvis djur/husdjur) nära varandra [35, 36]."
+        },
+        {
+            "id": 29,
+            "category": "Modul 3: RAG",
+            "question": "Vilken roll spelar 'Vektordatabasen' i RAG?",
+            "options": {
+                "A": "Den designar gränssnittet för användaren.",
+                "B": "Den raderar onödig text.",
+                "C": "Den lagrar embeddings och gör snabba likhetssökningar.",
+                "D": "Den skickar e-post till kunder."
+            },
+            "correct_answer": "C",
+            "explanation": "Vektordatabasen lagrar vektorerna och fungerar som en matchningsmotor för att snabbt hitta de mest relevanta textstyckena [34, 37]."
+        },
+        {
+            "id": 30,
+            "category": "Modul 3: RAG",
+            "question": "Varför är det bättre att söka i en vektordatabas än att agenten läser igenom alla dokument sekventiellt?",
+            "options": {
+                "A": "För att sekventiell sökning är förbjudet.",
+                "B": "För att vektordatabasen kan matcha direkt mot rätt vektorfält matematiskt, vilket är mycket snabbare och effektivare.",
+                "C": "För att dokumenten ofta är felstavade.",
+                "D": "För att agenten inte kan läsa PDF:er."
+            },
+            "correct_answer": "B",
+            "explanation": "Det är ineffektivt att gå igenom all text. Vektordatabasen matchar direkt betydelsen matematiskt (semantisk sökning) [34, 37, 38]."
+        },
+        {
+            "id": 31,
+            "category": "Modul 3: RAG",
+            "question": "Vad händer efter att vektordatabasen har hittat de mest relevanta dokument-chunkarna?",
+            "options": {
+                "A": "Sökningen avslutas och inget svar ges.",
+                "B": "De skickas vidare till modellen som kontext för att generera ett svar.",
+                "C": "De raderas för att spara utrymme.",
+                "D": "Användaren måste själv läsa dokumenten."
+            },
+            "correct_answer": "B",
+            "explanation": "De hittade texterna (kontexten) bifogas till modellens prompt så att den kan generera ett mer korrekt svar [34, 39]."
+        },
+        {
+            "id": 32,
+            "category": "Modul 3: RAG",
+            "question": "Vilket av följande är ett typiskt användningsområde (Use Case) för en agent med RAG?",
+            "options": {
+                "A": "Spela schack.",
+                "B": "En policy-agent eller support-agent som kan verksamhetens dokument.",
+                "C": "Skapa konstverk.",
+                "D": "Redigera videor."
+            },
+            "correct_answer": "B",
+            "explanation": "Agenter som behöver veta mycket om specifika interna processer, som support och policyer, är perfekta use cases [33]."
+        },
+        {
+            "id": 33,
+            "category": "Modul 3: RAG",
+            "question": "Hur minskar RAG risken för AI-hallucinationer (att modellen hittar på svar)?",
+            "options": {
+                "A": "Genom att koppla bort agenten från internet.",
+                "B": "Genom att sänka hastigheten på genereringen.",
+                "C": "Genom att kombinera generering med uppslagen fakta från verifierade dokument.",
+                "D": "Genom att låta människor skriva svaren."
+            },
+            "correct_answer": "C",
+            "explanation": "RAG säkerställer att agenten inte 'gissar' utan alltid hämtar kontext från företagets egna dokument [31, 37]."
+        },
+        {
+            "id": 34,
+            "category": "Modul 3: RAG",
+            "question": "Vad motsvarar RAG i den övergripande Agent-formeln?",
+            "options": {
+                "A": "LLM (Resonerar).",
+                "B": "Vet (Kunskap).",
+                "C": "Gör (Handling).",
+                "D": "Gränssnitt."
+            },
+            "correct_answer": "B",
+            "explanation": "I formeln 'Agent = LLM + RAG (vet) + MCP (gör)' står RAG för agentens kunskap ('Vet') [40, 41]."
+        },
+        {
+            "id": 35,
+            "category": "Modul 3: RAG",
+            "question": "Vad är det första steget i ett RAG-flöde innan en användare ställer en fråga?",
+            "options": {
+                "A": "Att köpa nya servrar.",
+                "B": "Att ladda upp och förbereda kunskapskällorna (Dokumenten).",
+                "C": "Att programmera agentens verktyg.",
+                "D": "Att publicera en webbsida."
+            },
+            "correct_answer": "B",
+            "explanation": "Dokumenten utgör kunskapskällan och måste förberedas (bli chunks och embeddings) för att systemet ska fungera [32, 38]."
+        },
+        {
+            "id": 36,
+            "category": "Modul 3: RAG",
+            "question": "Varför är strukturerad kunskap viktig när man designar agenter med RAG?",
+            "options": {
+                "A": "Det gör att agenten kan svara snabbare utan att tänka.",
+                "B": "Väl valda dokument ger bättre beslut än stora mängder ostrukturerad data.",
+                "C": "För att dokumenten måste vara på engelska.",
+                "D": "Det spelar ingen roll, volym är viktigast."
+            },
+            "correct_answer": "B",
+            "explanation": "Struktur är viktigare än volym för att ge agenten rätt och relevant kontext (kunskapsdesign) [29, 32]."
+        },
+        {
+            "id": 37,
+            "category": "Modul 3: RAG",
+            "question": "Vilken form av sökning möjliggörs i vektordatabaser med hjälp av embeddings?",
+            "options": {
+                "A": "Bara sökning på exakta nyckelord (Keyword search).",
+                "B": "Sökning på metadata som datum.",
+                "C": "Semantisk sökning, där matematisk närhet motsvarar likhet i betydelse.",
+                "D": "Alfabetisk sökning enbart."
+            },
+            "correct_answer": "C",
+            "explanation": "Embeddings omvandlar text till matematiska vektorer, vilket möjliggör semantisk sökning (matchning av betydelse) [35]."
+        },
+        {
+            "id": 38,
+            "category": "Modul 3: RAG",
+            "question": "I ett vektorrum, hur avgör systemet vilken information som ska hämtas för att svara på en fråga?",
+            "options": {
+                "A": "Det väljer det längsta dokumentet.",
+                "B": "Det jämför frågans embedding med dokumentens och hittar de kortaste avstånden.",
+                "C": "Det tar det första dokumentet i listan.",
+                "D": "Det drar ett slumpmässigt stycke."
+            },
+            "correct_answer": "B",
+            "explanation": "Vektordatabasen jämför frågans vektor/embedding med de lagrade chunkarnas vektorer för att hitta likhet [34, 37]."
+        },
+        {
+            "id": 41,
+            "category": "Modul 4: MCP",
+            "question": "Vad står MCP för?",
+            "options": {
+                "A": "Machine Control Protocol.",
+                "B": "Model Context Protocol.",
+                "C": "Modular Cloud Processing.",
+                "D": "Main Core Program."
+            },
+            "correct_answer": "B",
+            "explanation": "MCP står för Model Context Protocol [42, 43]."
+        },
+        {
+            "id": 42,
+            "category": "Modul 4: MCP",
+            "question": "Vilket företag introducerade MCP och när?",
+            "options": {
+                "A": "Google, 2023.",
+                "B": "OpenAI, 2022.",
+                "C": "Anthropic, november 2024.",
+                "D": "Microsoft, 2025."
+            },
+            "correct_answer": "C",
+            "explanation": "MCP-protokollet introducerades i november 2024 av Anthropic [43, 44]."
+        },
+        {
+            "id": 43,
+            "category": "Modul 4: MCP",
+            "question": "Vad är Model Context Protocol (MCP) i grunden?",
+            "options": {
+                "A": "Ett nytt CRM-system.",
+                "B": "En ny AI-modell som är smartare än GPT-4.",
+                "C": "Ett öppet och standardiserat protokoll/kontrakt för hur AI-modeller kommunicerar med externa system.",
+                "D": "Ett språk för att bygga databaser."
+            },
+            "correct_answer": "C",
+            "explanation": "MCP är ett öppet protokoll som standardiserar kommunikationen mellan en AI-klient och externa servrar/verktyg [42, 43]."
+        },
+        {
+            "id": 44,
+            "category": "Modul 4: MCP",
+            "question": "Vilken arkitektur bygger MCP på?",
+            "options": {
+                "A": "Peer-to-peer.",
+                "B": "Klient-Server arkitektur.",
+                "C": "Mainframe-Terminal.",
+                "D": "Blockchain."
+            },
+            "correct_answer": "B",
+            "explanation": "MCP-arkitekturen består av två huvuddelar: MCP-Klient och MCP-Server [42, 43, 45]."
+        },
+        {
+            "id": 45,
+            "category": "Modul 4: MCP",
+            "question": "Vilken roll har 'MCP-klienten' (t.ex. Agenten) i systemet?",
+            "options": {
+                "A": "Det är 'göraren' som utför det slutliga databas-anropet.",
+                "B": "Det är 'tänkaren' som tolkar användarens mål, väljer verktyg och gör ett MCP-anrop.",
+                "C": "Den bygger nya verktyg från grunden.",
+                "D": "Den sparar backup-filer."
+            },
+            "correct_answer": "B",
+            "explanation": "MCP-klienten (Agenten) är 'tänkaren'. Den analyserar målet, bestämmer vilket verktyg som ska användas och gör anropet [43, 46]."
+        },
+        {
+            "id": 46,
+            "category": "Modul 4: MCP",
+            "question": "Vilken roll har 'MCP-servern' i systemet?",
+            "options": {
+                "A": "Det är 'tänkaren' som bestämmer vad agenten ska göra.",
+                "B": "Det är gatewayen ('göraren') som exponerar verktygen, kör koden och kopplar mot riktiga system.",
+                "C": "Den skriver system prompten för AI:n.",
+                "D": "Den skapar vektorer för RAG."
+            },
+            "correct_answer": "B",
+            "explanation": "MCP-servern lagrar och exponerar tjänster och gör det faktiska jobbet, men den tänker inte [43, 47, 48]."
+        },
+        {
+            "id": 47,
+            "category": "Modul 4: MCP",
+            "question": "Kan en MCP-server tänka och resonera?",
+            "options": {
+                "A": "Ja, den är lika smart som klienten.",
+                "B": "Nej, servern gör bara jobbet och kör faktisk kod enligt klientens begäran.",
+                "C": "Endast om den uppgraderas med RAG.",
+                "D": "Ja, den fattar beslut om flödet."
+            },
+            "correct_answer": "B",
+            "explanation": "Servern 'gör jobbet. Den tänker inte.' Det är klienten som begär användning av verktygen [43, 48]."
+        },
+        {
+            "id": 48,
+            "category": "Modul 4: MCP",
+            "question": "Hur underlättar MCP integrationer jämfört med tiden innan protokollet fanns?",
+            "options": {
+                "A": "Det kräver att alla lär sig koda C++.",
+                "B": "Det ersätter dyra, hårdkodade och specialbyggda integrationer med en universell och standardiserad verktygslåda.",
+                "C": "Det gör integrationer långsammare men säkrare.",
+                "D": "Det fungerar bara för lokala filsystem, inte internet."
+            },
+            "correct_answer": "B",
+            "explanation": "Utan MCP är varje integration specialbyggd och hårdkodad. Med MCP används ett standardiserat sätt för agenten att använda många verktyg [49, 50]."
+        },
+        {
+            "id": 49,
+            "category": "Modul 4: MCP",
+            "question": "Vilket av följande är ett bra exempel på en MCP-server?",
+            "options": {
+                "A": "En användares webbläsare.",
+                "B": "ChatGPT-gränssnittet.",
+                "C": "Ett CRM-API eller ett internt mikrotjänst-lager.",
+                "D": "Agentens system prompt."
+            },
+            "correct_answer": "C",
+            "explanation": "En MCP-server kan vara ett CRM-API, databasskikt, filsystem eller mikrotjänst-lager som exponerar verktyg [43, 47]."
+        },
+        {
+            "id": 50,
+            "category": "Modul 4: MCP",
+            "question": "När agenten har gjort ett MCP-anrop och verktyget har körts av servern, vad händer sedan?",
+            "options": {
+                "A": "Processen stängs av direkt.",
+                "B": "Resultatet skickas tillbaka till agenten (klienten) som ny kontext för att fortsätta uppdraget.",
+                "C": "Servern tar över kontrollen från agenten.",
+                "D": "Agenten glömmer sitt uppdrag."
+            },
+            "correct_answer": "B",
+            "explanation": "Efter exekvering returneras resultatet från MCP-servern till agenten som ny kontext så den vet vad nästa steg är [41, 46, 51]."
+        },
+        {
+            "id": 51,
+            "category": "Modul 4: MCP",
+            "question": "Vad definierar den fullständiga Agent-formeln enligt kursen?",
+            "options": {
+                "A": "Agent = Prompt + API.",
+                "B": "Agent = LLM + RAG (Vet) + MCP (Gör).",
+                "C": "Agent = Workflow + Databas + Frontend.",
+                "D": "Agent = ChatGPT + Människa."
+            },
+            "correct_answer": "B",
+            "explanation": "Formeln för en modern agent är: Agent = LLM (Resonemang) + RAG (Vet) + MCP (Gör) [40, 41]."
+        },
+        {
+            "id": 52,
+            "category": "Modul 4: MCP",
+            "question": "Vilken del av Agent-formeln ansvarar specifikt för agentens 'förmåga att agera' i omvärlden?",
+            "options": {
+                "A": "LLM.",
+                "B": "RAG.",
+                "C": "MCP.",
+                "D": "Embeddings."
+            },
+            "correct_answer": "C",
+            "explanation": "RAG ger agenten kunskap, medan MCP ger agenten förmågan att agera ('Gör') [40, 41]."
+        },
+        {
+            "id": 53,
+            "category": "Modul 4: MCP",
+            "question": "I interaktionen mellan Agent och MCP, vem eller vad bestämmer *vilket* verktyg som ska användas?",
+            "options": {
+                "A": "Agenten (Klienten) väljer autonomt baserat på mål och tillgängliga verktyg.",
+                "B": "Servern tvingar klienten att använda ett visst verktyg.",
+                "C": "En administratör måste alltid godkänna valet manuellt.",
+                "D": "Vektordatabasen avgör det slumpmässigt."
+            },
+            "correct_answer": "A",
+            "explanation": "Agenten väljer rätt verktyg från MCP-serverns exponerade lista utifrån sitt uppdrag [46, 49, 52]."
+        },
+        {
+            "id": 54,
+            "category": "Modul 4: MCP",
+            "question": "Varför innebär MCP en 'revolution' för AI-agenter enligt kursmaterialet?",
+            "options": {
+                "A": "För att agenten nu slipper tänka.",
+                "B": "Det sänker tröskeln för integrationer så att agenter kan konsumera ofantliga mängder externa tjänster utan tekniska friktioner.",
+                "C": "Det eliminerar behovet av molnlagring.",
+                "D": "Det gör AI helt oberoende av elektricitet."
+            },
+            "correct_answer": "B",
+            "explanation": "MCP standardiserar integrationer och låter de flesta bygga agenter med tillgång till externa tjänster utan djup teknisk kunskap [44, 53, 54]."
+        },
+        {
+            "id": 55,
+            "category": "Modul 4: MCP",
+            "question": "Vad är steg 2 i det standardiserade flödet för agentens interaktion med omvärlden?",
+            "options": {
+                "A": "Agenten stängs ned.",
+                "B": "Servern exekverar handlingen.",
+                "C": "En MCP-server exponerar/annonserar tillgängliga verktyg (t.ex. CRM) för agenten.",
+                "D": "Agenten skriver en slutrapport."
+            },
+            "correct_answer": "C",
+            "explanation": "Steg 1 är målet, Steg 2 är att MCP-servern annonserar/exponerar verktygen så agenten vet vad som finns [52]."
+        },
+        {
+            "id": 56,
+            "category": "Modul 4: MCP",
+            "question": "Om en agent bara hade LLM och RAG, men saknade MCP, vad skulle den inte kunna göra?",
+            "options": {
+                "A": "Den skulle inte kunna läsa verksamhetens dokument.",
+                "B": "Den skulle inte kunna resonera.",
+                "C": "Den skulle inte kunna agera eller påverka externa system (t.ex. uppdatera en kundstatus i ett CRM).",
+                "D": "Den skulle inte kunna förstå svenska."
+            },
+            "correct_answer": "C",
+            "explanation": "Utan MCP saknar agenten en standardiserad brygga till externa verktyg för att utföra handlingar [41, 49, 51]."
+        },
+        {
+            "id": 57,
+            "category": "Modul 4: MCP",
+            "question": "En MCP-Server beskrivs som:",
+            "options": {
+                "A": "Tänkaren.",
+                "B": "Hjärnan.",
+                "C": "Världen / Gatewayen.",
+                "D": "Dokumentet."
+            },
+            "correct_answer": "C",
+            "explanation": "MCP-servern är 'världen' eller gatewayen som exponerar verktyg och kopplar mot riktiga system [43, 47]."
+        },
+        {
+            "id": 58,
+            "category": "Modul 4: MCP",
+            "question": "Vad menas med att MCP är 'inte ett verktyg, utan ett kontrakt'?",
+            "options": {
+                "A": "Man måste skriva under ett fysiskt papper med Anthropic.",
+                "B": "Det är en legal licens för att använda GPT.",
+                "C": "Det definierar standarden för hur verktyg annonseras, anropas och hur data returneras.",
+                "D": "Det betyder att det bara fungerar för jurister."
+            },
+            "correct_answer": "C",
+            "explanation": "MCP definierar hur kommunikationen och kontextströmmen ska fungera mellan klient och server, som ett standardiserat protokoll/kontrakt [42, 43]."
+        },
+        {
+            "id": 59,
+            "category": "Modul 4: MCP",
+            "question": "Vilket är resultatet av en välfungerande agent-arkitektur baserad på Agent Builder, RAG och MCP?",
+            "options": {
+                "A": "Det ersätter mänsklig kompetens totalt.",
+                "B": "Det befriar mänsklig kompetens från ineffektiva och regelstyrda manuella processer.",
+                "C": "Det ökar arbetsbördan för de anställda.",
+                "D": "Det kräver att alla i organisationen blir programmerare."
+            },
+            "correct_answer": "B",
+            "explanation": "Målet är att automatisera repetitiva flöden, inte att ersätta människor, utan att befria dem från ineffektiva manuella processer [55]."
+        },
+        {
+            "id": 60,
+            "category": "Modul 4: MCP",
+            "question": "Varför säger man att MCP skapar förutsättningar för en 'hypersammankopplad värld'?",
+            "options": {
+                "A": "Det kopplar ihop hjärnor via neurala nätverk.",
+                "B": "Det tillåter agenter att friktionsfritt interagera med tusentals olika MCP-servrar och tjänster globalt.",
+                "C": "Det kopplar upp kylskåp till internet.",
+                "D": "Det samlar all data i en enda stor server."
+            },
+            "correct_answer": "B",
+            "explanation": "Eftersom världen fylls med standardiserade MCP-servrar kan agenter enkelt konsumera dessa tjänster och interagera utan friktion, vilket skapar enorm hypersammankoppling [50, 54]."
+        }
+    ]
+}

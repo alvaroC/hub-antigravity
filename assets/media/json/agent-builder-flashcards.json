@@ -1,0 +1,230 @@
+{
+    "title": "Agent Builder",
+    "description": "Interaktiva kort som täcker Agent Builder",
+    "cards": [
+        {
+            "q": "Vad är en agent i Agent Builder-kontexten?",
+            "a": "Ett digitalt ansvar som driver ett flöde enligt mål, regler och beslutspunkter"
+        },
+        {
+            "q": "Vad är den främsta skillnaden mellan ett workflow och en agent?",
+            "a": "En agent kan fatta egna beslut inom ett ramverk, medan ett workflow följer fördefinierade steg utan anpassningsförmåga."
+        },
+        {
+            "q": "Till skillnad från AI-verktyg som fungerar som stöd för människan, så används agenter för att _____.",
+            "a": "utföra arbete och styra operativa flöden i verksamheten."
+        },
+        {
+            "q": "Vilka egenskaper kännetecknar en agent som en 'ansvarsbärare'?",
+            "a": "Den har ett tydligt uppdrag, agerar inom ramar och fattar beslut vid definierade punkter."
+        },
+        {
+            "q": "Nämn två kriterier för när Agent Builder är rätt val för en process.",
+            "a": "Processen är återkommande och regler kan definieras tydligt."
+        },
+        {
+            "q": "Agent Builder är inte rätt val för uppgifter som kräver _____.",
+            "a": "öppna resonemang eller kreativt utforskande."
+        },
+        {
+            "q": "Varför uppstår ofta flaskhalsar i manuella verksamhetsprocesser enligt källan?",
+            "a": "På grund av regelstyrda mönster som leder till personberoende och variation i kvalitet."
+        },
+        {
+            "q": "Vad innebär det att en agent blir en del av den 'operativa logiken'?",
+            "a": "Att agenten tar ansvar för att flytta ärenden vidare och säkerställa att processer följs autonomt."
+        },
+        {
+            "q": "Krävs traditionell programmering för att bygga agenter i Agent Builder?",
+            "a": "Nej, fokus ligger på processförståelse och att definiera logik snarare än kod."
+        },
+        {
+            "q": "Vad beskriver en agents 'uppdrag' (mission)?",
+            "a": "Varför agenten finns, vad den ansvarar för och vilket resultat den ska uppnå."
+        },
+        {
+            "q": "Vilka tre delar består en agents 'flöde' av?",
+            "a": "Steg, beslutspunkter och övergångar."
+        },
+        {
+            "q": "Vad är syftet med 'regler' i en agents design?",
+            "a": "Att definiera agentens handlingsutrymme och ange vilka beslut som är tillåtna."
+        },
+        {
+            "q": "Vad sker rent logiskt vid en 'beslutspunkt' i agentens flöde?",
+            "a": "Agenten utvärderar information, tillämpar regler och väljer nästa steg i flödet."
+        },
+        {
+            "q": "Ge exempel på vad som utgör en agents 'kontext'.",
+            "a": "Ärendets status, tidigare beslut eller data från externa system."
+        },
+        {
+            "q": "Varför är det viktigt att undvika 'allt-i-allo-agenter' vid design?",
+            "a": "För många ansvarsområden i samma agent leder till hög komplexitet och felmarginaler."
+        },
+        {
+            "q": "Vilken typ av användning är 'Agentläge' (Agent Mode) i ChatGPT främst avsett för?",
+            "a": "Tillfälliga sessioner och ad-hoc problemlösning i stunden."
+        },
+        {
+            "q": "Vad är den primära skillnaden i drift mellan Agentläge och Agent Builder?",
+            "a": "Agent Builder är byggt för långlivade lösningar och systemisk integration i en organisation."
+        },
+        {
+            "q": "Inom agentlogik, vad innebär steget 'Perception'?",
+            "a": "Att agenten uppfattar information från omgivningen och omvandlar den till data."
+        },
+        {
+            "q": "Vilken funktion fyller steget 'Resonemang/Beslut' i ett agentsystem?",
+            "a": "Agenten analyserar informationen och väljer lämplig åtgärd utifrån sina regler."
+        },
+        {
+            "q": "Vad utför agenten i steget 'Handling' (Output)?",
+            "a": "Den använder verktyg för att skapa ett resultat eller orsaka en förändring i systemet."
+        },
+        {
+            "q": "Metaforiskt beskrivs system prompten som agentens _____.",
+            "a": "hjärna."
+        },
+        {
+            "q": "Metaforiskt beskrivs agentens verktyg som dess _____.",
+            "a": "händer."
+        },
+        {
+            "q": "Vad är en 'System Prompt' tekniskt sett i förhållande till agentens uppdrag?",
+            "a": "Det är översättningen av uppdrag, regler och flöden till instruktioner för modellen."
+        },
+        {
+            "q": "Nämn tre typer av input som en agent kan bearbeta.",
+            "a": "Skriven text, uppladdade dokument och data från externa applikationer."
+        },
+        {
+            "q": "Vad står förkortningen RAG för?",
+            "a": "Retrieval-Augmented Generation."
+        },
+        {
+            "q": "Vilket är huvudmålet med att använda RAG i en agent?",
+            "a": "Att göra AI:n lojal mot verksamhetens data istället för att bara förlita sig på internet."
+        },
+        {
+            "q": "Hur skiljer sig RAG från att modellen 'gissar' svar?",
+            "a": "Agenten slår upp fakta i en extern kunskapsbas innan den genererar sitt svar."
+        },
+        {
+            "q": "Vad är 'chunks' inom RAG-teknologi?",
+            "a": "Små, hanterbara textbitar som ett dokument delas upp i för att optimera sökbarheten."
+        },
+        {
+            "q": "Term: Embeddings",
+            "a": "Definition: En matematisk representation av text som vektorer för att fånga semantisk betydelse."
+        },
+        {
+            "q": "I en vektorrymd, hur illustreras relationen mellan orden 'katt' och 'hund'?",
+            "a": "Deras vektorer placeras nära varandra eftersom de delar liknande egenskaper."
+        },
+        {
+            "q": "Vilken roll spelar vektordatabasen i ett RAG-flöde?",
+            "a": "Den lagrar embeddings och utför snabba likhetssökningar för att hitta relevanta dokumentdelar."
+        },
+        {
+            "q": "Varför är sökning på chunk-nivå mer effektivt än på hela dokument?",
+            "a": "Det gör det lättare att hitta exakt rätt information snabbt utan att läsa igenom hundratals sidor."
+        },
+        {
+            "q": "Vad står förkortningen MCP för?",
+            "a": "Model Context Protocol."
+        },
+        {
+            "q": "Vilket företag introducerade MCP i november 2024?",
+            "a": "Anthropic."
+        },
+        {
+            "q": "Vad är syftet med MCP-protokollet?",
+            "a": "Att standardisera hur AI-agenter kommunicerar med externa verktyg och system."
+        },
+        {
+            "q": "Vilken roll har 'MCP-klienten' i arkitekturen?",
+            "a": "Den är identiteten (t.ex. agenten) som anropar en server när den behöver ett verktyg."
+        },
+        {
+            "q": "Vilken roll har 'MCP-servern' i arkitekturen?",
+            "a": "Den lagrar och exponerar verktyg (t.ex. ett CRM eller filsystem) för klienten."
+        },
+        {
+            "q": "Varför beskrivs MCP som en revolution för integration?",
+            "a": "Det eliminerar behovet av dyra, specialbyggda integrationer genom ett universellt kontrakt."
+        },
+        {
+            "q": "Hur väljer en agent rätt verktyg i ett MCP-system?",
+            "a": "Agenten (klienten) väljer autonomt baserat på de verktyg servern har annonserat som tillgängliga."
+        },
+        {
+            "q": "Vad är formeln för en modern agent enligt källmaterialet?",
+            "a": "Agent = LLM + RAG (Vet) + MCP (Gör)."
+        },
+        {
+            "q": "Hur samverkar RAG och MCP i en agent?",
+            "a": "RAG ger agenten specifik kunskap, medan MCP ger den förmågan att utföra handlingar."
+        },
+        {
+            "q": "Vad innebär det att en agent är 'autonom' inom ett ramverk?",
+            "a": "Att den kan fatta egna beslut utifrån instruktioner utan mänsklig inblandning i varje steg."
+        },
+        {
+            "q": "Vad är risken med otydliga uppdrag vid agentdesign?",
+            "a": "Det skapar inkonsekventa resultat eftersom agenten saknar tydlig riktning."
+        },
+        {
+            "q": "Vilken del av agenten ansvarar för 'beslutslogik och beteendeprinciper'?",
+            "a": "System Prompten."
+        },
+        {
+            "q": "Ge exempel på en handling en agent kan utföra via en MCP-server.",
+            "a": "Skicka e-post, uppdatera kundstatus i ett CRM eller lagra en rapport."
+        },
+        {
+            "q": "Vad innebär 'modulär agentdesign'?",
+            "a": "Att man bygger agenter som kan samarbeta och lämna över ansvar vid behov."
+        },
+        {
+            "q": "Varför är konsekvens viktigare än kreativitet när man väljer Agent Builder?",
+            "a": "För att verktyget är byggt för att automatisera regelstyrda verksamhetsprocesser som kräver spårbarhet."
+        },
+        {
+            "q": "Hur förändras utvecklarens roll vid bygge av agenter?",
+            "a": "Rollen skiftar från programmeringssyntax till logisk arkitektur och processförståelse."
+        },
+        {
+            "q": "Vad är 'semantisk sökning' i ett RAG-system?",
+            "a": "En sökning som matchar betydelsen av en fråga matematiskt istället för bara nyckelord."
+        },
+        {
+            "q": "Beskriv de tre stegen i agentens tänkande enligt källan.",
+            "a": "1. Perception (Input), 2. Resonemang (Transformation), 3. Handling (Output)."
+        },
+        {
+            "q": "Vad beskriver 'övergångar' i ett flöde?",
+            "a": "Logiken för hur agenten rör sig mellan olika steg i processen."
+        },
+        {
+            "q": "Varför kräver MCP ingen djup teknisk kunskap för att konsumera tjänster?",
+            "a": "Eftersom protokollet standardiserar hur verktyg beskrivs och anropas."
+        },
+        {
+            "q": "Varför är oklara regler en affärsrisk?",
+            "a": "Agenten kan fatta beslut den saknar mandat för, vilket kan leda till felaktiga åtgärder."
+        },
+        {
+            "q": "Vad är skillnaden mellan agenter och traditionella 'chatbots'?",
+            "a": "Agenter utför faktiska uppgifter och styr flöden, medan chatbots ofta bara svarar på frågor."
+        },
+        {
+            "q": "Hur bidrar MCP till att skapa en 'hypersammankopplad värld'?",
+            "a": "Genom att göra det enkelt för agenter att konsumera ofantliga mängder externa tjänster utan friktion."
+        },
+        {
+            "q": "Vilket är det sista steget i ett MCP-anrop?",
+            "a": "Resultatet skickas tillbaka till agenten som ny kontext för att avsluta uppdraget."
+        }
+    ]
+}

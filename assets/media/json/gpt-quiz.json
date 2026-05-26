@@ -1,0 +1,745 @@
+{
+    "quiz": [
+        {
+            "id": 1,
+            "category": "Modul 1: Introduktion till GPTs",
+            "question": "Vad är den primära skillnaden mellan en vanlig ChatGPT och en anpassad GPT?",
+            "options": {
+                "A": "Det finns ingen skillnad.",
+                "B": "En anpassad GPT kan bara generera bilder.",
+                "C": "ChatGPT är specialiserad, medan en GPT är generell.",
+                "D": "En anpassad GPT är specialiserad, kan tränas på din egen data och utföra specifika uppgifter."
+            },
+            "correct_answer": "D",
+            "explanation": "Till skillnad från den generiska ChatGPT är varje GPT specialiserad inom olika områden och kan hantera specifika och komplexa uppgifter [1]."
+        },
+        {
+            "id": 2,
+            "category": "Modul 1: Introduktion till GPTs",
+            "question": "Vad är kostnaden per månad för att kunna skapa egna anpassade GPTs enligt kursen?",
+            "options": {
+                "A": "Helt gratis.",
+                "B": "10 USD.",
+                "C": "20 USD.",
+                "D": "100 USD."
+            },
+            "correct_answer": "C",
+            "explanation": "Det kostar bara 20 USD per månad för att kunna maximera nyttan av AI och skapa en egen GPT [2]."
+        },
+        {
+            "id": 3,
+            "category": "Design och Arkitektur",
+            "question": "Vilket steg är det viktigaste när man designar en GPT?",
+            "options": {
+                "A": "Steg 1: Ange namn, bild och beskrivning",
+                "B": "Steg 2: Definiera Systemprompten",
+                "C": "Steg 3: Ladda upp Kunskapsbas (Knowledge Base)",
+                "D": "Steg 5: Tuning (Testning och finjustering)"
+            },
+            "correct_answer": "B",
+            "explanation": "Att definiera systemprompten (instruktionen) är den absolut viktigaste komponenten när du designar en GPT, eftersom den fungerar som GPT:ns operativa ramverk och i detalj definierar dess roll, mandat, struktur och begränsningar [1, 2]."
+        },
+        {
+            "id": 4,
+            "category": "Modul 1: Introduktion till GPTs",
+            "question": "Vilka tre inbyggda funktioner (Capabilities) kan man aktivera för en GPT?",
+            "options": {
+                "A": "Webbsurfning, DALL-E, och Kodtolkare (Dataanalys).",
+                "B": "E-post, SMS, och Samtal.",
+                "C": "3D-utskrift, VR-läge, och Spelmotor.",
+                "D": "CRM-koppling, Databassökning, och Excel-export."
+            },
+            "correct_answer": "A",
+            "explanation": "En GPT har tillgång till tre viktiga funktioner: webbsurfning, bildgenerering med DALL-E, samt kodtolkare och dataanalys [6]."
+        },
+        {
+            "id": 5,
+            "category": "Arkitektur och Design",
+            "question": "Vad är systemprompten i en anpassad GPT?",
+            "options": {
+                "A": "De uppladdade dokumenten som utgör GPT:ns minne (Knowledge Base).",
+                "B": "Det är GPT:ns operativa ramverk och styrsystem som definierar dess roll, mandat, struktur och begränsningar.",
+                "C": "Det externa schemat som används för att koppla upp GPT:n mot internet via Actions.",
+                "D": "Den kod som används av Code Interpreter för att utföra dataanalyser."
+            },
+            "correct_answer": "B",
+            "explanation": "Systemprompten är den viktigaste komponenten i en GPT. Den är inte bara en vanlig instruktion utan fungerar som GPT:ns styrsystem och operativa ramverk, vilket i detalj definierar dess identitet, beteende, prioriteringar och begränsningar [1, 2]."
+        },
+        {
+            "id": 6,
+            "category": "Kunskapsbas (Knowledge Base)",
+            "question": "Vad fungerar Kunskapsbasen (Knowledge Base) primärt som i en anpassad GPT?",
+            "options": {
+                "A": "Ett verktyg för att surfa på nätet efter nyheter.",
+                "B": "GPT:ns interna minne och proprietära databas där verksamhetsspecifika dokument lagras.",
+                "C": "Ett externt API för att skicka e-post.",
+                "D": "En funktion för att skapa avancerade bilder."
+            },
+            "correct_answer": "B",
+            "explanation": "Kunskapsbasen fungerar som GPT:ns interna minne. Genom att ladda upp specifik data (som manualer och policys) förvandlas GPT:n från en generell modell till en verksamhetsspecifik expert [1]."
+        },
+        {
+            "id": 7,
+            "category": "Modul 1: Introduktion till GPTs",
+            "question": "Vilka är de två första stegen i den femstegsprocess som beskrivs för att utveckla en GPT?",
+            "options": {
+                "A": "Chat och Instruktioner.",
+                "B": "Tuning och Actions.",
+                "C": "Förmågor och Tuning.",
+                "D": "Actions och Chat."
+            },
+            "correct_answer": "A",
+            "explanation": "Processen börjar med 'Chat' för att anpassa namn och foto, följt av 'Instruktioner' där man följer ett ramverk [4]."
+        },
+        {
+            "id": 8,
+            "category": "GPTs Funktioner",
+            "question": "Kan en anpassad GPT koppla upp sig mot internet för att hämta aktuell information?",
+            "options": {
+                "A": "Nej, den har endast tillgång till sin historiska grundträning.",
+                "B": "Ja, genom att aktivera funktionen 'Webbsurfning' kan den söka information på nätet i realtid.",
+                "C": "Endast om man laddar upp ett dokument med specifika webblänkar i dess kunskapsbas.",
+                "D": "Ja, men det fungerar bara för att ladda ner bilder."
+            },
+            "correct_answer": "B",
+            "explanation": "En anpassad GPT har en inbyggd funktion för webbsurfning. Genom att aktivera denna funktion kan GPT:n koppla upp sig mot internet och hämta aktuell information i realtid, vilket är avgörande eftersom dess grundträning stannar vid ett visst datum [1-4]."
+        },
+        {
+            "id": 9,
+            "category": "GPTs Funktioner och Verktyg",
+            "question": "Kan en anpassad GPT utföra avancerade dataanalyser på uppladdade filer, och i så fall hur?",
+            "options": {
+                "A": "Nej, en GPT hanterar enbart text och kan inte utföra matematiska beräkningar eller analysera stora datamängder.",
+                "B": "Ja, genom det inbyggda verktyget 'Code Interpreter' som automatiskt kan skriva och köra Python-kod i bakgrunden för att analysera filer som Excel och CSV.",
+                "C": "Ja, men bara om användaren manuellt översätter all sifferdata till en vanlig textfil (.txt) först.",
+                "D": "Endast om man kopplar GPT:n till ett externt statistikprogram via ett API."
+            },
+            "correct_answer": "B",
+            "explanation": "När man laddar upp strukturerad data, såsom en Excel- eller CSV-fil, identifierar GPT detta och aktiverar automatiskt verktyget Code Interpreter. Detta verktyg använder programmeringsspråket Python för att utföra avancerade dataanalyser, vilket förvandlar GPT:n från en ren språkmodell till en kraftfull analysmotor, helt utan att användaren behöver kunna koda [1, 2]."
+        },
+        {
+            "id": 10,
+            "category": "Systemprompt och Struktur",
+            "question": "Kan man använda ASPECCT-formeln i systemprompten när man skapar en anpassad GPT?",
+            "options": {
+                "A": "Nej, ASPECCT-formeln fungerar bara i den vanliga versionen av ChatGPT och kan inte sparas i en GPT.",
+                "B": "Ja, den är ett starkt rekommenderat ramverk för att strukturera systemprompten och definiera GPT:ns roll, steg, och begränsningar.",
+                "C": "Ja, men den används uteslutande som instruktion för hur GPT:n ska skapa bilder med DALL-E.",
+                "D": "Nej, systemprompten genereras alltid automatiskt av OpenAI och kan inte struktureras med egna formler."
+            },
+            "correct_answer": "B",
+            "explanation": "Man kan med stor fördel använda ASPECCT-formeln (eller varianter av den) som en mall för att bygga sin systemprompt. Den hjälper till att strukturera komplexa instruktioner i sju delar (Action, Steg, Persona, Exempel, Kontext, Begränsningar och Mall), vilket är avgörande för att styra GPT:ns beteende och uppnå hög 'alignment' och konsistens [1-3]."
+        },
+        {
+            "id": 11,
+            "category": "Modul 1: Introduktion till GPTs",
+            "question": "Vad är syftet med delen 'Constraints' (Begränsningar) i ASPECCT-formeln?",
+            "options": {
+                "A": "Att definiera utdataformatet.",
+                "B": "Att bestämma GPT:ns tonläge.",
+                "C": "Att tydliggöra begränsningar och vad GPT:n absolut inte bör göra.",
+                "D": "Att ange vilken roll GPT:n ska spela."
+            },
+            "correct_answer": "C",
+            "explanation": "Constraints används för att sätta tydliga begränsningar och definiera vad modellen inte bör göra i sina svar [5]."
+        },
+        {
+            "id": 12,
+            "category": "Strategi och Arkitektur",
+            "question": "Vad är en av de viktigaste grundreglerna att tänka på när man designar en anpassad GPT?",
+            "options": {
+                "A": "Att bygga in så många funktioner som möjligt så att den kan göra allting.",
+                "B": "Att fokusera på att låta den utföra en specifik uppgift.",
+                "C": "Att aldrig använda systemprompter för att inte begränsa dess kreativitet.",
+                "D": "Att publicera den offentligt direkt innan man testar den."
+            },
+            "correct_answer": "B",
+            "explanation": "Det är ineffektivt att skapa en GPT som försöker göra många saker på en gång. När man skapar en GPT bör den fokusera på att utföra en specifik uppgift, vilket också är anledningen till att företag strategiskt rekommenderas att bygga en 'armé av GPTs' där varje enhet har en tydlig, specialiserad roll [1, 2]."
+        },
+        {
+            "id": 13,
+            "category": "Modul 1: Introduktion till GPTs",
+            "question": "Vad rekommenderas företag att göra i stället för att bygga en enda 'Super-GPT'?",
+            "options": {
+                "A": "Sluta använda AI.",
+                "B": "Skapa en armé av GPTs där varje GPT fokuserar på en specifik uppgift.",
+                "C": "Enbart använda standardversionen av ChatGPT.",
+                "D": "Anställa fler programmerare för att bygga egna system från grunden."
+            },
+            "correct_answer": "B",
+            "explanation": "En GPT ska bara ta hand om en specifik uppgift, vilket gör det effektivt att bygga en armé av GPTs [3]."
+        },
+        {
+            "id": 14,
+            "category": "Strategi och Organisation",
+            "question": "Vad menas med begreppet 'virtuella medarbetare' när man pratar om anpassade GPT:er i en professionell kontext?",
+            "options": {
+                "A": "Mänsklig personal som enbart arbetar på distans via internet.",
+                "B": "En allmän, ostrukturerad chattbot som kan lite om allting i ett företag.",
+                "C": "Specialiserade, rollbaserade och instruktionsstyrda AI-enheter med tydliga mandat och avgränsade ansvarsområden.",
+                "D": "Externa IT-konsulter som hyrs in tillfälligt för specifika projekt."
+            },
+            "correct_answer": "C",
+            "explanation": "I detta sammanhang är en GPT inte bara en chattbot. Det är en specialiserad, instruktionsstyrd AI-enhet som fungerar som en virtuell medarbetare med ett tydligt mandat och avgränsat ansvarsområde (exempelvis en HR-GPT eller Marknadsanalys-GPT) [1, 2]."
+        },
+        {
+            "id": 15,
+            "category": "Strategi och Organisation",
+            "question": "Kan specialiserade GPTs (virtuella medarbetare) samarbeta med varandra inom en organisation?",
+            "options": {
+                "A": "Nej, en GPT måste alltid arbeta helt isolerat från andra system.",
+                "B": "Ja, de kan arbeta parallellt och i avancerade implementationer koordineras via arbetsflöden och agentarkitektur för att skapa ett internt AI-ekosystem.",
+                "C": "Ja, men endast om de delar exakt samma kunskapsbas och systemprompt.",
+                "D": "Nej, OpenAI:s plattform tillåter endast en aktiv GPT per företag."
+            },
+            "correct_answer": "B",
+            "explanation": "Det är inte effektivt att skapa en enda GPT som gör allt, däremot kan flera specialiserade GPTs samarbeta med varandra [1]. De kan arbeta parallellt, dela struktur och i mer avancerade implementationer koordineras via arbetsflöden och agentarkitektur för att bygga ett internt AI-ekosystem som förstärker organisationen [2]."
+        },
+        {
+            "id": 16,
+            "category": "Modul 1: Introduktion till GPTs",
+            "question": "Vid vilka tre typer av uppgifter rekommenderas det särskilt att man skapar en GPT?",
+            "options": {
+                "A": "Fysiska, emotionella och spirituella uppgifter.",
+                "B": "Ekonomiska, juridiska och medicinska uppgifter.",
+                "C": "Matematiska, historiska och språkliga uppgifter.",
+                "D": "Repetitiva, komplexa och metodologiska uppgifter."
+            },
+            "correct_answer": "D",
+            "explanation": "Man bör skapa en GPT när man står inför repetitiva uppgifter, komplexa uppgifter eller metodologiska uppgifter [4]."
+        },
+        {
+            "id": 17,
+            "category": "Modul 1: Introduktion till GPTs",
+            "question": "Vad innebär det avslutande steget 'Tuning' när man utvecklar en GPT?",
+            "options": {
+                "A": "Att välja profilbild.",
+                "B": "Kontinuerlig förbättring och testning av GPT:n för att uppnå ett acceptabelt resultat.",
+                "C": "Att publicera GPT:n i Store.",
+                "D": "Att koppla in API:er."
+            },
+            "correct_answer": "B",
+            "explanation": "Tuning innebär kontinuerlig förbättring och testning, eftersom man sällan får en perfekt GPT från början [8]."
+        },
+        {
+            "id": 18,
+            "category": "Modul 1: Introduktion till GPTs",
+            "question": "Varför är det en dålig idé att skapa en GPT som kan göra 'allting'?",
+            "options": {
+                "A": "Det kostar för mycket pengar.",
+                "B": "Det är ineffektivt; en GPT bör fokusera på att utföra en specifik uppgift för bäst resultat.",
+                "C": "Det fyller upp hela serverutrymmet.",
+                "D": "Det bryter mot OpenAI:s regler."
+            },
+            "correct_answer": "B",
+            "explanation": "När man skapar en GPT bör den fokusera på en specifik uppgift, då det inte är effektivt att skapa en GPT som ska göra många saker på en gång [10]."
+        },
+        {
+            "id": 19,
+            "category": "Modul 2: Träna GPT med egen data",
+            "question": "Hur många dokument kan du maximalt ladda upp till en GPT:s Knowledge Base?",
+            "options": {
+                "A": "5 dokument.",
+                "B": "10 dokument.",
+                "C": "20 dokument.",
+                "D": "Obegränsat antal."
+            },
+            "correct_answer": "C",
+            "explanation": "I en Knowledge Base har man möjlighet att ladda upp totalt 20 dokument per GPT [6]."
+        },
+        {
+            "id": 20,
+            "category": "Modul 2: Träna GPT med egen data",
+            "question": "Vad är den maximala filstorleken för ett uppladdat dokument i Knowledge Base?",
+            "options": {
+                "A": "10 MB.",
+                "B": "100 MB.",
+                "C": "512 MB.",
+                "D": "1 GB."
+            },
+            "correct_answer": "C",
+            "explanation": "Varje dokument som laddas upp i kunskapsbasen får vara maximalt 512 MB stort [6]."
+        },
+        {
+            "id": 21,
+            "category": "Modul 2: Träna GPT med egen data",
+            "question": "När en GPT ska läsa ett dokument delas texten upp i små bitar. Vad kallas dessa textbitar?",
+            "options": {
+                "A": "Pixlar.",
+                "B": "Tokens.",
+                "C": "Bytes.",
+                "D": "Noder."
+            },
+            "correct_answer": "B",
+            "explanation": "Allt innehåll i ett uppladdat dokument omvandlas och delas upp i mindre textbitar som kallas tokens innan de analyseras av AI:n [11]."
+        },
+        {
+            "id": 22,
+            "category": "Modul 2: Träna GPT med egen data",
+            "question": "För att AI:n ska förstå texten omvandlas 'tokens' till en grafisk och matematisk representation. Vad kallas detta?",
+            "options": {
+                "A": "Matriser.",
+                "B": "Grafer.",
+                "C": "Vektorer.",
+                "D": "Koder."
+            },
+            "correct_answer": "C",
+            "explanation": "Dessa tokens omvandlas till en matematisk representation som kallas vektorer för att AI:n ska kunna bearbeta dem [11]."
+        },
+        {
+            "id": 23,
+            "category": "Modul 2: Träna GPT med egen data",
+            "question": "Vad innebär begreppet 'semantisk sökning' när det gäller textvektorer?",
+            "options": {
+                "A": "Att GPT:n söker på internet.",
+                "B": "Att vektorer som ligger nära varandra har en semantisk, innebördsmässig koppling.",
+                "C": "Att GPT:n bara letar efter exakta ordmatchningar.",
+                "D": "Att GPT:n översätter texten till ett annat språk."
+            },
+            "correct_answer": "B",
+            "explanation": "Inom semantisk sökning betyder det att vektorer som ligger nära varandra i modellen har en stark semantisk koppling, som exempelvis 'katt' och olika kattdjur [12]."
+        },
+        {
+            "id": 24,
+            "category": "Modul 2: Träna GPT med egen data",
+            "question": "Vad står begreppet 'RAG' för?",
+            "options": {
+                "A": "Random Augmented Generation.",
+                "B": "Retrieval-Augmented Generation.",
+                "C": "Robust AI Guidelines.",
+                "D": "Rapid Action Generator."
+            },
+            "correct_answer": "B",
+            "explanation": "RAG står för Retrieval-Augmented Generation, vilket innebär att AI hämtar relevant data och använder sin språkmodell för att generera svar [13]."
+        },
+        {
+            "id": 25,
+            "category": "Modul 2: Träna GPT med egen data",
+            "question": "Vilket verktyg aktiverar GPT automatiskt om du laddar upp en Excel-fil för analys?",
+            "options": {
+                "A": "File Search.",
+                "B": "Webbsurfning.",
+                "C": "Code Interpreter.",
+                "D": "DALL-E."
+            },
+            "correct_answer": "C",
+            "explanation": "För filer som CSV eller Excel använder GPT verktyget Code Interpreter som genererar Python-kod i bakgrunden för dataanalys [7]."
+        },
+        {
+            "id": 26,
+            "category": "Modul 2: Träna GPT med egen data",
+            "question": "När du laddar upp en PDF eller TXT-fil, vilken sökmetod används primärt av GPT?",
+            "options": {
+                "A": "File Search (Semantisk sökning).",
+                "B": "Code Interpreter.",
+                "C": "API-anrop.",
+                "D": "Webbsurfning."
+            },
+            "correct_answer": "A",
+            "explanation": "När textbaserade dokument som PDF eller TXT laddas upp använder GPT verktyget File Search för att utföra semantiska sökningar [7]."
+        },
+        {
+            "id": 27,
+            "category": "Modul 2: Träna GPT med egen data",
+            "question": "Vilket textformat rekommenderas starkt när du har mycket omfattande text med en komplex informationsstruktur?",
+            "options": {
+                "A": "Word-dokument (.docx).",
+                "B": "PDF.",
+                "C": "JSON.",
+                "D": "PowerPoint."
+            },
+            "correct_answer": "C",
+            "explanation": "Om texten är omfattande och har en komplex struktur är det ofta en stor fördel att använda formatet JSON, då det är strukturerat och lätt för AI att tolka [14]."
+        },
+        {
+            "id": 28,
+            "category": "Modul 2: Träna GPT med egen data",
+            "question": "Varför är det viktigt att ge sina uppladdade dokument i Knowledge Base tydliga titlar?",
+            "options": {
+                "A": "För att det ser snyggt ut i gränssnittet.",
+                "B": "För att GPT:n snabbt ska kunna identifiera rätt dokument utan att analysera allt innehåll direkt.",
+                "C": "För att dokumenten annars raderas av säkerhetsskäl.",
+                "D": "För att minska filens storlek."
+            },
+            "correct_answer": "B",
+            "explanation": "Tydliga titlar hjälper GPT:n att snabbt avgöra om ett dokument är relevant för frågan, vilket förhindrar onödig bearbetning och ger snabbare svar [16]."
+        },
+        {
+            "id": 29,
+            "category": "Modul 3: Alignment och Konsistens",
+            "question": "Vad menas primärt med begreppet 'Alignment' inom AI-utveckling?",
+            "options": {
+                "A": "Att AI:n har rätt bildformat.",
+                "B": "Att justera AI:ns mål, beteenden och beslut så de stämmer överens med mänskliga intentioner och värderingar.",
+                "C": "Att radera gamla filer i kunskapsbasen.",
+                "D": "Att göra AI:n snabbare på att svara."
+            },
+            "correct_answer": "B",
+            "explanation": "Alignment handlar om att säkerställa att en AI:s mål, beteenden och resultat är i linje med människors intentioner, värderingar och säkerhetskrav [18]."
+        },
+        {
+            "id": 30,
+            "category": "Alignment och Konsistens",
+            "question": "Varför är 'Alignment' (inriktning) så viktigt när man skapar och använder anpassade GPTs?",
+            "options": {
+                "A": "För att det minskar prenumerationskostnaden hos OpenAI.",
+                "B": "För att det säkerställer att AI:ns beteende, beslut och svar överensstämmer med dina intentioner, etiska riktlinjer och företagets mål, vilket minimerar risker.",
+                "C": "För att det gör att GPT:n automatiskt kan skriva egen Python-kod snabbare.",
+                "D": "För att det tvingar GPT:n att hämta all sin information från webbsurfning istället för sin grundträning."
+            },
+            "correct_answer": "B",
+            "explanation": "Alignment är avgörande för att säkerställa att ett AI-system genererar utdata som är i harmoni med de mål det är skapat för, utan att producera skadligt eller oönskat beteende [1, 2]. Bristande alignment är inte bara en kosmetisk brist, utan kan leda till oförutsägbara svar, avvikelser från affärslogiken, operativa risker och förtroendeförlust [3, 4]."
+        },
+        {
+            "id": 31,
+            "category": "Modul 3: Alignment och Konsistens",
+            "question": "Vad innebär 'Konsistens' (Consistency) i kontexten av anpassade GPTs?",
+            "options": {
+                "A": "Att AI:n aldrig svarar.",
+                "B": "Att göra saker på ett sammanhängande och stabilt sätt gällande format, struktur och interaktivitet.",
+                "C": "Att AI:n hittar på nya format varje gång för att vara kreativ.",
+                "D": "Att minnet aldrig raderas."
+            },
+            "correct_answer": "B",
+            "explanation": "Konsistens handlar om att AI:n är konsekvent i sina svar gällande format och struktur, samt att dess interaktivitet följer ett koherent flöde varje gång [20]."
+        },
+        {
+            "id": 32,
+            "category": "Modul 3: Alignment och Konsistens",
+            "question": "Ett av kraven för konsistens är 'Formatkonsistens'. Vad betyder det?",
+            "options": {
+                "A": "Att GPT:n alltid svarar på svenska.",
+                "B": "Att GPT:n alltid sparar filerna som PDF.",
+                "C": "Att GPT:n alltid följer samma visuella upplägg och struktur i sina svar oavsett input.",
+                "D": "Att GPT:n bara svarar i form av bilder."
+            },
+            "correct_answer": "C",
+            "explanation": "Formatkonsistens handlar om att GPT:n ska följa samma format och struktur i sina svar, till exempel alltid använda samma medicinska journalstruktur oavsett fråga [21]."
+        },
+        {
+            "id": 33,
+            "category": "Modul 3: Alignment och Konsistens",
+            "question": "Ett annat krav är 'Interaktionskonsistens'. Vad avses med det?",
+            "options": {
+                "A": "Att GPT:n använder samma tonläge.",
+                "B": "Att GPT:n ska följa samma sekvens eller mönster av dialog varje gång, t.ex. först bekräfta, sedan ställa motfråga.",
+                "C": "Att användaren måste klicka på en knapp för att svara.",
+                "D": "Att GPT:n skickar ett e-postmeddelande efter varje chatt."
+            },
+            "correct_answer": "B",
+            "explanation": "Interaktionskonsistens innebär att GPT:n ska följa samma interaktionsmönster och sekvens varje gång, oavsett hur användaren formulerar sin fråga [22]."
+        },
+        {
+            "id": 34,
+            "category": "Modul 3: Alignment och Konsistens",
+            "question": "Vilken teknik beskrivs som det bästa sättet att uppnå hög konsistens i en GPT?",
+            "options": {
+                "A": "Att skriva med stora bokstäver.",
+                "B": "N-shot prompting.",
+                "C": "Webbsökning.",
+                "D": "Att enbart använda Code Interpreter."
+            },
+            "correct_answer": "B",
+            "explanation": "N-shot prompting är ett av de bästa sätten att uppnå stark konsistens, då du explicit visar modellen konkreta exempel på hur den ska svara innan den genererar sitt eget svar [23]."
+        },
+        {
+            "id": 35,
+            "category": "Modul 3: Alignment och Konsistens",
+            "question": "Om du använder 3–5 färdiga exempel i din instruktion (systemprompt), vilken nivå av N-shot prompting använder du?",
+            "options": {
+                "A": "Zero-shot prompting.",
+                "B": "One-shot prompting.",
+                "C": "Few-shot prompting.",
+                "D": "Many-shot prompting."
+            },
+            "correct_answer": "C",
+            "explanation": "Few-shot prompting innebär att man ger ett fåtal exempel (vanligtvis 3–5), vilket ger tydlig struktur och minskar variationen [24]."
+        },
+        {
+            "id": 36,
+            "category": "Modul 3: Alignment och Konsistens",
+            "question": "Vad är en av de största fördelarna med att använda N-shot prompting för sin GPT?",
+            "options": {
+                "A": "Den genererar koden automatiskt.",
+                "B": "Det sparar prenumerationskostnad.",
+                "C": "Det minimerar hallucinationer eftersom GPT tydligt ser mönster på hur den ska svara.",
+                "D": "Det stänger automatiskt av webbsurfningen."
+            },
+            "correct_answer": "C",
+            "explanation": "Att ge GPT en fast struktur via N-shot prompting är fördelaktigt eftersom det bland annat minimerar hallucinationer [25]."
+        },
+        {
+            "id": 37,
+            "category": "Modul 3: Alignment och Konsistens",
+            "question": "Vad innebär begreppet 'Heuristik' i samband med AI och GPTs?",
+            "options": {
+                "A": "Det är namnet på en specifik AI-modell.",
+                "B": "En regelbaserad strategi (tumregler) för att styra modellens beslutsfattande och filtrera information.",
+                "C": "En funktion för att skapa avancerad grafik.",
+                "D": "Ett programmeringsspråk som ersätter Python."
+            },
+            "correct_answer": "B",
+            "explanation": "Heuristik är en metod baserad på tumregler eller förenklade beslut som används för att styra hur GPT-modellen svarar och prioriterar information [26]."
+        },
+        {
+            "id": 38,
+            "category": "Modul 3: Alignment och Konsistens",
+            "question": "Vilken av följande regler är ett exempel på en bra heuristik i en systemprompt?",
+            "options": {
+                "A": "Svara så snabbt som möjligt.",
+                "B": "Gissa om du inte vet svaret.",
+                "C": "Om svaret inte finns i din kunskapsbas, svara 'Jag vet inte' istället för att gissa.",
+                "D": "Skapa alltid en bild först."
+            },
+            "correct_answer": "C",
+            "explanation": "Ett typiskt exempel på beslutsheuristik för att minska hallucinationer är att be AI:n svara att den inte vet om informationen saknas i dokumenten [27]."
+        },
+        {
+            "id": 39,
+            "category": "Alignment och Konsistens",
+            "question": "Varför använder man 'Heuristik' när man designar och styr anpassade GPT:er?",
+            "options": {
+                "A": "För att radera GPT:ns grundträning så att den enbart förlitar sig på webbsökningar.",
+                "B": "För att sätta upp kognitiva tumregler och riktlinjer som styr hur modellen ska resonera, prioritera och filtrera information, vilket ökar dess alignment och konsistens.",
+                "C": "För att tvinga GPT:n att generera alla sina svar i form av bilder istället för text.",
+                "D": "För att automatiskt översätta användarens frågor till engelska innan GPT:n svarar."
+            },
+            "correct_answer": "B",
+            "explanation": "Eftersom GPT-modeller är sannolikhetsbaserade används heuristik som en intern kompass eller riktad vägledning för att 'tämja modellens sannolikhetsrum' [1, 2]. Genom att ge GPT:n strukturerade tumregler för hur den ska prioritera information och fatta beslut, blir den mer konsekvent och förutsägbar, vilket är avgörande för att uppnå stark alignment [3-5]."
+        },
+        {
+            "id": 40,
+            "category": "Modul 3: Alignment och Konsistens",
+            "question": "Varför poängterar kursen att man aldrig kan uppnå 100 % alignment i generativa AI-modeller?",
+            "options": {
+                "A": "För att de är för långsamma.",
+                "B": "Eftersom generativa AI-modeller arbetar probabilistiskt (sannolikhetsbaserat) och alltid försöker ge ett svar, även om fakta saknas.",
+                "C": "För att openai förbjuder det.",
+                "D": "För att koden är felaktig."
+            },
+            "correct_answer": "B",
+            "explanation": "Eftersom modellerna är probabilistiska och styrs av sin grundträning kommer de alltid att försöka fylla i luckor och ge ett svar, vilket gör 100% alignment omöjligt [28]."
+        },
+        {
+            "id": 41,
+            "category": "Modul 4: Actions och integration",
+            "question": "Vad är det primära syftet med att ge din GPT 'Actions'?",
+            "options": {
+                "A": "Att byta röst på chatboten.",
+                "B": "Att tillåta GPT:n att interagera med omvärlden och externa verktyg via API:er, vilket gör den operativ.",
+                "C": "Att snabba upp textgenereringen.",
+                "D": "Att göra den privat."
+            },
+            "correct_answer": "B",
+            "explanation": "Actions tillåter anpassade GPTs att integrera med extern data och verktyg via API:er, vilket transformerar den till en operativ aktör [30]."
+        },
+        {
+            "id": 42,
+            "category": "Actions och Externa Integrationer",
+            "question": "Vad är ett API (Application Programming Interface) och vad är dess primära funktion?",
+            "options": {
+                "A": "Ett inbyggt minne i ChatGPT där alla tidigare konversationer sparas permanent.",
+                "B": "En uppsättning regler som fungerar som en brygga, vilket tillåter olika applikationer och mjukvarusystem att kommunicera och utbyta data med varandra.",
+                "C": "Ett specifikt programmeringsspråk (likt Python) som används för att designa bilder i DALL-E.",
+                "D": "Ett säkerhetsprogram som automatiskt raderar oönskad information från internet."
+            },
+            "correct_answer": "B",
+            "explanation": "Ett API står för Application Programming Interface och fungerar som en brygga mellan två applikationer. Det är en uppsättning regler som gör det möjligt för olika mjukvarusystem att utbyta data och funktioner enkelt och säkert med varandra, ofta helt utan mänsklig inblandning [1, 2]."
+        },
+        {
+            "id": 43,
+            "category": "Modul 4: Actions och integration",
+            "question": "Vad är den stora fördelen med att applikationer kommunicerar via ett API i stället för vanliga webbsidor?",
+            "options": {
+                "A": "Det är snyggare att se på.",
+                "B": "Det låter två applikationer utbyta data helt automatiskt och i bakgrunden utan mänsklig inblandning.",
+                "C": "Det sparar el.",
+                "D": "Det kräver ingen internetuppkoppling."
+            },
+            "correct_answer": "B",
+            "explanation": "API:er gör det möjligt för applikationer att utbyta information och automatisera arbetsflöden direkt med varandra, helt utan mänsklig inblandning [32]."
+        },
+        {
+            "id": 44,
+            "category": "Modul 4: Actions och integration",
+            "question": "För att din GPT ska förstå hur den ska kommunicera med ett specifikt API behöver den ett kontrakt. Vad kallas detta?",
+            "options": {
+                "A": "En licensnyckel.",
+                "B": "Ett OpenAPI-schema.",
+                "C": "En databasfil.",
+                "D": "Ett systemkrav."
+            },
+            "correct_answer": "B",
+            "explanation": "Ett OpenAPI-schema är ett kontrakt som i detalj beskriver hur API:et ska implementeras och hur GPT:n ska interagera med det [34]."
+        },
+        {
+            "id": 45,
+            "category": "Modul 4: Actions och integration",
+            "question": "I ett av kursens praktiska exempel används ett API som heter 'CoinCap'. Vad var syftet med detta?",
+            "options": {
+                "A": "Att sälja aktier.",
+                "B": "Att räkna ut företagets skatt.",
+                "C": "Att låta GPT:n hämta aktuella priser på kryptovalutor, exempelvis Bitcoin, i realtid.",
+                "D": "Att ladda ner bilder på mynt."
+            },
+            "correct_answer": "C",
+            "explanation": "CoinCap-exemplet visade hur man kunde skapa en Action för att låta GPT:n hämta in det aktuella värdet på Bitcoin i realtid [37]."
+        },
+        {
+            "id": 46,
+            "category": "Modul 4: Actions och integration",
+            "question": "Vad är 'Make' (även känt som Integromat) för typ av plattform i dessa sammanhang?",
+            "options": {
+                "A": "En databas.",
+                "B": "Ett designverktyg.",
+                "C": "Ett kraftfullt automationsverktyg som används för att koppla ihop olika applikationer och skapa arbetsflöden (workflows).",
+                "D": "En videospelare."
+            },
+            "correct_answer": "C",
+            "explanation": "Make är en plattform designad för att koppla ihop hundratals olika applikationer för att automatisera komplexa processer och workflows [38]."
+        },
+        {
+            "id": 47,
+            "category": "Modul 4: Actions och integration",
+            "question": "Vad är en 'Webhook' och hur används den tillsammans med Make och din GPT?",
+            "options": {
+                "A": "Ett verktyg för att blockera hackare.",
+                "B": "En typ av API-brygga med en unik URL-adress som ligger och lyssnar efter signaler, exempelvis från en GPT, för att starta ett arbetsflöde.",
+                "C": "En bok om programmering.",
+                "D": "Ett inbyggt minne i ChatGPT."
+            },
+            "correct_answer": "B",
+            "explanation": "En Webhook fungerar som en bro (API) med en URL-adress som kopplar ihop GPT:n med Make-plattformen genom att lyssna efter kommandon [39]."
+        },
+        {
+            "id": 48,
+            "category": "Modul 4: Actions och integration",
+            "question": "Varför använder man 'Headers' när man konfigurerar ett API?",
+            "options": {
+                "A": "För att skriva en snygg titel.",
+                "B": "För att tillhandahålla konfigurationsdata, såsom inloggningsnycklar för att autentisera sig mot API:er som kostar pengar eller kräver behörighet.",
+                "C": "För att radera historiken.",
+                "D": "För att dölja URL:en."
+            },
+            "correct_answer": "B",
+            "explanation": "Headers i ett API-anrop används ofta för konfiguration och autentisering, till exempel för att skicka med inloggningsuppgifter om API:et inte är fritt öppet [33]."
+        },
+        {
+            "id": 49,
+            "category": "Modul 5: GPT Store och publicering",
+            "question": "Vad är GPT Store?",
+            "options": {
+                "A": "En plats där man köper datorkomponenter.",
+                "B": "En marknadsplats där användare kan publicera, dela och upptäcka anpassade AI-applikationer (GPTs).",
+                "C": "Ett program man laddar ner lokalt.",
+                "D": "Ett bibliotek med böcker om AI."
+            },
+            "correct_answer": "B",
+            "explanation": "GPT Store är OpenAI:s marknadsplats där användare och utvecklare kan publicera och upptäcka anpassade GPT-applikationer [40]."
+        },
+        {
+            "id": 50,
+            "category": "Modul 5: GPT Store och publicering",
+            "question": "När lanserades GPT Store av OpenAI?",
+            "options": {
+                "A": "Januari 2024.",
+                "B": "Mars 2023.",
+                "C": "November 2022.",
+                "D": "Juli 2025."
+            },
+            "correct_answer": "A",
+            "explanation": "Plattformen och marknadsplatsen GPT Store lanserades i januari 2024 [41]."
+        },
+        {
+            "id": 51,
+            "category": "Modul 5: GPT Store och publicering",
+            "question": "Vilka tre delningsalternativ har du när du klickar på 'Spara/Dela' för din GPT?",
+            "options": {
+                "A": "Bara jag, Alla som har länken, GPT Store (Offentlig).",
+                "B": "Spara till disk, Skriv ut, Maila.",
+                "C": "Endast webb, Endast mobil, Båda.",
+                "D": "Gratis, Prenumeration, Engångskostnad."
+            },
+            "correct_answer": "A",
+            "explanation": "När man är färdig har man tre alternativ för att dela: Bara jag, Alla som har länken, eller offentlig via GPT Store [42]."
+        },
+        {
+            "id": 52,
+            "category": "Modul 5: GPT Store och publicering",
+            "question": "Om din GPT innehåller känsliga affärshemliga data i sin Knowledge Base, vilket delningsalternativ är säkrast?",
+            "options": {
+                "A": "GPT Store.",
+                "B": "Alla som har länken.",
+                "C": "Bara jag.",
+                "D": "Det spelar ingen roll."
+            },
+            "correct_answer": "C",
+            "explanation": "Om man vill hålla sina interna GPT:er skyddade och för sig själv ska man välja delningsalternativet 'Bara jag' [43]."
+        },
+        {
+            "id": 53,
+            "category": "Modul 5: GPT Store och publicering",
+            "question": "Hur kan andra användare utvärdera din GPT om du har publicerat den på GPT Store?",
+            "options": {
+                "A": "Genom att skicka mejl till dig.",
+                "B": "Genom att ge den ett betyg, vilket också påverkar hur populär och synlig den blir på plattformen.",
+                "C": "Genom att betala dricks i kryptovaluta.",
+                "D": "Man kan inte utvärdera GPTs."
+            },
+            "correct_answer": "B",
+            "explanation": "I GPT Store kan användare utvärdera GPT:er genom att sätta betyg, vilket direkt påverkar dess synlighet och popularitet [41]."
+        },
+        {
+            "id": 54,
+            "category": "Modul 5: GPT Store och publicering",
+            "question": "Går det, enligt det aktuella kursmaterialet, att tjäna pengar direkt genom att sätta en prislapp på din GPT inne i Store?",
+            "options": {
+                "A": "Ja, du väljer pris i dollar.",
+                "B": "Nej, just nu går det inte att ta betalt för dem direkt på plattformen (men förväntas i framtiden).",
+                "C": "Ja, men OpenAI tar 50%.",
+                "D": "Nej, det kommer aldrig att bli möjligt."
+            },
+            "correct_answer": "B",
+            "explanation": "Just nu går det inte att tjäna pengar direkt (dvs sälja dem) via GPT Store, även om det förväntas förändras i framtiden [44]."
+        },
+        {
+            "id": 55,
+            "category": "Modul 5: GPT Store och publicering",
+            "question": "Hur kan företag idag tjäna pengar på GPT Store trots att de inte kan sälja själva GPT:n?",
+            "options": {
+                "A": "Genom att hacka OpenAI:s system.",
+                "B": "Genom att publicera en värdeskapande GPT offentligt, vilket fungerar som varumärkesbyggande och genererar leads till den egna verksamheten.",
+                "C": "Genom att be om donationer i prompten.",
+                "D": "Det går överhuvudtaget inte att dra ekonomisk nytta av det."
+            },
+            "correct_answer": "B",
+            "explanation": "Företag kan utnyttja marknadsplatsen indirekt för varumärkesbyggande (inbound marketing) genom att nå ut till miljontals potentiella användare och leda dem till det egna ekosystemet [45]."
+        },
+        {
+            "id": 56,
+            "category": "Strategi och Arkitektur",
+            "question": "Vad är den strategiska skillnaden mellan en GPT utan Actions och en GPT med Actions?",
+            "options": {
+                "A": "En GPT utan Actions är en operativ aktör, medan en med Actions bara ger råd.",
+                "B": "Det är enbart en skillnad i vad det kostar att bygga.",
+                "C": "En GPT utan Actions är enbart kognitivt förstärkande (ger råd), medan en med Actions är operativt förstärkande (kan utföra arbetsuppgifter).",
+                "D": "En GPT med Actions fungerar inte på mobiltelefoner."
+            },
+            "correct_answer": "C",
+            "explanation": "En standard-GPT ger kognitiv förstärkning, medan en GPT som integreras via Actions blir en operativ aktör som utför faktiska uppgifter [46]."
+        },
+        {
+            "id": 57,
+            "category": "Strategi och Arkitektur",
+            "question": "Vad riskerar företag som *inte* investerar i och implementerar anpassade GPTs (virtuella medarbetare) enligt kursens strategiska utblick inför 2025?",
+            "options": {
+                "A": "De får böter från staten.",
+                "B": "De tvingas byta namn.",
+                "C": "Ingenting, tekniken är en fluga.",
+                "D": "De riskerar att halka efter sina konkurrenter avsevärt vad gäller effektivitet och produktionsskalbarhet."
+            },
+            "correct_answer": "D",
+            "explanation": "Det poängteras att år 2025 kommer företag som inte använder strukturerade anpassade GPT:er att halka efter sina konkurrenter som förstärker sin kapacitet digitalt [47]."
+        }
+    ]
+}

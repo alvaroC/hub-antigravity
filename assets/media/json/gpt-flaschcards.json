@@ -1,0 +1,278 @@
+{
+    "title": "GPTs",
+    "description": "66 interaktiva kort som täcker GPTs",
+    "cards": [
+        {
+            "q": "Vad är den primära definitionen av en anpassad GPT?",
+            "a": "En specialiserad version av ChatGPT som är optimerad för specifika behov, branscher eller unika uppgifter"
+        },
+        {
+            "q": "Varför ska man använda GPTs?",
+            "a": "Att använda GPTs innebär att du transformerar den vanliga, generella ChatGPT-modellen till en specialiserad och proaktiv AI-assistent som är anpassad för dina unika behov"
+        },
+        {
+            "q": "Hur skapar man en GPT?",
+            "a": "Att skapa en anpassad GPT görs via OpenAI:s plattform (endast för betald prenumeration) och kräver inga förkunskaper i programmering"
+        },
+        {
+            "q": "Hur ser ut utvecklingsprocessen för att bygga en kraftfull och anpassad GP?",
+            "a": "Det  består av fem  steg: 1) Ange: Namn, bild och beskrivning, 2) Definiera Systemprompten, 3) Ladda upp Kunskapsbas (Knowledge Base), 4) Bestäm Actions, 5) Tuning (Testning och finjustering)"
+        },
+        {
+            "q": "Vad är systemprompten?",
+            "a": "Systemprompten är inte bara en enkel instruktion, utan en beteendedesign som i detalj styr flera centrala aspekter av din GPT"
+        },
+        {
+            "q": "Vad är Kunskapsbas (Knowledge Base)?",
+            "a": "En Kunskapsbas (Knowledge Base) fungerar som GPT:ns unika minne och primära informationskälla. Det är den plats där du laddar upp dina egna dokument"
+        },
+        {
+            "q": "Varför bör jag använda  Kunskapsbas (Knowledge Base)?",
+            "a": "Att använda en kunskapsbas är det mest effektiva sättet att skapa en pålitlig GPT. Du kan instruera din GPT att endast basera sina svar på de uppladdade dokumenten. Detta minimerar risken för så kallade hallucinationer"
+        },
+        {
+            "q": "Vad är Actions?",
+            "a": "Actions  gör det möjligt att koppla din anpassade GPT till externa applikationer och datakällor ute på internet via så kallade API:er, vilket gör din GPT mer kraffull"
+        },
+        {
+            "q": "Kan min GPT koppla upp sig mot Internet?",
+            "a": "Ja, din anpassade GPT kan absolut koppla upp sig mot internet. Denna inbyggda förmåga kallas för webbsurfning (eller webbsökning)"
+        },
+        {
+            "q": "Kan min GPT utföra dataanalyser?",
+            "a": "Ja, din anpassade GPT kan absolut utföra avancerade dataanalyser. För att göra detta använder den ett specifikt inbyggt verktyg som kallas för Code Interpreter (kodtolkare)"
+        },
+        {
+            "q": "Kan man använda ASSPECT formeln i systemprompten?",
+            "a": "Ja, absolut!  ASPECT-formeln är bra och effektivt sätt att strukturera systemprompten (instruktionerna) när du skapar en anpassad GPT"
+        },
+        {
+            "q": "Kan man använda N-shot prompting när man skapar en GPT?",
+            "a": "N-shot prompting innebär att du explicit visar GPT-modellen konkreta exempel på hur den ska svara innan den genererar sitt eget svar. Istället för att enbart förklara med ord vad du vill ha, ger du modellen färdiga mallar eller dialogexempel"
+        },
+        {
+            "q": "Vad ska man tänka när jag designar en GPT?",
+            "a": "Fokusera på en specifik uppgift: En GPT ska inte göra allt. Designa den för en tydlig, avgränsad roll och ett specifikt ansvarsområde, till exempel som HR-support, Marknadsanalytiker eller Copywriter"
+        },
+        {
+            "q": "Vad menas med virtuella medarbetare?",
+            "a": "Virtuella medarbetare innebär att bygga specialiserade, rollbaserade och instruktionsstyrda anpassade GPTs. Dessa digitala enheter designas för att ha ett tydligt mandat och ett strikt avgränsat ansvarsområde inom en verksamhet"
+        },
+        {
+            "q": "Kan dessa virtuella medarbetare sammarbeta med varandra?",
+            "a": "ja, dessa specialiserade virtuella medarbetare, såsom en HR-GPT, en Marknadsanalys-GPT, en Kundsupport-GPT och en Strategi-GPT, kan kommunicera med varandra och utbyta data för uppnå ett resultat."
+        },
+        {
+            "q": "Var är skillnaden mellan företag som har utveklat en arme av GPTs och de som inte har gjort det?",
+            "a": "Företag som bygger en armé av GPTs använder dem som arkitektoniska byggblock för att transformera hela sin verksamhet och omvandlar därmed AI från ett passivt verktyg till en operativ och strategisk kapacitet"
+        },
+        {
+            "q": "Vad är AI-alignment (inriktning)?",
+            "a": "AI-alignment (inriktning) är processen att säkerställa att ett AI-systems mål, beteenden, beslut och resonemang överensstämmer med mänskliga intentioner, organisatoriska mål, etiska riktlinjer och samhälleliga värderingar"
+        },
+        {
+            "q": "Varför är det viktigt med Alignment när det gäller GPTs?",
+            "a": "Bristande alignment leder till oförutsägbara svar, att AI:n avviker från affärslogiken, att användarna tappar förtroendet och att det uppstår rent operativa risker"
+        },
+        {
+            "q": "Vad syftar 'Human Values Alignment' på i utvecklingen av GPTs?",
+            "a": "Att AI:n agerar i enlighet med mänskliga etiska normer och moraliska principer."
+        },
+        {
+            "q": "Varför är alignment viktigt för företag som skapar GPTs?",
+            "a": "För att minimera risker och säkerställa att svaren är i linje med företagets syften, värderingar och säkerhetskrav."
+        },
+        {
+            "q": "Vad är 'Strikt alignment' i relation till en anpassad GPT?",
+            "a": "När AI-modellen genererar utdata som är helt i harmoni med de specifika mål och ramar den skapats för."
+        },
+        {
+            "q": "Vilket är det primära verktyget för att styra en GPT:s beteende och uppnå alignment?",
+            "a": "Systemprompten (instruktionerna)."
+        },
+        {
+            "q": "Vad är syftet med att använda 'negativa prompts' i en GPT-instruktion?",
+            "a": "Att tydligt definiera begränsningar och vad systemet absolut inte får göra eller svara på."
+        },
+        {
+            "q": "Hur kan man använda feedback-loopen för att förbättra alignment?",
+            "a": "Genom att låta användare betygsätta svar och därefter iterera och finjustera systemprompten över tid."
+        },
+        {
+            "q": "Vad är konsistens?",
+            "a": "Medan alignment handlar om att din GPT gör rätt sak och följer dina intentioner, handlar konsistens om att din GPT gör det på ett stabilt och konsekvent sätt varje gång"
+        },
+        {
+            "q": "Inom konsistens, vad innebär 'konsistens i format'?",
+            "a": "Att GPT:n alltid följer samma struktur och format i sina svar, oavsett vilken input den får."
+        },
+        {
+            "q": "Vad innebär 'konsistens i interaktionsmönster'?",
+            "a": "Att GPT:n följer samma sekvens av logik och steg i dialogen vid varje interaktion."
+        },
+        {
+            "q": "Vilken teknik rekommenderas för att uppnå stark konsistens i en GPT?",
+            "a": "N-shot prompting (att ge modellen exempel på önskat beteende)."
+        },
+        {
+            "q": "Vad definierar Zero-shot prompting?",
+            "a": "Att man ger GPT:n en uppgift utan att tillhandahålla några exempel på önskat resultat."
+        },
+        {
+            "q": "Vad är fördelen med 'Few-shot prompting' (3–5 exempel) jämfört med 'One-shot'?",
+            "a": "Det ger en tydligare struktur och minskar risken för oönskad variation i svaren."
+        },
+        {
+            "q": "Hur kan man använda feedback-loopen för att förbättra alignment?",
+            "a": "Genom att låta användare betygsätta svar och därefter iterera och finjustera systemprompten över tid."
+        },
+        {
+            "q": "Vad betyder termet Heuristik?",
+            "a": "Definition: En praktisk tumregel eller beslutsstrategi som används i instruktioner för att styra AI:ns resonemang och prioriteringar."
+        },
+        {
+            "q": "Varför kan man använda Heuristik när det gäller GPTs?",
+            "a": "Att använda heuristik när man skapar anpassade GPTs är en kraftfull metod för att styra modellens beslutsfattande och säkerställa att den agerar pålitligt"
+        },
+        {
+            "q": "Ge ett exempel på en 'beslutsheuristik' för en GPT med en kunskapsbas.",
+            "a": "Om svaret finns i kunskapsbasen (KB), använd endast det; om information saknas, be om mer kontext istället för att gissa."
+        },
+        {
+            "q": "Varför kan man aldrig uppnå 100 % alignment i en GPT?",
+            "a": "Eftersom den förtränade (pre-trained) kunskapen i modellen aldrig kan stängas av helt och alltid finns i bakgrunden."
+        },
+        {
+            "q": "Hur kan man minimera risken för att GPT:n 'hallucinerar' svar utanför sin kunskapsbas?",
+            "a": "Genom att lägga till instruktionen: 'Om information saknas i KB, svara att du inte vet istället för att gissa'"
+        },
+        {
+            "q": "Vilken roll spelar 'Persona' i en systemprompt för alignment?",
+            "a": "Den definierar vilken professionell roll eller identitet AI:n ska simulera, vilket sätter tonen för all interaktion."
+        },
+        {
+            "q": "Vad är Strukturheuristik?",
+            "a": "Regler som säkrar formatkonsistens, till exempel att alltid svara i punktform vid tekniska frågor."
+        },
+        {
+            "q": "Hur definieras Dialogheuristik?",
+            "a": "Instruktioner som upprätthåller konsistens i hur dialogen förs, till exempel att alltid börja med att bekräfta användarens fråga."
+        },
+        {
+            "q": "Vad är en 'Output Template' i sammanhanget alignment?",
+            "a": "En mall i systemprompten som specificerar det exakta formatet, ordförrådet och tonen för AI:ns svar."
+        },
+        {
+            "q": "Varför är alignment särskilt kritiskt för GPTs som används externt av kunder?",
+            "a": "Det är en säkerhetsåtgärd för att skydda varumärket och säkerställa att ingen felaktig eller skadlig information sprids."
+        },
+        {
+            "q": "Hur bidrar 'Steps' (steg) i ASPECCT-formeln till konsistens?",
+            "a": "Genom att definiera en tydlig arbetsgång som GPT:n ska följa för att utföra en uppgift."
+        },
+        {
+            "q": "Inom alignment, vad är risken med motstridiga data mellan KB och pre-trained data?",
+            "a": "GPT:n kan blanda informationen eller börja 'hallucinera' ett svar som verkar logiskt men är felaktigt."
+        },
+        {
+            "q": "Vad är 'Actions' i en anpassad GPT?",
+            "a": "En funktion som tillåter GPT:n att integrera med och utbyta data med externa applikationer och verktyg via API:er."
+        },
+        {
+            "q": "Term: API (Application Programming Interface)",
+            "a": "Definition: En uppsättning regler som fungerar som en brygga och tillåter olika program att kommunicera och utbyta data med varandra."
+        },
+        {
+            "q": "Vilken är den strategiska skillnaden mellan en GPT utan Actions och en med Actions?",
+            "a": "Utan Actions är GPT:n en kognitiv förstärkning; med Actions blir den en operativ förstärkning som kan utföra handlingar."
+        },
+        {
+            "q": "Vad är ett OpenAPI-schema?",
+            "a": "Ett dokument som ger GPT:n nödvändig information om den externa applikationen för att möjliggöra kommunikation."
+        },
+        {
+            "q": "Vad beskriver en 'URL' i API-strukturen?",
+            "a": "Webbadressen på internet där API:et finns tillgängligt."
+        },
+        {
+            "q": "Vad är 'Make' (tidigare Integromat) i sammanhanget Actions?",
+            "a": "En plattform som används för att automatisera arbetsflöden mellan hundratals olika applikationer på internet."
+        },
+        {
+            "q": "Vad är en 'Webhook' inom Actions och automation?",
+            "a": "En mekanism som gör att en applikation (som Make) kan lyssna på signaler och data som skickas från en GPT i realtid."
+        },
+        {
+            "q": "Hur kan Actions användas för att hantera realtidsdata?",
+            "a": "Genom att ansluta GPT:n till externa tjänster som erbjuder uppdaterad information (t.ex. väder eller kryptovalutapriser) via API."
+        },
+        {
+            "q": "Vad beskriver en 'URL' i API-strukturen?",
+            "a": "Webbadressen på internet där API:et finns tillgängligt."
+        },
+        {
+            "q": "Vad är det första steget i processen att skapa en Action?",
+            "a": "Att identifiera vilket API som GPT:n ska kommunicera med."
+        },
+        {
+            "q": "Varför kräver vissa Actions inloggning via Headers?",
+            "a": "För att kontrollera säkerheten och säkerställa att endast behöriga användare har tillgång till API-tjänsten."
+        },
+        {
+            "q": "Ge ett exempel på ett operativt arbetsflöde med en Action.",
+            "a": "En GPT genererar ett svar i chatten, skickar det till Make via en webhook, som i sin tur skapar ett Google Dokument."
+        },
+        {
+            "q": "Varför är Actions viktiga för att göra GPT till en 'systemkomponent'?",
+            "a": "De gör det möjligt för AI:n att bli en operativ del av företagets digitala infrastruktur snarare än bara ett isolerat chattverktyg."
+        },
+        {
+            "q": "Vad är en 'Workflow' (arbetsflöde) i relation till GPT-Actions?",
+            "a": "En automatiserad process som involverar flera applikationer som triggas av en specifik händelse i GPT-chatten."
+        },
+        {
+            "q": "Hur möjliggör Actions anslutning till ett företags interna databas?",
+            "a": "Genom att exponera databasen via ett säkert API som GPT:n kan kommunicera med via sitt OpenAPI-schema."
+        },
+        {
+            "q": "Vilka är de två huvudsakliga mekanismerna GPT använder för datatillgång i KB?",
+            "a": "Semantisk sökning (File Search) och Python-exekvering (Code Interpreter)."
+        },
+        {
+            "q": "Vad är skillnaden i hantering mellan en PDF och en Excelfil i en GPT?",
+            "a": "PDF hanteras via 'File Search' för textanalys, medan Excelfiler hanteras via 'Code Interpreter' för dataanalys."
+        },
+        {
+            "q": "Hur många dokument kan man ladda upp till en GPT:s Knowledge Base?",
+            "a": "Maximalt 20 dokument."
+        },
+        {
+            "q": "Vad är storleksbegränsningen per dokument i en Knowledge Base?",
+            "a": "Maximalt 512 MB per dokument."
+        },
+        {
+            "q": "Vad är en 'Token' i AI-sammanhang?",
+            "a": "Små bitar av text som AI-modeller använder för att bearbeta och förstå innehåll (ett dokument på 42 sidor kan vara ca 176 tokens)."
+        },
+        {
+            "q": "Hur påverkar filtitlar i en Knowledge Base GPT:ns prestanda?",
+            "a": "Tydliga titlar hjälper GPT:n att snabbare identifiera och filtrera relevanta dokument utan att behöva läsa allt innehåll direkt."
+        },
+        {
+            "q": "Vad är Semantisk sökning?",
+            "a": "En sökmetod där GPT:n söker efter innebörd och kontext i dokument snarare än bara exakta sökord."
+        },
+        {
+            "q": "När bör man använda Code Interpreter istället för File Search?",
+            "a": "När uppgiften kräver beräkningar, visualiseringar eller analys av strukturerad data som CSV eller Excel."
+        },
+        {
+            "q": "Hur kan man publicera en GPT?",
+            "a": "Tre alternativ : Bara jag (Privat), Alla som har länken (Dela via länk),GPT Store (Offentlig publicering)"
+        },
+        {
+            "q": "Vad är GPT Store?",
+            "a": "GPT Store är OpenAI:s globala marknadsplats (lanserad i januari 2024) där användare, utvecklare och företag kan publicera, dela och upptäcka anpassade AI-applikationer (GPTs)"
+        }
+    ]
+}

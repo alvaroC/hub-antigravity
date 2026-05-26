@@ -1,0 +1,212 @@
+{
+    "quiz_title": "Introduktion till AI - Kunskapstest",
+    "modules": [
+        {
+            "module_name": "1. Historia",
+            "questions": [
+                {
+                    "question": "Vid vilken händelse myntades begreppet 'Artificiell Intelligens' för första gången?",
+                    "options": [
+                        "När Alan Turing publicerade sin artikel 1950",
+                        "Vid Dartmouth-konferensen 1956",
+                        "När IBM:s Deep Blue vann i schack 1997"
+                    ],
+                    "correct_answer_index": 1
+                },
+                {
+                    "question": "Vilket AI-program markerade startskottet för den moderna eran av neurala nätverk genom att vinna i spelet Go 2016?",
+                    "options": [
+                        "IBM Watson",
+                        "Google AlphaGo",
+                        "ChatGPT"
+                    ],
+                    "correct_answer_index": 1
+                }
+            ]
+        },
+        {
+            "module_name": "2. Vad är Artificiell Intelligens?",
+            "questions": [
+                {
+                    "question": "Vad kännetecknar 'Narrow AI' (Smal AI)?",
+                    "options": [
+                        "Den har ett eget medvetande och känslor",
+                        "Den kan utföra vilken intellektuell uppgift som helst som en människa kan",
+                        "Den är designad för att utföra en specifik uppgift mycket väl, men har begränsningar"
+                    ],
+                    "correct_answer_index": 2
+                },
+                {
+                    "question": "Vilken funktionalitets-kategori tillhör AI-system som saknar minne och endast reagerar på nuet (t.ex. Deep Blue)?",
+                    "options": [
+                        "Reaktiva maskiner",
+                        "Theory of Mind",
+                        "Självmedveten AI"
+                    ],
+                    "correct_answer_index": 0
+                }
+            ]
+        },
+        {
+            "module_name": "3. Förståelse för Machine Learning",
+            "questions": [
+                {
+                    "question": "Vad innebär 'Supervised Learning' (Övervakad inlärning)?",
+                    "options": [
+                        "Modellen lär sig genom belöning och bestraffning",
+                        "Modellen tränas med märkt data (facit) där vi berättar vad datan föreställer",
+                        "Modellen hittar dolda mönster i ostrukturerad data utan mänsklig inblandning"
+                    ],
+                    "correct_answer_index": 1
+                },
+                {
+                    "question": "Vilken typ av maskininlärning används ofta för att träna en AI att spela spel eller styra robotar genom 'trial and error'?",
+                    "options": [
+                        "Oövervakad inlärning (Unsupervised Learning)",
+                        "Förstärkningsinlärning (Reinforcement Learning)",
+                        "Prediktiv analys"
+                    ],
+                    "correct_answer_index": 1
+                }
+            ]
+        },
+        {
+            "module_name": "4. Grunderna i Deep Learning",
+            "questions": [
+                {
+                    "question": "Vad försöker 'Deep Learning' efterlikna strukturen av?",
+                    "options": [
+                        "En traditionell databas",
+                        "Det binära talsystemet",
+                        "Den mänskliga hjärnan och dess neuroner"
+                    ],
+                    "correct_answer_index": 2
+                },
+                {
+                    "question": "Vilka tre huvudlager består ett Artificiellt Neuralt Nätverk (ANN) av?",
+                    "options": [
+                        "Input Layer, Hidden Layer, Output Layer",
+                        "Start Layer, Process Layer, End Layer",
+                        "Data Layer, Logic Layer, Presentation Layer"
+                    ],
+                    "correct_answer_index": 0
+                }
+            ]
+        },
+        {
+            "module_name": "5. Introduktion till Generativ AI",
+            "questions": [
+                {
+                    "question": "Vad är den främsta skillnaden mellan Generativ AI och traditionell (prediktiv) AI?",
+                    "options": [
+                        "Generativ AI kan skapa nytt innehåll (text, bild, video), medan prediktiv AI analyserar och klassificerar",
+                        "Generativ AI kräver mindre data för att tränas",
+                        "Generativ AI är alltid självmedveten"
+                    ],
+                    "correct_answer_index": 0
+                },
+                {
+                    "question": "Vilken av följande är en modelltyp som används inom generativ AI?",
+                    "options": [
+                        "Excel-makron",
+                        "SQL-databaser",
+                        "Transformers (och GANs/VAEs)"
+                    ],
+                    "correct_answer_index": 2
+                }
+            ]
+        },
+        {
+            "module_name": "6. Vad är Large Language Model (LLM)?",
+            "questions": [
+                {
+                    "question": "Vad var det revolutionerande med 'Transformer'-arkitekturen som lanserades av Google 2017?",
+                    "options": [
+                        "Den minskade behovet av datorkraft drastiskt",
+                        "Den löste problemet med 'minne' och kunde hantera långa sekvenser och sammanhang",
+                        "Den gjorde att AI kunde känna känslor"
+                    ],
+                    "correct_answer_index": 1
+                },
+                {
+                    "question": "Vad är 'Embeddings' i sammanhanget av LLM?",
+                    "options": [
+                        "Ett sätt att bädda in videoklipp i chatten",
+                        "En metod för att minska antalet tokens",
+                        "En matematisk representation (vektorer) av ord för att AI ska förstå semantiska relationer"
+                    ],
+                    "correct_answer_index": 2
+                }
+            ]
+        },
+        {
+            "module_name": "7. Prompt Engineering",
+            "questions": [
+                {
+                    "question": "Vad är en 'Prompt'?",
+                    "options": [
+                        "Svaret som AI:n genererar",
+                        "Instruktionen eller inmatningen som användaren ger till AI:n",
+                        "Programkoden som driver servern"
+                    ],
+                    "correct_answer_index": 1
+                },
+                {
+                    "question": "I formeln ASPEECT för att skapa 'Mega Prompts', vad står 'P' för?",
+                    "options": [
+                        "Priority (Vilken prioritet frågan har)",
+                        "Persona (Vilken roll AI:n ska agera som)",
+                        "Python (Programmeringsspråket som ska användas)"
+                    ],
+                    "correct_answer_index": 1
+                }
+            ]
+        },
+        {
+            "module_name": "8. Etiska överväganden",
+            "questions": [
+                {
+                    "question": "Vad menas med 'Black Box'-problemet inom AI?",
+                    "options": [
+                        "Att AI-servrarna är målade svarta",
+                        "Att vi vet input och output, men inte exakt hur AI:n kom fram till beslutet däremellan",
+                        "Att AI:n stängs av på natten"
+                    ],
+                    "correct_answer_index": 1
+                },
+                {
+                    "question": "Vad innebär 'Bias' i träningsdata?",
+                    "options": [
+                        "Att datan är krypterad",
+                        "Att datan innehåller fördomar och skevheter från verkligheten som AI:n lär sig",
+                        "Att datan är för liten"
+                    ],
+                    "correct_answer_index": 1
+                }
+            ]
+        },
+        {
+            "module_name": "9. Utmaningar och begränsningar",
+            "questions": [
+                {
+                    "question": "Vad kallas det när en AI hittar på fakta och presenterar det som sanning?",
+                    "options": [
+                        "Hallucinationer",
+                        "Drömmar",
+                        "Kreativt skrivande"
+                    ],
+                    "correct_answer_index": 0
+                },
+                {
+                    "question": "Vilken är en betydande resursmässig utmaning för Generativ AI?",
+                    "options": [
+                        "Det finns för få användare",
+                        "Enorm energiförbrukning och krav på dyr hårdvara för träning",
+                        "Det tar för lång tid att skriva prompter"
+                    ],
+                    "correct_answer_index": 1
+                }
+            ]
+        }
+    ]
+}

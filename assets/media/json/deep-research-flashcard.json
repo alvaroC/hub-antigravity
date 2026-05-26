@@ -1,0 +1,210 @@
+{
+    "title": "Deep Research",
+    "description": "52 interaktiva kort som täcker ChatGPT Deep Research.",
+    "cards": [
+        {
+            "q": "Vad ärChatGPT Deep Research?",
+            "a": "Analysläge för komplexa frågor. Det är en helt annan nivå än att bara ställa en fråga och få ett snabbt svar"
+        },
+        {
+            "q": "Vad Deep Research INTE är",
+            "a": " Det är inte att låta AI googla åt dig för att hitta enkel fakta"
+        },
+        {
+            "q": "På vilket sätt kan DeepReseach hjälpa mig i mitt arbete?",
+            "a": "Det är inte en ersättning för din kompetens, utan en metod för att förstärka din egen mänskliga förmåga och hjälpa dig tänka både klarare och djupare"
+        },
+        {
+            "q": "När ska man använda ChatGPT Deep Research?",
+            "a": "Deep Research ska användas när dina frågor inte längre är enkla och du står inför komplexa arbetsuppgifter"
+        },
+        {
+            "q": "Det fiins två sätt att använda Deep Research? Vilka?",
+            "a": " Beslutsorienterat läge och Utforskande läge"
+        },
+        {
+            "q": "Vad är skillnaden melam  Deep Research beslut och Deep Research utforskande?",
+            "a": "Beslut: Du eller organisationen står inför att fatta ett strategiskt val. Utforskande: Målet är att utforska ett ämne för att bygga upp en djupare förståelse kring det"
+        },
+        {
+            "q": "Vad är den grundläggande skillnaden i fokus mellan Prompt Engineering och Deep Research?",
+            "a": "Prompt Engineering styr modellens output, medan Deep Research styr modellens analysprocess."
+        },
+        {
+            "q": "Varför är det så många som inte använder ChatGPT Deep Research, bara vanlig ChatGPT?",
+            "a": "De vet inte att det finns detta alternativ, eller de vet inte hur man använder det"
+        },
+        {
+            "q": "Är det svårt att använda Deep Research?",
+            "a": "Du måste förtå två saker:  1) Du är arkitekten (sätter upp ramarna, definiera riktningen, bestämmer vad som ska testas) och AI är motorn. 2) Ramverket guidar dig hela vägen: följ de sex stegen i ramverket har du en färdig arkitektonisk ritning att luta dig mot "
+        },
+        {
+            "q": "Ge ett konkret exemepel, där man kan använda Deep Research  Beslut",
+            "a": "Strategiska vägval: Ledningen står inför tunga beslut där man måste utvärdera långsiktiga konsekvenser och jämföra olika alternativ."
+        },
+        {
+            "q": "Ge ett konkret exemepel, där man kan använda Deep Research  Utforskande",
+            "a": "Djupare kartläggning: Organisationen behöver strukturera upp fragmenterad information för att förstå sin omvärld, hitta mönster eller framtidssäkra sin verksamhet"
+        },
+        {
+            "q": "Vilken mental roll bör användaren anta i Deep Research-processen enligt ramverket?",
+            "a": "Användaren agerar som arkitekten som designar och styr analysen."
+        },
+        {
+            "q": "Vilken roll har ChatGPT Deep Research i samarbetet med användaren?",
+            "a": "Den fungerar som en analysmotor som bearbetar data, prövar argument och syntetiserar slutsatser."
+        },
+        {
+            "q": "När är Prompt Engineering ett mer lämpligt verktyg än Deep Research?",
+            "a": "När arbetsuppgiften är tydligt definierad, såsom att sammanfatta en text eller skriva ett mejl."
+        },
+        {
+            "q": "Varför beskrivs Deep Research som en iterativ process snarare än en linjär?",
+            "a": "Eftersom varje steg bygger på föregående insikter och ofta kräver att man återvänder till problemet för att fördjupa förståelsen."
+        },
+        {
+            "q": "Vad är huvudsyftet med att använda Deep Research vid strategiska beslut?",
+            "a": "Att reducera risk och identifiera blinda fläckar genom att utmana fundamentala antaganden."
+        },
+        {
+            "q": "Vilket vanligt misstag gör användare som behandlar AI som en uppslagsbok i Deep Research?",
+            "a": "De accepterar det första svaret utan att validera informationen eller be om perspektivskiften."
+        },
+        {
+            "q": "Hur jobbar AI när man  kör Prompt Engineering jämfört med Deep Reearch?",
+            "a": "Vanlig Prompt Engineering: Styr output: stil, format och struktur. Deep Research:Styr process: analysdjup och strukturerat tänkande."
+        },
+        {
+            "q": "Hur skiljer sig dialogen i Deep Research från en order i Prompt Engineering?",
+            "a": "Deep Research liknar ett möte där man undersöker ett ämne tillsammans med AI:n."
+        },
+        {
+            "q": "Beskriv kortfatat ramverket som styr Deep Research",
+            "a": "Deep Research-ramverket består av sex steg: Startpunkt, Kontext, Ramar, Analysdesign, Stresstestdesign, Resultatöversättning"
+        },
+        {
+            "q": "Deep Research: Steg 1 (Startpunkt). Hur formuleras startpunkten i ett beslutsläge?",
+            "a": "Som en binär fråga i GO/NO-GO-form (t.ex. Ska vi?)."
+        },
+        {
+            "q": "Deep Research Steg 1 (Startpunkt). Hur formuleras startpunkten i ett utforskande läge?",
+            "a": "Som en öppen analysfråga som börjar med ord som Hur, Varför eller Vilka mönster"
+        },
+        {
+            "q": "Deep Research: Steg 2 (Kontext). Vad är syftet med att definiera spelplanen i detta steg?",
+            "a": "Att fastställa miljön där analysen gäller, inklusive marknad, geografi och tidsram."
+        },
+        {
+            "q": "Deep Research: Steg 3 (Ramar). Vad representerar detta steg i en strategisk analys?",
+            "a": "Analysens begränsningar eller avgränsningar, såsom budget, resurser och regulatoriska krav."
+        },
+        {
+            "q": "Enligt ramverket definieras strategi som summan av möjlighet och _____.",
+            "a": "begränsning"
+        },
+        {
+            "q": "Vad innebär rollfördelningen i Steg 4 (Analysdesign)?",
+            "a": "Användaren designar analysens dimensioner, medan Deep Research genomför själva arbetet."
+        },
+        {
+            "q": "Nämn tre analysdimensioner som är centrala i ett beslutsläge under Steg 4.",
+            "a": "Attraktivitet, ekonomisk genomförbarhet och risk."
+        },
+        {
+            "q": "Deep Research: Steg 4 (Analysdesign). Vad fokuserar man på i ett utforskande läge?",
+            "a": "Mönster, orsakssamband, drivkrafter och framtida utvecklingsbanor."
+        },
+        {
+            "q": "Deep Research: Steg 5 (Stresstestdesign). Varför är detta steg avgörande för professionell analys?",
+            "a": "Det skapar robusthet genom att tvinga modellen att identifiera svaga punkter och utmana centrala antaganden."
+        },
+        {
+            "q": "Vad bör användaren be modellen identifiera under ett stresstest i beslutsläge?",
+            "a": "Kritiska antaganden, vad som kan gå fel och ett worst-case scenario."
+        },
+        {
+            "q": "Deep Research: Steg 5 (Stresstestdesign). Vad efterfrågas i ett utforskande läge för att säkerställa kvalitet?",
+            "a": "Alternativa tolkningar, omstridda perspektiv och osäkerheter."
+        },
+        {
+            "q": "Deep Research: Steg 6 (Resultatöversättning). Vad är målet med detta steg?",
+            "a": "Att göra analysen användbar genom att översätta data till rekommendationer eller strategiska insikter."
+        },
+        {
+            "q": "Vilka är de fyra möjliga rekommendationerna i slutet av ett beslutsläge?",
+            "a": "GO, GO med villkor, PAUSA eller NO-GO."
+        },
+        {
+            "q": "Vad innebär 'Insikt istället för dom' i Steg 6 för utforskande läge?",
+            "a": "Att fokus ligger på vad resultatet betyder framåt och vilka handlingsområden som finns."
+        },
+        {
+            "q": "Hur skiljer sig definitionen av kontext (Steg 2) från ramar (Steg 3)?",
+            "a": "Kontext är analysens omvärld, medan ramar är de specifika gränser och begränsningar som analysen ska hållas inom."
+        },
+        {
+            "q": "Vilken kompetens tränas främst genom att arbeta systematiskt med Deep Research-modellen?",
+            "a": "Strukturerat tänkande och systematisk analysförmåga."
+        },
+        {
+            "q": "I ramverket för Steg 3 (Ramar) i ett utforskande läge, vad bör användaren definiera för att skapa fokus?",
+            "a": "Vad som uttryckligen exkluderas från analysen."
+        },
+        {
+            "q": "Vad kallas Steg 4 i Deep Research-modellen med en metafor?",
+            "a": "Analysens arkitektur."
+        },
+        {
+            "q": "Varför är det viktigt att definiera 'under vilka villkor ett beslut är hållbart' i Steg 6?",
+            "a": "För att säkerställa att beslutet vilar på en tydlig grund som kan omprövas om förutsättningarna ändras."
+        },
+        {
+            "q": "Vilket element i Steg 4 hjälper till att förstå motstånd mot ett beslut?",
+            "a": "Analys av motargument eller vad som talar emot beslutet."
+        },
+        {
+            "q": "Term: Beslutsorienterat läge",
+            "a": "Definition: En analysmetod som används när ett strategiskt val ska göras, ofta uttryckt som en binär fråga."
+        },
+        {
+            "q": "Term: Utforskande läge",
+            "a": "Definition: En analysmetod som används för att nå djupare förståelse för ett komplext ämne eller identifiera mönster."
+        },
+        {
+            "q": "Vad är risken med att låta en analys bli linjär istället för cyklisk i Deep Research?",
+            "a": "Man missar chansen att fördjupa förståelsen genom nya frågor som uppstår under processens gång."
+        },
+        {
+            "q": "Vilken del av organisationen kan använda Deep Research för att analysera kompetensgap?",
+            "a": "HR-avdelningen."
+        },
+        {
+            "q": "Hur bidrar Deep Research till att eliminera kognitiva bias?",
+            "a": "Genom att fungera som en partner som aktivt utmanar antaganden och presenterar motstridiga perspektiv."
+        },
+        {
+            "q": "Vad är skillnaden mellan att styra en output och att styra en process?",
+            "a": "Att styra output handlar om resultatet (form/stil), medan att styra en process handlar om vägen dit (metod/logik)."
+        },
+        {
+            "q": "Ge ett exempel på en regulatorisk begränsning i Steg 3 för en AI-implementering.",
+            "a": "GDPR och dataskyddskrav."
+        },
+        {
+            "q": "Vilket steg i modellen hanterar frågan: 'Vad måste gå rätt för att vi ska lyckas?'",
+            "a": "Steg 5 (Stresstestdesign)."
+        },
+        {
+            "q": "Deep Research beskrivs som den strategiska bryggan mellan rådata och _____.",
+            "a": "välgrundade beslut"
+        },
+        {
+            "q": "Varför räcker det inte med fakta när man står inför strategiska vägval?",
+            "a": "Eftersom fakta kräver tolkning, sammanhang och analys av osäkerheter för att bli ett beslutsunderlag."
+        },
+        {
+            "q": "Vilken är den avgörande principen för Deep Research enligt ramverket?",
+            "a": "Du styr strukturen – modellen gör arbetet."
+        }
+    ]
+}

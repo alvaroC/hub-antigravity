@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Capability Hub | AI Business Lab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/styles1.css">
+    <link rel="stylesheet" href="css/calendar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({ startOnLoad: true });</script>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <!-- marked.min.js loaded once here only -->
+    <style>
+        .markmap-container {
+            min-height: 500px;
+            /* Start at 500px */
+            height: auto;
+            /* GROW as the map expands! */
+            width: 100%;
+            background: #fff;
+            border-radius: 12px;
+            padding: 20px;
+            overflow: visible;
+            /* Ensure nothing gets clipped */
+        }
+
+        .markmap>svg {
+            width: 100%;
+            height: 100%;
+            min-height: 500px;
+            /* Match the container */
+        }
+    </style>
+
+</head>
+
+<body class="dark-theme">
+
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">🚀</span>
+                <h1>AI CAPABILITY HUB</h1>
+            </div>
+            <h2 class="subtitle"><span class="academy-name">GÖR DIN EXPERTIS RELEVANT 2026</span>
+            </h2>
+        </div>
+    </header>
+
+    <nav class="module-nav">
+        <div class="container">
+            <ul class="nav-list">
+
+                <li style="position:relative; margin-top:5px;"><a href="index.html" class="nav-btn"
+                        style="background:#8b5cf6; color:white; border-radius:50px; padding:0.4rem 1.2rem; font-weight:600; box-shadow:0 4px 10px rgba(139,92,246,0.3);">
+                        <span
+                            style="position:absolute; top:-18px; left:50%; transform:translateX(-50%); color:white; font-size:0.65rem; font-weight:800; letter-spacing:1px; white-space:nowrap;">
+                        </span>
+                        <i class="fas fa-robot"></i> Start
+                    </a>
+                </li>
+
+                <li style="position:relative; margin-top:5px;"><a href="artefakter.html" class="nav-btn ai-konsult-btn">
+                        <span
+                            style="position:absolute; top:-18px; left:50%; transform:translateX(-50%); color:white; font-size:0.65rem; font-weight:800; letter-spacing:1px; white-space:nowrap;">
+                        </span>
+                        <i class="fas fa-briefcase"></i> Artefakter
+                    </a>
+                </li>
+
+                <li style="position:relative; margin-top:5px;"><a href="brain.html" class="nav-btn ai-konsult-btn">
+                        <span
+                            style="position:absolute; top:-18px; left:50%; transform:translateX(-50%); color:white; font-size:0.65rem; font-weight:800; letter-spacing:1px; white-space:nowrap;">
+                        </span>
+                        <i class="fas fa-briefcase"></i> Kloning
+                    </a>
+                </li>
+
+
+
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-top">
+                    <div class="center-fig">
+                        <a href="landingpage.html"
+                            style="background: linear-gradient(135deg, #7f1d1d 0%, #b91c1c 40%, #ef4444 100%) !important; padding:12px 20px; border-radius:8px; text-decoration:none; color:#fff; font-weight:600; font-size: 22px !important;">
+                            LÅT OSS BYGGA DIN AI CAPABILITY HUB --> KLICKA HÄR!
+                        </a>
+                    </div>
+                </div>
+                <h2 class="column-subtitle">Artefakter -> AI Guide -> AI Voice Agent</h2>
+            </div>
+        </div>
+    </section>
+    <p class="text-center">Se hur SwedAI Academy (online utbildning) använder Artefakter för sina kurser, en AI Guide
+        för at guida om sin webbsajt och AI Voice Agent för att ge kundservice
+    </p>
+
+    <!-- Inloggnings-overlay borttagen -->
+
+    <div id="spa-viewport">
+        <main id="main-content" class="container">
+            <!-- Content will be rendered here by app.js -->
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Laddar lärandemoduler...</p>
+            </div>
+
+        </main>
+    </div></br>
+
+    <div class="center-fig">
+        <a href="landingpage.html"
+            style="background: linear-gradient(135deg, #7f1d1d 0%, #b91c1c 40%, #ef4444 100%) !important; padding:8px 16px; border-radius:8px; text-decoration:none; color:#fff; font-weight:600;">
+            VILL DU BYGGA DIN EGEN AI CAPABILITY HUB? KLICKA HÄR!
+        </a>
+    </div>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2026 AI Capability Hub | AI Business Lab</p>
+        </div>
+    </footer>
+
+    <!-- Scripts (type="module" enables ES imports, required for Supabase) -->
+    <script type="module" src="js/supabase.js"></script>
+    <script src="js/data.js"></script>
+    <!-- Course Data (Content) -->
+    <script src="js/course_data.js"></script>
+    <script src="js/calendar.js"></script>
+    <script type="module" src="js/app.js"></script>
+    <script src="js/spa-router.js"></script>
+    <script type="module" src="js/live.js"></script>
+</body>
+
+</html>

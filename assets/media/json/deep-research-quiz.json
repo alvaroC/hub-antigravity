@@ -1,0 +1,654 @@
+{
+    "quiz": [
+        {
+            "id": 1,
+            "category": "Lektion 1 - Introduktion",
+            "question": "Vad är Deep Research framförallt?",
+            "options": {
+                "A": "En snabb sökmotor för att hitta isolerad fakta.",
+                "B": "Ett strukturerat sätt att använda AI som en aktiv forskningspartner.",
+                "C": "Ett programmeringsspråk för AI-agenter.",
+                "D": "En linjär process för textgenerering."
+            },
+            "correct_answer": "B",
+            "explanation": "Deep Research är ett strukturerat sätt att använda AI som en aktiv forskningspartner, där man tillsammans med AI:n undersöker problem istället för att bara få enkla svar [1]."
+        },
+        {
+            "id": 2,
+            "category": "Lektion 1 - Introduktion",
+            "question": "Vad är den primära skillnaden mellan Prompt Engineering och Deep Research?",
+            "options": {
+                "A": "Prompt Engineering styr processen, Deep Research styr stilen.",
+                "B": "Prompt Engineering är strategiskt, Deep Research är operativt.",
+                "C": "Prompt Engineering handlar om att styra output, Deep Research handlar om att styra processen.",
+                "D": "Det finns ingen skillnad, det är samma sak."
+            },
+            "correct_answer": "C",
+            "explanation": "Prompt Engineering handlar om att styra output och format, medan Deep Research handlar om att styra AI:s analysprocess [2]."
+        },
+        {
+            "id": 3,
+            "category": "Lektion 1 - Introduktion",
+            "question": "Vilken mental modell är bäst för att förstå Deep Research?",
+            "options": {
+                "A": "Att ge en order: 'Gör det här åt mig'.",
+                "B": "Att leda ett möte: 'Låt oss undersöka det här tillsammans'.",
+                "C": "Att programmera en maskin: 'Koda detta system'.",
+                "D": "Att googla: 'Hitta den här specifika artikeln'."
+            },
+            "correct_answer": "B",
+            "explanation": "Till skillnad från Prompt Engineering, som är som att ge en order, är Deep Research som att leda ett möte och undersöka något tillsammans [3]."
+        },
+        {
+            "id": 4,
+            "category": "Lektion 1 - Introduktion",
+            "question": "När räcker traditionell Prompt Engineering utmärkt?",
+            "options": {
+                "A": "När du ska analysera en helt ny och okänd marknad.",
+                "B": "När du behöver testa dolda antaganden i en stor affärsstrategi.",
+                "C": "När du redan vet vad du behöver och vill skriva en mejltext, rapportstruktur eller översättning.",
+                "D": "När du måste utvärdera worst-case scenarier för en investering."
+            },
+            "correct_answer": "C",
+            "explanation": "Prompt Engineering är rätt metod när frågan är tydligt definierad och du till exempel behöver en mejltext eller en lista [4]."
+        },
+        {
+            "id": 5,
+            "category": "Lektion 1 - Introduktion",
+            "question": "Hur beskrivs arbetsprocessen i Deep Research?",
+            "options": {
+                "A": "Den är helt automatiserad och kräver enbart ett klick.",
+                "B": "Den är linjär och avslutas efter första svaret.",
+                "C": "Den är cyklisk och iterativ för att gradvis nå djupare förståelse.",
+                "D": "Den är passiv där AI:n bestämmer hela riktningen."
+            },
+            "correct_answer": "C",
+            "explanation": "Deep Research är inte en linjär process, utan en cyklisk och utforskande metod som bygger på iterationer för att fördjupa förståelsen [2, 5]."
+        },
+        {
+            "id": 6,
+            "category": "Lektion 1 - Introduktion",
+            "question": "Vad är ett av de största och vanligaste misstagen vid användning av Deep Research?",
+            "options": {
+                "A": "Att skriva för långa systemprompter.",
+                "B": "Att ställa en fråga, acceptera första svaret och sedan gå vidare.",
+                "C": "Att be modellen använda flera språk samtidigt.",
+                "D": "Att använda för mycket data från internet."
+            },
+            "correct_answer": "B",
+            "explanation": "Ett vanligt misstag är att behandla AI som en uppslagsbok genom att ta första bästa svaret, vilket bryter den iterativa processen i förtid [6, 7]."
+        },
+        {
+            "id": 7,
+            "category": "Lektion 1 - Introduktion",
+            "question": "Vilken relation har Deep Research till vår mänskliga kompetens?",
+            "options": {
+                "A": "Det ersätter helt behovet av mänskliga analytiker.",
+                "B": "Det försämrar vårt kritiska tänkande genom för mycket automatisering.",
+                "C": "Det ersätter inte mänsklig kompetens, utan förstärker den genom att hjälpa oss tänka klarare.",
+                "D": "Det har ingen koppling alls till mänsklig kompetens."
+            },
+            "correct_answer": "C",
+            "explanation": "Deep Research ersätter inte vår mänskliga kompetens, utan det förstärker den på ett sätt som hjälper oss att tänka klarare och djupare [1]."
+        },
+        {
+            "id": 8,
+            "category": "Lektion 1 - Introduktion",
+            "question": "Hur placeras Prompt Engineering respektive Deep Research i ett professionellt AI-ekosystem?",
+            "options": {
+                "A": "Prompt Engineering är strategiskt, Deep Research är operativt.",
+                "B": "Prompt Engineering är operativt, Deep Research är det strategiska analyslagret.",
+                "C": "Båda är strikt operativa verktyg.",
+                "D": "Båda är strikt strategiska verktyg."
+            },
+            "correct_answer": "B",
+            "explanation": "Prompt Engineering är ett operativt verktyg för output, medan Deep Research agerar som det strategiska analyslagret i ekosystemet [8, 9]."
+        },
+        {
+            "id": 9,
+            "category": "Lektion 1 - Introduktion",
+            "question": "Inom vilket av följande områden är Deep Research särskilt avgörande?",
+            "options": {
+                "A": "Grammatikkontroll av interna styrdokument.",
+                "B": "Snabb översättning av marknadsföringsmaterial.",
+                "C": "Riskbedömning för att kartlägga dolda beroenden och skapa scenarier.",
+                "D": "Formatering av Excel-tabeller."
+            },
+            "correct_answer": "C",
+            "explanation": "Vid riskbedömning hjälper Deep Research till att kartlägga dolda beroenden och skapa sofistikerade scenarier vid stora investeringar [10, 11]."
+        },
+        {
+            "id": 10,
+            "category": "Lektion 1 - Introduktion",
+            "question": "Vad är målet med Deep Research istället för att enbart samla fakta?",
+            "options": {
+                "A": "Att lagra så mycket data som möjligt.",
+                "B": "Att skapa insikter och förståelse.",
+                "C": "Att minska antalet anställda i organisationen.",
+                "D": "Att publicera akademiska artiklar."
+            },
+            "correct_answer": "B",
+            "explanation": "Deep Research hjälper dig när du behöver skapa insikter och djupare förståelse, inte bara samla isolerad fakta [12]."
+        },
+        {
+            "id": 11,
+            "category": "Lektion 1 - Introduktion",
+            "question": "Vad menas med att Deep Research INTE är 'att låta AI googla åt dig'?",
+            "options": {
+                "A": "AI:n är inte uppkopplad mot internet i detta läge.",
+                "B": "AI hittar inte bara informationen, den bearbetar och strukturerar den.",
+                "C": "Det är förbjudet att använda externa länkar.",
+                "D": "Google äger inte denna funktion."
+            },
+            "correct_answer": "B",
+            "explanation": "Det är inte att låta AI googla åt dig, för AI hittar inte bara information utan den bearbetar och strukturerar den [13]."
+        },
+        {
+            "id": 12,
+            "category": "Lektion 1 - Introduktion",
+            "question": "Varför misslyckas man om man behandlar Deep Research som en enkel order?",
+            "options": {
+                "A": "Modellen stänger av sig själv.",
+                "B": "Man får för mycket kod i svaret.",
+                "C": "Man misslyckas med att aktivera AI:ns sanna potential för analys.",
+                "D": "Kostnaden per prompt blir för hög."
+            },
+            "correct_answer": "C",
+            "explanation": "Den som behandlar metoden som en enkel order misslyckas med att aktivera dess sanna potential för strategisk analys och problemlösning [14]."
+        },
+        {
+            "id": 13,
+            "category": "Lektion 1 - Introduktion",
+            "question": "Varför är det 'strategiskt ansvarslöst' att endast använda ytlig sökning i komplexa situationer?",
+            "options": {
+                "A": "Eftersom AI-verktygen har för hög tidsfördröjning.",
+                "B": "För att man misslyckas med att utmana fundamentala antaganden och identifiera blinda fläckar.",
+                "C": "För att konkurrenterna alltid använder Google bättre.",
+                "D": "Eftersom prompt engineering kostar mer pengar."
+            },
+            "correct_answer": "B",
+            "explanation": "Det är strategiskt ansvarslöst eftersom Deep Research krävs för att identifiera blinda fläckar och utmana fundamentala antaganden i beslutsunderlag [11]."
+        },
+        {
+            "id": 14,
+            "category": "Lektion 1 - Introduktion",
+            "question": "Hur används Deep Research bäst inom Marknadsanalys?",
+            "options": {
+                "A": "För att kopiera konkurrenters inlägg i sociala medier.",
+                "B": "För att gå bortom enkel bevakning och identifiera dolda strukturella trender.",
+                "C": "För att snabbt skapa en logotyp för en ny marknad.",
+                "D": "För att översätta marknadsdata till franska."
+            },
+            "correct_answer": "B",
+            "explanation": "Inom marknadsanalys används det för att gå bortom enkel konkurrentbevakning och identifiera dolda trender och strukturella mönster [11]."
+        },
+        {
+            "id": 15,
+            "category": "Lektion 1 - Introduktion",
+            "question": "Vad är det primära målet med vanlig Prompt Engineering?",
+            "options": {
+                "A": "Att förstå komplexa samhällsstrukturer.",
+                "B": "Att kartlägga risker för internationell expansion.",
+                "C": "Att ge en order för att få ett konkret svar eller output snabbt.",
+                "D": "Att utmana ledningens strategiska antaganden."
+            },
+            "correct_answer": "C",
+            "explanation": "Prompt Engineering används för att ge en order ('Gör det här åt mig') för att snabbt få ett konkret svar eller omforma text [9]."
+        },
+        {
+            "id": 16,
+            "category": "Lektion 1 - Introduktion",
+            "question": "Vad står skiftet från 'effektivitet' till 'effekt' för när vi går från vanliga prompter till Deep Research?",
+            "options": {
+                "A": "Att skriva snabbt kontra att skriva snyggt.",
+                "B": "Att göra saker snabbt kontra att göra rätt saker.",
+                "C": "Att använda lite ström kontra mycket ström.",
+                "D": "Att byta från GPT-3 till GPT-4."
+            },
+            "correct_answer": "B",
+            "explanation": "Den stora skillnaden i mindset är skiftet från effektivitet, som handlar om att göra saker snabbt, till effekt, som handlar om att göra rätt saker [14]."
+        },
+        {
+            "id": 17,
+            "category": "Lektion 1 - Introduktion",
+            "question": "Vilket av följande påståenden om iterativ forskning stämmer bäst?",
+            "options": {
+                "A": "Man ställer en fråga, tar svaret och är klar.",
+                "B": "Man ber en utvecklare bygga en ny algoritm.",
+                "C": "Man återvänder till problemet flera gånger med nya insikter för att fördjupa förståelsen.",
+                "D": "Man minskar antalet frågor för att spara tid."
+            },
+            "correct_answer": "C",
+            "explanation": "Den iterativa forskningsprocessen innebär att man återvänder till problemet flera gånger med nya insikter, vilket gör att man går från ytliga svar till verklig klarhet [5, 12]."
+        },
+        {
+            "id": 18,
+            "category": "Lektion 1 - Introduktion",
+            "question": "Vad kallas misstaget när man misslyckas med att aktivt utmana egna och AI:ns resonemang?",
+            "options": {
+                "A": "Acceptans av första svar.",
+                "B": "Frånvaro av perspektivskifte.",
+                "C": "Bristande struktur.",
+                "D": "Over-prompting."
+            },
+            "correct_answer": "B",
+            "explanation": "Frånvaro av perspektivskifte innebär att man misslyckas med att aktivt utmana både egna och AI:ns fundamentala antaganden [7]."
+        },
+        {
+            "id": 19,
+            "category": "Lektion 1 - Introduktion",
+            "question": "Hur använder strategiska ledare Deep Research?",
+            "options": {
+                "A": "För att alltid låta maskinen bestämma investeringsbeloppet.",
+                "B": "Som en uppslagsbok för historiska finansiella kurser.",
+                "C": "För att testa olika strategiska vägar, utvärdera konsekvenser och väga perspektiv.",
+                "D": "För att ersätta styrelsens formella mandat."
+            },
+            "correct_answer": "C",
+            "explanation": "Ledare använder metoden för att testa olika strategiska vägar, jämföra alternativ och väga motstridiga perspektiv för att skapa hållbara beslutsunderlag [11, 15]."
+        },
+        {
+            "id": 20,
+            "category": "Lektion 1 - Introduktion",
+            "question": "Vilket uttalande sammanfattar essensen av skillnaden mellan verktygen?",
+            "options": {
+                "A": "Prompt Engineering är för förståelse, Deep Research är för svar.",
+                "B": "Båda metoderna är exakt lika effektiva på komplexa problem.",
+                "C": "Prompt Engineering är perfekt när du söker ett svar. Deep Research är nödvändigt när du söker förståelse.",
+                "D": "Deep Research är enbart avsett för maskininlärningsingenjörer."
+            },
+            "correct_answer": "C",
+            "explanation": "Som en röd tråd genom metoden gäller regeln: Prompt Engineering är perfekt när du söker ett svar. Deep Research är nödvändigt när du söker förståelse [4, 9]."
+        },
+        {
+            "id": 21,
+            "category": "Lektion 2 - Framework",
+            "question": "Hur många steg består Deep Research-ramverket av?",
+            "options": {
+                "A": "3",
+                "B": "4",
+                "C": "6",
+                "D": "8"
+            },
+            "correct_answer": "C",
+            "explanation": "Deep Research-ramverket är professionellt strukturerat och består av exakt sex steg för att nå insikt [16, 17]."
+        },
+        {
+            "id": 22,
+            "category": "Lektion 2 - Framework",
+            "question": "Vilka två huvudsakliga lägen fungerar ramverket i?",
+            "options": {
+                "A": "Matematiskt och kreativt läge.",
+                "B": "Beslutsorienterat läge och Utforskande läge.",
+                "C": "Internt och externt läge.",
+                "D": "Kvalitativt och kvantitativt läge."
+            },
+            "correct_answer": "B",
+            "explanation": "Ramverket kan användas i två lägen: det Beslutsorienterade läget för strategiska val och det Utforskande läget för djupare förståelse [17, 18]."
+        },
+        {
+            "id": 23,
+            "category": "Lektion 2 - Framework",
+            "question": "Vad är den stora strukturella skillnaden mellan det beslutsorienterade och det utforskande läget?",
+            "options": {
+                "A": "Det beslutsorienterade läget har sju steg istället för sex.",
+                "B": "AI:n utför inte analysen i det utforskande läget.",
+                "C": "Strukturen är densamma, skillnaden ligger enbart i startpunkten.",
+                "D": "Det utforskande läget saknar helt kontext."
+            },
+            "correct_answer": "C",
+            "explanation": "Båda lägena använder samma sexstegsstruktur. Den enda skillnaden är själva startpunkten för analysen [8, 18]."
+        },
+        {
+            "id": 24,
+            "category": "Lektion 2 - Framework",
+            "question": "Vilken metafor används för att beskriva din roll (som människa) i ramverket?",
+            "options": {
+                "A": "Analysmotorn",
+                "B": "Korrekturläsaren",
+                "C": "Databasteknikern",
+                "D": "Arkitekten"
+            },
+            "correct_answer": "D",
+            "explanation": "Framgång i ramverket bygger på en strikt rollfördelning där du agerar som arkitekten som designar och styr processen [17, 19]."
+        },
+        {
+            "id": 25,
+            "category": "Lektion 2 - Framework",
+            "question": "Vad är modellens (AI:ns) primära roll i detta samarbete?",
+            "options": {
+                "A": "Att sätta budget och affärsmål.",
+                "B": "Att fatta det slutgiltiga affärsbeslutet åt styrelsen.",
+                "C": "Att fungera som analysmotorn som genomför arbetet och prövar hypoteser.",
+                "D": "Att enbart formattera presentationen."
+            },
+            "correct_answer": "C",
+            "explanation": "Medan du styr strukturen är Deep Research analysmotorn som bearbetar, prövar scenarier och genomför själva arbetet [17, 19]."
+        },
+        {
+            "id": 26,
+            "category": "Lektion 2 - Framework",
+            "question": "Hur formuleras oftast Steg 1 (Startpunkt) i det Beslutsorienterade läget?",
+            "options": {
+                "A": "Som en öppen fråga om historik.",
+                "B": "Målorienterat i en binär GO/NO-GO-form, exempelvis 'Ska vi...?'",
+                "C": "Genom att begära obegränsat med rådata.",
+                "D": "Genom att endast ange marknadsbudgeten."
+            },
+            "correct_answer": "B",
+            "explanation": "I beslutsläget är startpunkten målorienterad och binär, vilket formuleras som en 'Ska vi...?'-fråga för att leda till ett GO eller NO-GO [20, 21]."
+        },
+        {
+            "id": 27,
+            "category": "Lektion 2 - Framework",
+            "question": "Vilken typ av fråga används vanligtvis som Startpunkt i det Utforskande läget?",
+            "options": {
+                "A": "Ska vi anställa fler utvecklare nästa månad?",
+                "B": "Hur förändrar AI kunskapsarbete fram till 2030?",
+                "C": "Ska vi expandera till Norge nästa år?",
+                "D": "Vilken färg bör vår logotyp ha för att öka försäljningen?"
+            },
+            "correct_answer": "B",
+            "explanation": "Utforskande läge startar med en bred och sökande analysfråga såsom 'Hur...?', 'Varför...?' eller 'Vilka mönster...?' [16, 21]."
+        },
+        {
+            "id": 28,
+            "category": "Lektion 2 - Framework",
+            "question": "Vad är det primära syftet med Steg 2 - Kontext?",
+            "options": {
+                "A": "Att bestämma projektets tekniska krav.",
+                "B": "Att få ett snabbt ja eller nej.",
+                "C": "Att definiera spelplanen och miljön där analysen gäller.",
+                "D": "Att begränsa AI:ns ordförråd."
+            },
+            "correct_answer": "C",
+            "explanation": "Steg 2 handlar om att beskriva spelplanen. Det är inte begränsningar utan miljön och omvärlden där hela analysen lever [20, 21]."
+        },
+        {
+            "id": 29,
+            "category": "Lektion 2 - Framework",
+            "question": "Vilka av följande element ingår typiskt i Steg 2 (Kontext)?",
+            "options": {
+                "A": "Mönster, orsakssamband och drivkrafter.",
+                "B": "Marknad/Geografi, Tidsram, Perspektiv och Aktörer.",
+                "C": "Budget, Resurser och Kompetens.",
+                "D": "Worst-case scenario och stresstest."
+            },
+            "correct_answer": "B",
+            "explanation": "I kontexten definieras spelplanen utifrån parametrar som geografi/marknad, tidsram, perspektiv och inblandade aktörer [20, 21]."
+        },
+        {
+            "id": 30,
+            "category": "Lektion 2 - Framework",
+            "question": "Vad definierar man i Steg 3 - Ramar i ett Beslutsorienterat läge?",
+            "options": {
+                "A": "Hur många användare man hoppas få om fem år.",
+                "B": "Framtida teknologiska genombrott i rymden.",
+                "C": "Strategiska begränsningar som budget, befintliga resurser och regulatoriska krav.",
+                "D": "Organisationens kultur och värdegrund."
+            },
+            "correct_answer": "C",
+            "explanation": "För att göra beslutsanalysen realistisk definieras strategiska begränsningar såsom budget, resurser och lagkrav [22, 23]."
+        },
+        {
+            "id": 31,
+            "category": "Lektion 2 - Framework",
+            "question": "Vad definierar man i Steg 3 - Ramar i ett Utforskande läge?",
+            "options": {
+                "A": "Det exakta datumet analysen måste vara färdigläst.",
+                "B": "Avgränsningar för analysen, såsom vilken analysnivå som gäller och vad som uttryckligen exkluderas.",
+                "C": "Vilken molnserver som datan ligger på.",
+                "D": "Att slutresultatet måste bli ett ja eller nej."
+            },
+            "correct_answer": "B",
+            "explanation": "I det utforskande läget används ramarna till att sätta strategiska avgränsningar i bransch, tid och att tydligt ange vad analysen ska hållas inom [22, 23]."
+        },
+        {
+            "id": 32,
+            "category": "Lektion 2 - Framework",
+            "question": "Vilken kort ekvation presenteras för att visa vikten av att sätta Ramar (Steg 3)?",
+            "options": {
+                "A": "Framgång = Tid * Kapital",
+                "B": "Insikt = Rådata / Osäkerhet",
+                "C": "Strategi = Möjlighet + Begränsning",
+                "D": "Förståelse = Frågor + Svar"
+            },
+            "correct_answer": "C",
+            "explanation": "Konceptet understryks med regeln: Strategi = Möjlighet + Begränsning. Utan ramar och begränsningar tappar analysen all sin realism [22, 23]."
+        },
+        {
+            "id": 33,
+            "category": "Lektion 2 - Framework",
+            "question": "Vad är syftet med Steg 4 - Analysdesign?",
+            "options": {
+                "A": "Att skriva slutrapporten direkt.",
+                "B": "Att bestämma teckensnitt och layout.",
+                "C": "Att bygga analysens arkitektur och definiera vilka kritiska dimensioner modellen ska analysera.",
+                "D": "Att välja mellan ChatGPT och andra verktyg."
+            },
+            "correct_answer": "C",
+            "explanation": "I Steg 4 gör du inte analysen, utan du bygger dess arkitektur genom att designa de kritiska dimensioner som modellen sedan ska pröva [22, 23]."
+        },
+        {
+            "id": 34,
+            "category": "Lektion 2 - Framework",
+            "question": "Vilka analysdimensioner används typiskt i Steg 4 i ett Beslutsläge?",
+            "options": {
+                "A": "Enbart historisk försäljningsstatistik.",
+                "B": "Mönster, drivkrafter och framtida utvecklingsbanor.",
+                "C": "Attraktivitet, konkurrens, ekonomisk genomförbarhet och risk.",
+                "D": "Sociala mediers algoritmer."
+            },
+            "correct_answer": "C",
+            "explanation": "För beslut är dimensionerna fokuserade på att bedöma attraktivitet, ekonomisk genomförbarhet, konkurrensbild och konkreta risker [22, 23]."
+        },
+        {
+            "id": 35,
+            "category": "Lektion 2 - Framework",
+            "question": "Vilka analysdimensioner används typiskt i Steg 4 i ett Utforskande läge?",
+            "options": {
+                "A": "Investeringens ROI på tre månader.",
+                "B": "Attraktivitet, budgetramar och specifik lagstiftning.",
+                "C": "Mönster, orsakssamband, strukturella drivkrafter och framtida scenarier.",
+                "D": "Aktiekursens dagliga fluktuationer."
+            },
+            "correct_answer": "C",
+            "explanation": "I utforskande syfte designar du analysen kring att hitta mönster, orsakssamband och framtida utvecklingsbanor för att skapa förståelse [23, 24]."
+        },
+        {
+            "id": 36,
+            "category": "Lektion 2 - Framework",
+            "question": "Vem genomför själva utvärderingen av dimensionerna i Steg 4?",
+            "options": {
+                "A": "Arkitekten (Du) gör hela arbetet manuellt.",
+                "B": "Analysmotorn (Deep Research) gör arbetet utifrån din design.",
+                "C": "En inköpt extern konsulttjänst.",
+                "D": "Organisationens HR-avdelning."
+            },
+            "correct_answer": "B",
+            "explanation": "Den grundläggande principen är att du definierar arkitekturen, medan AI-modellen (Analysmotorn) utför själva arbetet [19, 24]."
+        },
+        {
+            "id": 37,
+            "category": "Lektion 2 - Framework",
+            "question": "Vad är det primära syftet med Steg 5 - Stresstestdesign?",
+            "options": {
+                "A": "Att snabba upp processorkraften i molnet.",
+                "B": "Att snabbt få fram ett snyggt diagram för presentationen.",
+                "C": "Att utmana analysen för att säkerställa robusthet och skilja professionellt underlag från ytliga svar.",
+                "D": "Att verifiera att svenskan i texten är felfri."
+            },
+            "correct_answer": "C",
+            "explanation": "Steg 5 bygger in en nödvändig robusthet genom att tvinga fram en utmaning av slutsatserna, vilket skiljer proffsen från nybörjarna [24, 25]."
+        },
+        {
+            "id": 38,
+            "category": "Lektion 2 - Framework",
+            "question": "Vad begär du att modellen ska identifiera i Stresstestet (Steg 5) vid ett Beslutsläge?",
+            "options": {
+                "A": "Kritiska antaganden, vad som måste gå rätt, vad som kan gå fel samt ett worst-case scenario.",
+                "B": "Vilken vecka produkten ska lanseras.",
+                "C": "Enbart de mest optimistiska möjligheterna.",
+                "D": "Hur datan är strukturerad bakom kulisserna."
+            },
+            "correct_answer": "A",
+            "explanation": "I beslutsstresstestet beordrar du modellen att blottlägga antaganden, pröva worst-case scenarier och identifiera vad som absolut måste fungera [24, 25]."
+        },
+        {
+            "id": 39,
+            "category": "Lektion 2 - Framework",
+            "question": "Hur utförs Stresstestet (Steg 5) i ett Utforskande läge?",
+            "options": {
+                "A": "Genom att be AI:n argumentera som en känd komiker.",
+                "B": "Genom att begära belysning av osäkerheter, alternativa tolkningar, omstridda perspektiv och svaga punkter.",
+                "C": "Genom att förkorta analysen till hundra ord.",
+                "D": "Genom att ignorera allt som inte stöder ens första gissning."
+            },
+            "correct_answer": "B",
+            "explanation": "Det utforskande stresstestet handlar om att hitta analysens svaga punkter, belysa omstridda perspektiv och hantera djupa osäkerheter [24, 25]."
+        },
+        {
+            "id": 40,
+            "category": "Lektion 2 - Framework",
+            "question": "Varför är Stresstestdesignen ett av de absolut viktigaste stegen?",
+            "options": {
+                "A": "Det gör slutrapporten betydligt längre och ser mer arbetad ut.",
+                "B": "Det minimerar risken att servern kraschar.",
+                "C": "Den tvingar analysen att utmana sig själv så att du hittar de farliga blinda fläckarna innan beslutet fattas.",
+                "D": "Det sparar in prenumerationskostnader."
+            },
+            "correct_answer": "C",
+            "explanation": "Det tvingar fram en intellektuell utmaning av beslutsunderlaget och säkerställer att slutsatserna håller för hårt tryck och granskning [25]."
+        },
+        {
+            "id": 41,
+            "category": "Lektion 2 - Framework",
+            "question": "Vad sker i ramverkets sista steg, Steg 6 - Resultatöversättning?",
+            "options": {
+                "A": "Du gör analysens data användbar i form av tydliga rekommendationer eller strategiska insikter.",
+                "B": "Du översätter ordagrant rapporten till engelska.",
+                "C": "Du avslutar prenumerationen på verktyget.",
+                "D": "Du tar bort alla begränsningar som tidigare satts."
+            },
+            "correct_answer": "A",
+            "explanation": "Målet i sista steget är att omvandla den tunga informationen och göra analysen strategiskt användbar [25, 26]."
+        },
+        {
+            "id": 42,
+            "category": "Lektion 2 - Framework",
+            "question": "Hur presenteras vanligtvis resultatet i Steg 6 för ett Beslutsläge?",
+            "options": {
+                "A": "Som en ogrundad gissning.",
+                "B": "Som en dom: Rekommendation om GO / GO med villkor / PAUSA / NO-GO, samt nästa steg.",
+                "C": "Som en konstnärlig reflektion över processen.",
+                "D": "Som fler öppna frågor att besvara nästa år."
+            },
+            "correct_answer": "B",
+            "explanation": "För beslut krävs en tydlig dom eller rekommendation (exempelvis GO eller NO-GO) och under vilka specifika villkor beslutet är hållbart [26, 27]."
+        },
+        {
+            "id": 43,
+            "category": "Lektion 2 - Framework",
+            "question": "Vad förväntas du få ut i Steg 6 när du befinner dig i ett Utforskande läge?",
+            "options": {
+                "A": "Ett exakt datum då en produkt ska lanseras.",
+                "B": "Ett binärt 'Ja' eller 'Nej'.",
+                "C": "De viktigaste strukturella insikterna, strategiska implikationerna och möjliga handlingsområden framåt.",
+                "D": "Bara en lång osorterad lista med fakta."
+            },
+            "correct_answer": "C",
+            "explanation": "Istället för beslut levererar utforskningsläget mönsterigenkänning, strategiska implikationer och framtida handlingsområden [26, 27]."
+        },
+        {
+            "id": 44,
+            "category": "Lektion 2 - Framework",
+            "question": "Vilken devis förknippas med resultatet (Steg 6) i det Utforskande läget?",
+            "options": {
+                "A": "Effektivitet över allt.",
+                "B": "Fråga först, besluta sedan.",
+                "C": "Output är viktigare än input.",
+                "D": "Insikt istället för dom."
+            },
+            "correct_answer": "D",
+            "explanation": "Slutmålet i utforskningsläget summeras perfekt med devisen 'Insikt istället för dom' [26, 27]."
+        },
+        {
+            "id": 45,
+            "category": "Lektion 2 - Framework",
+            "question": "Vilket Use Case är ett utmärkt exempel på en fråga i Beslutsorienterat läge?",
+            "options": {
+                "A": "Hur förändrar AI kunskapsarbete 2025–2030?",
+                "B": "Vilka organisatoriska faktorer driver AI-implementering?",
+                "C": "Hur mognar AI-marknaden för SME?",
+                "D": "Ska vi implementera AI-verktyg i hela organisationen under 2026?"
+            },
+            "correct_answer": "D",
+            "explanation": "Att ställa en fråga med 'Ska vi implementera...' är en tydlig binär startpunkt som kräver ett beslutsorienterat ramverk [28]."
+        },
+        {
+            "id": 46,
+            "category": "Lektion 2 - Framework",
+            "question": "Vilket Use Case är ett tydligt exempel på Startpunkten i ett Utforskande läge?",
+            "options": {
+                "A": "Ska vi lansera en premium AI-utbildning?",
+                "B": "Hur förändrar generativ AI arbetsuppgifter, roller och kompetenskrav för kunskapsarbetare 2025–2030?",
+                "C": "Ska vi expandera till norsk marknad 2026?",
+                "D": "Ska vi bygga en egen AI-lösning eller köpa en befintlig SaaS-tjänst?"
+            },
+            "correct_answer": "B",
+            "explanation": "En strukturerad 'Hur förändrar...'-fråga är det klassiska startskottet för att utforska komplexa omvärldsförändringar [29]."
+        },
+        {
+            "id": 47,
+            "category": "Lektion 2 - Framework",
+            "question": "Vad menas med att Deep Research kräver 'Intellektuell disciplin'?",
+            "options": {
+                "A": "Att du måste vara expert på programmering.",
+                "B": "Att du undviker passivt användande, upprätthåller strukturen och inte nöjer dig med AI:ns första ytliga gissning.",
+                "C": "Att du alltid måste ge modellen rätt när den svarar fel.",
+                "D": "Att du läser mycket böcker."
+            },
+            "correct_answer": "B",
+            "explanation": "Intellektuell disciplin handlar om viljan att utmana systemet, undvika snabba genvägar och genomföra den iterativa, rigorösa resan [7, 27]."
+        },
+        {
+            "id": 48,
+            "category": "Lektion 2 - Framework",
+            "question": "Vad betyder rekommendationen 'GO med villkor' som man kan få i Steg 6 (Beslutsläge)?",
+            "options": {
+                "A": "Att det absolut inte finns några risker med projektet.",
+                "B": "Att organisationen rekommenderas genomföra projektet, förutsatt att vissa kritiska förutsättningar säkras.",
+                "C": "Att man ska skrota projektet och satsa på något helt annat.",
+                "D": "Att man har för lite data för att analysera frågan."
+            },
+            "correct_answer": "B",
+            "explanation": "Ett 'GO med villkor' är ett kraftfullt beslutsstöd som innebär att vägen är öppen förutsatt att organisationen navigerar vissa identifierade kritiska krav [26, 27]."
+        },
+        {
+            "id": 49,
+            "category": "Lektion 2 - Framework",
+            "question": "I analysen 'Ska vi bygga egen AI-lösning eller köpa SaaS', vad vore ett typiskt krav på modellen i Stresstestet?",
+            "options": {
+                "A": "Att enbart prisa det billigaste alternativet oavsett konsekvens.",
+                "B": "Att pröva worst-case scenarier, såsom vad som händer om utvecklingen försenas eller om leverantören chockhöjer priserna.",
+                "C": "Att rekommendera hur många anställda som borde få sparken.",
+                "D": "Att kartlägga hela den skandinaviska mediabranschen."
+            },
+            "correct_answer": "B",
+            "explanation": "Stresstestet i Build vs Buy analyserar vad konsekvenserna blir om kritiska faktorer fallerar, till exempel förseningar eller plötsliga prishöjningar [30]."
+        },
+        {
+            "id": 50,
+            "category": "Lektion 2 - Framework",
+            "question": "Vart befinner sig Deep Research i framtidens AI-ekosystem?",
+            "options": {
+                "A": "Det utgör det kreativa bildgenereringslagret.",
+                "B": "Det är en databas för rådata.",
+                "C": "Det agerar utskriftsmotor för korta mejl.",
+                "D": "Det är det strategiska analyslagret som överbryggar rådata och välgrundade beslut."
+            },
+            "correct_answer": "D",
+            "explanation": "Deep Research utgör analyslagret i ekosystemet och fungerar som den strategiska bryggan mellan kaotisk rådata och robusta beslutsunderlag [8, 31]."
+        }
+    ]
+}

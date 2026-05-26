@@ -1,0 +1,238 @@
+{
+    "title": "Agentläge",
+    "description": "66 interaktiva kort som täcker ChatGPT Agentläge",
+    "cards": [
+        {
+            "q": "Vad innebär Agentläge (Agent Mode)?",
+            "a": "Agentläge är ett avancerat system som kan tänka och agera genom att proaktivt välja verktyg för att slutföra hela uppgifter åt dig"
+        },
+        {
+            "q": "Vad är den primära funktionen hos OpenAI Agentläge?",
+            "a": "Ett system som proaktivt väljer verktyg för att tänka och genomföra uppgifter."
+        },
+        {
+            "q": "Agentläget fungerar som en brygga mellan sökningar och _____.",
+            "a": "konkreta åtgärder"
+        },
+        {
+            "q": "När ska jag använfa Angetläge?",
+            "a": "Använd Agentläge när du vill övergå från att bara ställa frågor till att faktiskt utföra konkreta och komplexa arbetsmoment"
+        },
+        {
+            "q": "Ge mig ett konkret exempel för att använda  Agentläge",
+            "a": "Du letar efter nya potentiella kunder till ditt företag. Istället för att manuellt googla och klippa in information i ett dokument, kan du låta agenten göra hela arbetet från start till mål."
+        },
+        {
+            "q": "Hur skiljer sig Agentläget från en traditionell chatbot när det gäller resultat?",
+            "a": "Agentläget utför arbete (aktör) snarare än att bara ge råd (rådgivare)."
+        },
+        {
+            "q": "Vilka prenumerationstyper hos OpenAI ger tillgång till Agentläge?",
+            "a": "Plus, Pro, Team, Business och Enterprise."
+        },
+        {
+            "q": "Vad är den huvudsakliga skillnaden mellan Djup Research och Agentläge?",
+            "a": "Djup Research fokuserar på analys, medan Agentläge fokuserar på att agera."
+        },
+        {
+            "q": "Nämn de fyra tänkstegen i en agents arbetsprocess.",
+            "a": "Tolkning, Planering, Verktyg och Utförande."
+        },
+        {
+            "q": "Vad innebär steget 'Tolkning' i agentens arbetsprocess?",
+            "a": "Agenten analyserar instruktionen för att förstå det bakomliggande syftet."
+        },
+        {
+            "q": "Vad innebär steget 'Planering' för en AI-agent?",
+            "a": "Målet bryts ner i mindre, konkreta och hanterbara delsteg."
+        },
+        {
+            "q": "Vilken begränsning har Djup Research som Agentläget kan hantera?",
+            "a": "Interaktion med webbplatser, såsom att klicka och fylla i formulär."
+        },
+        {
+            "q": "Vilka två specifika redigerbara dokumenttyper kan Agentläget generera?",
+            "a": "Kalkylblad (Excel) och presentationer (PowerPoint)."
+        },
+        {
+            "q": "Vad är skillnaden mellan interna och externa verktyg?",
+            "a": "Det enklaste sättet att förstå skillnaden är att tänka på de interna verktygen som systemets motor och de externa verktygen som dess antenner"
+        },
+        {
+            "q": "Beskriv de interna verktygen",
+            "a": "De skapas och hanteras helt inuti agentens egen virtuella dator. De genomför handlingar:  klicka på webbsidor, fylla i formulär, köra kod, skapa dina färdiga dokument"
+        },
+        {
+            "q": "Beskriv de externa verktygen",
+            "a": "Dessa kallas ofta för sammanlänkningar (connectors) och är kopplingar till appar som ligger utanför själva ChatGPT, exempelvis din Gmail, Google Calendar eller Google Drive"
+        },
+        {
+            "q": "Hur  fungerar de externa verktygen",
+            "a": "De är antennerna som lyssnar och hämtar in den information som agenten  behöver för att kunna göra sitt jobb"
+        },
+        {
+            "q": "Ber agenten alltid om lov innan den använder externa verktyg?",
+            "a": "Agenten är tränad att uttryckligen be om ditt tillstånd, men det gäller specifikt när den ska utföra åtgärder som får konsekvenser i verkligheten"
+        },
+        {
+            "q": "Hur fungerar agentens virtuella dator?",
+            "a": "En virtuell dator simulerar en riktig dator med hjälp av mjukvara. När  Agenten  genomföra komplexa uppgifter skapas automatiskt en virtuella dator, där det skapas och hanteras de interna verktyg "
+        },
+        {
+            "q": "Vilka verktyg innehåller den  virtuella datorn?",
+            "a": "Browser, Computer, Container, Imagegen, Memento"
+        },
+        {
+            "q": "Vilket verktyg använder agenten för att köra kod och arbeta med filer?",
+            "a": "En terminal i en virtuell dator."
+        },
+        {
+            "q": "Vad kallas miljön där Agenten skapar sina egna interna verktyg?",
+            "a": "Virtuell dator."
+        },
+        {
+            "q": "Vilket verktyg används för interaktiva webbplatser som kräver klick och formulär?",
+            "a": "Computer-verktyget."
+        },
+        {
+            "q": "Vad är syftet med verktyget 'Memento'?",
+            "a": "Att spara och återkalla mellanresultat i längre uppgifter för att undvika dubbelarbete."
+        },
+        {
+            "q": "Vilket verktyg aktiveras för att bearbeta data programmässigt via skript?",
+            "a": "Container-verktyget."
+        },
+        {
+            "q": "När används 'Imagegen-verktyget' i Agentläge?",
+            "a": "För att skapa illustrationer när licensfria bilder saknas på webben."
+        },
+        {
+            "q": "I Agentläge fungerar interna verktyg som motorn, medan sammanlänkningar (Connectors) fungerar som _____.",
+            "a": "antenner som samlar in skrivskyddad kontext"
+        },
+        {
+            "q": "Vilka är de fem komponenterna i mallen för en Agent-prompt?",
+            "a": "Uppdrag, Kontext, Åtgärdstyp, Regler och Leverans."
+        },
+        {
+            "q": "Vilka tre egenskaper ska ett starkt 'Uppdrag' ha?",
+            "a": "Konkret, genomförbart och resultatinriktat."
+        },
+        {
+            "q": "Vad är syftet med 'Kontext' i en Agent-prompt?",
+            "a": "Att ge ramar och fokus för att minska irrelevanta resultat."
+        },
+        {
+            "q": "Nämn tre exempel på geografisk eller tidsmässig 'Kontext'.",
+            "a": "Marknad (t.ex. Sverige), målgrupp och tidsperiod (t.ex. efter 2020)."
+        },
+        {
+            "q": "Varför anges 'Åtgärdstyp' i en prompt?",
+            "a": "För att hjälpa agenten att aktivera rätt verktyg i sin virtuella dator."
+        },
+        {
+            "q": "Ge tre exempel på 'Åtgärdstyper' som kan väljas i en prompt.",
+            "a": "Webbnavigering, datainsamling och dokumentgenerering."
+        },
+        {
+            "q": "Hur skiljer sig 'Regler' i en Agent-prompt från en steg-för-steg-lista?",
+            "a": "Regler definierar ramar för kontroll snarare än instruktioner för processen."
+        },
+        {
+            "q": "Vad är syftet med att inkludera regeln 'Markera saknad information'?",
+            "a": "Att förhindra att agenten spekulerar eller gissar när data saknas."
+        },
+        {
+            "q": "Varför är en tydlig 'Leverans' kritisk för Agentlägets funktion?",
+            "a": "Det tvingar agenten att producera en konkret artefakt istället för bara text."
+        },
+        {
+            "q": "Ge tre exempel på konkreta 'Leveranser' från Agentläget.",
+            "a": "Excel-ark, PowerPoint-presentation och strukturerad tabell."
+        },
+        {
+            "q": "Vad är en 'svag' variant av uppdraget 'Hitta information om HR-bolag'?",
+            "a": "Undersök marknaden."
+        },
+        {
+            "q": "Om agenten ska identifiera 20 bolag, vilken leveransform är mest lämplig?",
+            "a": "Ett kalkylblad eller en tabell."
+        },
+        {
+            "q": "Vilken 'Åtgärdstyp' krävs om agenten ska jämföra priser programmässigt?",
+            "a": "Dataanalys (eller kodkörning/filbearbetning)."
+        },
+        {
+            "q": "Vad innebär begreppet 'Verktygsmedvetenhet' vid promptning?",
+            "a": "Att förstå vilka förmågor agenten behöver aktivera utan att detaljstyra metoden."
+        },
+        {
+            "q": "Vilken regel bör användas för att hantera osäker information i en lead-lista?",
+            "a": "Markera osäker information som 'Ej verifierad' eller 'Ej tillgänglig'."
+        },
+        {
+            "q": "Varför bör man i en prompt be agenten att 'Använda officiella hemsidor'?",
+            "a": "För att säkerställa att informationen kommer från trovärdiga och primära källor."
+        },
+        {
+            "q": "När är det lämpligt att använda åtgärdstypen 'Filbearbetning'?",
+            "a": "När uppgiften kräver analys av uppladdade dokument eller dataset."
+        },
+        {
+            "q": "Vad är skillnaden mellan att ge en instruktion och att definiera en 'ram'?",
+            "a": "Instruktioner styr varje steg; ramar styr vad som är tillåtet (t.ex. 'endast publika källor')."
+        },
+        {
+            "q": "I en konkurrentanalys, vad bör 'Kontext' fokusera på?",
+            "a": "Specifika områden som funktioner, prissättning, målgrupp och differentiering."
+        },
+        {
+            "q": "Vilken komponent i prompten avgör om agenten sparar resultatet som en fil?",
+            "a": "Leverans."
+        },
+        {
+            "q": "Sant eller falskt: En Agent-prompt bör vara så detaljerad att den beskriver varje musklick.",
+            "a": "Falskt (agenten ska självständigt planera och optimera stegen)."
+        },
+        {
+            "q": "Vilket steg i promptmallen används för att begränsa sökningen till 'Sverige'?",
+            "a": "Kontext."
+        },
+        {
+            "q": "Vad är syftet med regeln 'Be om godkännande före export'?",
+            "a": "Att upprätthålla mänsklig kontroll över slutresultatet innan en handling genomförs."
+        },
+        {
+            "q": "Vilken leveransform är bäst för att rangordna produktkategorier efter lönsamhet?",
+            "a": "En strukturerad rapport eller tabell."
+        },
+        {
+            "q": "När används 'Kombination' som åtgärdstyp?",
+            "a": "När uppdraget kräver flera steg, t.ex. både webbnavigering och dokumentgenerering."
+        },
+        {
+            "q": "Vilket är det viktigaste säkerhetskonceptet vid användning av autonoma agenter?",
+            "a": "Människan i loopen (Human-in-the-loop)."
+        },
+        {
+            "q": "Vad är en 'hallucination' inom AI?",
+            "a": "När modellen skapar svar som låter korrekta men är faktiskt felaktiga eller påhittade."
+        },
+        {
+            "q": "Vad är tumregeln för dataskydd när man matar in information i en agent?",
+            "a": "Dela inget som du inte hade fått skicka öppet via e-post."
+        },
+        {
+            "q": "Hur kan man minimera risken för 'promptinjektion'?",
+            "a": "Genom att inaktivera sammanlänkningar (Connectors) när de inte behövs."
+        },
+        {
+            "q": "Vem bär det slutgiltiga ansvaret för agentens producerade resultat?",
+            "a": "Användaren (människan)."
+        },
+        {
+            "q": "Vilken typ av uppgifter är agenten tränad att avvisa av säkerhetsskäl?",
+            "a": "Högriskuppgifter, såsom banköverföringar."
+        }
+    ]
+}

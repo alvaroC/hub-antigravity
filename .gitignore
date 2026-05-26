@@ -1,0 +1,28 @@
+# Environment variables
+.env
+
+# Python
+venv/               
+__pycache__/
+*.pyc
+
+# NotebookLM / Tokens
+*.json.bak
+tokens.json
+cached_tokens*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Antigravity / Gemini IDE
+.gemini/
+
+# Node
+node_modules/
+
+# Logs
+*.log

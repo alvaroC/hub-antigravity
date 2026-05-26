@@ -1,0 +1,706 @@
+{
+    "quiz": [
+        {
+            "id": 1,
+            "category": "Lektion 1: Översikt",
+            "question": "Vad är OpenAI Agentläge?",
+            "options": {
+                "A": "En traditionell chatbot som ger passiva råd.",
+                "B": "Ett system som tänker och agerar proaktivt för att slutföra uppgifter.",
+                "C": "Ett program för att redigera bilder.",
+                "D": "En databas för tidigare konversationer."
+            },
+            "correct_answer": "B",
+            "explanation": "Agentläge är ett system som kan tänka och agera genom att proaktivt välja verktyg för att slutföra uppgifter [1]."
+        },
+        {
+            "id": 2,
+            "category": "Deep Research vs Agentläge",
+            "question": "Hur skiljer sig Agentläge från Deep Research?",
+            "options": {
+                "A": "Agentläget kan utföra handlingar på webbplatser (klicka, fylla i formulär) och skapa redigerbara filer, medan Deep Research enbart läser webbsidor och sammanställer textrapporter.",
+                "B": "Deep Research kan skapa Excel-filer och bildspel, medan Agentläget endast kan skriva korta texter.",
+                "C": "Det finns ingen skillnad; de är två olika namn för exakt samma funktion.",
+                "D": "Deep Research kräver att du kodar själv, medan Agentläget stänger av din webbläsare."
+            },
+            "correct_answer": "A",
+            "explanation": "Medan Deep Research är en specialist på att läsa och sammanfatta textinformation, har Agentläget förmågan att agera interaktivt på internet och generera redigerbara dokument som kalkylblad och presentationer [3-5]."
+        },
+        {
+            "id": 3,
+            "category": "Användningsområden",
+            "question": "När kan jag använda Agentläge?",
+            "options": {
+                "A": "För att be om ett snabbt recept på pannkakor.",
+                "B": "För att få några peppande ord innan ett viktigt möte.",
+                "C": "För att be om en översättning av en enskild mening från engelska till svenska.",
+                "D": "För att identifiera 20 specifika företag, navigera på deras hemsidor för att samla in data, och sammanställa allt i ett nedladdningsbart kalkylblad."
+            },
+            "correct_answer": "D",
+            "explanation": "Agentläget ska användas när du vill gå från att bara ställa frågor till att utföra komplexa arbetsmoment, såsom lead research och operativ dataanalys som resulterar i en färdig artefakt [6, 7]."
+        },
+        {
+            "id": 4,
+            "category": "Chatbot vs Agent",
+            "question": "Vilket av följande exempel beskriver bäst skillnaden mellan en traditionell AI Chatbot och Agentläge?",
+            "options": {
+                "A": "Chatbot: Skapar Excel-filer åt dig. Agentläge: Svarar bara på enkla textfrågor.",
+                "B": "Chatbot: Är som en papperskarta som beskriver vägen. Agentläge: Är som en GPS-styrd bil som självständigt kör till destinationen, hanterar hinder och tankar längs vägen.",
+                "C": "Chatbot: Kan navigera interaktivt på webben. Agentläge: Har ingen tillgång till internet överhuvudtaget.",
+                "D": "Chatbot: Fungerar som en mänsklig assistent. Agentläge: Fungerar som en miniräknare."
+            },
+            "correct_answer": "B",
+            "explanation": "En traditionell chatbot är som en karta som bara visar vägen (passiv rådgivare), medan Agentläget är som en autonom GPS-styrd bil som självständigt kör, agerar och skapar de verktyg som behövs under resans gång [2, 8]."
+        },
+        {
+            "id": 5,
+            "category": "Lektion 1: Översikt",
+            "question": "Vilket är det första steget i Agentens fyra tänksteg?",
+            "options": {
+                "A": "Utförande",
+                "B": "Verktyg",
+                "C": "Planering",
+                "D": "Tolkning"
+            },
+            "correct_answer": "D",
+            "explanation": "Det första steget är Tolkning, där agenten analyserar instruktionen för att förstå det bakomliggande syftet [2, 3]."
+        },
+        {
+            "id": 7,
+            "category": "Lektion 1: Översikt",
+            "question": "Vad gör Agenten under steget 'Planering'?",
+            "options": {
+                "A": "Den söker efter licensfria bilder.",
+                "B": "Målet bryts ner i mindre, hanterbara steg.",
+                "C": "Den bygger en ny webbplats.",
+                "D": "Den skickar ett e-postmeddelande."
+            },
+            "correct_answer": "B",
+            "explanation": "Under planeringen bryts målet ner i en intern 'att-göra-lista' med mindre, konkreta steg [2, 3]."
+        },
+        {
+            "id": 8,
+            "category": "Lektion 1: Översikt",
+            "question": "Hur agerar Agenten under steget 'Utförande'?",
+            "options": {
+                "A": "Den väntar på att användaren ska koda verktyget.",
+                "B": "Den genomför stegen, testar och justerar iterativt.",
+                "C": "Den frågar efter ett nytt uppdrag.",
+                "D": "Den stänger av sig själv."
+            },
+            "correct_answer": "B",
+            "explanation": "Agenten genomför stegen, testar och justerar resultatet iterativt tills målet är uppnått [2, 3]."
+        },
+        {
+            "id": 9,
+            "category": "Lektion 1: Översikt",
+            "question": "Hur många Agent-meddelanden får en Plus-användare per månad?",
+            "options": {
+                "A": "20",
+                "B": "40",
+                "C": "400",
+                "D": "Obegränsat"
+            },
+            "correct_answer": "B",
+            "explanation": "Plus-användare får 40 meddelanden per månad, enligt OpenAIs gränser [4, 5]."
+        },
+        {
+            "id": 10,
+            "category": "Lektion 1: Översikt",
+            "question": "Vilken liknelse förklarar bäst övergången från vanlig chatt till Agentläge?",
+            "options": {
+                "A": "Från miniräknare till dator.",
+                "B": "Från karta till GPS-styrd bil.",
+                "C": "Från cykel till flygplan.",
+                "D": "Från penna till tangentbord."
+            },
+            "correct_answer": "B",
+            "explanation": "Agentläget är som att gå från att ha en karta (chatbot) till en GPS-styrd bil (agenten) som självständigt kan köra [4, 6]."
+        },
+        {
+            "id": 11,
+            "category": "Lektion 2: Agent Mode vs Deep Research",
+            "question": "Vad var Djup Research (Deep Research) specialist på?",
+            "options": {
+                "A": "Att interagera med inloggningssidor.",
+                "B": "Att generera Excel-kalkylblad.",
+                "C": "Att analysera och sammanfatta textinformation.",
+                "D": "Att redigera videofiler."
+            },
+            "correct_answer": "C",
+            "explanation": "Djup Research var specialist på att analysera hundratals webbsidor och sammanställa textrapporter [7, 8]."
+        },
+        {
+            "id": 12,
+            "category": "Lektion 2: Agent Mode vs Deep Research",
+            "question": "Vilken unik webb-kapacitet har Agentläget som saknas i Deep Research?",
+            "options": {
+                "A": "Förmågan att skriva poesi.",
+                "B": "Förmågan att klicka, fylla i formulär och navigera.",
+                "C": "Förmågan att läsa Wikipedia.",
+                "D": "Förmågan att översätta språk."
+            },
+            "correct_answer": "B",
+            "explanation": "Agenten kan utföra handlingar på webbplatser genom att klicka, skriva, filtrera och fylla i formulär med en visuell webbläsare [7, 8]."
+        },
+        {
+            "id": 13,
+            "category": "Lektion 2: Agent Mode vs Deep Research",
+            "question": "Vilken funktion inom dokumentgenerering ligger just nu i betaversion?",
+            "options": {
+                "A": "Textsammanfattning",
+                "B": "Generera kalkylblad",
+                "C": "Generera bildspel (PowerPoint)",
+                "D": "Söka på Google"
+            },
+            "correct_answer": "C",
+            "explanation": "Funktionaliteten för att generera bildspel testas för närvarande i betaversion [4, 5, 9]."
+        },
+        {
+            "id": 14,
+            "category": "Verktygslådan",
+            "question": "Vilket av följande alternativ är ett ICKE-internt verktyg (alltså en extern sammanlänkning/connector)?",
+            "options": {
+                "A": "Visuell Webbläsare (Browser)",
+                "B": "Terminal / Kodkörning (Container)",
+                "C": "Google Calendar",
+                "D": "Memento (Minnesverktyg)"
+            },
+            "correct_answer": "C",
+            "explanation": "Google Calendar är en extern sammanlänkning (connector) som fungerar som en antenn för att hämta in kontext, medan webbläsare, terminal och memento skapas internt i Agentens virtuella dator [9-12]."
+        },
+        {
+            "id": 15,
+            "category": "Verktygslådan",
+            "question": "Vilket av följande alternativ är ett ICKE-externt verktyg (alltså ett internt verktyg)?",
+            "options": {
+                "A": "Gmail",
+                "B": "Google Drive",
+                "C": "GitHub",
+                "D": "Terminal / Kodkörning"
+            },
+            "correct_answer": "D",
+            "explanation": "Terminalen/Kodkörningen är ett internt verktyg (motorn) som agenten använder inuti sin virtuella dator för att bearbeta data och skapa filer, medan Gmail, Drive och GitHub är externa sammanlänkningar [10-13]."
+        },
+        {
+            "id": 16,
+            "category": "Lektion 3: Web Navigation",
+            "question": "Vad skapar Agenten för att kunna navigera på webben och utföra uppgifter?",
+            "options": {
+                "A": "Ett nytt operativsystem.",
+                "B": "En egen virtuell dator.",
+                "C": "Ett externt webbhotell.",
+                "D": "En ny ChatGPT-version."
+            },
+            "correct_answer": "B",
+            "explanation": "Agenten skapar sin egen virtuella dator där den hanterar verktygen för att utföra uppgifterna [10, 11]."
+        },
+        {
+            "id": 17,
+            "category": "Lektion 3: Web Navigation",
+            "question": "Vad används 'Browser-verktyget' primärt till?",
+            "options": {
+                "A": "Klicka på knappar.",
+                "B": "Riktade informationssökningar på webbplatser.",
+                "C": "Skriva Python-kod.",
+                "D": "Måla bilder."
+            },
+            "correct_answer": "B",
+            "explanation": "Browser-verktyget används för att göra riktade sökningar på svenska och internationella webbplatser [10, 11]."
+        },
+        {
+            "id": 18,
+            "category": "Lektion 3: Web Navigation",
+            "question": "Vilket verktyg aktiveras när Agenten behöver ladda ner en fil eller fylla i ett formulär?",
+            "options": {
+                "A": "Computer-verktyget",
+                "B": "Imagegen-verktyget",
+                "C": "Browser-verktyget",
+                "D": "Memento-verktyget"
+            },
+            "correct_answer": "A",
+            "explanation": "Computer-verktyget används för att navigera interaktiva webbplatser som kräver klick och filnedladdning [10, 11]."
+        },
+        {
+            "id": 19,
+            "category": "Lektion 3: Web Navigation",
+            "question": "Vad används 'Container-verktyget' till?",
+            "options": {
+                "A": "För att spara lösenord.",
+                "B": "För att bearbeta data programmässigt och köra kod.",
+                "C": "För att söka på nätet.",
+                "D": "För att läsa böcker."
+            },
+            "correct_answer": "B",
+            "explanation": "Container-verktyget används för att bearbeta data programmässigt, exempelvis genom att köra skript [10, 11]."
+        },
+        {
+            "id": 20,
+            "category": "Lektion 3: Web Navigation",
+            "question": "Vad är funktionen hos 'Memento-verktyget'?",
+            "options": {
+                "A": "Det översätter texter.",
+                "B": "Det skapar PowerPoint-presentationer.",
+                "C": "Det sparar mellanresultat så agenten slipper börja om.",
+                "D": "Det raderar gammal data."
+            },
+            "correct_answer": "C",
+            "explanation": "Memento sparar och återkallar mellanresultat i längre research-uppgifter så man kan fortsätta där man slutade [11, 12]."
+        },
+        {
+            "id": 21,
+            "category": "Lektion 3: Web Navigation",
+            "question": "Vad gör Agenten innan den utför en åtgärd i verkligheten (t.ex. skickar e-post)?",
+            "options": {
+                "A": "Utför den omedelbart.",
+                "B": "Ber alltid om uttryckligt tillstånd.",
+                "C": "Frågar OpenAI:s support.",
+                "D": "Raderar uppgiften."
+            },
+            "correct_answer": "B",
+            "explanation": "Agenten ber om uttryckligt tillstånd innan den vidtar åtgärder som får konsekvenser i verkligheten [12, 13]."
+        },
+        {
+            "id": 22,
+            "category": "Lektion 3: Web Navigation",
+            "question": "Vad händer om användaren manuellt loggar in på en sida i Agentens webbläsare?",
+            "options": {
+                "A": "Lösenordet delas med hela företaget.",
+                "B": "Agenten samlar inte in eller lagrar lösenordet.",
+                "C": "Agenten loggas ut direkt.",
+                "D": "Datorn startar om."
+            },
+            "correct_answer": "B",
+            "explanation": "Agenten samlar inte in eller lagrar data som användaren anger under övertagningssessioner, såsom lösenord [12, 13]."
+        },
+        {
+            "id": 23,
+            "category": "Lektion 3: Web Navigation",
+            "question": "Vilken specifik risk introduceras av Agentens utökade webbförmågor?",
+            "options": {
+                "A": "Datorvirus.",
+                "B": "Hårdvarukrasch.",
+                "C": "Skadlig manipulering via promptinjektion.",
+                "D": "Högre elkostnad."
+            },
+            "correct_answer": "C",
+            "explanation": "Den utökade förmågan att agera på webben introducerar risken för skadlig manipulering via promptinjektion [14, 15]."
+        },
+        {
+            "id": 24,
+            "category": "Lektion 4: Verktygslåda",
+            "question": "Vad är ett 'verktyg' i den virtuella datorn?",
+            "options": {
+                "A": "En fysisk sladd.",
+                "B": "Ett litet program eller funktion som Agenten skapar själv.",
+                "C": "En betalapp i App Store.",
+                "D": "Ett separat AI-system."
+            },
+            "correct_answer": "B",
+            "explanation": "Ett verktyg är ett litet program eller en funktion agenten skapar i den virtuella datorn för att lösa uppgiften [16]."
+        },
+        {
+            "id": 25,
+            "category": "Lektion 4: Verktygslåda",
+            "question": "Vad gör Agenten om ett nyskapat internt verktyg inte fungerar vid testning?",
+            "options": {
+                "A": "Ber användaren skriva ny kod.",
+                "B": "Ger upp uppdraget direkt.",
+                "C": "Justerar det automatiskt i bakgrunden tills det fungerar.",
+                "D": "Crashar systemet."
+            },
+            "correct_answer": "C",
+            "explanation": "Agenten testar verktyget och justerar resultatet iterativt; detta sker automatiskt i bakgrunden [2, 16]."
+        },
+        {
+            "id": 26,
+            "category": "Lektion 4: Verktygslåda",
+            "question": "Vilken komponent ger Agenten kapacitet att agera som en 'Operator'?",
+            "options": {
+                "A": "Textbaserad webbläsare.",
+                "B": "Visuell webbläsare.",
+                "C": "Terminal.",
+                "D": "Dokumentgenerering."
+            },
+            "correct_answer": "B",
+            "explanation": "Den Visuella Webbläsaren ger Operator-kapacitet att klicka, skriva och fylla i formulär i ett grafiskt gränssnitt [17]."
+        },
+        {
+            "id": 27,
+            "category": "Lektion 4: Verktygslåda",
+            "question": "Vad använder Agenten Terminalen till?",
+            "options": {
+                "A": "För att spara bokmärken.",
+                "B": "För att köra kod, analysera data och skapa algoritmer.",
+                "C": "För att redigera profilbilder.",
+                "D": "För att skriva ut dokument på en fysisk skrivare."
+            },
+            "correct_answer": "B",
+            "explanation": "Agenten har tillgång till en terminal där den kan köra kod och arbeta med filer för att analysera data [9]."
+        },
+        {
+            "id": 28,
+            "category": "Lektion 4: Verktygslåda",
+            "question": "Vad är ett externt verktyg (Sammanlänkning/Connector)?",
+            "options": {
+                "A": "Ett skript i terminalen.",
+                "B": "En koppling till externa appar som Gmail och Google Drive.",
+                "C": "En musknapp.",
+                "D": "Agentens webbläsare."
+            },
+            "correct_answer": "B",
+            "explanation": "Sammanlänkningar (connectors) låter Agenten ansluta till externa appar som Gmail och Google Drive [9, 13, 18]."
+        },
+        {
+            "id": 29,
+            "category": "Lektion 4: Verktygslåda",
+            "question": "Vilken av följande liknelser används för att beskriva 'Interna Verktyg'?",
+            "options": {
+                "A": "Antenner",
+                "B": "Kartan",
+                "C": "Motorn",
+                "D": "Bensinen"
+            },
+            "correct_answer": "C",
+            "explanation": "De interna verktygen är motorn som utför arbetet och skapar dokumenten [13, 19]."
+        },
+        {
+            "id": 30,
+            "category": "Lektion 4: Verktygslåda",
+            "question": "Vilken liknelse används för 'Externa Sammanlänkningar'?",
+            "options": {
+                "A": "Antenner",
+                "B": "Hjul",
+                "C": "Fönster",
+                "D": "Spegel"
+            },
+            "correct_answer": "A",
+            "explanation": "Sammanlänkningarna fungerar som 'antenner' som samlar in relevant kontext [13, 19]."
+        },
+        {
+            "id": 31,
+            "category": "Lektion 4: Verktygslåda",
+            "question": "Vad hämtar antennerna (externa verktyg) primärt in för typ av information?",
+            "options": {
+                "A": "Fullständiga redigeringsrättigheter.",
+                "B": "Skrivskyddad (read-only) kontext.",
+                "C": "Källkod från andra system.",
+                "D": "Bankuppgifter."
+            },
+            "correct_answer": "B",
+            "explanation": "Externa sammanlänkningar används för att hämta in skrivskyddad (read-only) kontext, t.ex. scheman eller mejl [13, 19]."
+        },
+        {
+            "id": 32,
+            "category": "Lektion 4: Verktygslåda",
+            "question": "Hur kan du som användare minska risken när en sammanlänkning (Connector) inte behövs?",
+            "options": {
+                "A": "Avinstallera webbläsaren.",
+                "B": "Byta lösenord varje dag.",
+                "C": "Inaktivera sammanlänkningen i inställningarna.",
+                "D": "Stänga av terminalen."
+            },
+            "correct_answer": "C",
+            "explanation": "Du kan inaktivera sammanlänkningar när de inte behövs för att minimera risker som promptinjektion [20, 21]."
+        },
+        {
+            "id": 33,
+            "category": "Lektion 5: Praktiken (Prompting)",
+            "question": "Hur många delar ingår i strukturen för en professionell Agent-prompt?",
+            "options": {
+                "A": "3",
+                "B": "4",
+                "C": "5",
+                "D": "7"
+            },
+            "correct_answer": "C",
+            "explanation": "Strukturen består av 5 delar: Uppdrag, Kontext, Åtgärdstyp, Regler och Leverans [22, 23]."
+        },
+        {
+            "id": 34,
+            "category": "Lektion 5: Praktiken (Prompting)",
+            "question": "Vad är ett exempel på ett starkt definierat 'Uppdrag'?",
+            "options": {
+                "A": "Undersök marknaden lite.",
+                "B": "Identifiera 20 svenska SaaS-bolag och sammanställ en tabell.",
+                "C": "Berätta om AI.",
+                "D": "Surfa runt och se vad du hittar."
+            },
+            "correct_answer": "B",
+            "explanation": "Ett starkt uppdrag är konkret, genomförbart och resultatinriktat [22, 23]."
+        },
+        {
+            "id": 35,
+            "category": "Lektion 5: Praktiken (Prompting)",
+            "question": "Varför är 'Kontext' viktigt i prompten?",
+            "options": {
+                "A": "Det ger Agenten ett namn.",
+                "B": "Det minskar irrelevanta resultat genom att ge ramar.",
+                "C": "Det ökar Agentens hastighet.",
+                "D": "Det raderar gammal chatt-historik."
+            },
+            "correct_answer": "B",
+            "explanation": "Kontext ger ramar och fokus (t.ex. tidsperiod eller målgrupp) vilket minskar irrelevanta resultat [23, 24]."
+        },
+        {
+            "id": 36,
+            "category": "Lektion 5: Praktiken (Prompting)",
+            "question": "Vilken prompt-del hjälper Agenten att aktivera rätt inbyggda verktyg?",
+            "options": {
+                "A": "Uppdrag",
+                "B": "Kontext",
+                "C": "Åtgärdstyp",
+                "D": "Regler"
+            },
+            "correct_answer": "C",
+            "explanation": "Åtgärdstyp (t.ex. webbnavigering eller datainsamling) anger typ av arbete och aktiverar rätt verktyg [24, 25]."
+        },
+        {
+            "id": 37,
+            "category": "Lektion 5: Praktiken (Prompting)",
+            "question": "Vad bör undvikas när man skriver 'Regler' för Agenten?",
+            "options": {
+                "A": "Att begära verifiering av länkar.",
+                "B": "Att skriva en mikrostyrd steg-för-steg-lista.",
+                "C": "Att ange att endast publika källor får användas.",
+                "D": "Att be om godkännande innan export."
+            },
+            "correct_answer": "B",
+            "explanation": "Regler ska vara ramar för kontroll, inte instruktioner eller en mikrostyrd steg-för-steg-lista [25, 26]."
+        },
+        {
+            "id": 38,
+            "category": "Lektion 5: Praktiken (Prompting)",
+            "question": "Vad är den största fördelen med att specificera 'Leverans' tydligt?",
+            "options": {
+                "A": "Agenten slipper tänka.",
+                "B": "Det tvingar Agenten att skapa en konkret artefakt som ett Excel-ark.",
+                "C": "Det sparar prenumerationskostnad.",
+                "D": "Det stänger webbläsaren."
+            },
+            "correct_answer": "B",
+            "explanation": "En tydlig leverans tvingar agenten att aktivera terminalen och producera en färdig artefakt, exempelvis Excel [26, 27]."
+        },
+        {
+            "id": 39,
+            "category": "Lektion 5: Praktiken (Prompting)",
+            "question": "Om du vill att Agenten analyserar lönsamhet i din fil, vilken åtgärdstyp väljer du?",
+            "options": {
+                "A": "Webbnavigering.",
+                "B": "Datainsamling.",
+                "C": "Dataanalys + Kodkörning.",
+                "D": "Endast webbsökning."
+            },
+            "correct_answer": "C",
+            "explanation": "Dataanalys och kodkörning signalerar att Agenten ska använda terminalen för att bearbeta den bifogade filen [28, 29]."
+        },
+        {
+            "id": 40,
+            "category": "Lektion 5: Praktiken (Prompting)",
+            "question": "Vad signalerar instruktionen 'Markera saknad information' i prompten?",
+            "options": {
+                "A": "Kontext",
+                "B": "Regel",
+                "C": "Leverans",
+                "D": "Åtgärdstyp"
+            },
+            "correct_answer": "B",
+            "explanation": "'Markera saknad information' är ett exempel på en Regel som sätter en kvalitetsram [24, 26]."
+        },
+        {
+            "id": 41,
+            "category": "Lektion 6: Säkerhet och Etik",
+            "question": "Vilka tre huvudtyper av risker nämns i säkerhetsmodulen?",
+            "options": {
+                "A": "Dataskydd, Hallucinationer, Missuppfattning.",
+                "B": "Långsamhet, Dyr prenumeration, Kraschar.",
+                "C": "Virus, Spam, Hackers.",
+                "D": "För få verktyg, Betastatus, Språkbarriär."
+            },
+            "correct_answer": "A",
+            "explanation": "De tre huvudriskerna är Dataskydd, Fel resultat (hallucinationer) och Missuppfattningar [30-32]."
+        },
+        {
+            "id": 42,
+            "category": "Lektion 6: Säkerhet och Etik",
+            "question": "Vad är en bra tumregel gällande 'Dataskydd'?",
+            "options": {
+                "A": "Ladda alltid upp alla kalkylblad.",
+                "B": "Om du inte får maila det öppet, ge det inte till agenten.",
+                "C": "Agenten skyddar all data automatiskt.",
+                "D": "Dela endast lösenord muntligt."
+            },
+            "correct_answer": "B",
+            "explanation": "Tumregeln är att om du inte hade fått maila informationen öppet, ska du inte heller ge den till en agent [15, 30]."
+        },
+        {
+            "id": 43,
+            "category": "Lektion 6: Säkerhet och Etik",
+            "question": "Vad menas med en 'Hallucination' i AI-sammanhang?",
+            "options": {
+                "A": "När AI:n stänger av sig.",
+                "B": "När AI:n skapar felaktiga eller påhittade resultat som låter rätt.",
+                "C": "När AI:n svarar extremt snabbt.",
+                "D": "När skärmen flimrar."
+            },
+            "correct_answer": "B",
+            "explanation": "Hallucinationer uppstår när modellen fyller i luckor eller gissar, och därmed genererar resultat som låter korrekta men är fel [15, 31]."
+        },
+        {
+            "id": 44,
+            "category": "Lektion 6: Säkerhet och Etik",
+            "question": "Hur förebygger man bäst risken för 'Missuppfattning'?",
+            "options": {
+                "A": "Genom att sänka prenumerationsnivån.",
+                "B": "Genom att skriva en extremt otydlig prompt.",
+                "C": "Genom att vara tydlig med mål, format och begränsningar.",
+                "D": "Genom att stänga av terminalen."
+            },
+            "correct_answer": "C",
+            "explanation": "Tydlighet med mål, format och begränsningar (som Kontext och Regler) minskar risken för att agenten drar egna felaktiga slutsatser [21, 32]."
+        },
+        {
+            "id": 45,
+            "category": "Lektion 6: Säkerhet och Etik",
+            "question": "Vad är den viktigaste principen för att arbeta säkert med AI-agenter?",
+            "options": {
+                "A": "Att aldrig använda AI på jobbet.",
+                "B": "Att alltid behålla en 'Människa i loopen' (Human-in-the-loop).",
+                "C": "Att låta AI fatta alla slutgiltiga beslut.",
+                "D": "Att ladda upp alla kundregister."
+            },
+            "correct_answer": "B",
+            "explanation": "Att behålla en 'Människa i loopen', som granskar och fattar slutbeslut, är den viktigaste principen [15, 33]."
+        },
+        {
+            "id": 46,
+            "category": "Generell Förståelse (Kursrapport)",
+            "question": "Vad krävs av dig som användare för att verkligen lyckas med Agentläget?",
+            "options": {
+                "A": "Programmeringskunskaper i Python.",
+                "B": "Resultatorienterat ledarskap och strategisk verktygsmedvetenhet.",
+                "C": "En extern webbserver.",
+                "D": "Detaljstyrning av varje klick."
+            },
+            "correct_answer": "B",
+            "explanation": "För att lyckas måste du gå från att vara skribent till att bli handledare, vilket kräver ledarskap och verktygsmedvetenhet [21, 34]."
+        },
+        {
+            "id": 47,
+            "category": "Praktiska Use Cases",
+            "question": "I scenariot 'Lead Research', varför är 'Webbnavigering' valt som åtgärdstyp?",
+            "options": {
+                "A": "För att Agenten ska surfa runt och verifiera aktiva e-handelsföretag.",
+                "B": "För att ladda ner en app.",
+                "C": "För att rita en mindmap.",
+                "D": "För att köra ett skript lokalt."
+            },
+            "correct_answer": "A",
+            "explanation": "Webbnavigering aktiverar den visuella webbläsaren så att Agenten kan söka och samla in data om företagen [35]."
+        },
+        {
+            "id": 48,
+            "category": "Praktiska Use Cases",
+            "question": "I scenariot 'Konkurrentanalys', vad händer om en prisuppgift inte hittas?",
+            "options": {
+                "A": "Agenten gissar priset.",
+                "B": "Regeln säger att den ska markeras som 'Ej offentlig'.",
+                "C": "Agenten raderar företaget.",
+                "D": "Agenten kontaktar konkurrenten."
+            },
+            "correct_answer": "B",
+            "explanation": "En specifik regel är att markera prisuppgifter som 'Ej offentlig' istället för att spekulera [36]."
+        },
+        {
+            "id": 49,
+            "category": "Praktiska Use Cases",
+            "question": "Vilken regel är kritisk när du ber Agenten göra en 'Operativ Dataanalys' på din fil?",
+            "options": {
+                "A": "Använd endast data från den bifogade filen och gör inga antaganden utanför datasetet.",
+                "B": "Sök på nätet efter mer data.",
+                "C": "Radera originalfilen.",
+                "D": "Dela filen på sociala medier."
+            },
+            "correct_answer": "A",
+            "explanation": "För att säkerställa precision sätts regeln att inte göra antaganden utanför den uppladdade filen [28, 37]."
+        },
+        {
+            "id": 50,
+            "category": "Lektion 4: Verktygslåda",
+            "question": "Behöver du ha tekniska förkunskaper för att aktivera de interna verktygen?",
+            "options": {
+                "A": "Ja, du måste förstå Python.",
+                "B": "Nej, processen sker automatiskt om du ger ett tydligt mål.",
+                "C": "Ja, du måste ladda ner dem först.",
+                "D": "Ja, webbläsaren måste konfigureras manuellt."
+            },
+            "correct_answer": "B",
+            "explanation": "Du behöver inte ha några tekniska förkunskaper; Agenten hanterar och skapar verktygen i bakgrunden utifrån ditt mål [16]."
+        },
+        {
+            "id": 51,
+            "category": "Lektion 4: Verktygslåda",
+            "question": "Vilket format är ett av de mest robusta som Agenten kan leverera?",
+            "options": {
+                "A": "3D-modeller.",
+                "B": "Kalkylblad (Excel) med sorterbar data.",
+                "C": "Musikfiler.",
+                "D": "Exekverbara .exe filer."
+            },
+            "correct_answer": "B",
+            "explanation": "Agenten kan använda terminalen/kodtolken för att leverera färdiga artefakter som Kalkylblad [5, 7, 9]."
+        },
+        {
+            "id": 52,
+            "category": "Lektion 5: Praktiken (Prompting)",
+            "question": "Hur formulerar man bäst ett uppdrag som skapar mätbart värde?",
+            "options": {
+                "A": "Fokusera på VAD som ska uppnås istället för HUR det ska göras.",
+                "B": "Instruera agenten klick-för-klick.",
+                "C": "Lämna uppdraget så öppet som möjligt.",
+                "D": "Ställ uppdraget som en ja/nej-fråga."
+            },
+            "correct_answer": "A",
+            "explanation": "Ett resultatorienterat ledarskap fokuserar på vad som ska uppnås (Uppdrag och Leverans) snarare än hur tekniken ska göra det [34]."
+        },
+        {
+            "id": 53,
+            "category": "Facit och Övningar",
+            "question": "Varför innehåller facit-prompterna en så tydlig Leverans (t.ex. nedladdningsbart kalkylblad)?",
+            "options": {
+                "A": "För att spara plats.",
+                "B": "För att tvinga fram en artefakt från Agenten.",
+                "C": "För att Agenten är dålig på text.",
+                "D": "Det gör de inte."
+            },
+            "correct_answer": "B",
+            "explanation": "En tydlig leverans, som ett dokumentformat, tvingar fram en konkret artefakt från verktygslådan [38]."
+        },
+        {
+            "id": 54,
+            "category": "Lektion 6: Säkerhet och Etik",
+            "question": "Är AI Agenten fullt medveten om vad som är känsliga företagsuppgifter?",
+            "options": {
+                "A": "Ja, den vet alltid vad som är känsligt.",
+                "B": "Nej, det är ditt ansvar att filtrera bort känslig information.",
+                "C": "Ja, om den kopplas till Google Drive.",
+                "D": "Nej, och det går inte att skydda sig."
+            },
+            "correct_answer": "B",
+            "explanation": "AI kan inte alltid förstå vad som är känsligt, det är användarens ansvar att filtrera bort sådan data [30]."
+        },
+        {
+            "id": 55,
+            "category": "Sammanfattning",
+            "question": "Agentläget innebär ett paradigmskifte inom AI. Vilket?",
+            "options": {
+                "A": "Från att agera till att lyssna.",
+                "B": "Från att skriva kod till att rita.",
+                "C": "Övergången från generativ AI (rådgivare) till agentisk AI (aktör).",
+                "D": "Från molnet till lokala servrar."
+            },
+            "correct_answer": "C",
+            "explanation": "Det representerar skiftet från generativ AI (rådgivare) till agentisk AI (aktör), vilket radikalt ökar produktiviteten [39]."
+        }
+    ]
+}

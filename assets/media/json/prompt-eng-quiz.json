@@ -1,0 +1,784 @@
+{
+    "quiz": [
+        {
+            "id": 1,
+            "category": "Prompt för text",
+            "question": "Vad är ASPECCT-formeln?",
+            "options": {
+                "A": "Ett programmeringsspråk för AI.",
+                "B": "Ett ramverk i sju delar för att bygga strukturerade Mega Prompts.",
+                "C": "En databas för att lagra tidigare AI-konversationer.",
+                "D": "En metod för att snabbt generera korta textsnuttar."
+            },
+            "correct_answer": "B",
+            "explanation": "ASPECCT-formeln är ett ramverk inom Prompt Engineering som används för att skapa så kallade 'Mega Prompts' genom att kombinera flera instruktioner i en kraftfull begäran [1]."
+        },
+        {
+            "id": 2,
+            "category": "Prompt för text",
+            "question": "Vad står 'A' (Action) för i ASPECCT-formeln?",
+            "options": {
+                "A": "Att definiera vilken åtgärd eller uppgift AI:n ska utföra, ofta med ett verb.",
+                "B": "Att AI:n ska agera snabbt.",
+                "C": "Att analysera resultatet.",
+                "D": "Att ange målgruppen för texten."
+            },
+            "correct_answer": "A",
+            "explanation": "Action definierar den specifika uppgift AI:n ska utföra, ofta genom att börja med ett verb som 'Skriv', 'Analysera' eller 'Generera' [1]."
+        },
+        {
+            "id": 3,
+            "category": "Prompt för text",
+            "question": "Vilket syfte tjänar 'Steps' (Steg) i ASPECCT-formeln?",
+            "options": {
+                "A": "Att bestämma hur många ord AI:n får skriva.",
+                "B": "Att räkna ut budgeten för projektet.",
+                "C": "Att detaljera de konkreta stegen eller sekvensen av mindre uppgifter AI:n behöver ta för att nå målet.",
+                "D": "Att visa exempel på vad som inte ska göras."
+            },
+            "correct_answer": "C",
+            "explanation": "Steps detaljerar de konkreta stegen eller den sekvens av mindre uppgifter som krävs för att nå slutmålet [1]."
+        },
+        {
+            "id": 4,
+            "category": "Prompt för text",
+            "question": "Hur bidrar 'Persona' (Person) till resultatet i en ASPECCT-prompt?",
+            "options": {
+                "A": "Den anger vem som får läsa texten.",
+                "B": "Den anger vilken roll eller yrkesroll AI:n ska simulera, vilket formar tonen och stilen i svaret.",
+                "C": "Den ger AI:n ett namn för att göra chatten trevligare.",
+                "D": "Den anger källhänvisningar till texten."
+            },
+            "correct_answer": "B",
+            "explanation": "Persona anger vilken roll, yrkesroll eller karaktär AI:n ska simulera (t.ex. 'specialistjurist' eller 'kock'), vilket formar tonen och stilen i svaret [1]."
+        },
+        {
+            "id": 5,
+            "category": "Prompt för text",
+            "question": "Vad är funktionen av 'Examples' i ASPECCT-formeln?",
+            "options": {
+                "A": "Att visa AI:n bilder.",
+                "B": "Att inkludera exempel på önskad inmatning eller utmatning för att ge AI:n en tydlig modell.",
+                "C": "Att slumpmässigt generera text.",
+                "D": "Att lista tidigare fel AI:n har gjort."
+            },
+            "correct_answer": "B",
+            "explanation": "Examples inkluderar exempel på önskad inmatning eller utmatning för att ge AI:n en modell för vad som förväntas [1]."
+        },
+        {
+            "id": 6,
+            "category": "Prompt för text",
+            "question": "Varför är 'Context' (Sammanhang) en viktig del av ASPECCT-formeln?",
+            "options": {
+                "A": "Det begränsar längden på svaret.",
+                "B": "Det ger bakgrundsinformation om ämnet eller situationen för att säkerställa att svaret blir relevant och noggrant.",
+                "C": "Det anger vilket format utdatan ska ha.",
+                "D": "Det bestämmer AI:ns hastighet."
+            },
+            "correct_answer": "B",
+            "explanation": "Context ger bakgrundsinformation om ämnet eller situationen för att säkerställa att svaret blir relevant och noggrant [1]."
+        },
+        {
+            "id": 7,
+            "category": "Prompt för text",
+            "question": "Vad styr man med 'Constraints' (Begränsningar) i en Mega Prompt?",
+            "options": {
+                "A": "Vilka språk AI:n kan tala.",
+                "B": "Vilken tid på dygnet prompten får köras.",
+                "C": "Vad AI:n bör undvika eller specifika regler den måste följa, t.ex. att inte lova pengarna tillbaka.",
+                "D": "Kostnaden för att använda API:et."
+            },
+            "correct_answer": "C",
+            "explanation": "Constraints definierar vad AI:n bör undvika eller specifika regler den måste följa, såsom ordgränser eller att inte använda teknisk jargong [1]."
+        },
+        {
+            "id": 8,
+            "category": "Prompt för text",
+            "question": "Vad innebär komponenten 'Template' (Mall) i ASPECCT?",
+            "options": {
+                "A": "Det är en grafisk bildmall.",
+                "B": "Det är det önskade formatet för utdata, till exempel en specifik rubrikstruktur eller en tabell.",
+                "C": "En mall för att skriva kod.",
+                "D": "Ett sätt att spara konversationen."
+            },
+            "correct_answer": "B",
+            "explanation": "Template anger det önskade formatet för utdata, till exempel en specifik rubrikstruktur, en rapport eller en tabell [1]."
+        },
+        {
+            "id": 9,
+            "category": "Prompt för text",
+            "question": "Vad är Chain of Thought (CoT)?",
+            "options": {
+                "A": "En teknik som tvingar AI-modellen att ge direkt svar utan att tänka.",
+                "B": "En metod där man ger många exempel på kort tid.",
+                "C": "En teknik inom Prompt Engineering där AI-modellen guidas att tänka stegvis för att lösa komplexa problem.",
+                "D": "Ett sätt att kedja ihop olika textdokument."
+            },
+            "correct_answer": "C",
+            "explanation": "Chain of Thought (CoT), eller 'kedja av tankar', är en teknik där man guidar en AI-modell att tänka stegvis för att lösa komplexa problem [2]."
+        },
+        {
+            "id": 10,
+            "category": "Prompt för text",
+            "question": "Varför förbättrar Chain of Thought noggrannheten i AI:ns svar?",
+            "options": {
+                "A": "Genom att söka på nätet snabbare.",
+                "B": "Genom att gissa oftare.",
+                "C": "Genom att bryta ner ett problem i mindre delar minskar risken för felaktiga antaganden.",
+                "D": "Genom att ge mycket korta svar."
+            },
+            "correct_answer": "C",
+            "explanation": "Syftet med CoT är att öka AI:ns precision genom att tvinga den att 'tänka högt' och bryta ner uppgiften i mindre, logiska delar [2]."
+        },
+        {
+            "id": 11,
+            "category": "Prompt för text",
+            "question": "Vid vilka typer av problem är Chain of Thought mest användbart?",
+            "options": {
+                "A": "För att skriva korta dikter.",
+                "B": "Matematiska problem och logiska pussel som kräver flera beräkningar i följd.",
+                "C": "När man bara vill ha ett enkelt Ja eller Nej.",
+                "D": "För att översätta enstaka ord."
+            },
+            "correct_answer": "B",
+            "explanation": "CoT är särskilt värdefullt vid matematiska problem, logiska pussel och beslutsfattande [3]."
+        },
+        {
+            "id": 12,
+            "category": "Prompt för text",
+            "question": "Vad är den stora skillnaden mellan en vanlig 'steg-för-steg-instruktion' och Chain of Thought?",
+            "options": {
+                "A": "Ingen skillnad alls.",
+                "B": "En vanlig instruktion får AI:n att gissa, medan CoT söker på Google.",
+                "C": "I en vanlig instruktion utför AI:n bara order, men i CoT förklarar AI:n aktivt sin tankeprocess och logiken bakom varje steg.",
+                "D": "CoT är enbart för bildgenerering."
+            },
+            "correct_answer": "C",
+            "explanation": "Källorna betonar att det är stor skillnad på en ren steg-för-steg-instruktion (där AI:n bara utför order) och CoT (där AI:n förklarar sin tankeprocess och logiken bakom varje steg) [3]."
+        },
+        {
+            "id": 13,
+            "category": "Prompt för text",
+            "question": "Vad hände i budgetberäkningsexemplet när prompten INTE använde Chain of Thought?",
+            "options": {
+                "A": "AI:n vägrade svara.",
+                "B": "AI:n gav ett felaktigt direkt svar på 280 000 dollar.",
+                "C": "AI:n gav ett korrekt direkt svar på 300 000 dollar.",
+                "D": "AI:n skapade en tabell istället."
+            },
+            "correct_answer": "B",
+            "explanation": "Utan CoT ger AI:n ett direkt svar (280 000 dollar), vilket i detta fall är felaktigt [4]."
+        },
+        {
+            "id": 14,
+            "category": "Prompt för text",
+            "question": "Vad är Zero-Shot Prompting?",
+            "options": {
+                "A": "Att ge AI:n oändligt många exempel.",
+                "B": "Att AI:n får en uppgift helt utan några exempel att utgå ifrån.",
+                "C": "Att misslyckas med en prompt.",
+                "D": "Att be AI:n radera allt minne."
+            },
+            "correct_answer": "B",
+            "explanation": "Zero-shot: Inga exempel ges. AI:n tolkar uppgiften enbart utifrån sin befintliga träning [5]."
+        },
+        {
+            "id": 15,
+            "category": "Prompt för text",
+            "question": "När passar Zero-Shot bäst att använda i affärsutveckling?",
+            "options": {
+                "A": "För extremt komplicerade logiska analyser.",
+                "B": "När man vill ha exakt styrning över formatet.",
+                "C": "För enkla och tydliga frågor, som snabba fakta.",
+                "D": "För att skriva en hel roman."
+            },
+            "correct_answer": "C",
+            "explanation": "Detta passar bäst för enkla och tydliga frågor, som 'Vad är huvudstaden i Sverige?' [5]."
+        },
+        {
+            "id": 16,
+            "category": "Prompt för text",
+            "question": "Vad innebär One-Shot Prompting?",
+            "options": {
+                "A": "Att man ger exakt ett konkret exempel för att visa stil eller mall för AI:n.",
+                "B": "Att prompten bara får vara en mening lång.",
+                "C": "Att AI:n har ett försök på sig att gissa rätt.",
+                "D": "Att generera ett enda ord."
+            },
+            "correct_answer": "A",
+            "explanation": "One-shot: Ett exempel ges för att visa en mall eller stil som AI:n ska följa [5]."
+        },
+        {
+            "id": 17,
+            "category": "Prompt för text",
+            "question": "Vad är Few-Shot Prompting?",
+            "options": {
+                "A": "Att ge negativ feedback på tidigare svar.",
+                "B": "Att låta AI:n läsa ett par böcker innan svar.",
+                "C": "Att man ger AI:n flera exempel för att lära ut ett mer komplext mönster.",
+                "D": "Att man använder en mycket kort prompt."
+            },
+            "correct_answer": "C",
+            "explanation": "Few-shot: Flera exempel ges till AI:n. Detta är nödvändigt för komplicerade uppgifter som kräver en mycket specifik struktur [5]."
+        },
+        {
+            "id": 18,
+            "category": "Prompt för text",
+            "question": "Varför är Few-Shot särskilt effektivt för komplicerade uppgifter?",
+            "options": {
+                "A": "Det minskar energiförbrukningen hos AI:n.",
+                "B": "Det hjälper AI:n att förstå sammanhang, en specifik struktur och vilket exakt format svaret ska ha.",
+                "C": "Det gör AI:n mer humoristisk.",
+                "D": "Det eliminerar behovet av en människa bakom skärmen."
+            },
+            "correct_answer": "B",
+            "explanation": "Detta är nödvändigt för komplicerade uppgifter som kräver en mycket specifik struktur eller där svaret behöver vara skräddarsytt på ett visst sätt [5]."
+        },
+        {
+            "id": 19,
+            "category": "Prompt för text",
+            "question": "Vad är Prompt Chaining?",
+            "options": {
+                "A": "En teknik där man använder en enda massiv prompt för alla uppgifter.",
+                "B": "En metod där man skickar kedjebrev till andra AI-användare.",
+                "C": "En teknik där man bryter ner en stor uppgift i flera mindre, stegvisa prompts, där ett svar används som input till nästa.",
+                "D": "En metod för att kedja fast säkerhetsprotokoll."
+            },
+            "correct_answer": "C",
+            "explanation": "Prompt Chaining är en teknik där man använder flera stegvisa prompts för att lösa komplexa uppgifter. Svaret från en prompt används som input i nästa [6, 7]."
+        },
+        {
+            "id": 20,
+            "category": "Prompt för text",
+            "question": "Varför beskrivs ofta Prompt Chaining som en tratt (funnel)?",
+            "options": {
+                "A": "För att all data slängs i slutet.",
+                "B": "För att man börjar med breda, generella frågor och gradvis förfinar till de mest detaljerade och specifika frågorna.",
+                "C": "För att man filtrerar bort dåliga idéer.",
+                "D": "För att AI:ns minne minskar med tiden."
+            },
+            "correct_answer": "B",
+            "explanation": "Man kan se detta som en trattmodell (funnel): Bred fråga -&gt; mer specifika frågor -&gt; slutlig lösning [8]."
+        },
+        {
+            "id": 21,
+            "category": "Prompt för text",
+            "question": "Vilken fördel har Prompt Chaining jämfört med en enda stor Mega Prompt?",
+            "options": {
+                "A": "AI:n behöver aldrig tänka.",
+                "B": "Det är en modulär process som behåller logik över flera steg och ger extremt anpassade och detaljerade resultat för massiva uppgifter.",
+                "C": "Det går mycket snabbare att skriva.",
+                "D": "Man slipper använda text överhuvudtaget."
+            },
+            "correct_answer": "B",
+            "explanation": "Detta tillvägagångssätt är särskilt användbart för komplexa problem, eftersom det gör det lättare att navigera genom olika lager av information och komma fram till en detaljerad och användbar lösning [9]."
+        },
+        {
+            "id": 22,
+            "category": "Prompt för text",
+            "question": "Vad är 'interaktiv Prompt Chaining'?",
+            "options": {
+                "A": "När flera människor pratar med AI:n samtidigt.",
+                "B": "När AI:n väntar på svar från internet.",
+                "C": "Ett dynamiskt flöde där AI:n ställer en fråga i taget och väntar på användarens input innan nästa steg, likt programmering.",
+                "D": "När man trycker på enter flera gånger snabbt."
+            },
+            "correct_answer": "C",
+            "explanation": "I interaktiv Prompt Chaining finns en interaktion mellan varje prompt och användaren; AI:n ställer en fråga, väntar på svar och ger återkoppling [10, 11]."
+        },
+        {
+            "id": 23,
+            "category": "Prompt för text",
+            "question": "På vilket sätt påminner interaktiv Prompt Chaining om traditionell programmering?",
+            "options": {
+                "A": "Man måste skriva all text i binär kod.",
+                "B": "Den kan simulera if-satser för vägval och lagra tidigare svar som variabler för framtida prompts i kedjan.",
+                "C": "Det kräver att man kompilerar programmet innan man kör det.",
+                "D": "AI:n genererar enbart Python-kod."
+            },
+            "correct_answer": "B",
+            "explanation": "If-satser i kod motsvaras av interaktiva prompts där användarens input styr flödet, och variabler motsvaras av att använda resultat från tidigare prompts för att bygga vidare på information [11]."
+        },
+        {
+            "id": 24,
+            "category": "Prompt för text",
+            "question": "Hur användes Prompt Chaining för att extrahera information enligt kursen?",
+            "options": {
+                "A": "AI:n laddade ner filmer från YouTube.",
+                "B": "Istället för trattmodellen extraherades finansiell nyckeldata först från en rapport, för att i nästa steg analysera risker och därefter föreslå strategi.",
+                "C": "AI:n gissade företagets vinst utan data.",
+                "D": "Genom att skapa en enda prompt för allt."
+            },
+            "correct_answer": "B",
+            "explanation": "Prompt Chaining behöver inte alltid följa trattmodellen. Man kan extrahera relevant information från en källa (t.ex. finansiell rapport) och använda det som input i nästa steg för att analysera risker och därefter ge en strategi [12, 13]."
+        },
+        {
+            "id": 25,
+            "category": "Prompt för bilder",
+            "question": "Vilka två huvudmetoder rekommenderas för att strukturera bildprompts?",
+            "options": {
+                "A": "1-stegsmetoden och 2-stegsmetoden.",
+                "B": "Zero-shot och Few-shot metoderna.",
+                "C": "4-stegsmetoden och 10-stegsmetoden.",
+                "D": "CRISP och ASPECCT."
+            },
+            "correct_answer": "C",
+            "explanation": "För bildgenerering rekommenderas 4-stegsmetoden för snabba resultat och 10-stegsmetoden för avancerad styrning [14, 15]."
+        },
+        {
+            "id": 26,
+            "category": "Prompt för bilder",
+            "question": "Vad är det allra första steget i både 4-stegs- och 10-stegsmetoden?",
+            "options": {
+                "A": "Subject / Motiv.",
+                "B": "Lighting / Ljus.",
+                "C": "Atmosphere / Atmosfär.",
+                "D": "Technical Parameters / Tekniska parametrar."
+            },
+            "correct_answer": "A",
+            "explanation": "Första steget i båda metoderna är 'Subject' (vad huvudmotivet är) [15, 16]."
+        },
+        {
+            "id": 27,
+            "category": "Prompt för bilder",
+            "question": "När passar 4-stegsmetoden bäst att använda?",
+            "options": {
+                "A": "När man vill ha total och extrem kontroll över exakt varje detalj och färgnyans.",
+                "B": "För att navigera från snabba skisser till professionell visuell produktion, som ett enklare och snabbare alternativ.",
+                "C": "När man vill skriva text på bilden.",
+                "D": "Enbart när man skapar 3D-modeller."
+            },
+            "correct_answer": "B",
+            "explanation": "4-stegsmetoden är till för snabba resultat för att navigera från snabba skisser till professionell visuell produktion [15]."
+        },
+        {
+            "id": 28,
+            "category": "Prompt för bilder",
+            "question": "Vilka fyra delar består 4-stegsmetoden av?",
+            "options": {
+                "A": "Subject, Style, Setting, Mood.",
+                "B": "Motiv, Action, Exempel, Ljus.",
+                "C": "Subject, Constraints, Template, Output.",
+                "D": "Persona, Background, Lighting, Format."
+            },
+            "correct_answer": "A",
+            "explanation": "De fyra stegen är: Subject, Style, Setting, och Mood [15]."
+        },
+        {
+            "id": 29,
+            "category": "Prompt för bilder",
+            "question": "Varför används 10-stegsmetoden för bildgenerering?",
+            "options": {
+                "A": "För att skapa enklast möjliga prompt snabbt.",
+                "B": "För att generera en bild med mer rikedom och detaljprecision, samt styra algoritmen med kirurgisk precision.",
+                "C": "För att kunna lägga upp bilder på Instagram automatiskt.",
+                "D": "För att generera rörliga bilder."
+            },
+            "correct_answer": "B",
+            "explanation": "För att generera en bild med mer rikedom och detaljprecision används 10-stegsmetoden, vilket låter en strateg styra algoritmen med kirurgisk precision [15, 17]."
+        },
+        {
+            "id": 30,
+            "category": "Prompt för bilder",
+            "question": "Vad definierar komponenten 'Atmosphere' i 10-stegsmetoden?",
+            "options": {
+                "A": "Vilket objektiv som används.",
+                "B": "Väder, tid på dygnet och den övergripande känslan i bilden.",
+                "C": "Antal pixlar på bilden.",
+                "D": "Texturen på huvudmotivet."
+            },
+            "correct_answer": "B",
+            "explanation": "Atmosphere avser väder, tid på dygnet och känsla [16]."
+        },
+        {
+            "id": 31,
+            "category": "Prompt för bilder",
+            "question": "I 10-stegsmetoden, vad ingår i 'Technical Parameters' (Tekniska parametrar)?",
+            "options": {
+                "A": "Bildens namn på datorn.",
+                "B": "Typ av dator som kör AI:n.",
+                "C": "Specifikationer som upplösning (t.ex. 300 dpi) och bildformat.",
+                "D": "Värdet på prompten i kronor."
+            },
+            "correct_answer": "C",
+            "explanation": "Technical Parameters inkluderar upplösning (t.ex. 300 dpi för tryck) och bildformat [16]."
+        },
+        {
+            "id": 32,
+            "category": "Prompt för bilder",
+            "question": "Vad styr 'Style' (Konstnärlig stil) när man promptar för bild?",
+            "options": {
+                "A": "Det lägger in logotyper i bilden.",
+                "B": "Referenser till konstnärliga manér som fotorealism, impressionism eller specifika konströrelser.",
+                "C": "Storleken på motivet i millimeter.",
+                "D": "Vilket AI-verktyg som används."
+            },
+            "correct_answer": "B",
+            "explanation": "Style avser konstnärlig influens eller specifik konströrelse, till exempel fotorealism eller impressionism [15, 16]."
+        },
+        {
+            "id": 33,
+            "category": "Prompt för bilder",
+            "question": "Hur användes 10-stegsmetoden i kursens exempel med en 'Ek'?",
+            "options": {
+                "A": "Genom att bara skriva 'En ek i skogen'.",
+                "B": "Genom att specificera motiv, varm färgpalett, Vincent van Goghs stil, en solnedgång och flygande fåglar i fjärran.",
+                "C": "Eken animerades i 3D direkt.",
+                "D": "Trädet byttes ut mot en bil i sista steget."
+            },
+            "correct_answer": "B",
+            "explanation": "Exemplet med Eken täckte motiv (robust ek), miljö (grönt fält), stil (van Gogh), ljus (varm, solnedgång), extra detaljer (fåglar) med mera [18]."
+        },
+        {
+            "id": 34,
+            "category": "Prompt för bilder",
+            "question": "I 10-stegsexemplet med en 'Ung kvinna', vad utgjorde 'Action or Pose' (Rörelse/Position)?",
+            "options": {
+                "A": "Hon springer genom staden.",
+                "B": "Hon står med händerna vilande på ett räcke, lätt vänd mot betraktaren.",
+                "C": "Hon dricker en kaffe vid ett bord.",
+                "D": "Hon tar en selfie."
+            },
+            "correct_answer": "B",
+            "explanation": "I exemplet med kvinnan var handlingen: 'Hon står med händerna vilande på ett räcke, lätt vänd mot betraktaren' [19]."
+        },
+        {
+            "id": 35,
+            "category": "Prompt för bilder",
+            "question": "I samma exempel ('Ung kvinna'), vad användes som 'Additional Elements' (Extra element)?",
+            "options": {
+                "A": "Regn och åska.",
+                "B": "En hund och en katt.",
+                "C": "En passerande segelbåt och flygande måsar i bakgrunden.",
+                "D": "Trafikljus och bilar."
+            },
+            "correct_answer": "C",
+            "explanation": "De extra elementen var 'En passerande segelbåt och flygande måsar i bakgrunden' [19]."
+        },
+        {
+            "id": 36,
+            "category": "Prompt för bilder",
+            "question": "Vad är kännetecknande för AI-verktyget DALL-E enligt kursen?",
+            "options": {
+                "A": "Det måste installeras lokalt på en kraftfull dator.",
+                "B": "Det är känt för att vara mycket användarvänligt och är direkt integrerat i ChatGPT Plus.",
+                "C": "Det kräver programmeringskunskaper för att användas.",
+                "D": "Det kan enbart generera svartvita bilder."
+            },
+            "correct_answer": "B",
+            "explanation": "DALL-E är mycket användarvänligt och direkt integrerat i betalversionen av ChatGPT (ChatGPT Plus) [20]."
+        },
+        {
+            "id": 37,
+            "category": "Prompt för video",
+            "question": "Varför är det betydligt svårare att generera video med AI jämfört med att skapa en bild?",
+            "options": {
+                "A": "För att video kräver ljud för att fungera överhuvudtaget.",
+                "B": "Eftersom AI:n inte bara måste skapa en scen, utan också hantera rörelse, kontinuitet, konsekventa karaktärer och realistisk fysik över tid.",
+                "C": "Eftersom AI inte har lärt sig vad rörelse är ännu.",
+                "D": "Därför att video tar upp för mycket plats på internet."
+            },
+            "correct_answer": "B",
+            "explanation": "Att generera video är mer avancerat eftersom en video består av många bilder som måste fungera tillsammans över tid; AI:n måste hantera rörelse, kontinuitet, konsekventa karaktärer och realistisk fysik [17, 21]."
+        },
+        {
+            "id": 38,
+            "category": "Prompt för video",
+            "question": "Vilka är de två huvudsakliga, och vanligaste, metoderna för att skapa video med AI?",
+            "options": {
+                "A": "Data-to-Video och Audio-to-Video.",
+                "B": "Code-to-Video och 3D-to-Video.",
+                "C": "Text-to-Video och Image-to-Video.",
+                "D": "Zero-shot-Video och Few-shot-Video."
+            },
+            "correct_answer": "C",
+            "explanation": "Idag finns det två huvudsakliga metoder för att skapa video med AI: Text-to-Video och Image-to-Video [21]."
+        },
+        {
+            "id": 39,
+            "category": "Prompt för video",
+            "question": "Vilken av metoderna (Text-to-Video eller Image-to-Video) beskrivs i kursen som den svåraste och har störst begränsningar idag?",
+            "options": {
+                "A": "Båda är lika svåra.",
+                "B": "Image-to-Video är svårast eftersom bilden måste vara perfekt.",
+                "C": "Text-to-Video är svårast, med begränsad kontinuitet och instabila rörelser som ofta ger sämre kvalitet.",
+                "D": "Ingetdera, video genereras felfritt varje gång nu."
+            },
+            "correct_answer": "C",
+            "explanation": "Text-to-Video är svårare och har begränsningar, som att det är svårt att hålla samma karaktär konsekvent och det resulterar ofta i instabila rörelser [21, 22]."
+        },
+        {
+            "id": 40,
+            "category": "Prompt för video",
+            "question": "Vad är det bästa och vanligaste sättet att skapa video med AI idag, med högst kvalitet?",
+            "options": {
+                "A": "Att skriva en textprompt med ASPECCT-formeln i Text-to-Video.",
+                "B": "Att använda Image-to-Video metoden.",
+                "C": "Att kombinera dataanalys med ljudfiler.",
+                "D": "Att programmera videon manuellt."
+            },
+            "correct_answer": "B",
+            "explanation": "Den metod som används mest idag och som ger bäst kontroll och stabilare resultat är Image-to-Video [22, 23]."
+        },
+        {
+            "id": 41,
+            "category": "Prompt för video",
+            "question": "Hur fungerar processen i Image-to-Video för att skapa ett videoklipp?",
+            "options": {
+                "A": "Du laddar upp en bild på dig själv, och AI:n gör ett hologram av den.",
+                "B": "Man börjar med att skapa en bild (t.ex. i ett AI-verktyg) och använder sedan bilden som startpunkt i en videoplattform för att animera den.",
+                "C": "Du tar en bild med mobilen och skriver ut den.",
+                "D": "Du gör en video och låter AI:n frysa bilden i slutet."
+            },
+            "correct_answer": "B",
+            "explanation": "Processen för Image-to-Video: Steg 1: Skapa en bild med ett AI-verktyg. Steg 2: Använd bilden som startpunkt. Steg 3: Använd en videoplattform för att animera bilden med hjälp av en prompt [24]."
+        },
+        {
+            "id": 42,
+            "category": "Prompt för video",
+            "question": "När man använder metoden Image-to-Video, vad används textprompten till?",
+            "options": {
+                "A": "För att skriva undertexter på videon.",
+                "B": "För att byta ut bilden till något annat.",
+                "C": "För att berätta för AI:n hur bilden ska animeras, t.ex. 'Kameran rör sig långsamt framåt' eller 'vinden blåser i träden'.",
+                "D": "För att radera videon."
+            },
+            "correct_answer": "C",
+            "explanation": "I Image-to-Video används en prompt i videoplattformen för att animera bilden, exempelvis 'Kameran rör sig långsamt framåt, vinden blåser i träden' [24]."
+        },
+        {
+            "id": 43,
+            "category": "Prompt för video",
+            "question": "Vilka fördelar har Image-to-Video över Text-to-Video enligt affärsutvecklare?",
+            "options": {
+                "A": "Det är gratis och går snabbare.",
+                "B": "Större kontroll över stil, stabilare resultat och mycket bättre konsistens i scenen.",
+                "C": "Videon genereras med färdig musik och röstskådespelare.",
+                "D": "Man behöver inte använda AI överhuvudtaget."
+            },
+            "correct_answer": "B",
+            "explanation": "Fördelar med Image-to-Video: Större kontroll över stil, stabilare resultat, och bättre konsistens i scenen [24]."
+        },
+        {
+            "id": 44,
+            "category": "Prompt för video",
+            "question": "Nämn en videoplattform från OpenAI som nämns i källorna?",
+            "options": {
+                "A": "Midjourney Video.",
+                "B": "Sora.",
+                "C": "Kling.",
+                "D": "Kaiber."
+            },
+            "correct_answer": "B",
+            "explanation": "Sora från OpenAI är en av de mest framstående plattformarna för videogenerering [23]."
+        },
+        {
+            "id": 45,
+            "category": "Prompt för video",
+            "question": "Vilken av dessa videoplattformar är känd för avancerad Image-to-Video och nämns i kursen?",
+            "options": {
+                "A": "Runway Gen-3.",
+                "B": "ChatGPT.",
+                "C": "ASPECCT Video.",
+                "D": "DALL-E Video."
+            },
+            "correct_answer": "A",
+            "explanation": "Runway Gen-3 nämns som en av de ledande plattformarna som kan skapa video med hjälp av AI [23]."
+        },
+        {
+            "id": 46,
+            "category": "Prompt för video",
+            "question": "Vad heter verktyget som i källorna rekommenderas specifikt för att generera 'AI-avatarer'?",
+            "options": {
+                "A": "Luma Dream Machine.",
+                "B": "Synthesia.",
+                "C": "Stable Video Diffusion.",
+                "D": "Pika."
+            },
+            "correct_answer": "B",
+            "explanation": "Synthesia nämns specifikt för AI-avatarer [23]."
+        },
+        {
+            "id": 47,
+            "category": "Prompt för video",
+            "question": "Vilken annan stark aktör och videoplattform för AI-video nämns bland ledarna i kursen?",
+            "options": {
+                "A": "Photoshop Video.",
+                "B": "Excel Video.",
+                "C": "Luma Dream Machine.",
+                "D": "Windows Video Maker."
+            },
+            "correct_answer": "C",
+            "explanation": "Luma Dream Machine nämns som en av de plattformar som används för att skapa video [23]."
+        },
+        {
+            "id": 48,
+            "category": "Prompt för video",
+            "question": "Varför är AI-videoteknik av stort affärsvärde trots dess begränsningar?",
+            "options": {
+                "A": "För att den ersätter behovet av alla anställda.",
+                "B": "Utvecklingen går extremt snabbt, och genom Image-to-Video kan man redan idag kostnadseffektivt producera rörligt marknadsföringsmaterial och presentationer av hög kvalitet.",
+                "C": "Eftersom den tillverkar helt färdiga Hollywoodfilmer på 10 sekunder idag.",
+                "D": "Det finns inget affärsvärde ännu."
+            },
+            "correct_answer": "B",
+            "explanation": "Medan Text-to-Video är omoget, är Image-to-Video tillräckligt stabilt, och då utvecklingen går mycket snabbt tillför det värde när en strateg styr outputen [23-25]."
+        },
+        {
+            "id": 49,
+            "category": "Prompt för dataanalyser",
+            "question": "Vilket specifikt inbyggt verktyg använder ChatGPT för att utföra avancerade dataanalyser i bakgrunden?",
+            "options": {
+                "A": "Excel Macro Runner.",
+                "B": "Code Interpreter (Advanced Data Analysis).",
+                "C": "SQL Data Miner.",
+                "D": "Statistica AI."
+            },
+            "correct_answer": "B",
+            "explanation": "AI:n använder ett inbyggt verktyg kallat Code Interpreter (eller Advanced Data Analysis) för att köra Python-kod i bakgrunden [26]."
+        },
+        {
+            "id": 50,
+            "category": "Prompt för dataanalyser",
+            "question": "Behöver du som användare vara expert på statistik eller kunna programmera för att skapa avancerade dataanalyser i ChatGPT?",
+            "options": {
+                "A": "Ja, du måste kunna skriva Python-koden själv.",
+                "B": "Ja, enbart data scientists kan tolka resultaten.",
+                "C": "Nej, du laddar upp din data och styr AI:n med prompts, som sedan skriver och kör koden i bakgrunden helt automatiskt.",
+                "D": "Ja, du måste ladda ner särskild mjukvara på din dator först."
+            },
+            "correct_answer": "C",
+            "explanation": "Detta gör det möjligt för användare att utföra avancerade statistiska analyser och skapa diagram utan att själva behöva kunna programmera [26]."
+        },
+        {
+            "id": 51,
+            "category": "Prompt för dataanalyser",
+            "question": "Exempel: Analys av en kunddatabas. Du laddar upp din fil och skriver prompten: 'Vilka tjänster är mest populära bland kunderna?'. Vad gör denna prompt enligt kursmaterialet?",
+            "options": {
+                "A": "Den separerar popularitet från lönsamhet.",
+                "B": "Genom att analysera bokningar identifieras vilka tjänster som är mest efterfrågade (t.ex. HydraFacial och Botox).",
+                "C": "Den visar antalet återkommande kunder.",
+                "D": "Den identifierar postnummer."
+            },
+            "correct_answer": "B",
+            "explanation": "Tjänsternas popularitet: Genom att analysera bokningar identifieras vilka tjänster som är mest efterfrågade (t.ex. HydraFacial och Botox) [27]."
+        },
+        {
+            "id": 52,
+            "category": "Prompt för dataanalyser",
+            "question": "Exempel: Analys av en kunddatabas. Du skriver prompten: 'Vilka tjänster genererar mest inkomster?'. Vad gör denna prompt?",
+            "options": {
+                "A": "AI:n separerar popularitet från lönsamhet och visar att 'Fillers' genererar mest inkomst trots att det inte är den mest bokade tjänsten.",
+                "B": "AI:n listor alla kunder i bokstavsordning.",
+                "C": "AI:n raderar alla olönsamma tjänster från databasen.",
+                "D": "Genom att spåra e-postadresser genereras en säljplan."
+            },
+            "correct_answer": "A",
+            "explanation": "Inkomstanalys: AI:n separerar popularitet från lönsamhet och visar att 'Fillers' genererar mest inkomst trots att det inte är den mest bokade tjänsten [27]."
+        },
+        {
+            "id": 53,
+            "category": "Prompt för dataanalyser",
+            "question": "Exempel: Analys av en kunddatabas. Du ger prompten: 'Hur många återkommande kunder har vi?'. Vad är det rätta alternativet för vad prompten utför?",
+            "options": {
+                "A": "Den skickar ett massmejl till alla kunder.",
+                "B": "Den kollar vilka som gillar företagets Facebooksida.",
+                "C": "Genom att spåra unika e-postadresser identifieras antalet återkommande kunder (ca 29 stycken eller 20–48 % av kundbasen).",
+                "D": "Den räknar ut vinstmarginalen per dag."
+            },
+            "correct_answer": "C",
+            "explanation": "Kundlojalitet: Genom att spåra unika e-postadresser identifieras antalet återkommande kunder (ca 29 stycken eller 20–48 % av kundbasen) [27]."
+        },
+        {
+            "id": 54,
+            "category": "Prompt för dataanalyser",
+            "question": "Exempel: Analys av en kunddatabas. Du anger prompten: 'Vilka kunder har spenderat mest över tid?'. Vilket värde levererar detta?",
+            "options": {
+                "A": "AI:n rankar personalens försäljningssiffror.",
+                "B": "Systemet listar de kunder som spenderat mest över tid, till exempel 'Astrid Svensson'.",
+                "C": "Systemet skickar en rabattkod.",
+                "D": "AI:n tar bort kunder som inte handlat på länge."
+            },
+            "correct_answer": "B",
+            "explanation": "Toppkunder: Systemet listar de kunder som spenderat mest över tid, till exempel 'Astrid Svensson' [27]."
+        },
+        {
+            "id": 55,
+            "category": "Prompt för dataanalyser",
+            "question": "Exempel: Planering av 'Workation'. Du laddar upp data från Kaggle och promptar: 'Vilka är de 10 städerna med den billigaste maten?'. Vad gör denna prompt?",
+            "options": {
+                "A": "AI:n bokar en resa.",
+                "B": "AI:n identifierar städer med billigast mat (t.ex. i Vietnam, Nepal och Kambodja) från det externa datasetet.",
+                "C": "AI:n analyserar din hemstads priser.",
+                "D": "Den skapar en meny med recept."
+            },
+            "correct_answer": "B",
+            "explanation": "Budget: AI:n identifierar städer med billigast mat (t.ex. i Vietnam, Nepal och Kambodja) [28]."
+        },
+        {
+            "id": 56,
+            "category": "Prompt för dataanalyser",
+            "question": "Exempel: Planering av 'Workation'. Du använder prompten: 'Vilken stad har det mest behagliga klimatet året runt baserat på soltimmar?'. Vilket resultat ger prompten i kursens exempel?",
+            "options": {
+                "A": "Miami och Los Angeles.",
+                "B": "Stockholm och Oslo.",
+                "C": "Genom att analysera soltimmar rankas Kuwait och Qatar som de städer med bäst klimat året runt.",
+                "D": "Ingen data finns om detta."
+            },
+            "correct_answer": "C",
+            "explanation": "Klimat: Genom att analysera soltimmar rankas Kuwait och Qatar som de städer med bäst klimat året runt [28]."
+        },
+        {
+            "id": 57,
+            "category": "Prompt för dataanalyser",
+            "question": "Exempel: Planering av 'Workation'. Du promptar 'Vilken är den säkraste staden att bo och arbeta i?', men datan saknas. Vad visar detta för en affärsutvecklare?",
+            "options": {
+                "A": "Att AI alltid vet svaret ändå.",
+                "B": "AI:n stänger ner sig själv.",
+                "C": "Att källkritik är nödvändigt; om underliggande säkerhetsdata saknas kan AI:n ge osäkra svar, eftersom kvaliteten på analysen bygger på den fil du laddat upp.",
+                "D": "AI:n beställer ny data automatiskt."
+            },
+            "correct_answer": "C",
+            "explanation": "Säkerhet och begränsningar: Källorna poängterar vikten av att vara källkritisk; när AI:n ombad identifiera den 'säkraste staden' gav den ett osäkert svar eftersom specifik säkerhetsdata saknades i det aktuella datasetet [28]."
+        },
+        {
+            "id": 58,
+            "category": "Prompt för dataanalyser",
+            "question": "Exempel: Fotbollsstatistik. Du laddar upp statistik och promptar: 'Vilket år gjorde Messi flest mål i Champions League?'. Vad gör AI:n?",
+            "options": {
+                "A": "AI:n letar upp fotbollsvideor online.",
+                "B": "AI:n gissar baserat på allmän kännedom.",
+                "C": "Målstatistik: AI:n fastställer genom Code Interpreter i datan att säsongen 2011–2012 var Messis bästa i Champions League med 14 mål.",
+                "D": "AI:n ger data för Cristiano Ronaldo istället."
+            },
+            "correct_answer": "C",
+            "explanation": "Målstatistik: AI:n fastställer att säsongen 2011–2012 var Messis bästa i Champions League med 14 mål [29]."
+        },
+        {
+            "id": 59,
+            "category": "Prompt för dataanalyser",
+            "question": "Exempel: Fotbollsstatistik. Du promptar: 'Visa antalet spelade minuter per säsong och ge mig olika diagramalternativ'. Vad utför denna prompt?",
+            "options": {
+                "A": "Visualisering: AI:n visar speltid per säsong genom olika diagramtyper (stapel-, linje- och cirkeldiagram) så användaren kan hitta det mest lättlästa formatet.",
+                "B": "AI:n skapar en PowerPoint-presentation automatiskt.",
+                "C": "AI:n skapar en videofilm över Messis mål.",
+                "D": "AI:n svarar att diagram inte stöds."
+            },
+            "correct_answer": "A",
+            "explanation": "Visualisering: Användaren ber AI:n att visa speltid per säsong och väljer mellan olika diagramtyper (stapel-, linje- och cirkeldiagram) för att hitta det mest lättlästa formatet [29]."
+        },
+        {
+            "id": 60,
+            "category": "Prompt för dataanalyser",
+            "question": "Vad är den strategiska vinsten för en affärsutvecklare som använder prompts för dataanalys i ChatGPT?",
+            "options": {
+                "A": "Man behöver inte anställa fler utvecklare.",
+                "B": "Du behöver bara förstå hur du formulerar din affärsfråga i text; AI:n gör det tunga tekniska arbetet (genom att generera Python-kod i bakgrunden) och transformerar din databas till visuella beslutsunderlag direkt.",
+                "C": "Du kan skriva koden snabbare själv.",
+                "D": "AI:n tar egna affärsbeslut."
+            },
+            "correct_answer": "B",
+            "explanation": "Dataanalys inom Prompt Engineering innebär att man använder generativ AI för att bearbeta, tolka och visualisera stora mängder information... utan att själva behöva kunna programmera [26]."
+        }
+    ]
+}
