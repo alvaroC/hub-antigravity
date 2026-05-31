@@ -201,7 +201,7 @@ h3 {
     align-items: start;
 }
 
-.column-header {
+lvl-1 .column-header {
     text-align: center;
     padding: 25px 20px;
     border-radius: 16px;
@@ -1304,9 +1304,11 @@ h3 {
     background: linear-gradient(135deg, rgba(14, 165, 233, 0.08) 0%, rgba(14, 165, 233, 0.02) 100%);
     border: 1px solid rgba(14, 165, 233, 0.2);
 }
+
 .service-box.blue::before {
     background: linear-gradient(90deg, #0ea5e9, #38bdf8);
 }
+
 .service-box.blue:hover {
     box-shadow: 0 12px 30px rgba(14, 165, 233, 0.18);
     border-color: rgba(14, 165, 233, 0.45);
@@ -1317,9 +1319,11 @@ h3 {
     background: linear-gradient(135deg, rgba(16, 185, 129, 0.08) 0%, rgba(16, 185, 129, 0.02) 100%);
     border: 1px solid rgba(16, 185, 129, 0.2);
 }
+
 .service-box.green::before {
     background: linear-gradient(90deg, #10b981, #34d399);
 }
+
 .service-box.green:hover {
     box-shadow: 0 12px 30px rgba(16, 185, 129, 0.18);
     border-color: rgba(16, 185, 129, 0.45);
@@ -1330,9 +1334,11 @@ h3 {
     background: linear-gradient(135deg, rgba(139, 92, 246, 0.08) 0%, rgba(139, 92, 246, 0.02) 100%);
     border: 1px solid rgba(139, 92, 246, 0.2);
 }
+
 .service-box.purple::before {
     background: linear-gradient(90deg, #8b5cf6, #a78bfa);
 }
+
 .service-box.purple:hover {
     box-shadow: 0 12px 30px rgba(139, 92, 246, 0.18);
     border-color: rgba(139, 92, 246, 0.45);
@@ -1350,9 +1356,17 @@ h3 {
     letter-spacing: 0.5px;
 }
 
-.service-box.blue h3 { color: #38bdf8; }
-.service-box.green h3 { color: #34d399; }
-.service-box.purple h3 { color: #a78bfa; }
+.service-box.blue h3 {
+    color: #38bdf8;
+}
+
+.service-box.green h3 {
+    color: #34d399;
+}
+
+.service-box.purple h3 {
+    color: #a78bfa;
+}
 
 .service-box p {
     font-size: 0.95rem;
@@ -1397,4 +1411,3 @@ h3 {
     color: #a78bfa;
     border: 1px solid rgba(139, 92, 246, 0.3);
 }
-

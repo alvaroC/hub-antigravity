@@ -24,9 +24,9 @@ export const renderers = {
 
         return `
         
-        <div class="column-header level-header lvl-1" style="margin-top: 1.5rem;">
+        <div class="column-header level-header lvl-brain" style="margin-top: 1.5rem;">
             <h3 class="column-title opacity">📚 ARTEFKTER</h3>
-            <h4 class="column-description">Utforska kursmaterial och kunskapsbanken</h4>
+            <p class="column-description">Utforska kursmaterial genom att klicka på rullgardins menyer nedan</p>
         </div>
 
         <div class="content-section" style="margin-bottom: 20px;">
@@ -66,9 +66,9 @@ export const renderers = {
 
     // --- AI GUIDE (Mitten kolumn) ---
     digitalHjarnaPanel: () => `
-        <div class="column-header level-header lvl-brain" style="margin-top: 1.5rem;">                    
-            <h3 class="column-title opacity">🧠 AI GUIDE</h3>
-            <h4 class="column-description">Videon visar hur AI Guide hjälper användaren att navigera  på webbplatsen med hjälp av naturligt språk</h4>
+        <div class="column-header level-header lvl-1" style="margin-top: 1.5rem;">                    
+            <h3 class="column-title opacity"> AI GUIDE</h3>
+            <p class="column-description">Se hur AI Guide hjälper användaren att navigera  på webbplatsen med hjälp av naturligt språk</p>
         </div>
         <div class="video-container">
             <video width="100%" height="auto" controls class="custom-video">
@@ -84,13 +84,13 @@ export const renderers = {
             <div class="admin-column dashboard-right">
                 <div class="column-header level-header lvl-3">                    
                     <h3 class="column-title opacity">🎓 AI VOICE AGENT</h3>
-                    <h4 class="column-description">Din personliga support</h4>
+                    <p class="column-description">Din personliga support</p>
                 </div>
 
                 <div class="dashboard-section voice-agent-zone">
                     <div class="admin-profile">
                         <img src="assets/ui/malin.png" class="admin-avatar-img" alt="Admin Profil">
-                        <h4 class="admin-name">Mitt namn är Malin: Hur kan jag hjälpa dig? Klicka på "Start a Call" för att prata med mig.</h4>                        
+                        <h4 class="admin-name">Mitt namn är Malin: Hur kan jag hjälpa dig? Klicka på "Start a Call" nedan för att prata med mig.</h4>                        
                     </div>
 
                     <div class="voice-agent">

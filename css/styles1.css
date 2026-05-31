@@ -846,7 +846,7 @@ audio {
 /* THREE-COLUMN DASHBOARD GRID */
 .swedai-grid-3 {
     display: grid;
-    grid-template-columns: 30% 40% 30%;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     max-width: 1800px;
     margin: 2rem auto;
