@@ -220,7 +220,6 @@ h3 {
 }
 
 .column-graf-questions {
-    text-align: center;
     padding: 25px 20px;
     border-radius: 16px;
     margin-bottom: 20px;
@@ -1263,3 +1262,139 @@ h3 {
     font-weight: 700;
     text-align: center;
 }
+
+/* =====================================================
+   Våra Tjänster: 3-Column Premium Services Grid
+   ===================================================== */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.service-box {
+    padding: 28px 24px;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.service-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+}
+
+.service-box:hover {
+    transform: translateY(-6px);
+}
+
+/* Service Box: Blue (AI Info Hub) */
+.service-box.blue {
+    background: linear-gradient(135deg, rgba(14, 165, 233, 0.08) 0%, rgba(14, 165, 233, 0.02) 100%);
+    border: 1px solid rgba(14, 165, 233, 0.2);
+}
+.service-box.blue::before {
+    background: linear-gradient(90deg, #0ea5e9, #38bdf8);
+}
+.service-box.blue:hover {
+    box-shadow: 0 12px 30px rgba(14, 165, 233, 0.18);
+    border-color: rgba(14, 165, 233, 0.45);
+}
+
+/* Service Box: Green (AI Knowledge Hub) */
+.service-box.green {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.08) 0%, rgba(16, 185, 129, 0.02) 100%);
+    border: 1px solid rgba(16, 185, 129, 0.2);
+}
+.service-box.green::before {
+    background: linear-gradient(90deg, #10b981, #34d399);
+}
+.service-box.green:hover {
+    box-shadow: 0 12px 30px rgba(16, 185, 129, 0.18);
+    border-color: rgba(16, 185, 129, 0.45);
+}
+
+/* Service Box: Purple (AI Expertis Hub) */
+.service-box.purple {
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.08) 0%, rgba(139, 92, 246, 0.02) 100%);
+    border: 1px solid rgba(139, 92, 246, 0.2);
+}
+.service-box.purple::before {
+    background: linear-gradient(90deg, #8b5cf6, #a78bfa);
+}
+.service-box.purple:hover {
+    box-shadow: 0 12px 30px rgba(139, 92, 246, 0.18);
+    border-color: rgba(139, 92, 246, 0.45);
+}
+
+/* Titles & descriptions in service box */
+.service-box h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.service-box.blue h3 { color: #38bdf8; }
+.service-box.green h3 { color: #34d399; }
+.service-box.purple h3 { color: #a78bfa; }
+
+.service-box p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: rgba(241, 245, 249, 0.88);
+    margin: 0;
+}
+
+@media (max-width: 992px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
+}
+
+/* Service Box Badge (Levels) */
+.service-badge {
+    align-self: flex-start;
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-bottom: -0.1rem;
+}
+
+.service-box.blue .service-badge {
+    background: rgba(14, 165, 233, 0.15);
+    color: #38bdf8;
+    border: 1px solid rgba(14, 165, 233, 0.3);
+}
+
+.service-box.green .service-badge {
+    background: rgba(16, 185, 129, 0.15);
+    color: #34d399;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.service-box.purple .service-badge {
+    background: rgba(139, 92, 246, 0.15);
+    color: #a78bfa;
+    border: 1px solid rgba(139, 92, 246, 0.3);
+}
+
