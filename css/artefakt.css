@@ -2370,3 +2370,70 @@ body {
     display: block;
     outline: none;
 }
+
+/* Two-Column Split Header Layout */
+.column-header-split {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 10px 20px;
+    text-align: left;
+    margin-bottom: 1.2rem;
+}
+
+.column-header-left {
+    flex: 1;
+    max-width: 30%;
+    text-align: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+    padding-right: 1.5rem;
+}
+
+.column-header-slogan-wrap {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid lightcoral;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    padding: 18px;
+    box-shadow: 0 0 20px rgba(240, 128, 128, 0.2), inset 0 0 15px rgba(240, 128, 128, 0.08);
+    background: rgba(240, 128, 128, 0.02);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.column-header-slogan-wrap:hover {
+    transform: scale(1.04) rotate(2deg);
+    border-color: #ff8a8a;
+    box-shadow: 0 0 25px rgba(240, 128, 128, 0.35), inset 0 0 20px rgba(240, 128, 128, 0.15);
+}
+
+.column-header-slogan {
+    color: lightcoral;
+    font-weight: lighter;
+    font-size: 1.05rem;
+    line-height: 1.35;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+.column-header-right {
+    flex: 2.3;
+    padding-left: 0.5rem;
+}
+
+.column-header-right-title {
+    margin: 0 0 8px 0;
+    font-size: 1.55rem;
+    letter-spacing: 0.5px;
+}
+
+.column-header-right-subtitle {
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.4;
+}

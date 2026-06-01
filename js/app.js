@@ -124,35 +124,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         // We 'await' the renderer here so it finishes the 'fetch'
                         let artifactHtml = await renderers[key](courseData[key]);
 
-                        // Enkelt formulär efter varje kursmaterial
-                        const isCourseMaterial = !['title', 'exercises', 'updates'].includes(key);
-
-                        if (isCourseMaterial) {
-                            const leadFormHtml = `
-                            <div class="premium-lead-gen">
-                                <h3>Vill du ha en AI Learning Hub?</h3>
-                                <p>Vi söker tre företag. Skriv din e-mail</p>
-                                <form class="lead-gen-inline-form" onsubmit="window.submitLeadForm(event, this)">
-                                    <input type="email" name="email" required placeholder="Din e-post" />
-                                    <button type="submit">
-                                        Skicka
-                                    </button>
-                                </form>
-                            </div>
-                            `;
-
-                            artifactHtml = `
-                            <div style="display:flex; flex-direction:column; width:100%; height:100%;">
-                                <div style="flex-grow:1;">
-                                    ${artifactHtml}
-                                </div>
-                                <div>
-                                    ${leadFormHtml}
-                                </div>
-                            </div>
-                            `;
-                        }
-
                         // Lägg till HTML
                         grid.insertAdjacentHTML('beforeend', artifactHtml);
                     } catch (error) {
