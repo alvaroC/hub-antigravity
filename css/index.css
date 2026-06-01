@@ -1368,6 +1368,10 @@ h5 {
     text-align: center;
 }
 
+.color-title {
+    color: #c4b5fd;
+}
+
 .center-fig {
     display: flex;
     justify-content: center;

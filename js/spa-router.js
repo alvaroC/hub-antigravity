@@ -15,7 +15,7 @@
     ]);
 
     // CSS files already loaded from index.html
-    const loadedCSS = new Set(['css/styles.css']);
+    const loadedCSS = new Set(['css/style.css']);
 
     // Scripts already loaded from index.html (patterns to match against src)
     const SKIP_SCRIPTS = [

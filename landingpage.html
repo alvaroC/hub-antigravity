@@ -11,11 +11,13 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body class="dark-theme">
+    <div class="glow-bg"></div>
+    <div class="glow-bg glow-bg-2"></div>
 
     <header class="main-header">
         <div class="container">
@@ -27,73 +29,148 @@
         </div>
     </header>
 
-    <main class="container">
-
-        <!-- DEFENSE CAPABILYTY MODELL -->
-        <div class="column-header lvl-3">
+    <main class="container">        <!-- DEFENSE CAPABILITY MODELL -->
+        <div class="column-header lvl-3" style="margin-bottom: 3rem;">
             <h2 class="column-title opacity">🤖 BYGG DINA EGNA AI WIKIS </h2>
             <h3>ANMÄLD DIG TILL PROGRAMMET: "BLI EN FOUNDING PARTNER”</h3>
         </div>
 
-        <!-- REGISTRERING -->
-        <div class="">
-
-            <P> Vi söker nu 3 företag som är intresserad av pilotprojekt. Tänk om du skulle kunna ha en Betaversion av
-                AI Capability Hub med AI Wikis i din verksamhet efter sommaren så du kan börja hösten med harmoni med
-                AI.
-                Som deltagare kommer du att få värdefulla förmåner, b. an. ett bra introduktionspris, din verksamhet
-                kommer att göras redo för AI, detta är förutsättning för att införa Huben, och du kommer at alltid ha
-                nytta av detta, eftersom de flesta AI projekt misslyckas det saknas kopplingen mellan affärer och
-                teknologi (AI)</P>
+        <!-- INTRO: VI SÖKER 3 FÖRETAG (FULL-WIDTH) -->
+        <div style="background: rgba(255, 255, 255, 0.02); padding: 2.5rem; border-radius: 24px; border: 1px solid rgba(255,255,255,0.05); backdrop-filter: blur(10px); box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); margin-bottom: 2.5rem; text-align: center;">
+            <h2 style="color: #FECC00; font-size: 1.8rem; font-weight: 800; margin-bottom: 1.5rem; font-family: 'Outfit', sans-serif; letter-spacing: 0.5px;">
+                VI SÖKER 3 FÖRETAG FÖR ETT PILOTPROJEKT
+            </h2>
+            <p style="font-size: 1.15rem; line-height: 1.8; color: rgba(255,255,255,0.9); max-width: 1000px; margin: 0 auto;">
+                Vi söker nu tre företag som vill delta i ett pilotprojekt där vi tillsammans bygger de två första
+                nivåerna av en AI Wiki – grunden för att göra verksamheten redo för AI.
+                Det viktigaste ett företag har är sin data och sina processer som skapar värde. AI måste förstå båda
+                dessa för att kunna fungera på ett meningsfullt sätt.
+                Vi behandlar dessa två delar i de två första nivåerna.
+            </p>
         </div>
 
-        <div class="resource-column registration-column">
+        <!-- TWO COLUMN SECTION -->
+        <div class="resource-grid" style="margin-bottom: 2.5rem; align-items: stretch;">
+            
+            <!-- Vänster kolumn: Nivå 1, Nivå 2, Vad vinner företaget -->
+            <div class="resource-column text-column" style="background: rgba(255, 255, 255, 0.02); padding: 2.5rem; border-radius: 24px; border: 1px solid rgba(255,255,255,0.05); backdrop-filter: blur(10px); box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); display: flex; flex-direction: column; gap: 1.8rem; height: 100%; justify-content: space-between;">
+                
+                <div>
+                    <h4 style="color: #60a5fa; font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem; font-family: 'Outfit', sans-serif;">
+                        Nivå 1 – AI Info Wiki: Låt AI veta vad ni vet
+                    </h4>
+                    <p style="font-size: 0.95rem; line-height: 1.7; color: rgba(255,255,255,0.8); margin: 0;">
+                        Det första steget handlar om information: Vi samlar, strukturerar och gör företagets information
+                        sökbar genom AI. Vi bygger en AI Wiki som förstår er verksamhet genom att använda både allmän företagsinformation och domänspecifik information.
+                    </p>
+                </div>
 
-            <div class="resource-list"
-                style="margin: 2rem; background: linear-gradient(135deg, #e11d48 0%, #f59e0b 100%) !important; padding: 1rem; border-radius: 24px; border: 1px solid rgba(255,255,255,0.05);">
+                <div>
+                    <h4 style="color: #60a5fa; font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem; font-family: 'Outfit', sans-serif;">
+                        Nivå 2 – AI Knowledge Wiki: Låt AI veta hur ni jobbar
+                    </h4>
+                    <p style="font-size: 0.95rem; line-height: 1.7; color: rgba(255,255,255,0.8); margin: 0;">
+                        Det andra steget handlar om de core processer som skapar värde för verksamheten. Vi använder SOP
+                        (Standard Operating Procedure) för att beskriva och dokumentera dessa processer.
+                    </p>
+                </div>
 
-                <!-- Column Header -->
-                <div class="res-col-header">
-                    <i class="fas fa-lightbulb res-icon-blue"></i>
-                    <h4 class="res-col-title">REGISTRERA DIG</h4>
+                <div>
+                    <h4 style="color: #60a5fa; font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem; font-family: 'Outfit', sans-serif;">
+                        Vad vinner företaget?
+                    </h4>
+                    <p style="font-size: 0.95rem; line-height: 1.7; color: rgba(255,255,255,0.8); margin-bottom: 1rem;">
+                        Genom att bygga en AI Info Wiki och AI Knowledge Wiki skapar ni mer än en AI-lösning. Ni bygger
+                        en organisatorisk infrastruktur där företagets information och arbetssätt blir en strategisk
+                        tillgång istället för att vara beroende av enskilda medarbetare.
+                    </p>
+                    <p style="font-size: 0.95rem; line-height: 1.7; color: rgba(255,255,255,0.8); padding-left: 1rem; border-left: 3px solid #FECC00; font-style: italic; margin: 0;">
+                        Resultatet är mindre personberoende, snabbare onboarding, högre kvalitet, bättre beslutsunderlag
+                        och en verksamhet som är redo för nästa generation AI. Kort sagt: ni bygger ett system där kunskap
+                        stannar i företaget och kan utvecklas, återanvändas och skalas över tid.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- Höger kolumn: Formuläret -->
+            <div class="resource-column registration-column" style="margin: 0; max-width: 100%; height: 100%;">
+                <div style="background: rgba(255, 255, 255, 0.02); padding: 2.5rem; border-radius: 24px; border: 1px solid rgba(255,255,255,0.05); backdrop-filter: blur(10px); box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); height: 100%; display: flex; flex-direction: column; justify-content: center;">
+                    
+                    <!-- Column Header -->
+                    <div class="res-col-header" style="border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 1rem; margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.8rem;">
+                        <div style="background: linear-gradient(135deg, #e11d48 0%, #f59e0b 100%); width: 42px; height: 42px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 10px rgba(225, 29, 72, 0.3);">
+                            <i class="fas fa-lightbulb" style="color: #fff; font-size: 1.1rem;"></i>
+                        </div>
+                        <h4 class="res-col-title" style="font-size: 1.4rem; font-weight: 700; margin: 0; text-transform: uppercase; font-family: 'Outfit', sans-serif; letter-spacing: 0.5px;">
+                            REGISTRERA DIG
+                        </h4>
+                    </div>
+
+                    <p style="color: rgba(255,255,255,0.6); margin-bottom: 1.5rem; font-size: 0.95rem; line-height: 1.5;">
+                        Fyll i formuläret nedan för att anmäla ert intresse till pilotprojektet. Vi återkommer snarast för att boka ett förutsättningslöst möte.
+                    </p>
+
+                    <form class="registration-form" style="display: flex; flex-direction: column; gap: 1.2rem;">
+                        <div class="form-group">
+                            <label for="name" style="display: block; margin-bottom: 0.5rem; color: rgba(255,255,255,0.9); font-weight: 600; font-size: 0.9rem;">Namn:</label>
+                            <input type="text" id="name" name="name" required
+                                style="width: 100%; padding: 0.85rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15); background: rgba(0,0,0,0.2); color: white; font-family: inherit; font-size: 0.95rem; transition: all 0.3s;"
+                                onfocus="this.style.borderColor='#60a5fa'; this.style.boxShadow='0 0 0 3px rgba(96, 165, 250, 0.15)';"
+                                onblur="this.style.borderColor='rgba(255,255,255,0.15)'; this.style.boxShadow='none';">
+                        </div>
+                        <div class="form-group">
+                            <label for="company" style="display: block; margin-bottom: 0.5rem; color: rgba(255,255,255,0.9); font-weight: 600; font-size: 0.9rem;">Företag:</label>
+                            <input type="text" id="company" name="company" required
+                                style="width: 100%; padding: 0.85rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15); background: rgba(0,0,0,0.2); color: white; font-family: inherit; font-size: 0.95rem; transition: all 0.3s;"
+                                onfocus="this.style.borderColor='#60a5fa'; this.style.boxShadow='0 0 0 3px rgba(96, 165, 250, 0.15)';"
+                                onblur="this.style.borderColor='rgba(255,255,255,0.15)'; this.style.boxShadow='none';">
+                        </div>
+                        <div class="form-group">
+                            <label for="industry" style="display: block; margin-bottom: 0.5rem; color: rgba(255,255,255,0.9); font-weight: 600; font-size: 0.9rem;">Bransch:</label>
+                            <input type="text" id="industry" name="industry" required
+                                style="width: 100%; padding: 0.85rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15); background: rgba(0,0,0,0.2); color: white; font-family: inherit; font-size: 0.95rem; transition: all 0.3s;"
+                                onfocus="this.style.borderColor='#60a5fa'; this.style.boxShadow='0 0 0 3px rgba(96, 165, 250, 0.15)';"
+                                onblur="this.style.borderColor='rgba(255,255,255,0.15)'; this.style.boxShadow='none';">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" style="display: block; margin-bottom: 0.5rem; color: rgba(255,255,255,0.9); font-weight: 600; font-size: 0.9rem;">e-mail:</label>
+                            <input type="email" id="email" name="email" required
+                                style="width: 100%; padding: 0.85rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15); background: rgba(0,0,0,0.2); color: white; font-family: inherit; font-size: 0.95rem; transition: all 0.3s;"
+                                onfocus="this.style.borderColor='#60a5fa'; this.style.boxShadow='0 0 0 3px rgba(96, 165, 250, 0.15)';"
+                                onblur="this.style.borderColor='rgba(255,255,255,0.15)'; this.style.boxShadow='none';">
+                        </div>
+                        <button type="submit"
+                            style="padding: 1.1rem; border-radius: 8px; border: none; background: linear-gradient(135deg, #4f46e5 0%, #6366f1 100%) !important; color: white; font-weight: 700; font-size: 1rem; cursor: pointer; margin-top: 1rem; transition: all 0.3s; box-shadow: 0 4px 15px rgba(79, 70, 229, 0.3);"
+                            onmouseover="this.style.opacity='0.9'; this.style.transform='translateY(-1px)';" 
+                            onmouseout="this.style.opacity='1'; this.style.transform='translateY(0)';">SKICKA ANMÄLAN</button>
+                    </form>
                 </div>
             </div>
+        </div>
 
-            <div>
+        <!-- FOOTER SECTION: SOM PILOTKUND FÅR NI (FULL-WIDTH) -->
+        <div style="background: rgba(255, 255, 255, 0.02); padding: 2.5rem; border-radius: 24px; border: 1px solid rgba(255,255,255,0.05); backdrop-filter: blur(10px); box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); margin-bottom: 4rem;">
+            
+            <h4 style="color: #60a5fa; font-size: 1.4rem; font-weight: 700; margin-bottom: 1.5rem; font-family: 'Outfit', sans-serif;">
+                Som pilotkund får ni
+            </h4>
+            <ul style="margin-bottom: 2rem; padding-left: 1.5rem; color: rgba(255,255,255,0.85); line-height: 1.8; font-size: 1.05rem;">
+                <li style="margin-bottom: 0.6rem;">Ett förmånligt introduktionspris</li>
+                <li style="margin-bottom: 0.6rem;">En AI Wiki anpassad till er verksamhet</li>
+                <li style="margin-bottom: 0.6rem;">Ett strukturerat informationslager för AI</li>
+                <li style="margin-bottom: 0.6rem;">Dokumenterade processer och SOP</li>
+                <li style="margin-bottom: 0.6rem;">En stabil grund för framtida AI-initiativ</li>
+            </ul>
 
-                <form class="registration-form"
-                    style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 1rem;">
-                    <div class="form-group">
-                        <label for="name"
-                            style="display: block; margin-bottom: 0.5rem; color: rgba(255,255,255,0.8);">Namn:</label>
-                        <input type="text" id="name" name="name" required
-                            style="width: 100%; padding: 0.8rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.05); color: white; font-family: inherit;">
-                    </div>
-                    <div class="form-group">
-                        <label for="company"
-                            style="display: block; margin-bottom: 0.5rem; color: rgba(255,255,255,0.8);">Företag:</label>
-                        <input type="text" id="company" name="company" required
-                            style="width: 100%; padding: 0.8rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.05); color: white; font-family: inherit;">
-                    </div>
-                    <div class="form-group">
-                        <label for="industry"
-                            style="display: block; margin-bottom: 0.5rem; color: rgba(255,255,255,0.8);">Bransch:</label>
-                        <input type="text" id="industry" name="industry" required
-                            style="width: 100%; padding: 0.8rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.05); color: white; font-family: inherit;">
-                    </div>
-                    <div class="form-group">
-                        <label for="email"
-                            style="display: block; margin-bottom: 0.5rem; color: rgba(255,255,255,0.8);">e-mail:</label>
-                        <input type="email" id="email" name="email" required
-                            style="width: 100%; padding: 0.8rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.05); color: white; font-family: inherit;">
-                    </div>
-                    <button type="submit"
-                        style="padding: 1rem; border-radius: 8px; border: none; background: linear-gradient(135deg, #4f46e5 0%, #6366f1 100%) !important; color: white; font-weight: 600; cursor: pointer; margin-top: 0.5rem; transition: opacity 0.3s;"
-                        onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">SKICKA
-                        ANMÄLAN</button>
-                </form>
-
-            </div>
+            <p style="margin-bottom: 1.5rem; font-size: 1rem; line-height: 1.7; color: rgba(255,255,255,0.8);">
+                Oavsett vilka AI-lösningar ni väljer i framtiden kommer arbetet med AI Info Wiki och AI Knowledge Wiki
+                att vara en långsiktig tillgång. Det skapar den viktiga kopplingen mellan verksamheten och teknologin
+                – något som ofta saknas i misslyckade AI-projekt.
+            </p>
+            <p style="font-size: 1.15rem; font-weight: 800; color: #fff; margin-bottom: 0; text-align: center; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1.5rem; font-family: 'Outfit', sans-serif;">
+                Vi söker nu tre företag som vill vara med och bygga framtidens AI-drivna verksamhet.
+            </p>
         </div>
 
     </main>

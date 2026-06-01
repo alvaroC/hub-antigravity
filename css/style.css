@@ -195,7 +195,7 @@ h4 {
     font-weight: 400;
     /* Mjukare, mindre fetstil */
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     padding-top: 12px;
     background: linear-gradient(180deg, #FFFFFF 0%, #A0AAB2 100%);
     -webkit-background-clip: text;
