@@ -15,7 +15,7 @@ export function artifactHead({ icon, label, title, subtitle, gradient, titleColo
 
 export const renderers = {
 
-    // --- Classroom Panel (Vänster kolumn) ---
+    // --- ARTEFAKTER ---
     classroomPanel: (currentCourseId) => {
         // Find the catalog in the global scope (handle window or direct global)
         const catalog = window.COURSE_CATALOG || (typeof COURSE_CATALOG !== 'undefined' ? COURSE_CATALOG : {});
@@ -26,7 +26,7 @@ export const renderers = {
         
         <div class="column-header level-header lvl-brain" style="margin-top: 1.5rem;">
             <h3 class="column-title opacity">📚 ARTEFKTER</h3>
-            <p class="column-description">Utforska kursmaterial genom att klicka på rullgardins menyer nedan</p>
+            <p class="column-description">Utforska kursmaterial: klicka på rullgardins menyer nedan</p>
         </div>
 
         <div class="content-section" style="margin-bottom: 20px;">
@@ -68,7 +68,7 @@ export const renderers = {
     digitalHjarnaPanel: () => `
         <div class="column-header level-header lvl-1" style="margin-top: 1.5rem;">                    
             <h3 class="column-title opacity"> AI GUIDE</h3>
-            <p class="column-description">Se hur AI Guide hjälper användaren att navigera  på webbplatsen med hjälp av naturligt språk</p>
+            <p class="column-description">Navigerar en webbplatsen med hjälp av naturligt språk. Se video</p>
         </div>
         <div class="video-container">
             <video width="100%" height="auto" controls class="custom-video">
@@ -83,7 +83,7 @@ export const renderers = {
             <!-- HÖGER KOLUMN: Admin Profil & Program -->
             <div class="admin-column dashboard-right">
                 <div class="column-header level-header lvl-3">                    
-                    <h3 class="column-title opacity">🎓 AI VOICE AGENT</h3>
+                    <h3 class="column-title opacity">AI VOICE AGENT</h3>
                     <p class="column-description">Din personliga support</p>
                 </div>
 
@@ -118,6 +118,21 @@ export const renderers = {
                     <div id="carouselWrapper"></div>
                 </div>
             </div>           
+        </div>`,
+
+    // --- AI WIKI Panel ---
+    wikiPanel: () => `
+        <div class="column-header level-header lvl-wiki" style="margin-top: 1.5rem;">                    
+            <h3 class="column-title opacity">📚 AI-Wiki</h3>
+            <p class="column-description">Företagets intelligenta informationslager</p>
+        </div>
+        <div class="wiki-container-body">
+            <figure>
+                <img src="assets/ui/wiki-graf.png" width="350px" height="150px"  alt="AI Wiki">            
+                <figcaption class="fig-caption"><strong>AI-Wiki: visualisering av ett advokatbyrås kunskapsnätverk</strong></figcaption>    
+            </figure>
+            <p> <strong>AI-Wiki för juridik:</strong> avtal, klausuler, juridiska begrepp, processer och expertis kopplas samman i ett intelligent kunskapsnätverk som gör det 
+              enklare att hitta information, förstå samband och återanvända erfarenheter.</p>
         </div>`,
 
     // 1. Podcast

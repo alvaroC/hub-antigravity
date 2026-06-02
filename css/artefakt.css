@@ -68,7 +68,7 @@ h3 {
 /* Header */
 .main-header {
     background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
-    padding: 3rem 0 2rem;
+    padding: 2.2rem 0;
     text-align: center;
     border-bottom: 1px solid var(--border);
 }
@@ -83,6 +83,26 @@ h3 {
 
 .logo-icon {
     font-size: 2.5rem;
+}
+
+/* Far-left logo image styling */
+.logo-img-left {
+    position: absolute;
+    left: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    height: 76px;
+    width: auto;
+}
+
+@media (max-width: 1024px) {
+    .logo-img-left {
+        position: static;
+        transform: none;
+        margin: 0 auto 15px auto;
+        height: 64px;
+    }
 }
 
 /* Hero Section */
@@ -142,7 +162,7 @@ h3 {
     background: rgba(15, 23, 42, 0.82);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border);
-    padding: 0.8rem 0;
+    padding: 1.3rem 0;
 }
 
 .nav-list {
@@ -156,7 +176,7 @@ h3 {
     background: transparent;
     border: 1px solid transparent;
     color: var(--text-muted);
-    padding: 0.5rem 1.2rem;
+    padding: 0.75rem 1.5rem;
     border-radius: 50px;
     cursor: pointer;
     font-weight: 500;
@@ -869,6 +889,32 @@ audio {
     }
 }
 
+/* FOUR-COLUMN DASHBOARD GRID */
+.swedai-grid-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    max-width: 1800px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+    align-items: start;
+    height: calc(100vh - 140px);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1400px) {
+    .swedai-grid-4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .swedai-grid-4 {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* Level Headers & Badges */
 .column-header {
     text-align: center;
@@ -925,6 +971,15 @@ audio {
 }
 
 .lvl-brain .level-badge {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/* AI-Wiki – warm sunset gradient */
+.lvl-wiki {
+    background: linear-gradient(135deg, #e11d48 0%, #f59e0b 100%) !important;
+}
+
+.lvl-wiki .level-badge {
     background: rgba(0, 0, 0, 0.2);
 }
 
@@ -999,8 +1054,9 @@ audio {
     margin: 0;
 }
 
-/* Column 1: Classroom (Nivå 1) - Left sticky panel with background */
+/* Column 1 & 4: Classroom & Wiki - Sticky panels with background */
 .dashboard-left,
+.dashboard-wiki,
 .classroom-column {
     display: flex;
     flex-direction: column;
@@ -1013,6 +1069,33 @@ audio {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
     height: calc(100vh - 120px);
     overflow-y: auto;
+}
+
+/* AI-Wiki Column Content Styling */
+.wiki-container-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    color: #1e293b;
+    /* Set dark text color explicitly */
+}
+
+.wiki-container-body img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.wiki-container-body p {
+    color: #334155 !important;
+    /* Force highly readable dark slate text */
+    font-size: 0.95rem;
+    line-height: 1.6;
+    text-align: left;
+    margin: 0;
 }
 
 .dashboard-section {
@@ -1736,7 +1819,8 @@ elevenlabs-convai {
         grid-template-columns: 1fr;
     }
 
-    .dashboard-left {
+    .dashboard-left,
+    .dashboard-wiki {
         position: static;
     }
 }
@@ -2436,4 +2520,10 @@ body {
     margin: 0;
     font-size: 1.05rem;
     line-height: 1.4;
+}
+
+/* alvcla */
+.section-header-custom p.font-size {
+    font-size: 1.0rem;
+    font-weight: bold;
 }

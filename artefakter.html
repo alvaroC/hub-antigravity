@@ -4,57 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Capability Hub | AI Business Lab</title>
+    <meta name="description"
+        content="AI Business Lab presenterar AI Learning Hub. Se vår video och upptäck framtidens kompetensutveckling.">
+    <title>AI Business Lab | Om oss</title>
+
+    <!-- Google Fonts för modern typografi -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700;900&display=swap"
         rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/brain.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/artefakt.css">
-    <link rel="stylesheet" href="css/calendar.css">
-    <link rel="stylesheet" href="css/brain.css">
+    <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
-    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-    <script>mermaid.initialize({ startOnLoad: true });</script>
 
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
-    <!-- marked.min.js loaded once here only -->
-    <style>
-        .markmap-container {
-            min-height: 500px;
-            /* Start at 500px */
-            height: auto;
-            /* GROW as the map expands! */
-            width: 100%;
-            background: #fff;
-            border-radius: 12px;
-            padding: 20px;
-            overflow: visible;
-            /* Ensure nothing gets clipped */
-        }
-
-        .markmap>svg {
-            width: 100%;
-            height: 100%;
-            min-height: 500px;
-            /* Match the container */
-        }
-    </style>
 
 </head>
 
 <body class="dark-theme">
+    <div class="glow-bg glow-bg-1"></div>
+    <div class="glow-bg glow-bg-2"></div>
+    <div class="glow-bg glow-bg-3"></div>
 
     <header class="main-header">
-        <div class="container">
+        <div class="container" style="position: relative;">
+            <img src="assets/ui/logo.png" alt="AI Business Lab Logo" class="logo-img-left">
             <div class="logo">
                 <span class="logo-icon">🚀</span>
                 <h1>AI BUSINESS LAB</h1>
             </div>
-            <h2 class="subtitle"><span class="academy-name">GÖR DIN KUNSKAP RELEVANT 2026</span>
+            <h2 class="subtitle"><span class="academy-name">FÖRVANDLA INFORMATION TILL INTELLIGENTA UPPLEVELSER</span>
             </h2>
         </div>
     </header>
@@ -63,122 +46,353 @@
         <div class="container">
             <ul class="nav-list">
 
-                <li style="position:relative; margin-top:5px;"><a href="index.html" class="nav-btn"
-                        style="background:#8b5cf6; color:white; border-radius:50px; padding:0.4rem 1.2rem; font-weight:600; box-shadow:0 4px 10px rgba(139,92,246,0.3);">
-                        <span
-                            style="position:absolute; top:-18px; left:50%; transform:translateX(-50%); color:white; font-size:0.65rem; font-weight:800; letter-spacing:1px; white-space:nowrap;">
-                        </span>
+                <li style="position:relative; margin-top:5px;"><a href="index.html" class="nav-btn ai-konsult-btn">
                         <i class="fas fa-robot"></i> Start
                     </a>
                 </li>
 
                 <li style="position:relative; margin-top:5px;"><a href="artefakter.html" class="nav-btn ai-konsult-btn">
-                        <span
-                            style="position:absolute; top:-18px; left:50%; transform:translateX(-50%); color:white; font-size:0.65rem; font-weight:800; letter-spacing:1px; white-space:nowrap;">
-                        </span>
-                        <i class="fas fa-briefcase"></i> Exponera kusnkap
+                        <i class="fas fa-briefcase"></i> Artefakter
                     </a>
                 </li>
 
-                <li style="position:relative; margin-top:5px;"><a href="brain.html" class="nav-btn ai-konsult-btn">
+                <li style="position:relative; margin-top:5px;"><a href="ai-wiki.html" class="nav-btn ai-konsult-btn">
                         <span
                             style="position:absolute; top:-18px; left:50%; transform:translateX(-50%); color:white; font-size:0.65rem; font-weight:800; letter-spacing:1px; white-space:nowrap;">
                         </span>
-                        <i class="fas fa-brain"></i> Digitalisera din expertis
+                        <i class="fas fa-briefcase"></i> AI-Wiki
                     </a>
                 </li>
 
+
+                <li style="position:relative; margin-top:5px;"><a href="about.html" class="nav-btn"
+                        style="background:#8b5cf6; color:white; border-radius:50px; padding:0.75rem 1.5rem; font-weight:600; box-shadow:0 4px 10px rgba(139,92,246,0.3);">
+                        <i class="fas fa-users"></i> Om oss
+                    </a>
+                </li>
+
+                <li style="position:relative; margin-top:5px;"><a href="contact.html" class="nav-btn ai-konsult-btn">
+                        <i class="fas fa-envelope"></i> Kontakt
+                    </a>
+                </li>
             </ul>
         </div>
     </nav>
 
-    <!-- Section: Informatoinslager -->
-    <div class="container" style="margin-bottom: 2rem;">
+    <main class="om-oss-container">
 
-        <div class="column-header lvl-3 column-header-split">
-            <div class="column-header-left">
-                <div class="column-header-slogan-wrap">
-                    <h3 class="column-header-slogan">Få människor att förstå informationen.</h3>
+        <!-- Section 2: Capability Suite (3x3 Grid) -->
+        <section class="suite-section">
+
+            <div class="section-header-custom">
+                <h2 class="opacity">ARTEFAKTER SOM UTBILDAR, GUIDAR OCH ENGAGERAR </h2>
+                <h3>Från död information till levande innehåll</h3></br>
+                <img src="assets/ui/dokument.png" width="500px" alt="Dokument">
+                <p class="font-size">Ge liv åt dött material genom att göra det synligt, begripligt och interaktivt med
+                    Artefakter.</p>
+                <p>Nedan visas några artefakter som kan användas för att bygga interaktiva webbplatser. Om ni behöver
+                    andra typer av artefakter kan ni alltid kontakta oss</p>
+            </div>
+
+
+            <div class="capabilities-grid">
+
+                <!-- Card 1: Video: 16 årig -->
+                <div class="capability-card color-1">
+                    <div class="cap-icon"><i class="fas fa-network-wired"></i></div>
+                    <h3 class="cap-title">Podcast som video</h3>
+                    <iframe width="500" height="300" src="https://www.youtube.com/embed/vaTdsmu9G0w?si=Cwu7-BOLC8_9Ye8l"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p class="cap-desc">Ibland kan det vara bra att visa bilder som förtydligar vad man pratar om i
+                        en podcast.</p>
                 </div>
-            </div>
-            <div class="column-header-right">
-                <h2 class="column-title opacity column-header-right-title">
-                    VÅRA TJÄNSTER : NÄSTA GENERATION WEBBPLATSER </h2>
-                <h4 class="opacity column-header-right-subtitle">
-                    Didaktiska och interaktiva webbplatser som lär ut, guidar och engagerar
-                </h4>
-            </div>
-        </div>
-        <div style="text-align: center;">
-            <p style="font-size: 1.2rem; font-weight:lighter;">
-                Vi skapar nästa generations webbplatser – didaktiska och interaktiva upplevelser som hjälper
-                användare att förstå, lära sig och agera. Genom artefakter, AI-guider och AI Voice Agents
-                gör vi komplex information enkel, engagerande och tillgänglig. </p>
-        </div>
 
-        <div style="margin-bottom: 2.5rem; margin-top: 1.5rem;">
+                <!-- Card 2: Podcast: AI-Wiki -->
+                <div class="capability-card color-2">
+                    <div class="cap-icon"><i class="fas fa-database"></i></div>
+                    <h3 class="cap-title">Podcast</h3>
 
+                    <!-- START PODCAST PLAYER -->
+                    <div class="podcast-player-container">
+                        <audio class="podcast-audio-file" src="assets/podcast/ai-wiki.m4a"></audio>
+                        <div class="podcast-player-card">
+                            <div class="podcast-info">
+                                <div class="podcast-icon-glowing">
+                                    <i class="fas fa-microphone"></i>
+                                </div>
+                                <div class="podcast-details">
+                                    <span class="podcast-tag">AI Business Lab Podcast</span>
+                                    <h4 class="podcast-title">AI-Wiki – Framtidens kunskapshantering</h4>
+                                </div>
+                                <div class="podcast-wave">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="podcast-controls">
+                                <button class="control-btn-prev control-btn-sub" title="Spola bakåt 10s"><i
+                                        class="fas fa-backward"></i></button>
+                                <button class="podcast-play-btn" title="Starta / Pausa">
+                                    <i class="fas fa-play play-icon"></i>
+                                </button>
+                                <button class="control-btn-stop control-btn-sub" title="Stoppa"><i
+                                        class="fas fa-stop"></i></button>
+                            </div>
+                            <div class="podcast-progress-container">
+                                <span class="podcast-current-time time-display">0:00</span>
+                                <div class="podcast-progress-bar">
+                                    <div class="podcast-progress"></div>
+                                </div>
+                                <span class="podcast-duration time-display">0:00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END PODCAST PLAYER -->
+                    <p class="cap-desc">En podcast med ett snyggt gränsnitt är oslagasbar</p>
 
-            <div class="services-grid">
-                <!-- Box 1: AI Info Hub -->
-                <div class="service-box blue">
-                    <h3><i class="fas fa-database"></i> ARTEFAKTER</h3>
-                    <p>Välj: Podcast, video, presentatioer, rapport, infografik, frågor/svar, quiz
-                        för ChatGPT Mastery Program nedan
+                </div>
+
+                <!-- Affärscoach-Agent -->
+                <div class="capability-card color-3">
+                    <div class="cap-icon"><i class="fas fa-dna"></i></div>
+                    <h3 class="cap-title">AI Voice Agent</h3>
+                    <iframe width="500" height="300" src="https://www.youtube.com/embed/BRWXQB7Wmmc?si=Ac6E3vhrO-XXevIK"
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                     gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen></iframe>
+                    <p class="cap-desc">En AI Voive Agent som kvalificerar leads.</p>
+                </div>
+
+                <!-- Card 4: SwedAI Academy -->
+                <div class="capability-card color-4">
+                    <div class="cap-icon"><i class="fas fa-brain"></i></div>
+                    <h3 class="cap-title">Video med AI geneerad röst</h3>
+                    <iframe width="500" height="300" src="https://www.youtube.com/embed/ua3r5NjPBeg?si=Nzv8c0HeXA--l6G1"
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                     gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen></iframe>
+                    <p class="cap-desc">Du kan skapa video utan att spelan in din egen röst. Rösten är
+                        skapad med AI, baserat på en manus till video.
                     </p>
                 </div>
 
-                <!-- Box 2: AI Knowledge Hub -->
-                <div class="service-box green">
-                    <h3><i class="fas fa-book"></i> AI GUIDE</h3>
-                    <p>AI Guiden ser din skrärm och kan prata för att guida dig igenom en applikation. Se <strong>video
-                            nedan</strong></p>
+                <!-- Card 5: AI Voice Agent: Sälja Solpaneler -->
+                <div class="capability-card color-5">
+                    <div class="cap-icon"><i class="fas fa-clock"></i></div>
+                    <h3 class="cap-title">Avancerad AI Voice Agent</h3>
+                    <iframe width="500" height="300" src="https://www.youtube.com/embed/0tI3p4VpAXQ?si=bK_o6ovG2mrYmAPy"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p class="cap-desc">Voice Agent som marknadsför solpaneler, kvalificerar leads, bokar möte och
+                        ringer
+                        externa samtal</p>
                 </div>
 
-                <!-- Box 3: AI Expertis Hub -->
-                <div class="service-box purple">
-                    <h3><i class="fas fa-brain"></i> AI VOICE AGENT</h3>
-                    <p>En AI Voice Agent för kundservice som kan prata och svara på frågor<strong>. Klicka på "start a
-                            Call" nedan</strong></p>
+                <!-- Card 6: Video Advokater -->
+                <div class="capability-card color-6">
+                    <div class="cap-icon"><i class="fas fa-microphone-lines"></i></div>
+                    <h3 class="cap-title">Podcast som video</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/NKn76QndxZY?si=DzfqGML5Ys8nLjMR"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p class="cap-desc">AI genererade bilder som illustrerar podden</p>
                 </div>
+
+                <!-- Card 7: Podcast Defense Modell -->
+                <div class="capability-card color-7">
+                    <div class="cap-icon"><i class="fas fa-bolt"></i></div>
+                    <h3 class="cap-title">Podcast</h3>
+                    <!-- START PODCAST PLAYER -->
+                    <div class="podcast-player-container">
+                        <audio class="podcast-audio-file" src="assets/podcast/defense-modell.m4a"></audio>
+                        <div class="podcast-player-card cyan-theme">
+                            <div class="podcast-info">
+                                <div class="podcast-icon-glowing">
+                                    <i class="fas fa-microphone"></i>
+                                </div>
+                                <div class="podcast-details">
+                                    <span class="podcast-tag">AI Business Lab Podcast</span>
+                                    <h4 class="podcast-title">AI Defense Cabability Modell</h4>
+                                </div>
+                                <div class="podcast-wave">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="podcast-controls">
+                                <button class="control-btn-prev control-btn-sub" title="Spola bakåt 10s"><i
+                                        class="fas fa-backward"></i></button>
+                                <button class="podcast-play-btn" title="Starta / Pausa">
+                                    <i class="fas fa-play play-icon"></i>
+                                </button>
+                                <button class="control-btn-stop control-btn-sub" title="Stoppa"><i
+                                        class="fas fa-stop"></i></button>
+                            </div>
+                            <div class="podcast-progress-container">
+                                <span class="podcast-current-time time-display">0:00</span>
+                                <div class="podcast-progress-bar">
+                                    <div class="podcast-progress"></div>
+                                </div>
+                                <span class="podcast-duration time-display">0:00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END PODCAST PLAYER -->
+                    <p class="cap-desc">Podcast som story telling</p>
+                </div>
+
+                <!-- Card 8: Kontinuerligt Lärande -->
+                <div class="capability-card color-8">
+                    <div class="cap-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3 class="cap-title">Kontinuerligt Lärande</h3>
+
+                    <p class="cap-desc">Systemet lär sig av varje ny interaktion och blir mer träffsäkert, smartare och
+                        effektivare över tid.</p>
+                </div>
+
+                <!-- Card 9: Autonom Drift -->
+                <div class="capability-card color-9">
+                    <div class="cap-icon"><i class="fas fa-robot"></i></div>
+                    <h3 class="cap-title">Arbetar utan dig</h3>
+                    <p class="cap-desc">Utför tunga analyser och rutinmässigt beslutsfattande självständigt, vilket
+                        frigör din värdefulla tid.</p>
+                </div>
+
             </div>
-        </div>
-    </div>
+        </section>
 
 
-    <p class="text-center">Se hur SwedAI Academy (online utbildning) använder Artefakter för sina kurser, en AI
-        Guide för at guida om sin webbsajt och AI Voice Agent för att ge kundservice
-    </p>
+        <!-- Section 3: Call To Action -->
+        <section class="cta-banner">
+            <h3>Börja Digitalisera Din Expertis Idag</h3>
+            <p>Med AI som motor suddar vi ut gränsen mellan mänsklig kunskap och digital skalbarhet. Låt oss göra din
+                unika expertis tidlös.</p>
+            <a href="index.html" class="cta-btn">
+                <span>Utforska Våra Moduler</span> <i class="fas fa-arrow-right"></i>
+            </a>
+        </section>
 
-    <!-- Inloggnings-overlay borttagen -->
+    </main>
 
-    <div id="spa-viewport">
-        <main id="main-content" class="container">
-            <!-- Content will be rendered here by app.js -->
-            <div class="loading">
-                <div class="spinner"></div>
-                <p>Laddar lärandemoduler...</p>
-            </div>
-
-        </main>
-    </div></br>
-
-
-    <footer class="main-footer">
-        <div class="container">
-            <p>&copy; 2026 AI Capability Hub | AI Business Lab</p>
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2026 AI Business Lab. Alla rättigheter reserverade.</p>
         </div>
     </footer>
 
-    <!-- Scripts (type="module" enables ES imports, required for Supabase) -->
-    <script type="module" src="js/supabase.js"></script>
-    <script src="js/data.js"></script>
-    <!-- Course Data (Content) -->
-    <script src="js/course_data.js"></script>
-    <script src="js/calendar.js"></script>
-    <script type="module" src="js/app.js"></script>
-    <script src="js/spa-router.js"></script>
-    <script type="module" src="js/live.js"></script>
+    <!-- Custom Podcast Player Logic -->
+    <!-- Custom Multi-Podcast Player Logic -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Find all podcast players on the page
+            const players = document.querySelectorAll('.podcast-player-container');
+
+            players.forEach((player) => {
+                const audio = player.querySelector('.podcast-audio-file');
+                const playPauseBtn = player.querySelector('.podcast-play-btn');
+                const playIcon = player.querySelector('.play-icon');
+                const stopBtn = player.querySelector('.control-btn-stop');
+                const prevBtn = player.querySelector('.control-btn-prev');
+                const progressBar = player.querySelector('.podcast-progress-bar');
+                const progress = player.querySelector('.podcast-progress');
+                const currentTimeEl = player.querySelector('.podcast-current-time');
+                const durationEl = player.querySelector('.podcast-duration');
+                const wave = player.querySelector('.podcast-wave');
+
+                // Format time Helper (e.g. 125 -> "2:05")
+                function formatTime(seconds) {
+                    if (isNaN(seconds)) return '0:00';
+                    const mins = Math.floor(seconds / 60);
+                    const secs = Math.floor(seconds % 60);
+                    return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+                }
+
+                if (!audio || !playPauseBtn) return;
+
+                // Play / Pause Toggle
+                playPauseBtn.addEventListener('click', () => {
+                    if (audio.paused) {
+                        // Pause any other podcasts currently playing on the page
+                        players.forEach(otherPlayer => {
+                            if (otherPlayer !== player) {
+                                const otherAudio = otherPlayer.querySelector('.podcast-audio-file');
+                                const otherPlayIcon = otherPlayer.querySelector('.play-icon');
+                                const otherWave = otherPlayer.querySelector('.podcast-wave');
+                                if (otherAudio && !otherAudio.paused) {
+                                    otherAudio.pause();
+                                    if (otherPlayIcon) otherPlayIcon.className = 'fas fa-play';
+                                    if (otherWave) otherWave.classList.remove('playing');
+                                }
+                            }
+                        });
+
+                        audio.play().catch(err => console.log("Audio playback failed:", err));
+                        playIcon.className = 'fas fa-pause';
+                        wave.classList.add('playing');
+                    } else {
+                        audio.pause();
+                        playIcon.className = 'fas fa-play';
+                        wave.classList.remove('playing');
+                    }
+                });
+
+                // Stop Button
+                stopBtn.addEventListener('click', () => {
+                    audio.pause();
+                    audio.currentTime = 0;
+                    playIcon.className = 'fas fa-play';
+                    wave.classList.remove('playing');
+                    progress.style.width = '0%';
+                    currentTimeEl.textContent = '0:00';
+                });
+
+                // Rewind 10s Button
+                prevBtn.addEventListener('click', () => {
+                    audio.currentTime = Math.max(0, audio.currentTime - 10);
+                });
+
+                // Update Progress & Time
+                audio.addEventListener('timeupdate', () => {
+                    if (audio.duration) {
+                        const percent = (audio.currentTime / audio.duration) * 100;
+                        progress.style.width = `${percent}%`;
+                    }
+                    currentTimeEl.textContent = formatTime(audio.currentTime);
+                });
+
+                // Load Duration Metadata
+                audio.addEventListener('loadedmetadata', () => {
+                    durationEl.textContent = formatTime(audio.duration);
+                });
+
+                // Safeguard if metadata is already loaded
+                if (audio.readyState >= 1) {
+                    durationEl.textContent = formatTime(audio.duration);
+                }
+
+                // Click on progress bar to skip / scrub
+                progressBar.addEventListener('click', (e) => {
+                    const rect = progressBar.getBoundingClientRect();
+                    const clickX = e.clientX - rect.left;
+                    const width = rect.width;
+                    const percentage = clickX / width;
+                    if (audio.duration) {
+                        audio.currentTime = percentage * audio.duration;
+                    }
+                });
+            });
+        });
+    </script>
 
     <!-- Vercel Analytics -->
     <script defer src="/_vercel/insights/script.js"></script>

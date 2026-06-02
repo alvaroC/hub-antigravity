@@ -4,198 +4,207 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="AI Business Lab presenterar AI Learning Hub. Se vår video och upptäck framtidens kompetensutveckling.">
-    <title>AI Business Lab | AI Capability Hub</title>
-
-    <!-- Google Fonts för modern typografi -->
+    <title>AI Capability Hub | AI Business Lab</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;600;900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700&display=swap"
         rel="stylesheet">
-
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style1.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/artefakt.css">
+    <link rel="stylesheet" href="css/calendar.css">
+    <link rel="stylesheet" href="css/brain.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({ startOnLoad: true });</script>
 
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <!-- marked.min.js loaded once here only -->
+    <style>
+        .markmap-container {
+            min-height: 500px;
+            /* Start at 500px */
+            height: auto;
+            /* GROW as the map expands! */
+            width: 100%;
+            background: #fff;
+            border-radius: 12px;
+            padding: 20px;
+            overflow: visible;
+            /* Ensure nothing gets clipped */
+        }
 
-    <!--apollo tracking-->
-    <script>function initApollo() {
-            var n = Math.random().toString(36).substring(7), o = document.createElement("script");
-            o.src = "https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=" + n, o.async = !0, o.defer = !0,
-                o.onload = function () { window.trackingFunctions.onLoad({ appId: "6909f3e042d4b10019c6bd90" }) },
-                document.head.appendChild(o)
-        } initApollo();</script>
-
+        .markmap>svg {
+            width: 100%;
+            height: 100%;
+            min-height: 500px;
+            /* Match the container */
+        }
+    </style>
 
 </head>
 
-<body>
-    <div class="glow-bg"></div>
-    <div class="glow-bg glow-bg-2"></div>
+<body class="dark-theme">
 
-    <header class="navbar">
-        <div class="container nav-content">
+    <header class="main-header">
+        <div class="container" style="position: relative;">
+            <img src="assets/ui/logo.png" alt="AI Business Lab Logo" class="logo-img-left">
             <div class="logo">
-                <img src="assets/ui/logo.png" width="250" height="100" alt="AI Business Lab Logo" class="logo-img">
+                <span class="logo-icon">🚀</span>
+                <h1>AI BUSINESS LAB</h1>
             </div>
-            <nav class="nav-links">
-                <a href="index.html">Start</a>
-                <a href="om oss.html">Om oss</a>
-                <a href="kontakt.html">Kontakt</a>
-
-            </nav>
+            <h2 class="subtitle"><span class="academy-name">FÖRVANDLA INFORMATION TILL INTELLIGENTA UPPLEVELSER</span>
+            </h2>
         </div>
     </header>
 
-    <main>
-
-        <!-- Hero Section -->
-        <section id="vsl" class="hero-vsl">
-            <div class="container">
-                <h1 class="hero-title opacity">FRÅN KUNSKAP TILL FÖRSTÅELSE</h1>
-                <h3 class="hero-title opacity"> Gör företagets information sökbar, kunskap skalbar och expertis
-                    tillgänglig genom AI</h3>
-            </div>
-        </section></br>
-
-
+    <nav class="module-nav">
         <div class="container">
+            <ul class="nav-list">
 
-            <!-- FÖRSTA BLOCK: DIGITAL HJÄRNA & ARTEFAKTER -->
-            <div class="resource-grid">
+                <li style="position:relative; margin-top:5px;"><a href="index.html" class="nav-btn"
+                        style="background:#8b5cf6; color:white; border-radius:50px; padding:0.75rem 1.5rem; font-weight:600; box-shadow:0 4px 10px rgba(139,92,246,0.3);">
+                        <span
+                            style="position:absolute; top:-18px; left:50%; transform:translateX(-50%); color:white; font-size:0.65rem; font-weight:800; letter-spacing:1px; white-space:nowrap;">
+                        </span>
+                        <i class="fas fa-robot"></i> Start
+                    </a>
+                </li>
 
-                <!-- Kolumn 1: artefakter -->
-                <div class="resource-column">
+                <li style="position:relative; margin-top:5px;"><a href="artefakter.html" class="nav-btn ai-konsult-btn">
+                        <span
+                            style="position:absolute; top:-18px; left:50%; transform:translateX(-50%); color:white; font-size:0.65rem; font-weight:800; letter-spacing:1px; white-space:nowrap;">
+                        </span>
+                        <i class="fas fa-briefcase"></i> Artefakter
+                    </a>
+                </li>
 
-                    <div class="column-header lvl-2">
-                        <h4 class="column-subtitle opacity color-title">HUR FÅR VI MÄNNISKOR ATT FÖRSTÅ OSS?</h4></br>
-                        <h3 class="column-title opacity   color-title">EXPONERA DIN KUNSKAP</h3>
-                        <h4 class="column-subtitle opacity color-title">Gör den synlig, begriplig och interaktiv</h4>
-                    </div>
+                <li style="position:relative; margin-top:5px;"><a href="ai-wiki.html" class="nav-btn ai-konsult-btn">
+                        <span
+                            style="position:absolute; top:-18px; left:50%; transform:translateX(-50%); color:white; font-size:0.65rem; font-weight:800; letter-spacing:1px; white-space:nowrap;">
+                        </span>
+                        <i class="fas fa-briefcase"></i> AI-Wiki
+                    </a>
+                </li>
 
-                    <div class="column-subheader lvl-222">
-                        <h4 class=" text-center opacity">FRÅN DÖD INFORMATION TILL LEVANDE INNEHÅLL</h4>
-                        <p class="text-center"><strong>Vi bygger didaktiska och interaktiva webbplatser som hjälper
-                                användaren att förstå och lära sig
-                            </strong></p>
-                        </br></br>
-                        <p>
-                            <strong>Artefakter:</strong> Väck liv i företagets döda information.
-                            Förvandla tunga dokument och kunskap till Appar samt levande Storytelling med Podcasts,
-                            videor, presentationer, infografik, rapporter och interaktiva frågor/svar dygnet runt
-                        </p></br>
+                <li style="position:relative; margin-top:5px;"><a href="about.html" class="nav-btn ai-konsult-btn">
+                        <span
+                            style="position:absolute; top:-18px; left:50%; transform:translateX(-50%); color:white; font-size:0.65rem; font-weight:800; letter-spacing:1px; white-space:nowrap;">
+                        </span>
+                        <i class="fas fa-users"></i> Om oss
+                    </a>
+                </li>
 
-                        <div class="center-container">
-                            <figure class="center">
-                                <img src="assets/ui/dokument.png" width="400px" height="250px"
-                                    alt="Dokument och Artefakter">
-                                <figcaption class="fig-caption">
-                                    Hur mycket värdefull kunskap ligger gömd i företagets döda information?
-                                </figcaption>
-                            </figure>
+                <li style="position:relative; margin-top:5px;"><a href="contact.html" class="nav-btn ai-konsult-btn">
+                        <span
+                            style="position:absolute; top:-18px; left:50%; transform:translateX(-50%); color:white; font-size:0.65rem; font-weight:800; letter-spacing:1px; white-space:nowrap;">
+                        </span>
+                        <i class="fas fa-envelope"></i> Kontakt
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-                        </div></br>
+    <!-- Section: Informatoinslager -->
+    <div class="container" style="margin-bottom: 2rem;">
 
-                        <p>
-                            <strong>AI Guide:</strong> En proaktiv guide med "ögon och öron" som hjälper användaren
-                            att navigera i real tid på din sajt och som kan förklara hur din tjänst eller
-                            applikation fungerar
-                        </p></br>
-                        <p>
-                            <strong>AI Voice Agent:</strong> En intelligent Voice Agent som kan prata med dina
-                            potentiella kunder, kvalificera dem och boka säljmöten dygnet runt
-                        </p></br>
+        <div class="column-header lvl-3" style="text-align: center; padding: 2.2rem 1.5rem;">
+            <h2 class="column-title opacity" style="font-size: 2.2rem; margin-bottom: 0.5rem;">
+                VI BYGGER NÄSTA GENERATION WEBBPLATSER </h2>
+            <h4 class="opacity" style="font-size: 1.2rem; font-weight: normal;">
+                Interaktiva webbplatser som utbildar, guidar och hjälper människor att fatta bättre beslut.
+            </h4>
+        </div>
+        <div style="text-align: center;">
+            <p style="font-size: 1.2rem; font-weight:lighter;">
+                Vi skapar nästa generations webbplatser – didaktiska och interaktiva upplevelser som hjälper
+                människor att förstå, lära sig och fatta bättre beslut. Med interaktiva verktyg (Artefakter),
+                AI-guider, röstassistenter och intelligenta kunskapsbaser (AI-Wiki) omvandlar vi komplex
+                information till kunskap som är enkel att utforska, förstå och använda. </p>
+        </div>
 
-                        <a href="artefakter.html"
-                            style="background:linear-gradient(135deg, #e11d48 0%, #f59e0b 100%) !important; padding:8px 16px; border-radius:8px; text-decoration:none; color:#fff; font-weight:600; display:inline-block;">Läs
-                            mer ..
-                        </a>
-                    </div>
+        <div style="margin-bottom: 2.5rem; margin-top: 1.5rem;">
+
+
+            <div class="services-grid">
+                <!-- Box 1: AI Info Hub -->
+                <div class="service-box blue">
+                    <h3><i class="fas fa-database"></i> ARTEFAKTER</h3>
+                    <p>Ge liv åt din information med interaktiva artefakter:
+                        Podcast, video, presentatioer, rapport, infografik, frågor/svar, quiz, mm.<br>
+
+                        <strong>Se nedan</strong>
+
+                    </p>
                 </div>
 
-                <!-- Kolumn 2: Struktur -->
-                <div class="resource-column">
-
-                    <div class="column-header lvl-3">
-                        <h4 class="column-subtitle color-title">HUR FÅR VI AI ATT FÖRSTÅ OSS?</h4></br>
-                        <h3 class="column-title opacity color-title">STRUKTURERA OCH KLONA DIN EXPERTIS</h3>
-                        <h4 class="column-subtitle opacity color-title">Gör den navigerbar och användbar</h4>
-                    </div>
-
-                    <div class="column-subheader lvl-222">
-                        <h4 class="opacity text-center">FRÅN INFORMATION TILL ORGANISATORISK INTELLIGENS</h4>
-                        <p class="text-center"><strong>Vi bygger AI-Wiki: För att lagra kunskap, processer och expertis
-                                på ett dynamiskt sätt
-                            </strong></p>
-                        </br>
-                        <p><strong>Strukturera kunskap:</strong> Bygg en AI driven Wiki: som gör kunskap lätt att
-                            hitta, förstå och använda i real tid</p></br>
-
-                        <div class="center-container">
-                            <figure class="center">
-                                <img src="assets/ui/brain.webp" width="380px" height="300px" alt="Digital Hjärna">
-                                <figcaption class="fig-caption">
-                                    Hur mycket av företagets expertis finns bara i människors huvuden?
-                                </figcaption>
-                            </figure>
-                        </div></br>
-
-                        <p>
-                            <strong>DNA:</strong> Ditt digitala DNA innehåller dina egna “kromosomer” som gör det
-                            möjligt att klona din expertis och agera med din identitet.
-                        </p></br>
-                        <p>
-                            <strong>Hjärna:</strong>Din digitala hjärna kan tänka, agera och fatta beslut enligt
-                            dina principer och riktlinjer.
-                        </p></br>
-                        <a href="brain.html"
-                            style="background:linear-gradient(135deg, #e11d48 0%, #f59e0b 100%) !important; padding:8px 16px; border-radius:8px; text-decoration:none; color:#fff; font-weight:600; display:inline-block;">Läs
-                            mer ..</a>
-                    </div>
-
+                <!-- Box 2: AI Knowledge Hub -->
+                <div class="service-box green">
+                    <h3><i class="fas fa-book"></i> AI GUIDE</h3>
+                    <p> En proaktiv guide med "ögon och öron" som hjälper användaren att navigera
+                        i real tid på din sajt</br>
+                        <strong>Se video nedan</strong>
+                    </p>
                 </div>
 
+                <!-- Box 3: AI Expertis Hub -->
+                <div class="service-box purple">
+                    <h3><i class="fas fa-brain"></i> AI VOICE AGENT</h3>
+                    <p>En AI Voice Agent för kundservice och marknadsföring.
+                        <strong>Klicka på "Start a Call" nedan</strong>
+                    </p>
+                </div>
+
+                <!-- Box 4: AI Wiki Hub -->
+                <div class="service-box wiki">
+                    <h3><i class="fas fa-book-open"></i> AI-WIKI</h3>
+                    <p>En intelligent kunskapsbas som samlar företagets information, processer och expertis på ett
+                        ställe – redo att användas av människor & AI.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <p class="text-center">Se hur SwedAI Academy (online utbildning) använder Artefakter för sina kurser, en AI
+        Guide för at guida om sin webbsajt och AI Voice Agent för att ge kundservice
+    </p>
+
+    <!-- Inloggnings-overlay borttagen -->
+
+    <div id="spa-viewport">
+        <main id="main-content" class="container">
+            <!-- Content will be rendered here by app.js -->
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Laddar lärandemoduler...</p>
             </div>
 
-        </div>
-    </main>
+        </main>
+    </div></br>
 
-    <footer>
-        <div class="container text-center">
-            <p>&copy; 2026 AI Business Lab. Alla rättigheter reserverade.</p>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2026 AI Capability Hub | AI Business Lab</p>
         </div>
     </footer>
 
-    <script>
-
-        function toggleAudio() {
-            const audio = document.getElementById('myAudio');
-            const btn = document.getElementById('audioControl');
-            // ... resten av koden
-
-            // En liten säkerhetskoll
-            if (audio.readyState === 0) {
-                console.error("Ljudfilen kunde inte laddas. Kontrollera filnamnet!");
-                return;
-            }
-
-            if (audio.paused) {
-                audio.play().catch(e => console.error("Kunde inte spela ljud:", e));
-                // ...
-            } else {
-                audio.pause();
-                // ...
-            }
-        }
-
-    </script>
+    <!-- Scripts (type="module" enables ES imports, required for Supabase) -->
+    <script type="module" src="js/supabase.js"></script>
+    <script src="js/data.js"></script>
+    <!-- Course Data (Content) -->
+    <script src="js/course_data.js"></script>
+    <script src="js/calendar.js"></script>
+    <script type="module" src="js/app.js"></script>
+    <script src="js/spa-router.js"></script>
+    <script type="module" src="js/live.js"></script>
 
     <!-- Vercel Analytics -->
-
     <script defer src="/_vercel/insights/script.js"></script>
-
 </body>
 
 </html>

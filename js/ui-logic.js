@@ -6,14 +6,14 @@
 import { renderers } from './renderers.js';
 
 export const PageManager = {
-    // Dashboard Layout — 3 columns, centered
+    // Dashboard Layout — 4 columns, centered
     renderDashboard: (currentCourseId) => {
         const catalog = window.COURSE_CATALOG || (typeof COURSE_CATALOG !== 'undefined' ? COURSE_CATALOG : {});
         const courseEntry = catalog[currentCourseId];
         const courseName = courseEntry ? courseEntry.name : 'Laddar...';
 
         return `
-        <div class="swedai-grid-3">
+        <div class="swedai-grid-4">
             <div class="dashboard-left">
                 ${renderers.classroomPanel(currentCourseId)}
             </div>
@@ -24,6 +24,10 @@ export const PageManager = {
 
             <div class="dashboard-right">
                ${renderers.mentorPanel(courseName)}
+            </div>
+
+            <div class="dashboard-wiki">
+               ${renderers.wikiPanel()}
             </div>
         </div>`;
     },
