@@ -1727,7 +1727,7 @@ h5 {
 
 .architecture-card {
     background: rgba(255, 255, 255, 0.02);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    border: 3px solid rgba(255, 255, 255, 0.08);
     border-radius: 20px;
     padding: 2.2rem 2rem;
     flex: 1;
@@ -1780,7 +1780,7 @@ h5 {
     justify-content: center;
     width: 48px;
     height: 48px;
-    border-radius: 12px;
+    border-radius: 15px;
     font-size: 1.4rem;
 }
 
