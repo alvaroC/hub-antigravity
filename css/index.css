@@ -1824,6 +1824,12 @@ h5 {
     font-family: var(--font-heading);
 }
 
+.architecture-card .title-artefact {
+    font-weight: lighter;
+    font-size: 1.2rem;
+    color: #f97316;
+}
+
 .architecture-card p {
     font-size: 0.95rem;
     color: var(--text-muted);
