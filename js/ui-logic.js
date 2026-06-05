@@ -29,7 +29,8 @@ export const PageManager = {
             <div class="dashboard-wiki">
                ${renderers.wikiPanel()}
             </div>
-        </div>`;
+        </div>
+        ${renderers.artefakter()}`;
     },
 
     // AI-Konsult Layout (Nivå 5)

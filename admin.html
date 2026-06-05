@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin | AI Learning Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/calendar.css">
+    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body class="dark-theme">
+
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">🚀</span>
+                <h1>AI LEARNING HUB</h1>
+            </div>
+            <h2 class="subtitle"><span class="academy-name">BLI EN AI-PROFFS MED CHATGPT & CLAUDE MASTERY PROGRAM</span>
+            </h2>
+        </div>
+    </header>
+
+    <nav class="module-nav">
+        <div class="container">
+            <ul class="nav-list">
+                <li
+                    style="margin-left: 1.5rem; border-left: 1px solid rgba(13, 11, 11, 0.1); padding-left: 1.5rem; display:flex; align-items:center;">
+                    <a href="index.html" class="nav-btn academy-btn"
+                        style="background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); color:#00f0ff;">
+                        <i class="fas fa-arrow-left"></i> Tillbaka till Dashboard
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+
+        <div class="admin-page-wrapper">
+
+            <!-- VÄNSTER KOLUMN: Admin Profil & Program -->
+            <div class="admin-column dashboard-right">
+                <div class="column-header level-header lvl-3">
+                    <span class="level-badge">NIVÅ 3</span>
+                    <h2 class="column-title">🎓 Admin</h2>
+                    <p class="column-description">Din personliga programguide och support</p>
+                </div>
+
+                <div class="dashboard-section voice-agent-zone">
+                    <div class="admin-profile">
+                        <img src="assets/ui/malin.png" class="admin-avatar-img" alt="Admin Profil">
+                        <h4 class="admin-name">Mitt namn är Malin: Hur kan jag hjälpa dig idag?</h4>
+                        <p class="admin-description">(Uppgradera för att prata med mig)</p>
+                    </div>
+                    <div class="voice-agent">
+                        <img src="assets/ui/voice_agent.png" style="width:100%; border-radius: 8px;" alt="Voice Agent">
+                    </div>
+                </div>
+
+                <div class="content-section">
+                    <div class="section-header">
+                        <span class="section-icon">📚</span>
+                        <h3 class="section-title">Our Programs</h3>
+                    </div>
+                    <select id="productSelector" class="category-selector"
+                        onchange="window.emma.handleCategoryChange(this.value)">
+                        <option value="" selected disabled>Select Program</option>
+                        <option value="ChatGPT-Mastery">🎓 ChatGPT Mastery</option>
+                        <option value="AI-Konsult">🎓 AI-Konsult</option>
+                        <option value="Bygg-AI-Förmåga">🎓 Bygg AI Förmåga</option>
+                    </select>
+                    <div id="carouselWrapper"></div>
+                </div>
+            </div>
+
+            <!-- HÖGER KOLUMN: Kalender -->
+            <div class="admin-column dashboard-right"
+                style="display:flex; flex-direction:column; justify-content:center;">
+                <div id="booking-calendar-container"></div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="main-footer" style="margin-top: 40px;">
+        <div class="container">
+            <p>&copy; 2026 AI Learning Hub | SwedAI Academy</p>
+        </div>
+    </footer>
+
+    <script src="js/calendar.js"></script>
+    <script>
+        // Initiera Kalendern direkt utan att vänta på DOMContentLoaded
+        try {
+            console.log("Startar kalender...");
+            const calContainer = document.getElementById('booking-calendar-container');
+            if (calContainer && window.BookingCalendar) {
+                new window.BookingCalendar('booking-calendar-container');
+                console.log("Kalender initierad!");
+            } else {
+                console.error("Kunde inte starta kalender. Saknas element eller script?", {
+                    element: calContainer,
+                    script: window.BookingCalendar
+                });
+            }
+        } catch (err) {
+            console.error("Fel vid laddning av kalender:", err);
+        }
+
+        // Initialize Emma Carousel
+        const PROGRAM_IMAGES = {
+            'ChatGPT-Mastery': [
+                'assets/ui/carusell/slide0.png',
+                'assets/ui/carusell/slide1.png',
+                'assets/ui/carusell/slide2.png',
+                'assets/ui/carusell/slide3.png',
+                'assets/ui/carusell/slide4.png',
+                'assets/ui/carusell/slide5.png',
+                'assets/ui/carusell/slide6.png',
+                'assets/ui/carusell/slide7.png',
+                'assets/ui/carusell/slide8.png'
+            ],
+            'AI-Konsult': [
+                'assets/media/images/programs/ai-konsult/slide1.png',
+                'assets/media/images/programs/ai-konsult/slide2.png',
+                'assets/media/images/programs/ai-konsult/slide3.png',
+            ],
+            'Bygg-AI-Förmåga': [
+                'assets/media/images/programs/bygg-ai-formaga/slide1.png',
+                'assets/media/images/programs/bygg-ai-formaga/slide2.png',
+                'assets/media/images/programs/bygg-ai-formaga/slide3.png',
+            ]
+        };
+
+        let _carouselIndex = 0;
+        let _carouselImages = [];
+
+        function _renderCarousel() {
+            const wrapper = document.getElementById('carouselWrapper');
+            if (!wrapper) return;
+            const total = _carouselImages.length;
+            if (total === 0) {
+                wrapper.innerHTML = '<p style="color:#aaa; font-size:0.9rem; margin-top:10px;">Inga bilder hittades.</p>';
+                return;
+            }
+            wrapper.innerHTML = `
+                <div style="position:relative; margin-top:14px; border-radius:12px; overflow:hidden; background:#e0f2fe; border:1px solid rgba(14,165,233,0.2);">
+                    <img id="carousel-img" src="${_carouselImages[_carouselIndex]}"
+                        alt="Program bild ${_carouselIndex + 1}"
+                        style="width:100%; max-height:300px; object-fit:contain; display:block;">
+                    <div style="display:flex; align-items:center; justify-content:space-between; padding:10px 12px; background:rgba(0,0,0,0.06);">
+                        <button onclick="window.emma.prevSlide()" style="background:rgba(0,0,0,0.1); border:none; color:#333; padding:6px 14px; border-radius:6px; cursor:pointer; font-size:1.1rem;">&#8592;</button>
+                        <span style="color:#444; font-size:0.85rem; font-weight:600;">${_carouselIndex + 1} / ${total}</span>
+                        <button onclick="window.emma.nextSlide()" style="background:rgba(0,0,0,0.1); border:none; color:#333; padding:6px 14px; border-radius:6px; cursor:pointer; font-size:1.1rem;">&#8594;</button>
+                    </div>
+                </div>`;
+        }
+
+        window.emma = {
+            handleCategoryChange(programKey) {
+                _carouselIndex = 0;
+                _carouselImages = PROGRAM_IMAGES[programKey] || [];
+                _renderCarousel();
+            },
+            nextSlide() {
+                if (_carouselImages.length === 0) return;
+                _carouselIndex = (_carouselIndex + 1) % _carouselImages.length;
+                _renderCarousel();
+            },
+            prevSlide() {
+                if (_carouselImages.length === 0) return;
+                _carouselIndex = (_carouselIndex - 1 + _carouselImages.length) % _carouselImages.length;
+                _renderCarousel();
+            }
+        };
+
+        // Fix initial dropdown if needed
+        const selector = document.getElementById('productSelector');
+        if (selector && selector.value) {
+            window.emma.handleCategoryChange(selector.value);
+        }
+    </script>
+</body>
+
+</html>

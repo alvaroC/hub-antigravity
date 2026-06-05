@@ -135,6 +135,18 @@ export const renderers = {
               enklare att hitta information, förstå samband och återanvända erfarenheter.</p>
         </div>`,
 
+
+    // --- Flera Artefakter ---
+    artefakter: () => `
+    </br>
+    <div class="center-fig">
+        <a href="artefakter.html"
+            style="background: linear-gradient(135deg, #7f1d1d 0%, #b91c1c 40%, #ef4444 100%) !important; padding:8px 16px; border-radius:8px; text-decoration:none; color:#fff; font-weight:600;">
+              FÖR ATT SE FLERA ARTEFAKTER EXEMPEL, KLICKA HÄR!
+        </a>                   
+
+    </div> `,
+
     // 1. Podcast
     podcast: (data) => `
     <div class="artifact-card-new">

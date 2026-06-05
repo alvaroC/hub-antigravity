@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="AI Business Lab presenterar AI Learning Hub. Se vår video och upptäck framtidens kompetensutveckling.">
+    <title>AI Business Lab | Om oss</title>
+
+    <!-- Google Fonts för modern typografi -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/brain.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/artefakt.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/tjanster.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+</head>
+
+<body class="dark-theme">
+    <div class="glow-bg glow-bg-1"></div>
+    <div class="glow-bg glow-bg-2"></div>
+    <div class="glow-bg glow-bg-3"></div>
+
+    <header class="main-header">
+        <div class="container" style="position: relative;">
+            <img src="assets/ui/logo.png" alt="AI Business Lab Logo" class="logo-img-left">
+            <div class="logo">
+                <span class="logo-icon">🚀</span>
+                <h1>AI BUSINESS LAB</h1>
+            </div>
+            <h2 class="subtitle"><span class="academy-name">FÖRVANDLA INFORMATION TILL INTELLIGENTA UPPLEVELSER</span>
+            </h2>
+        </div>
+    </header>
+
+    <nav class="module-nav">
+        <div class="container">
+            <ul class="nav-list">
+                <li style="position:relative; margin-top:5px;">
+                    <a href="index.html" class="nav-btn nav-start active">
+                        <i class="fas fa-robot"></i> Start
+                    </a>
+                </li>
+                <li style="position:relative; margin-top:5px;">
+                    <a href="artefakter.html" class="nav-btn nav-artefakter">
+                        <i class="fas fa-briefcase"></i> Artefakter
+                    </a>
+                </li>
+                <li style="position:relative; margin-top:5px;">
+                    <a href="ai-wiki.html" class="nav-btn nav-wiki">
+                        <i class="fas fa-book-open"></i> AI-Wiki
+                    </a>
+                </li>
+                <li style="position:relative; margin-top:5px;">
+                    <a href="tjanster.html" class="nav-btn nav-tjanster">
+                        <i class="fas fa-cubes"></i> Tjänster
+                    </a>
+                </li>
+                <li style="position:relative; margin-top:5px;">
+                    <a href="about.html" class="nav-btn nav-about">
+                        <i class="fas fa-users"></i> Om oss
+                    </a>
+                </li>
+                <li style="position:relative; margin-top:5px;">
+                    <a href="contact.html" class="nav-btn nav-contact">
+                        <i class="fas fa-envelope"></i> Kontakt
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="om-oss-container">
+
+        <!-- Section 2: Capability Suite (3x3 Grid) -->
+        <section class="suite-section">
+
+            <div class="section-header-custom">
+                <h2 class="opacity">FRÅN DÖD INFORMATION TILL LEVANDE INNEHÅLL </h2></br>
+
+                <img src="assets/ui/dokument.png" width="500px" alt="Dokument">
+                <p class="font-size"><b>Hur mycket värdefull kunskap ligger gömd i företagets döda
+                        information?</b></br></br>
+
+                <p style="color:darkorange; font-size: 1.1rem;">Exponera din kunskap med digitala artefakter:
+                    kunskapen blir synlig, begriplig och interaktiv.</p>
+
+                <h3 class="font-size">ARTEFAKTER SOM UTBILDAR, GUIDAR OCH ENGAGERAR</h3>
+            </div>
+
+            <!-- Control Box with Dropdown for Introduktion till AI -->
+            <div class="light-control-box" style="margin: 1.5rem auto 2.5rem auto; max-width: 600px; text-align: left;">
+                <div class="control-row">
+                    <span class="control-icon icon-orange">📂</span>
+                    <h3 class="light-control-label">Välj kursmaterial (artefakt) för kursen: <span
+                            id="active-course-name">Introduktion till
+                            AI</span></h3>
+                </div>
+
+                <select class="light-select" id="content-filter-dropdown" onchange="window.filterGallery(this.value)">
+                    <option value="" disabled selected>Välj material...</option>
+                    <option value="all">Show All Material</option>
+                    <option value="podcast">🎙️ Podcast</option>
+                    <option value="video">🎥 Video</option>
+                    <option value="presentation">📽️ Presentation</option>
+                    <option value="infographic">📊 Infographics</option>
+                    <option value="report">📝 Reports</option>
+                    <option value="flashcards">🃏 Flashcards</option>
+                    <option value="quiz">📝 Quiz</option>
+                </select>
+            </div>
+
+            <div class="capabilities-grid" id="intro-ai-gallery-grid">
+
+                <!-- Card 1: Video: 16 årig -->
+                <div class="capability-card color-1">
+                    <div class="cap-icon"><i class="fas fa-video"></i></div>
+                    <h3 class="title-artefact">Podcast som video</h3>
+                    <iframe width="500" height="300" src="https://www.youtube.com/embed/vaTdsmu9G0w?si=Cwu7-BOLC8_9Ye8l"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p class="cap-desc">Ibland kan det vara bra att visa bilder som förtydligar vad man pratar om i
+                        en podcast. AI skapar Podcast och bilderna</p>
+
+                    <a href="laddning.html" class="service-card card-blue card-btn link-color">Intresserad? </a>
+
+                </div>
+
+                <!-- Card 2: Podcast: AI-Wiki -->
+                <div class="capability-card color-2">
+                    <div class="cap-icon"><i class="fas fa-podcast"></i></div>
+                    <h3 class="title-artefact">Podcast</h3>
+
+                    <!-- START PODCAST PLAYER -->
+                    <div class="podcast-player-container">
+                        <audio class="podcast-audio-file" src="assets/podcast/ai-wiki.m4a"></audio>
+                        <div class="podcast-player-card">
+                            <div class="podcast-info">
+                                <div class="podcast-icon-glowing">
+                                    <i class="fas fa-microphone"></i>
+                                </div>
+                                <div class="podcast-details">
+                                    <span class="podcast-tag">AI Business Lab Podcast</span>
+                                    <h4 class="podcast-title">AI-Wiki – Framtidens kunskapshantering</h4>
+                                </div>
+                                <div class="podcast-wave">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="podcast-controls">
+                                <button class="control-btn-prev control-btn-sub" title="Spola bakåt 10s"><i
+                                        class="fas fa-backward"></i></button>
+                                <button class="podcast-play-btn" title="Starta / Pausa">
+                                    <i class="fas fa-play play-icon"></i>
+                                </button>
+                                <button class="control-btn-stop control-btn-sub" title="Stoppa"><i
+                                        class="fas fa-stop"></i></button>
+                            </div>
+                            <div class="podcast-progress-container">
+                                <span class="podcast-current-time time-display">0:00</span>
+                                <div class="podcast-progress-bar">
+                                    <div class="podcast-progress"></div>
+                                </div>
+                                <span class="podcast-duration time-display">0:00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END PODCAST PLAYER -->
+                    <p class="cap-desc">Låt AI skapa en intressant podcast och visa den online med en snygg design</p>
+                    <a href="laddning.html" class="service-card card-blue card-btn link-color">Intresserad? </a>
+
+                </div>
+
+                <!-- Card 3: Affärscoach-Agent -->
+                <div class="capability-card color-3">
+                    <div class="cap-icon"><i class="fas fa-robot"></i></div>
+                    <h3 class="title-artefact">AI Voice Agent som Affärscoach</h3>
+                    <iframe width="500" height="300" src="https://www.youtube.com/embed/BRWXQB7Wmmc?si=Ac6E3vhrO-XXevIK"
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                     gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen></iframe>
+                    <p class="cap-desc">En AI Voive Agent som kvalificerar leads.</p>
+                    <a href="laddning.html" class="service-card card-blue card-btn link-color">Intresserad? </a>
+
+                </div>
+
+                <!-- Card 4: Video: Pareto lag -->
+                <div class="capability-card color-1">
+                    <div class="cap-icon"><i class="fas fa-video"></i></div>
+                    <h3 class="title-artefact">Video: förklarar Paretos lag</h3>
+                    <video width="100%" height="auto" controls poster="assets/podcast/ai-wiki-podcast.png"
+                        style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+                        <source src="assets/ui/video-pareto.mp4" type="video/mp4">
+                        Din webbläsare stödjer inte videotaggen.
+                    </video>
+                    <p class="cap-desc">Förklara ett koncept med en ilustrativ kort video. AI skapar scener och
+                        manus.<br>
+                        Zooma video </p>
+                    <a href="laddning.html" class="service-card card-blue card-btn link-color">Intresserad? </a>
+
+                </div>
+
+                <!-- Card 5: AI Guide -->
+                <div class="capability-card color-1">
+                    <div class="cap-icon"><i class="fas fa-robot"></i></div>
+                    <h3 class="title-artefact">AI Guide</h3>
+                    <video width="100%" height="auto" controls poster="assets/podcast/ai-wiki-podcast.png"
+                        style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+                        <source src="assets/ui/ai-guide.mp4" type="video/mp4">
+                        Din webbläsare stödjer inte videotaggen.
+                    </video>
+                    <p class="cap-desc">En AI Guide hanleder en elev. Utbilda dina medarbetare och kunder med en AI
+                        Guide. </br> Zooma video </p>
+                    <a href="laddning.html" class="service-card card-blue card-btn link-color">Intresserad? </a>
+
+                </div>
+
+                <!-- Card 6: AI Voice Agent som säljare -->
+                <div class="capability-card color-1">
+                    <div class="cap-icon"><i class="fas fa-robot"></i></div>
+                    <h3 class="title-artefact">AI Voice Agent: marknadsför Solpaneler </h3>
+                    <iframe width="500" height="300" src="https://www.youtube.com/embed/0tI3p4VpAXQ?si=bK_o6ovG2mrYmAPy"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p class="cap-desc">Avancerad Voice Agent: svarar på frågor, bemöter invändingar, visar video,
+                        kalkyler,mm, ringer
+                        externa samtal, bokar möte </p>
+                    <a href="laddning.html" class="service-card card-blue card-btn link-color">Intresserad? </a>
+
+                </div>
+
+                <!-- Card 7: SwedAI Academy -->
+                <div class="capability-card color-4">
+                    <div class="cap-icon"><i class="fas fa-microphone-lines"></i></div>
+                    <h3 class="title-artefact">Video med AI genererad röst</h3>
+                    <iframe width="500" height="300" src="https://www.youtube.com/embed/ua3r5NjPBeg?si=Nzv8c0HeXA--l6G1"
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                     gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen></iframe>
+                    <p class="cap-desc">Du kan skapa video utan att spelan in din egen röst. Låt AI
+                        generera en röst baserat på din manus.
+                    </p>
+                    <a href="laddning.html" class="service-card card-blue card-btn link-color">Intresserad? </a>
+
+                </div>
+
+                <!-- Card 8: Flashcards -->
+                <div class="capability-card color-5">
+                    <div class="cap-icon"><i class="fas fa-clock"></i></div>
+                    <h3 class="title-artefact">AI genererade Frågor & Svar</h3>
+                    <video width="100%" height="auto" controls poster="assets/ui/video-marketing.mp4"
+                        style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+                        <source src="assets/ui/video-flashcards.mp4" type="video/mp4">
+
+                        Din webbläsare stödjer inte videotaggen.
+                    </video>
+                    <p class="cap-desc">Låt AI välja frågor/svar om ditt material. Ett effektivt sätt att lära dina
+                        elever, medarbetare och kunder. <br> Zooma video </p>
+                    <a href="laddning.html" class="service-card card-blue card-btn link-color">Intresserad? </a>
+
+                </div>
+
+                <!-- Card 9: Video Marketing -->
+                <div class="capability-card color-6">
+                    <div class="cap-icon"><i class="fas fa-video"></i></div>
+                    <h3 class="title-artefact">Video baserat på ett Pdf</h3>
+                    <video width="100%" height="auto" controls poster="assets/ui/video-marketing.mp4"
+                        style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+                        <source src="assets/ui/video-marketing.mp4" type="video/mp4">
+                        Din webbläsare stödjer inte videotaggen.
+                    </video>
+                    <p class="cap-desc">AI omvandlar ett Pdf dokument om marketing till en utbildnings video. <br> Zooma
+                        video </p>
+                    <a href="laddning.html" class="service-card card-blue card-btn link-color">Intresserad? </a>
+
+                </div>
+
+                <!-- Card 10: Podcast Defense Modell -->
+                <div class="capability-card color-7">
+                    <div class="cap-icon"><i class="fas fa-microphone-lines"></i></div>
+                    <h3 class="title-artefact">Podcast</h3>
+                    <!-- START PODCAST PLAYER -->
+                    <div class="podcast-player-container">
+                        <audio class="podcast-audio-file" src="assets/podcast/defense-modell.m4a"></audio>
+                        <div class="podcast-player-card cyan-theme">
+                            <div class="podcast-info">
+                                <div class="podcast-icon-glowing">
+                                    <i class="fas fa-microphone"></i>
+                                </div>
+                                <div class="podcast-details">
+                                    <span class="podcast-tag">AI Business Lab Podcast</span>
+                                    <h4 class="podcast-title">AI Defense Cabability Modell</h4>
+                                </div>
+                                <div class="podcast-wave">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="podcast-controls">
+                                <button class="control-btn-prev control-btn-sub" title="Spola bakåt 10s"><i
+                                        class="fas fa-backward"></i></button>
+                                <button class="podcast-play-btn" title="Starta / Pausa">
+                                    <i class="fas fa-play play-icon"></i>
+                                </button>
+                                <button class="control-btn-stop control-btn-sub" title="Stoppa"><i
+                                        class="fas fa-stop"></i></button>
+                            </div>
+                            <div class="podcast-progress-container">
+                                <span class="podcast-current-time time-display">0:00</span>
+                                <div class="podcast-progress-bar">
+                                    <div class="podcast-progress"></div>
+                                </div>
+                                <span class="podcast-duration time-display">0:00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END PODCAST PLAYER -->
+                    <p class="cap-desc">Låt AI skapa en Podcast som story telling om ditt material</p>
+                    <a href="laddning.html" class="service-card card-blue card-btn link-color">Intresserad? </a>
+
+                </div>
+
+                <!-- Card 11: Infografik -->
+                <div class="capability-card color-8">
+                    <div class="cap-icon"><i class="fas fa-image"></i></div>
+                    <h3 class="title-artefact">AI genererad Infografik</h3>
+                    <img src="assets/ui/infografik.png" alt="Infografik 1"
+                        style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+
+                    <p class="cap-desc">Infografik är ett effektivt sätt att packa information. Tack vare AI
+                        kan vi nu skapa avancerade Infografier. Det är framtiden</p>
+                    <a href="laddning.html" class="service-card card-blue card-btn link-color">Intresserad? </a>
+
+                </div>
+
+                <!-- Card 12: Podcast video: Advokatfirma-->
+                <div class="capability-card color-9">
+                    <div class="cap-icon"><i class="fas fa-video"></i></div>
+                    <h3 class="title-artefact">Podcast som video</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/NKn76QndxZY?si=DzfqGML5Ys8nLjMR"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p class="cap-desc">Låt AI skapa en intressant story telling till din Podcast samt bilderna som
+                        stödjier berättelsen</p>
+                    <a href="laddning.html" class="service-card card-blue card-btn link-color">Intresserad? </a>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Section 3: Call To Action -->
+        <section class="cta-banner">
+            <h3 class="opacity">Låt oss bygga din nästa generations webbplats</h3>
+            <p class="text-center">Som inspiration, se hur "SwedAI Academy", en online akademi, har designat sin
+                webbplats med inteligent innehåll .</p>
+            <a href="https://swedai-academy-classroom.vercel.app/" class="cta-btn">
+                <span>Besök deras webbplats</span> <i class="fas fa-arrow-right"></i>
+            </a>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2026 AI Business Lab. Alla rättigheter reserverade.</p>
+        </div>
+    </footer>
+
+    <!-- Custom Podcast Player Logic -->
+    <!-- Custom Multi-Podcast Player Logic -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Find all podcast players on the page
+            const players = document.querySelectorAll('.podcast-player-container');
+
+            players.forEach((player) => {
+                const audio = player.querySelector('.podcast-audio-file');
+                const playPauseBtn = player.querySelector('.podcast-play-btn');
+                const playIcon = player.querySelector('.play-icon');
+                const stopBtn = player.querySelector('.control-btn-stop');
+                const prevBtn = player.querySelector('.control-btn-prev');
+                const progressBar = player.querySelector('.podcast-progress-bar');
+                const progress = player.querySelector('.podcast-progress');
+                const currentTimeEl = player.querySelector('.podcast-current-time');
+                const durationEl = player.querySelector('.podcast-duration');
+                const wave = player.querySelector('.podcast-wave');
+
+                // Format time Helper (e.g. 125 -> "2:05")
+                function formatTime(seconds) {
+                    if (isNaN(seconds)) return '0:00';
+                    const mins = Math.floor(seconds / 60);
+                    const secs = Math.floor(seconds % 60);
+                    return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+                }
+
+                if (!audio || !playPauseBtn) return;
+
+                // Play / Pause Toggle
+                playPauseBtn.addEventListener('click', () => {
+                    if (audio.paused) {
+                        // Pause any other podcasts currently playing on the page
+                        players.forEach(otherPlayer => {
+                            if (otherPlayer !== player) {
+                                const otherAudio = otherPlayer.querySelector('.podcast-audio-file');
+                                const otherPlayIcon = otherPlayer.querySelector('.play-icon');
+                                const otherWave = otherPlayer.querySelector('.podcast-wave');
+                                if (otherAudio && !otherAudio.paused) {
+                                    otherAudio.pause();
+                                    if (otherPlayIcon) otherPlayIcon.className = 'fas fa-play';
+                                    if (otherWave) otherWave.classList.remove('playing');
+                                }
+                            }
+                        });
+
+                        audio.play().catch(err => console.log("Audio playback failed:", err));
+                        playIcon.className = 'fas fa-pause';
+                        wave.classList.add('playing');
+                    } else {
+                        audio.pause();
+                        playIcon.className = 'fas fa-play';
+                        wave.classList.remove('playing');
+                    }
+                });
+
+                // Stop Button
+                stopBtn.addEventListener('click', () => {
+                    audio.pause();
+                    audio.currentTime = 0;
+                    playIcon.className = 'fas fa-play';
+                    wave.classList.remove('playing');
+                    progress.style.width = '0%';
+                    currentTimeEl.textContent = '0:00';
+                });
+
+                // Rewind 10s Button
+                prevBtn.addEventListener('click', () => {
+                    audio.currentTime = Math.max(0, audio.currentTime - 10);
+                });
+
+                // Update Progress & Time
+                audio.addEventListener('timeupdate', () => {
+                    if (audio.duration) {
+                        const percent = (audio.currentTime / audio.duration) * 100;
+                        progress.style.width = `${percent}%`;
+                    }
+                    currentTimeEl.textContent = formatTime(audio.currentTime);
+                });
+
+                // Load Duration Metadata
+                audio.addEventListener('loadedmetadata', () => {
+                    durationEl.textContent = formatTime(audio.duration);
+                });
+
+                // Safeguard if metadata is already loaded
+                if (audio.readyState >= 1) {
+                    durationEl.textContent = formatTime(audio.duration);
+                }
+
+                // Click on progress bar to skip / scrub
+                progressBar.addEventListener('click', (e) => {
+                    const rect = progressBar.getBoundingClientRect();
+                    const clickX = e.clientX - rect.left;
+                    const width = rect.width;
+                    const percentage = clickX / width;
+                    if (audio.duration) {
+                        audio.currentTime = percentage * audio.duration;
+                    }
+                });
+            });
+        });
+    </script>
+
+    <!-- Course Data (Content) -->
+    <script src="js/data.js"></script>
+    <script src="js/course_data.js"></script>
+
+    <!-- Script to render Introduktion till AI artifacts and handle interactive logic -->
+    <script type="module">
+        import { renderers } from './js/renderers.js';
+
+        window.filterGallery = async (contentType) => {
+            const grid = document.getElementById('intro-ai-gallery-grid');
+            if (!grid) return;
+
+            grid.innerHTML = "";
+            const courseData = window.notebookData ? window.notebookData['intro-ai'] : null;
+
+            if (!courseData) {
+                grid.innerHTML = '<div class="welcome-msg" style="color: #ef4444;">Kunde inte hitta kursdata.</div>';
+                return;
+            }
+
+            const keys = Object.keys(courseData);
+            let hasContent = false;
+            for (const key of keys) {
+                if (contentType === 'all' || contentType === key) {
+                    if (renderers[key]) {
+                        try {
+                            let artifactHtml = await renderers[key](courseData[key]);
+                            grid.insertAdjacentHTML('beforeend', artifactHtml);
+                            hasContent = true;
+                        } catch (error) {
+                            console.error(`Error rendering artifact "${key}":`, error);
+                        }
+                    }
+                }
+            }
+
+            if (!hasContent) {
+                grid.innerHTML = `
+                <div style="text-align: center; grid-column: 1 / -1; padding: 2rem; color: #64748b;">
+                    Inget material av typen <strong>${contentType}</strong> hittades för denna kurs.
+                </div>`;
+            }
+
+            // Handle Markmap auto-loading
+            if (window.markmap && window.markmap.autoLoader) {
+                window.markmap.autoLoader.renderAll();
+            }
+        };
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            // Keep empty initially until user selects an option from the dropdown menu
+        });
+
+        // Global quiz runner functions
+        window.loadActiveQuiz = async function () {
+            const courseData = window.notebookData ? window.notebookData['intro-ai'] : null;
+            const quizInfo = courseData ? courseData.quiz : null;
+            if (!quizInfo || !quizInfo.quizUrl) { alert('Quiz-filen saknas.'); return; }
+
+            try {
+                const resp = await fetch(quizInfo.quizUrl);
+                const quizData = await resp.json();
+
+                let modules = [];
+                if (quizData.modules) {
+                    modules = quizData.modules;
+                } else if (quizData.quiz) {
+                    const questions = quizData.quiz.map(q => {
+                        const optKeys = Object.keys(q.options || {});
+                        const optArray = optKeys.map(k => q.options[k]);
+                        const correctIndex = optKeys.indexOf(q.correct_answer);
+
+                        return {
+                            question: q.question,
+                            category: q.category || 'Quiz',
+                            options: optArray,
+                            correct_answer_index: correctIndex >= 0 ? correctIndex : 0,
+                            explanation: q.explanation
+                        };
+                    });
+                    modules = [{
+                        module_name: 'Quiz',
+                        questions: questions
+                    }];
+                }
+
+                window.activeQuizModules = modules;
+                window.quizScore = 0;
+                window.quizTotal = 0;
+
+                if (modules.length > 0 && modules[0].questions.length > 0) {
+                    window.renderQuizQuestion(0, 0);
+                } else {
+                    console.error('Quiz data saknar frågor eller moduler.', quizData);
+                }
+            } catch (e) { console.error('Quiz load error:', e); }
+        };
+
+        window.renderQuizQuestion = function (mIdx, qIdx) {
+            const module = window.activeQuizModules[mIdx];
+            const question = module.questions[qIdx];
+            const area = document.querySelector('.quiz-container') || document.getElementById('quiz-area');
+            if (!area) return;
+
+            area.innerHTML = `
+        <div class="quiz-active-card">
+            <div class="quiz-header">
+                <span class="module-name">${question.category || module.module_name}</span>
+                <span class="progress">Fråga ${qIdx + 1} av ${module.questions.length}</span>
+            </div>
+            <h2 class="quiz-question-text">${question.question}</h2>
+            <div class="quiz-options-grid">
+                ${question.options.map((opt, i) => `
+                    <button class="quiz-option-btn" onclick="submitQuizAnswer(${mIdx},${qIdx},${i})">${opt}</button>
+                `).join('')}
+            </div>
+            <div id="quiz-feedback" style="margin-top:0.8rem;"></div>
+        </div>`;
+        };
+
+        window.submitQuizAnswer = function (mIdx, qIdx, selectedIdx) {
+            const module = window.activeQuizModules[mIdx];
+            const question = module.questions[qIdx];
+            const fb = document.getElementById('quiz-feedback');
+            const isCorrect = selectedIdx === question.correct_answer_index;
+
+            if (fb.getAttribute('data-answered') === 'true') return;
+
+            window.quizTotal++;
+
+            if (isCorrect) {
+                window.quizScore++;
+                fb.setAttribute('data-answered', 'true');
+
+                let html = `<p style="color:#059669;font-weight:600;font-size:0.9rem;margin-bottom:0.5rem;">✅ Rätt svar!</p>`;
+
+                if (question.explanation) {
+                    html += `<div style="background:#f8fafc; border-left:4px solid #059669; padding:0.75rem; border-radius:4px; margin-bottom:1rem; text-align:left;">
+                            <strong style="color:#059669;font-size:0.85rem;text-transform:uppercase;">Förklaring</strong>
+                            <p style="color:#334155;font-size:0.95rem;margin-top:0.3rem;">${question.explanation}</p>
+                         </div>`;
+                }
+
+                html += `<button class="nav-btn active" onclick="window.nextQuizQuestion(${mIdx}, ${qIdx})" style="padding:0.6rem 1.2rem;">Nästa →</button>`;
+                fb.innerHTML = html;
+
+                const optionsGrid = fb.previousElementSibling;
+                if (optionsGrid) {
+                    const btns = optionsGrid.querySelectorAll('.quiz-option-btn');
+                    btns.forEach((btn, idx) => {
+                        btn.style.pointerEvents = 'none';
+                        if (idx === selectedIdx) {
+                            btn.style.backgroundColor = '#d1fae5';
+                            btn.style.borderColor = '#059669';
+                            btn.style.color = '#065f46';
+                        } else {
+                            btn.style.opacity = '0.5';
+                        }
+                    });
+                }
+            } else {
+                fb.innerHTML = `<p style="color:#ef4444;font-weight:600;font-size:0.9rem;">❌ Fel svar – försök igen!</p>`;
+            }
+        };
+
+        window.nextQuizQuestion = function (mIdx, qIdx) {
+            const module = window.activeQuizModules[mIdx];
+            if (qIdx + 1 < module.questions.length) {
+                renderQuizQuestion(mIdx, qIdx + 1);
+            } else if (mIdx + 1 < window.activeQuizModules.length) {
+                renderQuizQuestion(mIdx + 1, 0);
+            } else {
+                const area = document.querySelector('.quiz-active-card');
+                if (area) area.innerHTML = `
+                <div style="text-align:center;padding:2rem 0.5rem;">
+                    <div style="font-size:3rem;margin-bottom:0.8rem;">🎉</div>
+                    <h2 style="font-size:1.2rem;">Quiz slutfört!</h2>
+                    <p style="font-size:1rem;margin:0.8rem 0;">Du fick <strong>${window.quizScore} av ${window.quizTotal}</strong> rätt</p>
+                    <button class="nav-btn active" onclick="loadActiveQuiz()" style="margin-top:0.8rem; background: #e74c3c; border: none; border-radius: 8px; padding: 10px 20px; color: white; cursor: pointer; font-weight: bold;">Försök igen</button>
+                </div>`;
+                window.quizScore = 0;
+                window.quizTotal = 0;
+            }
+        };
+
+        // Lightbox/zoom utility
+        window.openLightbox = (src) => {
+            const lightbox = document.createElement('div');
+            lightbox.id = 'lightbox-overlay';
+            lightbox.innerHTML = `
+            <div class="lightbox-content">
+                <span class="lightbox-close">&times;</span>
+                <img src="${src}" class="lightbox-image">
+            </div>`;
+            document.body.appendChild(lightbox);
+            lightbox.onclick = () => {
+                document.body.removeChild(lightbox);
+            };
+        };
+    </script>
+
+    <!-- Vercel Analytics -->
+    <script defer src="/_vercel/insights/script.js"></script>
+</body>
+
+</html>

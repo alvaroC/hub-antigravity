@@ -2237,7 +2237,7 @@ elevenlabs-convai {
    ============================================ */
 
 .light-control-box {
-    background: white;
+    background: darksalmon;
     border-radius: 16px;
     padding: 1.2rem 1.4rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -2526,4 +2526,79 @@ body {
 .section-header-custom p.font-size {
     font-size: 1.0rem;
     font-weight: bold;
+}
+
+.cta-button-improved {
+    position: relative;
+    display: inline-block;
+    padding: 18px 50px;
+    text-decoration: none;
+    color: #ffffff;
+    /* Vit text för hög kontrast */
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 999px;
+    /* Full pillerform */
+
+    /* Polerad röd kant (bevel-effekt) */
+    border: 2px solid #a01010;
+
+    /* Gradient för djup och glödande kärna */
+    background: radial-gradient(circle at center, #ff1a1a 0%, #cc0000 65%, #990000 100%);
+
+    /* Yttre skugga för djup och inre subtil glöd */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4),
+        inset 0 0 12px rgba(255, 255, 255, 0.1);
+
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    z-index: 1;
+    /* Håller texten över halo-effekten */
+}
+
+/* Halo/Glöd-effekt runt knappen (som en pseudo-element) */
+.cta-button-improved::before {
+    content: '';
+    position: absolute;
+    top: -12px;
+    left: -12px;
+    right: -12px;
+    bottom: -12px;
+    border-radius: 999px;
+    background: radial-gradient(circle, rgba(255, 26, 26, 0.45) 0%, rgba(255, 26, 26, 0) 70%);
+    filter: blur(14px);
+    /* Gör effekten mjuk och diffus */
+    z-index: -1;
+    /* Placerar glöden *bakom* knappen */
+    opacity: 0.9;
+    transition: opacity 0.3s;
+}
+
+/* Hovraeffekt (öka interaktivitet) */
+.cta-button-improved:hover {
+    transform: scale(1.03);
+    /* Lätt förstoring */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5),
+        inset 0 0 15px rgba(255, 255, 255, 0.2);
+    /* Ökad inre glöd */
+}
+
+.cta-button-improved:hover::before {
+    opacity: 1;
+    /* Öka yttre glöden vid hovring */
+}
+
+/* alvcla */
+
+.title-artefact {
+    font-weight: lighter;
+    font-size: 1.2rem;
+    color: #f97316;
+
+}
+
+.link-color {
+    color: #27ae60;
+
 }
