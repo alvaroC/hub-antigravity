@@ -788,3 +788,9 @@
 .text-center {
     text-align: center;
 }
+
+.subtitle-tag {
+    color: #f97316;
+    font-size: 0.9rem;
+    ;
+}
