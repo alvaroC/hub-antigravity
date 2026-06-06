@@ -489,6 +489,24 @@
     background: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%);
 }
 
+.banner-row-webbplats {
+    background: linear-gradient(135deg, rgba(30, 41, 59, 0.7) 0%, rgba(16, 185, 129, 0.3) 100%);
+    border-left: 5px solid #10b981;
+}
+
+.banner-row-webbplats .section-banner-icon {
+    background: linear-gradient(135deg, #10b981 0%, #34d399 100%);
+}
+
+.banner-row-artefakter {
+    background: linear-gradient(135deg, rgba(30, 41, 59, 0.7) 0%, rgba(2, 132, 199, 0.3) 100%);
+    border-left: 5px solid #0ea5e9;
+}
+
+.banner-row-artefakter .section-banner-icon {
+    background: linear-gradient(135deg, #0ea5e9 0%, #38bdf8 100%);
+}
+
 .banner-knowledge {
     background: linear-gradient(135deg, rgba(30, 41, 59, 0.8) 0%, rgba(99, 102, 241, 0.2) 100%);
     border-left: 4px solid #6366f1;
@@ -666,6 +684,24 @@
     color: #34d399;
 }
 
+.card-teal::before {
+    background: linear-gradient(90deg, #2dd4bf, #0d9488);
+}
+
+.card-teal:hover {
+    box-shadow: 0 12px 30px rgba(45, 212, 191, 0.15);
+}
+
+.card-teal .card-icon-wrap {
+    background: rgba(45, 212, 191, 0.1);
+    border: 1px solid rgba(45, 212, 191, 0.2);
+    color: #2dd4bf;
+}
+
+.card-teal .card-features li i {
+    color: #2dd4bf;
+}
+
 /* Card Elements */
 .card-header {
     margin: -2.2rem -2rem 1.2rem -2rem;
@@ -680,6 +716,16 @@
 /* Level 1: Row 1 Cards (Teal/Blue theme) */
 .grid-row-1 .service-card .card-header {
     background: linear-gradient(135deg, rgba(14, 165, 233, 0.15) 0%, rgba(20, 184, 166, 0.04) 100%);
+    border-bottom: 1px solid rgba(14, 165, 233, 0.12);
+}
+
+.webbplats-grid .service-card .card-header {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(45, 212, 191, 0.04) 100%);
+    border-bottom: 1px solid rgba(16, 185, 129, 0.12);
+}
+
+.artefakter-grid .service-card .card-header {
+    background: linear-gradient(135deg, rgba(14, 165, 233, 0.15) 0%, rgba(129, 140, 248, 0.04) 100%);
     border-bottom: 1px solid rgba(14, 165, 233, 0.12);
 }
 
@@ -882,6 +928,19 @@
     color: white;
     border-color: #10b981;
     box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+}
+
+.card-teal .card-btn {
+    background: rgba(45, 212, 191, 0.08);
+    border: 1px solid rgba(45, 212, 191, 0.2);
+    color: #2dd4bf;
+}
+
+.card-teal .card-btn:hover {
+    background: #0d9488;
+    color: white;
+    border-color: #0d9488;
+    box-shadow: 0 4px 15px rgba(13, 148, 136, 0.3);
 }
 
 /* Responsive break points */
