@@ -263,7 +263,8 @@
     background: rgba(15, 23, 42, 0.35);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    /* border: 1px solid rgba(255, 255, 255, 0.05); */
+    border: 1px solid red;
     border-radius: 24px;
     padding: 2.5rem 2.2rem;
     display: flex;
@@ -397,6 +398,16 @@
 .capability-card:hover .cap-icon {
     transform: scale(1.1) rotate(4deg);
     box-shadow: 0 0 20px currentColor;
+}
+
+.cap-header {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.cap-header .title-artefact {
+    margin: 0;
 }
 
 .cap-title {
