@@ -25,7 +25,7 @@ export const renderers = {
         return `
         
         <div class="column-header level-header lvl-brain" style="margin-top: 1.5rem;">
-            <h3 class="column-title opacity">📚 ARTEFKTER</h3>
+            <h3 class="column-title opacity">📚 AI ARTEFAKTER</h3>
             <p class="column-description">Utforska kursmaterial: klicka på rullgardins menyer nedan</p>
         </div>
 
