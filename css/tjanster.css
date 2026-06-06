@@ -268,6 +268,138 @@
     box-shadow: 0 15px 35px rgba(129, 140, 248, 0.15);
 }
 
+/* 5. Emerald Theme (Webbplatsen) */
+.pillar-emerald::before {
+    background: linear-gradient(90deg, #34d399, #10b981);
+}
+
+.pillar-emerald .pillar-icon {
+    background: rgba(52, 211, 153, 0.1);
+    border: 1px solid rgba(52, 211, 153, 0.2);
+    color: #34d399;
+}
+
+.pillar-emerald .pillar-action {
+    color: #34d399;
+}
+
+.pillar-emerald:hover {
+    box-shadow: 0 15px 35px rgba(52, 211, 153, 0.15);
+}
+
+/* Flow Container and Connectors Layout */
+.intro-flow-container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flow-connectors {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    margin: -10px auto;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+
+.connector-svg {
+    width: 100%;
+    max-width: 480px;
+    height: 100%;
+    overflow: visible;
+}
+
+.connector-path {
+    stroke: rgba(148, 163, 184, 0.15);
+    stroke-width: 2;
+    stroke-linecap: round;
+    transition: stroke 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+                stroke-width 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+                filter 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+                stroke-dasharray 0.4s ease;
+}
+
+/* Hover effects using :has selector */
+.intro-flow-container:has(.pillar-blue:hover) .path-left {
+    stroke: #38bdf8;
+    stroke-width: 3;
+    marker-end: url(#arrow-blue);
+    filter: drop-shadow(0 0 5px rgba(56, 189, 248, 0.6));
+    stroke-dasharray: 6 4;
+    animation: flow-dash-left 1.5s linear infinite;
+}
+
+.intro-flow-container:has(.pillar-indigo:hover) .path-right {
+    stroke: #818cf8;
+    stroke-width: 3;
+    marker-end: url(#arrow-indigo);
+    filter: drop-shadow(0 0 5px rgba(129, 140, 248, 0.6));
+    stroke-dasharray: 6 4;
+    animation: flow-dash-right 1.5s linear infinite;
+}
+
+/* When hovering Webbplatsen, both arrows glow emerald and flow downwards */
+.intro-flow-container:has(.pillar-emerald:hover) .path-left {
+    stroke: #34d399;
+    stroke-width: 3;
+    marker-end: url(#arrow-emerald);
+    filter: drop-shadow(0 0 5px rgba(52, 211, 153, 0.6));
+    stroke-dasharray: 6 4;
+    animation: flow-dash-left 1.5s linear infinite;
+}
+
+.intro-flow-container:has(.pillar-emerald:hover) .path-right {
+    stroke: #34d399;
+    stroke-width: 3;
+    marker-end: url(#arrow-emerald);
+    filter: drop-shadow(0 0 5px rgba(52, 211, 153, 0.6));
+    stroke-dasharray: 6 4;
+    animation: flow-dash-right 1.5s linear infinite;
+}
+
+@keyframes flow-dash-left {
+    from {
+        stroke-dashoffset: 20;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes flow-dash-right {
+    from {
+        stroke-dashoffset: 20;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.intro-bottom-grid {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    position: relative;
+    z-index: 3;
+}
+
+.intro-bottom-grid .intro-pillar {
+    min-width: 280px;
+    max-width: 350px;
+}
+
+/* Hide connectors on mobile devices when columns stack */
+@media (max-width: 640px) {
+    .flow-connectors {
+        display: none;
+    }
+    .intro-bottom-grid {
+        margin-top: 1rem;
+    }
+}
+
 /* Section Header Banners (TITEL) */
 .section-banner,
 .section-banner-narrow {
