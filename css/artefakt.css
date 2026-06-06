@@ -2598,7 +2598,8 @@ body {
 
 }
 
-.link-color {
-    color: #059669;
+.link-form {
+    color: crimson;
+    font-size: 1.2rem;
 
 }
