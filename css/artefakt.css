@@ -2666,7 +2666,7 @@ body {
 
 .card-title-white {
     color: #ffffff;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
     font-family: 'Outfit', sans-serif;
@@ -2675,7 +2675,7 @@ body {
 
 .card-list-white {
     list-style-type: disc;
-    padding-left: 1.5rem;
+    padding-left: 1.2rem;
     font-size: 1.1rem;
     line-height: 2;
     margin-bottom: 1.5rem;
@@ -2701,9 +2701,8 @@ body {
 }
 
 .hook-title {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     font-family: 'Outfit', sans-serif;
-    font-weight: 700;
     color: #ffffff;
     letter-spacing: -0.3px;
     line-height: 1.4;
@@ -2837,11 +2836,10 @@ body {
 }
 
 .cta-bottom-title {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 700;
     line-height: 1.5;
     color: #ffffff;
-    text-transform: uppercase;
     letter-spacing: 0.5px;
     font-family: 'Outfit', sans-serif;
 }
