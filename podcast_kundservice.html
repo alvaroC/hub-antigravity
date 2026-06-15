@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Podcast Kundservice | AI Business Lab</title>
+
+    <meta name="description"
+        content="En kort podcast om hur AI Capability Hub kan hjälpa företag att bygga nästa generations intelligenta kundservice baserad på verksamhetens egen kunskap." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/podcast.css?v=2">
+
+</head>
+
+<body>
+    <main class="page">
+
+        <section class="hero">
+            <div class="badge">Podcast för CEO</div>
+
+            <h2 class="opacity" style="color: #6366f1;">PILOTPROJEKT: NÄSTA GENERATIONS KUNDSERVICE & LEADKVALIFICERING
+            </h2>
+
+            <p class="lead">
+                Vi söker tre företag som vill vara med och bygga nästa generations kundservice eller leadkvalificering
+                baserad på verksamhetens
+                egen kunskap. Lyssna på podcasten för mer information
+            </p>
+
+        </section>
+
+        <!-- START PODCAST PLAYER -->
+        <div class="podcast-player-container">
+            <audio id="podcast-audio" src="assets/podcast/kundservice.m4a"></audio>
+            <div class="podcast-player-card">
+                <div class="podcast-info">
+                    <div class="podcast-icon-glowing">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <div class="podcast-details">
+                        <span class="podcast-tag">AI Business Lab Podcast</span>
+                        <h4 class="podcast-title">Intelligent kundservice/leadkvalificering – Pilotprojekt</h4>
+                    </div>
+                    <div class="podcast-wave" id="podcast-wave">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="podcast-controls">
+                    <button id="podcast-prev" class="control-btn-sub" title="Spola bakåt 10s"><i
+                            class="fas fa-backward"></i></button>
+                    <button id="podcast-play-pause" class="podcast-play-btn" title="Starta / Pausa">
+                        <i class="fas fa-play" id="play-icon"></i>
+                    </button>
+                    <button id="podcast-stop" class="control-btn-sub" title="Stoppa"><i
+                            class="fas fa-stop"></i></button>
+                </div>
+                <div class="podcast-progress-container">
+                    <span id="podcast-current-time" class="time-display">0:00</span>
+                    <div class="podcast-progress-bar" id="podcast-progress-bar">
+                        <div class="podcast-progress" id="podcast-progress"></div>
+                    </div>
+                    <span id="podcast-duration" class="time-display">0:00</span>
+                </div>
+            </div>
+        </div>
+        <!-- END PODCAST PLAYER -->
+
+        <section class="content-grid">
+            <div class="card">
+                <h2 class="opacity" style="color: #6366f1;">Pilotprogrammet: kundservice/lead kvalificering</h2>
+
+                <div class="opacity">
+                    <p>Skaffa en intelligent kundservice/lead kvalificering som förstår
+                        er verksamhet, era tjänster, era kunder och som blir smartare
+                        över tid eftersom den bygger på verksamhetens egen kunskap (AI-Wiki).
+                        Därför fungerar de annorlunda än traditionella chatbots. Ni kan välja:
+                    </p>
+
+                    <ul>
+                        <li>En första version (MVP) av er intelligenta kundservice agent </li>
+                        <li>En första version (MVP) av er intelligenta lead agent</li>
+                    </ul>
+
+                    <p>
+                        Under pilotfasen betalar ni ingenting. När MVP:n är klar utvärderar vi
+                        tillsammans resultatet. Om ni ser värdet och vill fortsätta erbjuder vi
+                        ett introduktionspris som endast gäller pilotkunderna. Det finns ingen skyldighet att gå vidare.
+                    </p>
+
+                    <p>
+                        Varför inte utnyttja semestertiden för detta projekt när allt är lugnare. Ni behöver bara
+                        förse med information för att skapa en betaversion av Agenten så man kan börja testas redan
+                        efter semestern
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="card"
+                style="display: flex; flex-direction: column; justify-content: flex-start; padding-top: 1.5rem;">
+                <!-- Column Header -->
+                <div class="res-col-header"
+                    style="border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 1rem; margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.8rem;">
+                    <div
+                        style="background: linear-gradient(135deg, #e11d48 0%, #f59e0b 100%); width: 42px; height: 42px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 10px rgba(225, 29, 72, 0.3);">
+                        <i class="fas fa-lightbulb" style="color: #fff; font-size: 1.1rem;"></i>
+                    </div>
+                    <h4 class="res-col-title opacity"
+                        style="font-size: 1.4rem; font-weight:lighter; color:#6366f1; margin: 0; text-transform: uppercase; font-family: 'Outfit', sans-serif; letter-spacing: 0.5px;">
+                        REGISTRERA DIG
+                    </h4>
+
+                </div>
+
+                <form class="registration-form" style="display: flex; flex-direction: column; gap: 1.2rem;">
+                    <!-- Checkboxar för intresse -->
+                    <div class="checkbox-container">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="interest" value="Kundservice">
+                            <span class="custom-checkbox"></span>
+                            Kundservice
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="interest" value="Lead kvalificering">
+                            <span class="custom-checkbox"></span>
+                            Lead kvalificering
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="interest" value="Båda">
+                            <span class="custom-checkbox"></span>
+                            Båda
+                        </label>
+                    </div>
+
+                    <p style="margin-bottom: 0.5rem; font-size: 0.95rem; line-height: 1.6; color: var(--text);">
+                        Vi söker tre företag som vill vara med och forma nästa generations
+                        kundservice/leadkvalificering. Anmäl dig till programmet.
+                    </p>
+
+                    <div class="form-group">
+                        <label for="name"
+                            style="display: block; margin-bottom: 0.5rem; color: rgba(255,255,255,0.9); font-weight: 600; font-size: 0.9rem;">Namn:</label>
+                        <input type="text" id="name" name="name" required
+                            style="width: 100%; padding: 0.85rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15); background: rgba(0,0,0,0.2); color: white; font-family: inherit; font-size: 0.95rem; transition: all 0.3s;"
+                            onfocus="this.style.borderColor='#60a5fa'; this.style.boxShadow='0 0 0 3px rgba(96, 165, 250, 0.15)';"
+                            onblur="this.style.borderColor='rgba(255,255,255,0.15)'; this.style.boxShadow='none';">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="company"
+                            style="display: block; margin-bottom: 0.5rem; color: rgba(255,255,255,0.9); font-weight: 600; font-size: 0.9rem;">Företagsnamn:</label>
+                        <input type="text" id="company" name="company" required
+                            style="width: 100%; padding: 0.85rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15); background: rgba(0,0,0,0.2); color: white; font-family: inherit; font-size: 0.95rem; transition: all 0.3s;"
+                            onfocus="this.style.borderColor='#60a5fa'; this.style.boxShadow='0 0 0 3px rgba(96, 165, 250, 0.15)';"
+                            onblur="this.style.borderColor='rgba(255,255,255,0.15)'; this.style.boxShadow='none';">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email"
+                            style="display: block; margin-bottom: 0.5rem; color: rgba(255,255,255,0.9); font-weight: 600; font-size: 0.9rem;">E-mail:</label>
+                        <input type="email" id="email" name="email" required
+                            style="width: 100%; padding: 0.85rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15); background: rgba(0,0,0,0.2); color: white; font-family: inherit; font-size: 0.95rem; transition: all 0.3s;"
+                            onfocus="this.style.borderColor='#60a5fa'; this.style.boxShadow='0 0 0 3px rgba(96, 165, 250, 0.15)';"
+                            onblur="this.style.borderColor='rgba(255,255,255,0.15)'; this.style.boxShadow='none';">
+                    </div>
+                    <button type="submit"
+                        style="padding: 1.1rem; border-radius: 8px; border: none; background: linear-gradient(135deg, #4f46e5 0%, #6366f1 100%) !important; color: white; font-weight: 700; font-size: 1rem; cursor: pointer; margin-top: 1rem; transition: all 0.3s; box-shadow: 0 4px 15px rgba(79, 70, 229, 0.3);"
+                        onmouseover="this.style.opacity='0.9'; this.style.transform='translateY(-1px)';"
+                        onmouseout="this.style.opacity='1'; this.style.transform='translateY(0)';">SKICKA
+                        ANMÄLAN</button>
+
+                    <div class="form-group" style="margin-top: 1rem; margin-bottom: 1rem;">
+                        <label
+                            style="display: flex; align-items: flex-start; gap: 0.5rem; cursor: pointer; font-size: 0.8rem; color: rgba(255,255,255,0.7); line-height: 1.4;">
+                            <input type="checkbox" required style="margin-top: 3px; accent-color: #6366f1;">
+                            <span>
+                                Jag godkänner att AI Business Lab sparar mina uppgifter för att kontakta mig angående
+                                pilotprogrammet i enlighet med vår
+                                <a href="integritetspolicy.html" target="_blank"
+                                    style="color: #6366f1; text-decoration: underline;">integritetspolicy</a>.
+                            </span>
+                        </label>
+                    </div>
+
+                </form>
+            </div>
+
+        </section>
+
+        <footer class="footer">
+            © AI Business Lab. Alla rättigheter förbehållna.
+        </footer>
+
+    </main>
+
+    <!-- Custom Podcast Player & Supabase Registration Logic -->
+    <script type="module">
+        import { supabase } from './js/supabase.js';
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // Player Logic
+            const audio = document.getElementById('podcast-audio');
+            const playPauseBtn = document.getElementById('podcast-play-pause');
+            const playIcon = document.getElementById('play-icon');
+            const stopBtn = document.getElementById('podcast-stop');
+            const prevBtn = document.getElementById('podcast-prev');
+            const progressBar = document.getElementById('podcast-progress-bar');
+            const progress = document.getElementById('podcast-progress');
+            const currentTimeEl = document.getElementById('podcast-current-time');
+            const durationEl = document.getElementById('podcast-duration');
+            const wave = document.getElementById('podcast-wave');
+
+            // Format time Helper (e.g. 125 -> "2:05")
+            function formatTime(seconds) {
+                if (isNaN(seconds)) return '0:00';
+                const mins = Math.floor(seconds / 60);
+                const secs = Math.floor(seconds % 60);
+                return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+            }
+
+            if (audio && playPauseBtn) {
+                // Play / Pause Toggle
+                playPauseBtn.addEventListener('click', () => {
+                    if (audio.paused) {
+                        audio.play().catch(err => console.log("Audio playback failed:", err));
+                        playIcon.className = 'fas fa-pause';
+                        wave.classList.add('playing');
+                    } else {
+                        audio.pause();
+                        playIcon.className = 'fas fa-play';
+                        wave.classList.remove('playing');
+                    }
+                });
+
+                // Stop Button
+                stopBtn.addEventListener('click', () => {
+                    audio.pause();
+                    audio.currentTime = 0;
+                    playIcon.className = 'fas fa-play';
+                    wave.classList.remove('playing');
+                    progress.style.width = '0%';
+                    currentTimeEl.textContent = '0:00';
+                });
+
+                // Rewind 10s Button
+                prevBtn.addEventListener('click', () => {
+                    audio.currentTime = Math.max(0, audio.currentTime - 10);
+                });
+
+                // Update Progress & Time
+                audio.addEventListener('timeupdate', () => {
+                    if (audio.duration) {
+                        const percent = (audio.currentTime / audio.duration) * 100;
+                        progress.style.width = `${percent}%`;
+                    }
+                    currentTimeEl.textContent = formatTime(audio.currentTime);
+                });
+
+                // Load Duration Metadata
+                audio.addEventListener('loadedmetadata', () => {
+                    durationEl.textContent = formatTime(audio.duration);
+                });
+
+                // Safeguard if metadata is already loaded
+                if (audio.readyState >= 1) {
+                    durationEl.textContent = formatTime(audio.duration);
+                }
+
+                // Click on progress bar to skip / scrub
+                progressBar.addEventListener('click', (e) => {
+                    const rect = progressBar.getBoundingClientRect();
+                    const clickX = e.clientX - rect.left;
+                    const width = rect.width;
+                    const percentage = clickX / width;
+                    if (audio.duration) {
+                        audio.currentTime = percentage * audio.duration;
+                    }
+                });
+            }
+
+            // Supabase Form Logic
+            const form = document.querySelector('.registration-form');
+            if (form) {
+                form.addEventListener('submit', async (e) => {
+                    e.preventDefault();
+
+                    const submitButton = form.querySelector('button[type="submit"]');
+                    const originalText = submitButton.innerText;
+                    submitButton.innerText = 'Skickar...';
+                    submitButton.disabled = true;
+
+                    const name = document.getElementById('name').value;
+                    const company = document.getElementById('company').value;
+                    const email = document.getElementById('email').value;
+
+                    const checkedInterests = Array.from(form.querySelectorAll('input[name="interest"]:checked'))
+                        .map(cb => cb.value);
+                    const interestSuffix = checkedInterests.length > 0 ? ` (Intresse: ${checkedInterests.join(', ')})` : '';
+                    const companyWithInterest = `${company}${interestSuffix}`;
+
+                    const { data, error } = await supabase
+                        .from('leads_agent_customer')
+                        .insert([
+                            { name, company: companyWithInterest, email }
+                        ]);
+
+                    if (error) {
+                        console.error('Error inserting data:', error);
+                        alert('Något gick fel. Vänligen försök igen senare.\nFelmeddelande: ' + error.message);
+                        submitButton.innerText = originalText;
+                        submitButton.disabled = false;
+                    } else {
+                        // Success - replace form with a thank you message
+                        form.innerHTML = `
+                            <div style="text-align: center; padding: 2rem; color: #10b981; background: rgba(0,0,0,0.2); border-radius: 16px; border: 1px solid rgba(255,255,255,0.05);">
+                                <i class="fas fa-check-circle" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+                                <h3 style="color: white; font-size: 1.5rem; margin-bottom: 0.5rem;">Tack för din registrering!</h3>
+                                <p style="color: rgba(255,255,255,0.8); line-height: 1.5;">Vi har tagit emot dina uppgifter. Se din mejlbox för bekräftelse och mer information.</p>
+                            </div>
+                        `;
+                    }
+                });
+            }
+        });
+    </script>
+
+
+    <!-- Vercel Analytics -->
+    <script defer src="/_vercel/insights/script.js"></script>
+</body>
+
+</html>
