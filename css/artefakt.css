@@ -2618,8 +2618,16 @@ body {
 
 /* Custom styles for section 2: Capability Suite (Beautified columns and text) */
 .section-grid-adjusted {
+    grid-template-columns: 4fr 6fr;
+    /* 40% vänster, 60% höger */
     align-items: stretch;
     margin-bottom: 3rem;
+}
+
+@media (max-width: 1024px) {
+    .section-grid-adjusted {
+        grid-template-columns: 1fr;
+    }
 }
 
 .column-left-glass {
@@ -2849,4 +2857,47 @@ body {
     color: #ffffff;
     letter-spacing: 0.5px;
     font-family: 'Outfit', sans-serif;
+}
+
+/* alvcla */
+.text-center {
+    text-align: center;
+}
+
+/* Quote Banner Style */
+.quote-banner {
+    max-width: 1000px;
+    margin: 3rem auto;
+    padding: 2rem 2.5rem;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.04) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-left: 5px solid darkorange;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(8px);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.quote-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at left center, rgba(255, 140, 0, 0.08) 0%, transparent 60%);
+    pointer-events: none;
+}
+
+.quote-banner p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #ffffff;
+    margin: 0;
+    letter-spacing: 0.3px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
